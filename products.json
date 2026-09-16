@@ -1,1 +1,8 @@
-placeholder
+[
+  {"id": "papayas-oil-200ml", "name": "PAPAYAS OIL 200ML", "category": "Beauty & Cosmetics", "price": 400.0, "inStock": true, "stockQty": 1.0, "image": null},
+  {"id": "bamsi-white-conditioner-500ml", "name": "BAMSI  WHITE CONDITIONER 500ML", "category": "Beauty & Cosmetics", "price": 190.0, "inStock": true, "stockQty": 3.0, "image": null},
+  {"id": "rose-leaf-ponds-big", "name": "ROSE LEAF PONDS BIG", "category": "Beauty & Cosmetics", "price": 150.0, "inStock": false, "stockQty": 0.0, "image": null},
+  {"id": "1-million", "name": "1 MILLION", "category": "Beauty & Cosmetics", "price": 200.0, "inStock": false, "stockQty": 0.0, "image": null},
+  {"id": "2-in-1-comb", "name": "2 IN 1 COMB", "category": "Beauty & Cosmetics", "price": 50.0, "inStock": true, "stockQty": 11.0, "image": null},
+  {"id": "212-women-100ml", "name": "212 WOMEN 100ML", "category": "Beauty & Cosmetics", "price": 250.0, "inStock": true, "stockQty": 1.0, "image": null}
+]
