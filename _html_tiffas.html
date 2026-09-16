@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TIFFAS BEAUTY AND COSMETICS — Order & Pay via M-Pesa</title>
+<meta name="description" content="Browse Tiffas Beauty and Cosmetics' hair, skin and beauty catalogue. Add to cart, pay instantly with M-Pesa, or order on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600;1,9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <span class="brand">TIFFAS BEAUTY AND COSMETICS</span>
+      <div class="topbar-right">
+        <a class="topbar-whatsapp" id="topbarWhatsapp" href="#" target="_blank" rel="noopener"></a>
+        <button class="cart-btn" id="cartBtn" type="button" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-count" id="cartCount" hidden>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Order &amp; pay in one tap</p>
+        <h1>Everything for hair, skin &amp; beauty — delivered to your door.</h1>
+        <p class="hero-sub">Browse the catalogue, add what you love to your cart, and pay instantly with M-Pesa. Prefer to chat? Every product still has a one-tap WhatsApp button.</p>
+        <div class="hero-actions">
+          <a href="#catalogue" class="btn btn-primary">Browse the catalogue</a>
+          <a href="#" id="heroWhatsapp" class="btn btn-whatsapp" target="_blank" rel="noopener">Chat with us</a>
+        </div>
+      </div>
+      <div class="hero-shelf" aria-hidden="true">
+        <div class="shelf-track" id="shelfTrack"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pay-info">
+    <div class="pay-card">
+      <div class="pay-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/><path d="M9.5 6h5"/></svg>
+      </div>
+      <div class="pay-text">
+        <p class="pay-label">Pay via M-Pesa</p>
+        <p class="pay-detail">Lipa na M-Pesa → Buy Goods and Services → Till Number <span class="pay-till-number js-till-number"></span> · or pay instantly at checkout with an STK push.</p>
+      </div>
+      <button id="copyTillBtn" class="btn btn-copy" type="button">Copy till number</button>
+    </div>
+  </section>
+
+  <main class="catalogue" id="catalogue">
+    <div class="controls">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="searchInput" type="search" placeholder="Search products…" aria-label="Search products">
+      </div>
+      <div class="pills" id="categoryPills"></div>
+    </div>
+
+    <p class="result-count" id="resultCount"></p>
+
+    <div class="grid" id="productGrid"></div>
+
+    <div class="empty-state" id="emptyState" hidden>
+      <p>No products match "<span id="emptyQuery"></span>".</p>
+      <button id="clearFilters" class="btn btn-secondary">Clear filters</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p><span class="js-store-name"></span> · Nairobi, Kenya</p>
+    <p>Order or ask a question on WhatsApp: <a id="footerWhatsapp" href="#">0725 679 016</a></p>
+    <p>Pay via M-Pesa: Lipa na M-Pesa, Buy Goods, Till <strong class="js-till-number"></strong></p>
+    <p class="fine-print">Prices shown in Kenyan Shillings (KES). Final availability is confirmed on WhatsApp.</p>
+  </footer>
+
+  <a href="#" id="floatingWhatsapp" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp"></a>
+
+  <!-- CART DRAWER -->
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true" aria-label="Shopping cart">
+    <header class="cart-head">
+      <h2>Your cart</h2>
+      <button class="icon-btn" id="closeCartBtn" type="button" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </header>
+
+    <div class="cart-body" id="cartBody"></div>
+
+    <footer class="cart-foot" id="cartFoot" hidden>
+      <div class="cart-total-row">
+        <span>Subtotal</span>
+        <strong id="cartSubtotal">Ksh 0</strong>
+      </div>
+      <p class="cart-note" id="cartNote">Delivery is arranged on WhatsApp after payment.</p>
+      <button class="btn btn-mpesa btn-block" id="checkoutBtn" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+        Pay with M-Pesa
+      </button>
+      <button class="btn btn-whatsapp btn-block" id="cartWhatsappBtn" type="button">Send order on WhatsApp instead</button>
+    </footer>
+  </aside>
+
+  <!-- CHECKOUT MODAL -->
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <div class="modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="icon-btn modal-close" id="closeModalBtn" type="button" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+
+      <!-- STAGE 1: phone form -->
+      <div class="stage" data-stage="form">
+        <h2 id="modalTitle">Pay with M-Pesa</h2>
+        <p class="modal-sub">Enter the M-Pesa number you want to pay from. We'll send a payment request straight to your phone.</p>
+
+        <div class="order-summary" id="orderSummary"></div>
+
+        <label class="field">
+          <span>M-Pesa phone number</span>
+          <input id="phoneInput" type="tel" inputmode="numeric" autocomplete="tel" placeholder="07XX XXX XXX" value="">
+        </label>
+        <p class="field-hint" id="phoneHint">Safaricom line, e.g. 0725 679 016 or 254725679016</p>
+
+        <label class="field">
+          <span>Delivery / pickup note <em>(optional)</em></span>
+          <input id="noteInput" type="text" maxlength="80" placeholder="e.g. Deliver to Kasarani, or I'll pick up">
+        </label>
+
+        <button class="btn btn-mpesa btn-block" id="payBtn" type="button">Send payment request</button>
+        <p class="modal-fineprint">You'll get a prompt on your phone asking for your M-Pesa PIN. You are charged exactly <strong id="payAmountLabel">Ksh 0</strong>.</p>
+      </div>
+
+      <!-- STAGE 2: waiting -->
+      <div class="stage" data-stage="waiting" hidden>
+        <div class="spinner" aria-hidden="true"></div>
+        <h2>Check your phone</h2>
+        <p class="modal-sub">We sent an M-Pesa request to <strong id="waitingPhone"></strong>. Enter your M-Pesa PIN to complete the payment of <strong id="waitingAmount"></strong>.</p>
+        <p class="modal-timer" id="waitTimer">Waiting for confirmation…</p>
+        <button class="btn btn-secondary btn-block" id="cancelWaitBtn" type="button">Cancel</button>
+      </div>
+
+      <!-- STAGE 3: success -->
+      <div class="stage" data-stage="success" hidden>
+        <div class="result-icon success" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg>
+        </div>
+        <h2>Payment received</h2>
+        <p class="modal-sub">Thank you! Your payment has been confirmed.</p>
+        <div class="receipt" id="receiptBox"></div>
+        <button class="btn btn-whatsapp btn-block" id="receiptWhatsappBtn" type="button">Send receipt &amp; delivery details</button>
+        <button class="btn btn-secondary btn-block" id="doneBtn" type="button">Continue shopping</button>
+      </div>
+
+      <!-- STAGE 4: error -->
+      <div class="stage" data-stage="error" hidden>
+        <div class="result-icon error" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 8v5M12 17h.01"/><circle cx="12" cy="12" r="9"/></svg>
+        </div>
+        <h2 id="errorTitle">Payment not completed</h2>
+        <p class="modal-sub" id="errorMessage"></p>
+        <button class="btn btn-mpesa btn-block" id="retryBtn" type="button">Try again</button>
+        <button class="btn btn-whatsapp btn-block" id="errorWhatsappBtn" type="button">Order on WhatsApp instead</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
