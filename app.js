@@ -77,5 +77,5 @@ document.addEventListener("DOMContentLoaded", () => {
     if(!r.ok)throw Error(`HTTP ${r.status}`);
     return r.json();
   }
-  loadProducts().then(d=>{products=Array.isArray(d)?d:[];categories();render();renderCart();}).catch(e=>{console.error(e);$("count").textContent="Catalogue unavailable";$("grid").innerHTML="<div class='empty'>The catalogue could not be loaded. Please refresh the page.</div>";$ ("empty").hidden=true;});
+  loadProducts().then(d=>{products=Array.isArray(d)?d:[];categories();render();renderCart();}).catch(e=>{console.error(e);$("count").textContent="Catalogue unavailable";$("grid").innerHTML="<div class='empty'>The catalogue could not be loaded. Please refresh the page.</div>";$("empty").hidden=true;});
 });
