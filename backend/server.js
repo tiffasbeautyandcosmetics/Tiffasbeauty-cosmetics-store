@@ -227,4 +227,12 @@ app.post("/api/mpesa/stkpush",async(req,res)=>{
 
 app.post("/api/mpesa/callback",(req,res)=>{const cb=req.body?.Body?.stkCallback;if(cb){const p=payments.get(cb.CheckoutRequestID);if(p){if(cb.ResultCode===0){const item=cb.CallbackMetadata?.Item||[];p.status="completed";p.receipt=item.find(x=>x.Name==="MpesaReceiptNumber")?.Value||"N/A"}else{p.status="failed";p.message=cb.ResultDesc||"Payment failed"}}}res.json({ResultCode:0,ResultDesc:"Accepted"})});
 app.get("/api/mpesa/status/:id",(req,res)=>{const p=payments.get(req.params.id);if(!p)return res.json({status:"pending"});if(p.status==="completed")return res.json({status:"completed",receipt:p.receipt});if(p.status==="failed")return res.json({status:"failed",message:p.message});if(Date.now()-p.createdAt>300000){p.status="failed";p.message="Payment request timed out";return res.json({status:"failed",message:p.message})}res.json({status:"pending"})});
-(async()=>{\n  try{await initDatabase();if(dbReady)console.log(`TIFFAS persistent catalogue ready with ${catalog.length} products`)}\n  catch(e){console.error("Catalogue database initialization failed:",e.message)}\n  app.listen(PORT,"0.0.0.0",()=>console.log(`TIFFAS backend listening on ${PORT}`));\n})();
+(async()=>{
+  try{
+    await initDatabase();
+    if(dbReady) console.log(`TIFFAS persistent catalogue ready with ${catalog.length} products`);
+  }catch(e){
+    console.error("Catalogue database initialization failed:",e.message);
+  }
+  app.listen(PORT,"0.0.0.0",()=>console.log(`TIFFAS backend listening on ${PORT}`));
+})();
