@@ -67,15 +67,12 @@ document.addEventListener("DOMContentLoaded", () => {
   ["topWhatsapp","heroWhatsapp","footerWhatsapp"].forEach(id=>{const el=$(id);if(el)el.href=wa(`Hi ${STORE_NAME}! I'd like to know more about your products.`);});
   if($("footerWhatsapp"))$("footerWhatsapp").textContent="0725 679 016"; if($("tillHero"))$("tillHero").textContent=TILL; if($("tillStrip"))$("tillStrip").textContent=TILL; if($("tillFooter"))$("tillFooter").textContent=TILL; document.title=STORE_NAME;
   async function loadProducts(){
-    try{
-      if(API_BASE){
-        const api=await fetch(`${API_BASE}/api/products?v=4`,{cache:"no-store"});
-        if(api.ok){const data=await api.json(); if(Array.isArray(data)&&data.length){return data;}}
-      }
-    }catch(e){console.warn("Backend catalogue unavailable; falling back to products.json",e);}
-    const r=await fetch("products.json?v=4",{cache:"no-store"});
-    if(!r.ok)throw Error(`HTTP ${r.status}`);
-    return r.json();
+    if(!API_BASE) throw Error("Backend catalogue is not configured.");
+    const api=await fetch(`${API_BASE}/api/products?v=5`,{cache:"no-store"});
+    if(!api.ok) throw Error(`Catalogue API returned HTTP ${api.status}`);
+    const data=await api.json();
+    if(!Array.isArray(data)) throw Error("Catalogue API returned invalid data.");
+    return data;
   }
   loadProducts().then(d=>{products=Array.isArray(d)?d:[];categories();render();renderCart();}).catch(e=>{console.error(e);$("count").textContent="Catalogue unavailable";$("grid").innerHTML="<div class='empty'>The catalogue could not be loaded. Please refresh the page.</div>";$("empty").hidden=true;});
 });
