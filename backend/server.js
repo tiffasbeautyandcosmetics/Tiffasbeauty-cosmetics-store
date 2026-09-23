@@ -4,6 +4,7 @@ const cors=require("cors");
 const axios=require("axios");
 const fs=require("fs");
 const path=require("path");
+const {Pool}=require("pg");
 
 const app=express();
 app.use(express.json({limit:"20mb"}));
@@ -51,6 +52,75 @@ function readChunkCatalog(){
 }
 let catalog=readChunkCatalog()||[];
 let catalogRevision=1;
+let dbPool=null;
+let dbReady=false;
+
+async function initDatabase(){
+  if(!DATABASE_URL) return false;
+  dbPool=new Pool({
+    connectionString:DATABASE_URL,
+    max:5,
+    idleTimeoutMillis:10000,
+    connectionTimeoutMillis:10000
+  });
+  await dbPool.query(`
+    CREATE TABLE IF NOT EXISTS catalog_products (
+      id TEXT PRIMARY KEY,
+      data JSONB NOT NULL,
+      updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+    )
+  `);
+  const countResult=await dbPool.query("SELECT COUNT(*)::int AS count FROM catalog_products");
+  if(countResult.rows[0].count===0 && catalog.length){
+    await dbPool.query("BEGIN");
+    try{
+      for(const p of catalog){
+        await dbPool.query(
+          "INSERT INTO catalog_products (id,data) VALUES ($1,$2::jsonb)",
+          [String(p.id),JSON.stringify(p)]
+        );
+      }
+      await dbPool.query("COMMIT");
+    }catch(e){
+      await dbPool.query("ROLLBACK");
+      throw e;
+    }
+  }
+  const rows=await dbPool.query("SELECT data FROM catalog_products ORDER BY id");
+  catalog=rows.rows.map(r=>r.data);
+  catalogRevision=1;
+  dbReady=true;
+  return true;
+}
+
+async function persistCatalog(nextCatalog){
+  if(!dbPool || !dbReady) throw new Error("DATABASE_URL is not configured or database is unavailable");
+  await dbPool.query("BEGIN");
+  try{
+    await dbPool.query("TRUNCATE TABLE catalog_products");
+    for(const p of nextCatalog){
+      const id=String(p.id || "");
+      if(!id) continue;
+      await dbPool.query(
+        "INSERT INTO catalog_products (id,data,updated_at) VALUES ($1,$2::jsonb,NOW())",
+        [id,JSON.stringify(p)]
+      );
+    }
+    await dbPool.query("COMMIT");
+    catalog=nextCatalog;
+    catalogRevision+=1;
+  }catch(e){
+    await dbPool.query("ROLLBACK");
+    throw e;
+  }
+}
+
+async function loadCatalogFromDatabase(){
+  if(!dbPool || !dbReady) return false;
+  const rows=await dbPool.query("SELECT data FROM catalog_products ORDER BY id");
+  catalog=rows.rows.map(r=>r.data);
+  return true;
+}
 
 const configStatus=()=>({
   consumerKey:!!KEY,
@@ -70,11 +140,13 @@ app.get("/",(_q,r)=>r.json({
   mpesaConfigured:!!(KEY&&SECRET&&PASSKEY&&CALLBACK&&SHORTCODE),
   catalogCount:catalog.length,
   catalogSource:"github-catalog-chunks",
-  catalogRevision
+  catalogRevision,
+  persistentStorage:dbReady
 }));
 
 app.get("/api/mpesa/config",(_q,r)=>r.json(configStatus()));
-app.get("/api/products",(_q,r)=>{r.set("Cache-Control","no-store");r.set("X-Catalog-Revision",String(catalogRevision));r.json(catalog);});
+app.get("/api/admin/storage",requireAdmin,(_q,r)=>r.json({persistent:dbReady,catalogCount:catalog.length,revision:catalogRevision}));
+app.get("/api/products",async(_q,r)=>{try{await loadCatalogFromDatabase();}catch(e){console.error("Database catalogue read failed:",e.message)}r.set("Cache-Control","no-store");r.set("X-Catalog-Revision",String(catalogRevision));r.json(catalog);});
 app.get("/admin",(_q,res)=>res.sendFile(path.join(__dirname,"admin.html")));
 
 function requireAdmin(req,res,next){
@@ -84,20 +156,28 @@ function requireAdmin(req,res,next){
   next();
 }
 
-app.put("/api/admin/products",requireAdmin,(req,res)=>{
+app.put("/api/admin/products",requireAdmin,async(req,res)=>{
   const nextCatalog=req.body?.products;
   if(!Array.isArray(nextCatalog)) return res.status(400).json({success:false,message:"products must be an array"});
   if(nextCatalog.length>2000) return res.status(400).json({success:false,message:"Too many products"});
-  catalog=nextCatalog;
-  catalogRevision+=1;
-  res.json({success:true,count:catalog.length,revision:catalogRevision,message:"Catalogue updated in the backend source of truth"});
+  try{
+    await persistCatalog(nextCatalog);
+    res.json({success:true,count:catalog.length,revision:catalogRevision,persistent:true,message:"Catalogue saved permanently to PostgreSQL"});
+  }catch(e){
+    console.error("Persistent catalogue save failed:",e.message);
+    res.status(503).json({success:false,message:"Catalogue database is not available"});
+  }
 });
 
-app.post("/api/admin/reset-products",requireAdmin,(_req,res)=>{
+app.post("/api/admin/reset-products",requireAdmin,async(_req,res)=>{
   const base=readChunkCatalog()||[];
-  catalog=base;
-  catalogRevision+=1;
-  res.json({success:true,count:catalog.length,revision:catalogRevision,message:"Catalogue reloaded from the GitHub source catalogue"});
+  try{
+    await persistCatalog(base);
+    res.json({success:true,count:catalog.length,revision:catalogRevision,persistent:true,message:"Catalogue restored from GitHub source and saved to PostgreSQL"});
+  }catch(e){
+    console.error("Persistent catalogue reset failed:",e.message);
+    res.status(503).json({success:false,message:"Catalogue database is not available"});
+  }
 });
 
 async function token(){
@@ -147,4 +227,4 @@ app.post("/api/mpesa/stkpush",async(req,res)=>{
 
 app.post("/api/mpesa/callback",(req,res)=>{const cb=req.body?.Body?.stkCallback;if(cb){const p=payments.get(cb.CheckoutRequestID);if(p){if(cb.ResultCode===0){const item=cb.CallbackMetadata?.Item||[];p.status="completed";p.receipt=item.find(x=>x.Name==="MpesaReceiptNumber")?.Value||"N/A"}else{p.status="failed";p.message=cb.ResultDesc||"Payment failed"}}}res.json({ResultCode:0,ResultDesc:"Accepted"})});
 app.get("/api/mpesa/status/:id",(req,res)=>{const p=payments.get(req.params.id);if(!p)return res.json({status:"pending"});if(p.status==="completed")return res.json({status:"completed",receipt:p.receipt});if(p.status==="failed")return res.json({status:"failed",message:p.message});if(Date.now()-p.createdAt>300000){p.status="failed";p.message="Payment request timed out";return res.json({status:"failed",message:p.message})}res.json({status:"pending"})});
-app.listen(PORT,"0.0.0.0",()=>console.log(`TIFFAS backend listening on ${PORT}`));
+(async()=>{\n  try{await initDatabase();if(dbReady)console.log(`TIFFAS persistent catalogue ready with ${catalog.length} products`)}\n  catch(e){console.error("Catalogue database initialization failed:",e.message)}\n  app.listen(PORT,"0.0.0.0",()=>console.log(`TIFFAS backend listening on ${PORT}`));\n})();
