@@ -28,9 +28,7 @@ const KEY=process.env.MPESA_CONSUMER_KEY?.trim(),
 
 const BASE=ENV==="production"?"https://api.safaricom.co.ke":"https://sandbox.safaricom.co.ke";
 const payments=new Map();
-const ROOT_CATALOG=path.join(__dirname,"..","products.json");
 const CATALOG_DIR=path.join(__dirname,"..","catalog");
-const RUNTIME_CATALOG=path.join(__dirname,"runtime-products.json");
 
 function readCatalogFile(file){
   try{
@@ -51,7 +49,8 @@ function readChunkCatalog(){
     return all.length?all:null;
   }catch(_){ return null; }
 }
-let catalog=readCatalogFile(RUNTIME_CATALOG)||readChunkCatalog()||readCatalogFile(ROOT_CATALOG)||[];
+let catalog=readChunkCatalog()||[];
+let catalogRevision=1;
 
 const configStatus=()=>({
   consumerKey:!!KEY,
@@ -69,11 +68,13 @@ app.get("/",(_q,r)=>r.json({
   service:"tiffas-backend",
   environment:ENV,
   mpesaConfigured:!!(KEY&&SECRET&&PASSKEY&&CALLBACK&&SHORTCODE),
-  catalogCount:catalog.length
+  catalogCount:catalog.length,
+  catalogSource:"github-catalog-chunks",
+  catalogRevision
 }));
 
 app.get("/api/mpesa/config",(_q,r)=>r.json(configStatus()));
-app.get("/api/products",(_q,r)=>r.json(catalog));
+app.get("/api/products",(_q,r)=>{r.set("Cache-Control","no-store");r.set("X-Catalog-Revision",String(catalogRevision));r.json(catalog);});
 app.get("/admin",(_q,res)=>res.sendFile(path.join(__dirname,"admin.html")));
 
 function requireAdmin(req,res,next){
@@ -87,25 +88,16 @@ app.put("/api/admin/products",requireAdmin,(req,res)=>{
   const nextCatalog=req.body?.products;
   if(!Array.isArray(nextCatalog)) return res.status(400).json({success:false,message:"products must be an array"});
   if(nextCatalog.length>2000) return res.status(400).json({success:false,message:"Too many products"});
-  try{
-    fs.writeFileSync(RUNTIME_CATALOG,JSON.stringify(nextCatalog,null,2),"utf8");
-    catalog=nextCatalog;
-    res.json({success:true,count:catalog.length,message:"Catalogue saved on the backend runtime"});
-  }catch(e){
-    console.error("Catalog save failed:",e.message);
-    res.status(500).json({success:false,message:"Could not save catalogue on the backend"});
-  }
+  catalog=nextCatalog;
+  catalogRevision+=1;
+  res.json({success:true,count:catalog.length,revision:catalogRevision,message:"Catalogue updated in the backend source of truth"});
 });
 
 app.post("/api/admin/reset-products",requireAdmin,(_req,res)=>{
-  const base=readChunkCatalog()||readCatalogFile(ROOT_CATALOG)||[];
-  try{
-    fs.writeFileSync(RUNTIME_CATALOG,JSON.stringify(base,null,2),"utf8");
-    catalog=base;
-    res.json({success:true,count:catalog.length,message:"Catalogue reset"});
-  }catch(e){
-    res.status(500).json({success:false,message:"Could not reset catalogue"});
-  }
+  const base=readChunkCatalog()||[];
+  catalog=base;
+  catalogRevision+=1;
+  res.json({success:true,count:catalog.length,revision:catalogRevision,message:"Catalogue reloaded from the GitHub source catalogue"});
 });
 
 async function token(){
