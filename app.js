@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const saveCart=()=>{try{localStorage.setItem("tiffas_cart",JSON.stringify(cart));}catch(_){}};
   const subtotal=()=>cart.reduce((sum,i)=>sum+Number(i.price||0)*Number(i.qty||0),0);
   if(["search","categories","count","grid","empty","cartItems","subtotal","cartBadge"].some(id=>!$(id)))return;
-  function resolveAsset(p){if(!p)return"";return /^(https?:|data:|blob:)/i.test(p)?p:new URL(p.replace(/^\//,""),document.baseURI).href;}
+  const assetVersion=Date.now();
+  function resolveAsset(p){if(!p)return"";if(/^(https?:|data:|blob:)/i.test(p))return p;const u=new URL(p.replace(/^\//,""),document.baseURI);u.searchParams.set("v",assetVersion);return u.href;}
   function toast(msg){const el=$("toast");if(!el)return;el.textContent=msg;el.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.hidden=true,2400);}
   function card(p){
     const img=p.image?`<img src="${esc(resolveAsset(p.image))}" alt="${esc(p.name)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'><span class="placeholder" style="display:none">${esc((p.name||"B").charAt(0))}</span>`:`<span class="placeholder">${esc((p.name||"B").charAt(0))}</span>`;
