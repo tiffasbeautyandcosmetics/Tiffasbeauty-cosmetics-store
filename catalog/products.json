@@ -30,13 +30,13 @@
     "description": ""
   },
   {
-    "id": "1-million",
-    "name": "1 MILLION",
+    "id": "1-million-spray",
+    "name": "1 MILLION spray",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
+    "inStock": true,
+    "stockQty": 3,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790272695/hukfcmoyovpwq9ugotqn.jpg",
     "description": ""
   },
   {
