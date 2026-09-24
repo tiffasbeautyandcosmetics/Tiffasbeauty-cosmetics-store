@@ -24,9 +24,9 @@
     "name": "ROSE LEAF PONDS BIG",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790270207/l5aef5gy4lztz7ihc225.jpg",
     "description": ""
   },
   {
