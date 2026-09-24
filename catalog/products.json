@@ -7,7 +7,9 @@
     "inStock": true,
     "stockQty": 4,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790269217/xf7reh3mewyhxuwhoqxt.jpg",
-    "description": ""
+    "description": "",
+    "fallbackImage": "images/products/papayas-oil-200ml-1790229382133.jpg",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790269217/xf7reh3mewyhxuwhoqxt.jpg"
   },
   {
     "id": "bamsi-white-conditioner-500ml",
@@ -17,7 +19,9 @@
     "inStock": true,
     "stockQty": 3,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790269302/qughncopt9npmrornzbt.jpg",
-    "description": ""
+    "description": "",
+    "fallbackImage": "images/products/bamsi-white-conditioner-500ml-1790189755177.jpg",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790269302/qughncopt9npmrornzbt.jpg"
   },
   {
     "id": "rose-leaf-ponds-big",
@@ -27,7 +31,9 @@
     "inStock": true,
     "stockQty": 5,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790270207/l5aef5gy4lztz7ihc225.jpg",
-    "description": ""
+    "description": "",
+    "fallbackImage": "images/products/rose-leaf-ponds-big-1790190189509.jpg",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790270207/l5aef5gy4lztz7ihc225.jpg"
   },
   {
     "id": "1-million-spray",
