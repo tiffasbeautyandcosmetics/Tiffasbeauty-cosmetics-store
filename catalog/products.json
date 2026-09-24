@@ -5,8 +5,8 @@
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
-    "image": "images/products/papayas-oil-200ml-1790229382133.jpg",
+    "stockQty": 4,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790269217/xf7reh3mewyhxuwhoqxt.jpg",
     "description": ""
   },
   {
