@@ -1,3 +1,4 @@
+(async()=>{try{const key="tiffas-cache-reset-v8";if(sessionStorage.getItem(key)!=="1"){sessionStorage.setItem(key,"1");let changed=false;if("serviceWorker" in navigator){const regs=await navigator.serviceWorker.getRegistrations();for(const reg of regs){changed=await reg.unregister()||changed;}}if("caches" in window){const keys=await caches.keys();if(keys.length){await Promise.all(keys.map(k=>caches.delete(k)));changed=true;}}if(changed){const u=new URL(location.href);u.searchParams.set("_tiffas_refresh",Date.now());location.replace(u.href);return;}}}catch(e){console.warn("TIFFAS cache reset skipped",e)}})();
 document.addEventListener("DOMContentLoaded", () => {
   const C = window.TIFFAS_CONFIG || {};
   const STORE_NAME = C.STORE_NAME || "TIFFAS BEAUTY AND COSMETICS";
