@@ -6,5 +6,7 @@
   "branch": "",
   "swiftCode": "",
   "paymentInstructions": "Use your order number as the transfer reference, then send proof of payment by WhatsApp.",
-  "currency": "KES"
+  "currency": "KES",
+  "cloudinaryCloudName": "",
+  "cloudinaryUploadPreset": ""
 }
