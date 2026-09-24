@@ -52,8 +52,9 @@
     "price": 50,
     "inStock": true,
     "stockQty": 11,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790283777/mtlp08wlyxxmabgdn6am.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790283777/mtlp08wlyxxmabgdn6am.jpg"
   },
   {
     "id": "212-women-100ml",
