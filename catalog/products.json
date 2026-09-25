@@ -5178,13 +5178,14 @@
   },
   {
     "id": "hi-yaki-hair-braid",
-    "name": "Hi-yaki Hair Braid",
+    "name": "Hi-yaki Hair Braid.",
     "category": "Hair & Braids",
-    "price": 140,
+    "price": 180,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Hi-yaki+Hair+Braid",
-    "description": ""
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322947/efsac5ipdxmreu8af1hd.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322947/efsac5ipdxmreu8af1hd.jpg"
   },
   {
     "id": "ultra-hi-yaki-hair-braid",
