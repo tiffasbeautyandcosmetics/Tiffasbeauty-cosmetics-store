@@ -333,11 +333,12 @@
     "id": "angels-jibambe-133",
     "name": "ANGELS JIBAMBE 133",
     "category": "Beauty & Cosmetics",
-    "price": 70,
+    "price": 80,
     "inStock": true,
     "stockQty": 5,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330393/vamdfjhkhp26nrhdwkeg.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330393/vamdfjhkhp26nrhdwkeg.jpg"
   },
   {
     "id": "angels-jibambe-long",
