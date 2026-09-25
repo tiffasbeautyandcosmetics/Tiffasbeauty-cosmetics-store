@@ -5378,11 +5378,12 @@
     "id": "3-tone-ombre-hair-braid-24inch",
     "name": "3 Tone Ombre Hair Braid 24inch",
     "category": "Hair & Braids",
-    "price": 820,
+    "price": 850,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=3+Tone+Ombre+Hair+Braid+24inch",
-    "description": ""
+    "stockQty": 0,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324393/qabekyit6roghd4ol99r.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324393/qabekyit6roghd4ol99r.jpg"
   },
   {
     "id": "baju-kids-hair-braid-soft",
