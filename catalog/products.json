@@ -5038,11 +5038,12 @@
     "id": "abuja-extra-long-braids",
     "name": "Abuja Extra Long Braids",
     "category": "Hair & Braids",
-    "price": 280,
+    "price": 300,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Abuja+Extra+Long+Braids",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321542/tmf84ecfpuqkv51dg5ck.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321542/tmf84ecfpuqkv51dg5ck.jpg"
   },
   {
     "id": "angels-guess-girl-crochet-braid",
