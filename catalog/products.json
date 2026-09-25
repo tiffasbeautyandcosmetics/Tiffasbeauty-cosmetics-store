@@ -595,9 +595,10 @@
     "category": "Beauty & Cosmetics",
     "price": 160,
     "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338254/wfp8n248dw16xhzuukmj.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338254/wfp8n248dw16xhzuukmj.jpg"
   },
   {
     "id": "baby-love-anti-dandruff-50g",
