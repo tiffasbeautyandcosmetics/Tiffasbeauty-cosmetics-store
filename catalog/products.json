@@ -5365,13 +5365,14 @@
   },
   {
     "id": "distress-butterfly-locks-crochet-braid-short",
-    "name": "Distress Butterfly Locks Crochet Braid Short",
+    "name": "Distress Butterfly Locks Crochet Braid Short.",
     "category": "Hair & Braids",
-    "price": 1050,
+    "price": 1200,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Distress+Butterfly+Locks+Crochet+Braid+Short",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324292/kgrss3dhl2xczka8nw2z.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324292/kgrss3dhl2xczka8nw2z.jpg"
   },
   {
     "id": "3-tone-ombre-hair-braid-24inch",
