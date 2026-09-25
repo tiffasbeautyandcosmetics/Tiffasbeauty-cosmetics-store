@@ -330,16 +330,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790329878/jabwzuynhm4byd3btdtq.jpg"
   },
   {
-    "id": "angels-havana-curl-1-350-613",
-    "name": "ANGELS HAVANA CURL 1/350/613",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "angels-jibambe-133",
     "name": "ANGELS JIBAMBE 133",
     "category": "Beauty & Cosmetics",
@@ -406,16 +396,6 @@
     "price": 70,
     "inStock": true,
     "stockQty": 3,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "angels-jibambe-short-27",
-    "name": "ANGELS JIBAMBE SHORT 27",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 2,
     "image": null,
     "description": ""
   },
@@ -5610,5 +5590,55 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325317/bfaepynf6dfrujwvdjlp.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325317/bfaepynf6dfrujwvdjlp.jpg"
+  },
+  {
+    "id": "angels-guess-gal-1",
+    "name": "ANGELS GUESS GAL 1",
+    "category": "Beauty & Cosmetics",
+    "price": 550,
+    "inStock": true,
+    "stockQty": 1,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "angels-guess-gal-350",
+    "name": "ANGELS GUESS GAL 350",
+    "category": "Beauty & Cosmetics",
+    "price": 550,
+    "inStock": true,
+    "stockQty": 1,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "angels-havana-curl-1",
+    "name": "ANGELS HAVANA CURL 1",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 2,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "angels-havana-curl-1-27-613",
+    "name": "ANGELS HAVANA CURL 1/27/613",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 2,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "angels-havana-curl-1-27-613-2",
+    "name": "ANGELS HAVANA CURL 1/27/613",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 2,
+    "image": null,
+    "description": ""
   }
 ]
