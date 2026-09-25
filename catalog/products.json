@@ -168,12 +168,13 @@
   {
     "id": "afro-kinky-no-1",
     "name": "AFRO KINKY NO.1",
-    "category": "Beauty & Cosmetics",
+    "category": "Hair & Braids",
     "price": 480,
     "inStock": true,
     "stockQty": 2,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326707/wc10ahpvadse5jzuc6hn.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326707/wc10ahpvadse5jzuc6hn.jpg"
   },
   {
     "id": "alisons-rose-water",
