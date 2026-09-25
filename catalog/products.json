@@ -5444,11 +5444,12 @@
     "id": "darling-twinkle-hair-braid-kids",
     "name": "Darling Twinkle Hair Braid Kids",
     "category": "Hair & Braids",
-    "price": 80,
+    "price": 120,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Darling+Twinkle+Hair+Braid+Kids",
-    "description": ""
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325023/symknmqellueptxwj9yl.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325023/symknmqellueptxwj9yl.jpg"
   },
   {
     "id": "fulani-lush",
@@ -5458,16 +5459,6 @@
     "inStock": true,
     "stockQty": 1,
     "image": "https://placehold.co/300x300/png?text=Fulani+Lush",
-    "description": ""
-  },
-  {
-    "id": "havana-curls",
-    "name": "Havana curls",
-    "category": "Hair & Braids",
-    "price": 560,
-    "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Havana+curls",
     "description": ""
   },
   {
