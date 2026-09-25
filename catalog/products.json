@@ -657,11 +657,12 @@
     "id": "bamsi-babylove-anti-dandruff-125g",
     "name": "BAMSI BABYLOVE ANTI DANDRUFF 125g",
     "category": "Beauty & Cosmetics",
-    "price": 130,
+    "price": 140,
     "inStock": true,
     "stockQty": 3,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338812/nqagkbtsqhzieou1wbja.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338812/nqagkbtsqhzieou1wbja.jpg"
   },
   {
     "id": "bamsi-babylove-anti-dandruff-50g",
