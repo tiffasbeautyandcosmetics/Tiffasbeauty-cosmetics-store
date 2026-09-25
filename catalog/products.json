@@ -5211,13 +5211,14 @@
   },
   {
     "id": "spring-curls-hair-crochet-braid",
-    "name": "Spring Curls Hair Crochet Braid",
+    "name": "Spring Curls Hair Crochet Braid.",
     "category": "Hair & Braids",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Spring+Curls+Hair+Crochet+Braid",
-    "description": ""
+    "stockQty": 7,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323155/hhpr1roehuuiir72hbg4.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323155/hhpr1roehuuiir72hbg4.jpg"
   },
   {
     "id": "elegant-hair-braid",
