@@ -5090,13 +5090,14 @@
   },
   {
     "id": "darling-one-million-braid",
-    "name": "Darling One Million Braid",
+    "name": "Darling One Million Braid.",
     "category": "Hair & Braids",
-    "price": 480,
+    "price": 550,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Darling+One+Million+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321927/esyhjuklqrge6wfanyll.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321927/esyhjuklqrge6wfanyll.jpg"
   },
   {
     "id": "darling-superstar-hair-braid",
