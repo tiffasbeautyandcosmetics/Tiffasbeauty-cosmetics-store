@@ -63,8 +63,9 @@
     "price": 250,
     "inStock": true,
     "stockQty": 1,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790316980/su0vi2bx4uukruxpjcve.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790316980/su0vi2bx4uukruxpjcve.jpg"
   },
   {
     "id": "3-in-1-comb",
