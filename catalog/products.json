@@ -136,11 +136,12 @@
     "id": "acetone-small",
     "name": "ACETONE SMALL",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 50,
     "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325689/aah707jtfmtt8akrm0zd.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325689/aah707jtfmtt8akrm0zd.jpg"
   },
   {
     "id": "afrfo-comb-big",
