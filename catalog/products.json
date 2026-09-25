@@ -5387,13 +5387,14 @@
   },
   {
     "id": "baju-kids-hair-braid-soft",
-    "name": "Baju Kids Hair Braid Soft",
+    "name": "Baju Kids Hair Braid Soft.",
     "category": "Hair & Braids",
-    "price": 320,
+    "price": 400,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Baju+Kids+Hair+Braid+Soft",
-    "description": ""
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324454/zjntlec5h1t88w6pj8zl.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324454/zjntlec5h1t88w6pj8zl.jpg"
   },
   {
     "id": "twinkle-kids-hair-braid-collection",
