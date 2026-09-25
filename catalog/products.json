@@ -5409,13 +5409,14 @@
   },
   {
     "id": "synthetic-wavy-curly-braid-hair-20inch",
-    "name": "Synthetic Wavy Curly Braid Hair 20inch",
+    "name": "Synthetic Wavy Curly Braid Hair 20inch.",
     "category": "Hair & Braids",
-    "price": 1710,
+    "price": 1800,
     "inStock": true,
     "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Synthetic+Wavy+Curly+Braid+Hair+20inch",
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324705/xmdys7kl4kxtrq1ohn96.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324705/xmdys7kl4kxtrq1ohn96.jpg"
   },
   {
     "id": "synthetic-princess-curly-hair-braid-20inch",
