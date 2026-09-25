@@ -549,13 +549,14 @@
   },
   {
     "id": "arimis-90ml",
-    "name": "ARIMIS 90ML",
+    "name": "ARIMIS 90ML.",
     "category": "Beauty & Cosmetics",
     "price": 65,
-    "inStock": false,
-    "stockQty": -1,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336366/maoj7vyojxsmyp9wmw2i.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336366/maoj7vyojxsmyp9wmw2i.jpg"
   },
   {
     "id": "asad-body-luxuries",
