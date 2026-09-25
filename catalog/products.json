@@ -618,8 +618,9 @@
     "price": 350,
     "inStock": true,
     "stockQty": 2,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338563/sprxucmhbfistjjeb4hs.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338563/sprxucmhbfistjjeb4hs.jpg"
   },
   {
     "id": "bamsi-apple-fresh-shampoo",
