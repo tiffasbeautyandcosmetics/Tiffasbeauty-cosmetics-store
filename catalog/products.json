@@ -5156,13 +5156,14 @@
   },
   {
     "id": "angels-marley-braid",
-    "name": "Angels Marley Braid",
+    "name": "Angels Marley Braid.",
     "category": "Hair & Braids",
-    "price": 520,
+    "price": 590,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Angels+Marley+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322663/bypc0drk4emq2b5xwkgb.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322663/bypc0drk4emq2b5xwkgb.jpg"
   },
   {
     "id": "darling-extra-long-braid",
