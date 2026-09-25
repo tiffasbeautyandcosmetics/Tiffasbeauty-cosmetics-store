@@ -462,8 +462,8 @@
   },
   {
     "id": "angels-pony-tail-1",
-    "name": "ANGELS PONY TAIL 1",
-    "category": "Beauty & Cosmetics",
+    "name": "ANGELS PONY TAIL 1.",
+    "category": "Hair & Braids",
     "price": 220,
     "inStock": true,
     "stockQty": 10,
@@ -489,16 +489,6 @@
     "price": 220,
     "inStock": true,
     "stockQty": 1,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "angels-ponytail-27",
-    "name": "ANGELS PONYTAIL 27",
-    "category": "Beauty & Cosmetics",
-    "price": 220,
-    "inStock": false,
-    "stockQty": 0,
     "image": null,
     "description": ""
   },
