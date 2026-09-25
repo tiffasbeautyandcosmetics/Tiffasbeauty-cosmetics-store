@@ -276,13 +276,14 @@
   },
   {
     "id": "amara-ltn-4-men-200ml",
-    "name": "AMARA LTN 4/MEN 200ML",
+    "name": "AMARA LTN 4/MEN 200ML.",
     "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "price": 220,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328312/eano1z5z84supkg5zxfu.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328312/eano1z5z84supkg5zxfu.jpg"
   },
   {
     "id": "amara-ltn-b-milk-600-ml",
