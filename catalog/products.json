@@ -5257,11 +5257,12 @@
     "id": "salsa-hair-braid",
     "name": "Salsa Hair Braid",
     "category": "Hair & Braids",
-    "price": 190,
+    "price": 240,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Salsa+Hair+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323539/rtnbniyexhgboep6vn1d.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323539/rtnbniyexhgboep6vn1d.jpg"
   },
   {
     "id": "darling-empress-brazilian-wave",
