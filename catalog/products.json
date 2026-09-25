@@ -245,11 +245,12 @@
     "id": "amara-coconut",
     "name": "AMARA COCONUT",
     "category": "Beauty & Cosmetics",
-    "price": 0,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "price": 210,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327936/quhmjvtikvdshf5icpl9.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327936/quhmjvtikvdshf5icpl9.jpg"
   },
   {
     "id": "amara-hydrating-glycerine",
