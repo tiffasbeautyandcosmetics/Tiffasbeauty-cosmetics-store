@@ -564,9 +564,10 @@
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "stockQty": 50,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336486/bf8l0o7mdrbetrhn8qzd.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336486/bf8l0o7mdrbetrhn8qzd.jpg"
   },
   {
     "id": "assorted-metal-beeds",
