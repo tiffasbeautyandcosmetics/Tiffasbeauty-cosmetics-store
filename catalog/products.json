@@ -5145,13 +5145,14 @@
   },
   {
     "id": "angele-afro-kinky-crochet-braid",
-    "name": "Angele Afro Kinky Crochet Braid",
+    "name": "Angele Afro Kinky Crochet Braid.",
     "category": "Hair & Braids",
-    "price": 400,
+    "price": 450,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Angele+Afro+Kinky+Crochet+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322591/eqiuzasxutoddufbjmz6.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322591/eqiuzasxutoddufbjmz6.jpg"
   },
   {
     "id": "angels-marley-braid",
