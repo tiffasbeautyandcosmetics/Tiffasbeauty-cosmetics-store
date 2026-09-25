@@ -5597,5 +5597,16 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337554/w5xjw6msiy5e1loxp1kc.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337554/w5xjw6msiy5e1loxp1kc.jpg"
+  },
+  {
+    "id": "avis-braids-1-1-27-1-900-1-grey-2-27-30-60-2",
+    "name": "AVIS BRAIDS 1,1/27,1/900,1/GREY,2,27,30,60",
+    "category": "Beauty & Cosmetics",
+    "price": 90,
+    "inStock": true,
+    "stockQty": 70,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337946/jyx7zteuv5ag8qtbdhpy.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337946/jyx7zteuv5ag8qtbdhpy.jpg"
   }
 ]
