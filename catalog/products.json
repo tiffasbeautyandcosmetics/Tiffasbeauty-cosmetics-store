@@ -41,9 +41,10 @@
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790272695/hukfcmoyovpwq9ugotqn.jpg",
-    "description": ""
+    "stockQty": 3,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790362564/fz5vpev54lmejdkocnak.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790362564/fz5vpev54lmejdkocnak.jpg"
   },
   {
     "id": "2-in-1-comb",
@@ -3037,7 +3038,7 @@
   },
   {
     "id": "n-l-pure-glycerine-40ml-342",
-    "name": "NICE & LOVELY PURE GLYCERINE -40ML",
+    "name": "N&L PURE GLYCERINE -40ML",
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": false,
@@ -3047,7 +3048,7 @@
   },
   {
     "id": "n-l-styling-gel-exrafirm-120g-343",
-    "name": "NICE & LOVELY STYLING GEL EXRAFIRM -120G",
+    "name": "N&L STYLING GEL EXRAFIRM -120G",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3067,7 +3068,7 @@
   },
   {
     "id": "n-l-200ml-coco-butter-ltn-345",
-    "name": "NICE & LOVELY 200ML COCO BUTTER LOTION",
+    "name": "N/L 200ML COCO BUTTER LOTION",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3077,7 +3078,7 @@
   },
   {
     "id": "n-l-200ml-lemon-extract-346",
-    "name": "NICE & LOVELY 200ML LEMON EXTRACT",
+    "name": "N/L 200ML LEMON EXTRACT",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3087,7 +3088,7 @@
   },
   {
     "id": "n-l-cool-ltn-4-men-200ml-347",
-    "name": "NICE & LOVELY COOL LOTION 4 MEN 200ML",
+    "name": "N/L COOL LOTION 4 MEN 200ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3097,7 +3098,7 @@
   },
   {
     "id": "n-l-cool-ltn-4-men-400ml-348",
-    "name": "NICE & LOVELY COOL LOTION 4 MEN 400ML",
+    "name": "N/L COOL LOTION 4 MEN 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3107,7 +3108,7 @@
   },
   {
     "id": "n-l-lemon-extract-600ml-349",
-    "name": "NICE & LOVELY LEMON EXTRACT 600ML",
+    "name": "N/L LEMON EXTRACT 600ML",
     "category": "Beauty & Cosmetics",
     "price": 450,
     "inStock": false,
@@ -3117,7 +3118,7 @@
   },
   {
     "id": "n-l-lot-b-milk-400ml-350",
-    "name": "NICE & LOVELY LOT B/MILK 400ML",
+    "name": "N/L LOT B/MILK 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3127,7 +3128,7 @@
   },
   {
     "id": "n-l-lot-carrot-180-ml-351",
-    "name": "NICE & LOVELY LOT CARROT 180 ML",
+    "name": "N/L LOT CARROT 180 ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
@@ -3137,7 +3138,7 @@
   },
   {
     "id": "n-l-lotion-aloe-vera-400ml-352",
-    "name": "NICE & LOVELY LOTION ALOE VERA 400ML",
+    "name": "N/L LOTION ALOE VERA 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3147,7 +3148,7 @@
   },
   {
     "id": "n-l-lotion-c-b-400ml-353",
-    "name": "NICE & LOVELY LOTION C/B 400ML",
+    "name": "N/L LOTION C/B 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3157,7 +3158,7 @@
   },
   {
     "id": "n-l-lotion-energy-200ml-354",
-    "name": "NICE & LOVELY LOTION ENERGY 200ML",
+    "name": "N/L LOTION ENERGY 200ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3167,7 +3168,7 @@
   },
   {
     "id": "n-l-lotion-gly-200ml-355",
-    "name": "NICE & LOVELY LOTION GLY 200ML",
+    "name": "N/L LOTION GLY 200ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3177,7 +3178,7 @@
   },
   {
     "id": "n-l-lotion-gly-400ml-356",
-    "name": "NICE & LOVELY LOTION GLY 400ML",
+    "name": "N/L LOTION GLY 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3187,7 +3188,7 @@
   },
   {
     "id": "n-l-lotion-lemon-180ml-357",
-    "name": "NICE & LOVELY LOTION LEMON 180ML",
+    "name": "N/L LOTION LEMON 180ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
@@ -3197,7 +3198,7 @@
   },
   {
     "id": "n-l-pure-glycerine-358",
-    "name": "NICE & LOVELY PURE GLYCERINE",
+    "name": "N/L PURE GLYCERINE",
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
@@ -3207,7 +3208,7 @@
   },
   {
     "id": "n-l-styling-gel-ext-60g-359",
-    "name": "NICE & LOVELY STYLING GEL EXT 60G",
+    "name": "N/L STYLING GEL EXT 60G",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -5342,5 +5343,15 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339186/txzzieqdy8qygkwmrnup.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339186/txzzieqdy8qygkwmrnup.jpg"
+  },
+  {
+    "id": "angels-jibambe-long",
+    "name": "ANGELS JIBAMBE LONG",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": false,
+    "stockQty": 0,
+    "image": "https://mybigorder.com/public/uploads/all/V0NFBiTfBh595uFATGxXY3eeGWWr2WhuA9nXukkk.png",
+    "description": ""
   }
 ]
