@@ -5281,9 +5281,10 @@
     "category": "Hair & Braids",
     "price": 900,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Peruvian+Bulk+Hair+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323701/ylfqcdvgzu5ohxh5gqxk.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323701/ylfqcdvgzu5ohxh5gqxk.jpg"
   },
   {
     "id": "spanish-bulk-hair-braid",
