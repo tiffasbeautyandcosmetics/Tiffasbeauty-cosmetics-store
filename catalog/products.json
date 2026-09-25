@@ -5332,13 +5332,14 @@
   },
   {
     "id": "gypsy-locs-crochet-hair-braid",
-    "name": "Gypsy Locs Crochet Hair Braid",
+    "name": "Gypsy Locs Crochet Hair Braid.",
     "category": "Hair & Braids",
-    "price": 1270,
+    "price": 1360,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Gypsy+Locs+Crochet+Hair+Braid",
-    "description": ""
+    "stockQty": 3,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324096/aimg0biz9ivqri2jcdgq.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324096/aimg0biz9ivqri2jcdgq.jpg"
   },
   {
     "id": "faux-locks-crochet-hair-braid",
