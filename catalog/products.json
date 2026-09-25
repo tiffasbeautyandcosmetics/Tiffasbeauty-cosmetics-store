@@ -666,13 +666,14 @@
   },
   {
     "id": "bamsi-babylove-anti-dandruff-50g",
-    "name": "BAMSI BABYLOVE ANTI DANDRUFF 50G",
+    "name": "BAMSI BABYLOVE ANTI DANDRUFF 50G.",
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
     "stockQty": 3,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338878/jzqmjbaet3wtr6lnnz1k.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338878/jzqmjbaet3wtr6lnnz1k.jpg"
   },
   {
     "id": "bamsi-braiding-gel-40g",
