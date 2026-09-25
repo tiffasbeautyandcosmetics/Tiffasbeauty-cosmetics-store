@@ -213,10 +213,11 @@
     "name": "AMARA ARGAN 200ML",
     "category": "Beauty & Cosmetics",
     "price": 210,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327649/jg9dwmxl38bi9vqyd19r.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327649/jg9dwmxl38bi9vqyd19r.jpg"
   },
   {
     "id": "amara-boby-milk-200ml",
