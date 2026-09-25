@@ -5200,13 +5200,14 @@
   },
   {
     "id": "darling-afro-bulk-crochet-braid",
-    "name": "Darling Afro Bulk Crochet Braid",
+    "name": "Darling Afro Bulk Crochet Braid.",
     "category": "Hair & Braids",
-    "price": 490,
+    "price": 550,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Darling+Afro+Bulk+Crochet+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323082/ol85l5cy7s89w3ohmgj6.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323082/ol85l5cy7s89w3ohmgj6.jpg"
   },
   {
     "id": "spring-curls-hair-crochet-braid",
