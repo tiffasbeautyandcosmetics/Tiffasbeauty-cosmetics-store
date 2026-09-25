@@ -5222,13 +5222,14 @@
   },
   {
     "id": "elegant-hair-braid",
-    "name": "Elegant Hair Braid",
+    "name": "Elegant Hair Braid.",
     "category": "Hair & Braids",
-    "price": 170,
+    "price": 200,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Elegant+Hair+Braid",
-    "description": ""
+    "stockQty": 4,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323317/rj3sa8mkpkkvsuogpeet.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323317/rj3sa8mkpkkvsuogpeet.jpg"
   },
   {
     "id": "riva-loc-crochet-hair-braid",
