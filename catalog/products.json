@@ -125,11 +125,12 @@
     "id": "acetone-big",
     "name": "ACETONE BIG",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 100,
     "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325602/qromzqsyq9qqoeyazxwl.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325602/qromzqsyq9qqoeyazxwl.jpg"
   },
   {
     "id": "acetone-small",
