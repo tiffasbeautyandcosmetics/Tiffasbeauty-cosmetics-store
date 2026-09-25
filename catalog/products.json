@@ -190,11 +190,12 @@
     "id": "always-max-thick",
     "name": "ALWAYS MAX THICK",
     "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "price": 150,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327090/t6loh4axfvhmqttoyflp.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327090/t6loh4axfvhmqttoyflp.jpg"
   },
   {
     "id": "am-beauty-rose-water-300ml",
