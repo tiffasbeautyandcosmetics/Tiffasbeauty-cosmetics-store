@@ -365,11 +365,12 @@
     "id": "angels-jibambe-long-2",
     "name": "ANGELS JIBAMBE LONG 2",
     "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": false,
-    "stockQty": -6,
-    "image": null,
-    "description": ""
+    "price": 80,
+    "inStock": true,
+    "stockQty": 40,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330643/qwtrqmx8ydxhcvmjkbyk.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330643/qwtrqmx8ydxhcvmjkbyk.jpg"
   },
   {
     "id": "angels-jibambe-long-27",
