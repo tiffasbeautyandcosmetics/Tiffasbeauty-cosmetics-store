@@ -266,7 +266,7 @@
   },
   {
     "id": "amara-ltn-4-men-200ml",
-    "name": "AMARA LTN 4/MEN 200ML.",
+    "name": "AMARA LOTION 4/MEN 200ML.",
     "category": "Beauty & Cosmetics",
     "price": 220,
     "inStock": true,
@@ -277,7 +277,7 @@
   },
   {
     "id": "amara-ltn-b-milk-600-ml",
-    "name": "AMARA LTN B/MILK 600 ML",
+    "name": "AMARA LOTION B/MILK 600 ML",
     "category": "Beauty & Cosmetics",
     "price": 580,
     "inStock": true,
@@ -288,7 +288,7 @@
   },
   {
     "id": "amara-ltn-c-b-600ml",
-    "name": "AMARA LTN C/B 600ML",
+    "name": "AMARA LOTION C/B 600ML",
     "category": "Beauty & Cosmetics",
     "price": 580,
     "inStock": true,
@@ -1676,7 +1676,7 @@
   },
   {
     "id": "dove-ltn-body-love-400ml-204",
-    "name": "DOVE LTN BODY LOVE 400ML",
+    "name": "DOVE LOTION BODY LOVE 400ML",
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
@@ -1686,7 +1686,7 @@
   },
   {
     "id": "dove-ltn-essential-care-400ml-205",
-    "name": "DOVE LTN ESSENTIAL CARE 400ML",
+    "name": "DOVE LOTION ESSENTIAL CARE 400ML",
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
@@ -1696,7 +1696,7 @@
   },
   {
     "id": "dove-ltn-glowing-care-400ml-206",
-    "name": "DOVE LTN GLOWING CARE 400ML",
+    "name": "DOVE LOTION GLOWING CARE 400ML",
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
@@ -1706,7 +1706,7 @@
   },
   {
     "id": "dove-ltn-invigorating-400ml-207",
-    "name": "DOVE LTN INVIGORATING 400ML",
+    "name": "DOVE LOTION INVIGORATING 400ML",
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
@@ -1716,7 +1716,7 @@
   },
   {
     "id": "dove-ltn-restore-400ml-208",
-    "name": "DOVE LTN RESTORE 400ML",
+    "name": "DOVE LOTION RESTORE 400ML",
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": false,
@@ -3077,7 +3077,7 @@
   },
   {
     "id": "n-l-200ml-coco-butter-ltn-345",
-    "name": "N/L 200ML COCO BUTTER LTN",
+    "name": "N/L 200ML COCO BUTTER LOTION",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3097,7 +3097,7 @@
   },
   {
     "id": "n-l-cool-ltn-4-men-200ml-347",
-    "name": "N/L COOL LTN 4 MEN 200ML",
+    "name": "N/L COOL LOTION 4 MEN 200ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -3107,7 +3107,7 @@
   },
   {
     "id": "n-l-cool-ltn-4-men-400ml-348",
-    "name": "N/L COOL LTN 4 MEN 400ML",
+    "name": "N/L COOL LOTION 4 MEN 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": false,
@@ -4567,7 +4567,7 @@
   },
   {
     "id": "zoe-200ml-milk-dry-ltn-498",
-    "name": "ZOE 200ML MILK DRY LTN",
+    "name": "ZOE 200ML MILK DRY LOTION",
     "category": "Beauty & Cosmetics",
     "price": 180,
     "inStock": true,
