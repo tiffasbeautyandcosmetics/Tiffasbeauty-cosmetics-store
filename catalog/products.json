@@ -300,11 +300,12 @@
     "id": "amara-ltn-c-b-600ml",
     "name": "AMARA LTN C/B 600ML",
     "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "price": 580,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328622/srejir8otuiv6mk5sq9v.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328622/srejir8otuiv6mk5sq9v.jpg"
   },
   {
     "id": "angel-pony-tail-350",
