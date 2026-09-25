@@ -5673,5 +5673,16 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330501/cpcarhexbfdrbzhm0ist.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330501/cpcarhexbfdrbzhm0ist.jpg"
+  },
+  {
+    "id": "angels-ponytail-2-30",
+    "name": "ANGELS PONYTAIL 2/30",
+    "category": "Beauty & Cosmetics",
+    "price": 220,
+    "inStock": true,
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334706/f815nntnxclxozz0fl4o.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334706/f815nntnxclxozz0fl4o.jpg"
   }
 ]
