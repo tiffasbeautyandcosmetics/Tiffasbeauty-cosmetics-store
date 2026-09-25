@@ -5321,13 +5321,14 @@
   },
   {
     "id": "mambo-twist-crochet-long-braid",
-    "name": "Mambo Twist Crochet Long Braid",
+    "name": "Mambo Twist Crochet Long Braid.",
     "category": "Hair & Braids",
-    "price": 500,
+    "price": 550,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Mambo+Twist+Crochet+Long+Braid",
-    "description": ""
+    "stockQty": 3,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324029/utsxnyfooeafbaffi5e2.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324029/utsxnyfooeafbaffi5e2.jpg"
   },
   {
     "id": "gypsy-locs-crochet-hair-braid",
