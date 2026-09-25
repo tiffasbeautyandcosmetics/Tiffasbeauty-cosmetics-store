@@ -443,10 +443,11 @@
     "name": "ANGELS NATURAL LOCS 1 HANDMADE",
     "category": "Beauty & Cosmetics",
     "price": 650,
-    "inStock": false,
-    "stockQty": -1,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 50,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334442/vjtxq5ujgexrfjjcg6id.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334442/vjtxq5ujgexrfjjcg6id.jpg"
   },
   {
     "id": "angels-natural-locs-1-27-handmade",
