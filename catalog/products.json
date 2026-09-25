@@ -418,13 +418,14 @@
   },
   {
     "id": "angels-jibambe-short-350",
-    "name": "ANGELS JIBAMBE SHORT 350",
+    "name": "ANGELS JIBAMBE SHORT 350.",
     "category": "Beauty & Cosmetics",
-    "price": 70,
+    "price": 80,
     "inStock": true,
-    "stockQty": 3,
-    "image": null,
-    "description": ""
+    "stockQty": 30,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790331027/lzw6ccxobieagh27pff1.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790331027/lzw6ccxobieagh27pff1.jpg"
   },
   {
     "id": "angels-jibambe-short-350-2",
