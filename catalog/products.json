@@ -5169,11 +5169,12 @@
     "id": "darling-extra-long-braid",
     "name": "Darling Extra Long Braid",
     "category": "Hair & Braids",
-    "price": 240,
+    "price": 250,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Darling+Extra+Long+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322875/djyfqwrchklbbtzyi3c7.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322875/djyfqwrchklbbtzyi3c7.jpg"
   },
   {
     "id": "hi-yaki-hair-braid",
