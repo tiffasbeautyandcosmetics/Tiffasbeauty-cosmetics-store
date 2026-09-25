@@ -5343,13 +5343,14 @@
   },
   {
     "id": "faux-locks-crochet-hair-braid",
-    "name": "Faux Locks Crochet Hair Braid",
+    "name": "Faux Locks Crochet Hair Braid.",
     "category": "Hair & Braids",
-    "price": 710,
+    "price": 800,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Faux+Locks+Crochet+Hair+Braid",
-    "description": ""
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324160/jbfaskdh5gwwk3f1prct.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324160/jbfaskdh5gwwk3f1prct.jpg"
   },
   {
     "id": "distress-butterfly-locks-crochet-braid-long",
