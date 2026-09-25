@@ -515,32 +515,12 @@
     "description": ""
   },
   {
-    "id": "angels-soft-dread-loc-1-27-2",
-    "name": "ANGELS SOFT DREAD LOC 1/27",
-    "category": "Beauty & Cosmetics",
-    "price": 370,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "angels-soft-dread-loc-1-350",
     "name": "ANGELS SOFT DREAD LOC 1/350",
     "category": "Beauty & Cosmetics",
     "price": 370,
     "inStock": false,
     "stockQty": 0,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "angels-soft-dread-loc-1-350-2",
-    "name": "ANGELS SOFT DREAD LOC 1/350",
-    "category": "Beauty & Cosmetics",
-    "price": 370,
-    "inStock": false,
-    "stockQty": -2,
     "image": null,
     "description": ""
   },
