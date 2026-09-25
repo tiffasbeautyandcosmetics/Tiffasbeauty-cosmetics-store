@@ -93,10 +93,11 @@
     "name": "A FACE PONDS",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317841/w0knecuetkoopvbbbke4.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317841/w0knecuetkoopvbbbke4.jpg"
   },
   {
     "id": "abuja-long-1",
