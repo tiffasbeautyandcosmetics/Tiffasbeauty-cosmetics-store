@@ -538,13 +538,14 @@
   },
   {
     "id": "arimis-50ml",
-    "name": "ARIMIS 50ML",
+    "name": "ARIMIS 50ML.",
     "category": "Beauty & Cosmetics",
     "price": 40,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336251/htkzlvwe7mlv6cklvaij.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336251/htkzlvwe7mlv6cklvaij.jpg"
   },
   {
     "id": "arimis-90ml",
