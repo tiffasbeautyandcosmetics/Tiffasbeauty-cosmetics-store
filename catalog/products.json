@@ -5397,16 +5397,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324454/zjntlec5h1t88w6pj8zl.jpg"
   },
   {
-    "id": "twinkle-kids-hair-braid-collection",
-    "name": "Twinkle Kids Hair Braid Collection",
-    "category": "Hair & Braids",
-    "price": 260,
-    "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Twinkle+Kids+Hair+Braid+Collection",
-    "description": ""
-  },
-  {
     "id": "luna-kinky-crochet-hair-braid-sistar",
     "name": "Luna Kinky Crochet Hair Braid Sistar",
     "category": "Hair & Braids",
