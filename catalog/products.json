@@ -5136,11 +5136,12 @@
     "id": "angels-afro-bulk-crochet-braid",
     "name": "Angels Afro-bulk Crochet Braid",
     "category": "Hair & Braids",
-    "price": 520,
+    "price": 600,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Angels+Afro-bulk+Crochet+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322387/z66zmmhkuaf7updidynp.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322387/z66zmmhkuaf7updidynp.jpg"
   },
   {
     "id": "angele-afro-kinky-crochet-braid",
