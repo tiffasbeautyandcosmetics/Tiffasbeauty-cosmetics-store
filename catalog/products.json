@@ -602,13 +602,14 @@
   },
   {
     "id": "baby-love-anti-dandruff-50g",
-    "name": "BABY LOVE ANTI DANDRUFF 50G",
+    "name": "BABY LOVE ANTI DANDRUFF 50G.",
     "category": "Beauty & Cosmetics",
-    "price": 100,
+    "price": 70,
     "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": ""
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338338/cdanrcopjznovmqpqmmf.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338338/cdanrcopjznovmqpqmmf.jpg"
   },
   {
     "id": "baby-love-special-base-500g",
