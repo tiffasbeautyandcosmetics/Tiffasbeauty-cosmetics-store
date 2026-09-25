@@ -5116,9 +5116,10 @@
     "category": "Hair & Braids",
     "price": 90,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Darling+Pamoja+Hair+Braid",
-    "description": ""
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322188/oic6xkfuz43vyhlijske.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322188/oic6xkfuz43vyhlijske.jpg"
   },
   {
     "id": "darling-passion-twist",
