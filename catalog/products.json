@@ -5060,11 +5060,12 @@
     "id": "nubian-twist-crochet-braids",
     "name": "Nubian Twist Crochet Braids",
     "category": "Hair & Braids",
-    "price": 450,
+    "price": 550,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Nubian+Twist+Crochet+Braids",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321682/kiajbpqqafo5c4d4bmqf.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321682/kiajbpqqafo5c4d4bmqf.jpg"
   },
   {
     "id": "soft-dread-naturals",
