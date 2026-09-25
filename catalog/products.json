@@ -290,10 +290,11 @@
     "name": "AMARA LTN B/MILK 600 ML",
     "category": "Beauty & Cosmetics",
     "price": 580,
-    "inStock": false,
-    "stockQty": -1,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328537/tqq2z9e1h0ex3vd7nnlb.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328537/tqq2z9e1h0ex3vd7nnlb.jpg"
   },
   {
     "id": "amara-ltn-c-b-600ml",
