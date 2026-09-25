@@ -5189,13 +5189,14 @@
   },
   {
     "id": "ultra-hi-yaki-hair-braid",
-    "name": "Ultra Hi-yaki Hair Braid",
+    "name": "Ultra Hi-yaki Hair Braid.",
     "category": "Hair & Braids",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Ultra+Hi-yaki+Hair+Braid",
-    "description": ""
+    "stockQty": 3,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323017/u76xwmsnf4yyfmlyek2v.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323017/u76xwmsnf4yyfmlyek2v.jpg"
   },
   {
     "id": "darling-afro-bulk-crochet-braid",
