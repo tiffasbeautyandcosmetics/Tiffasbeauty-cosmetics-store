@@ -5586,5 +5586,16 @@
     "stockQty": 4,
     "image": null,
     "description": ""
+  },
+  {
+    "id": "angel-avis-60-350-1-1-27-1-900-1-grey-etc",
+    "name": "ANGEL AVIS 60,350,1,1/27,1/900,1/GREY ETC",
+    "category": "Beauty & Cosmetics",
+    "price": 90,
+    "inStock": true,
+    "stockQty": 30,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337554/w5xjw6msiy5e1loxp1kc.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337554/w5xjw6msiy5e1loxp1kc.jpg"
   }
 ]
