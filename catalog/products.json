@@ -224,10 +224,11 @@
     "name": "AMARA BOBY MILK 200ML",
     "category": "Beauty & Cosmetics",
     "price": 210,
-    "inStock": false,
-    "stockQty": -1,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327743/jzvtakzbd3qd2fusa2ur.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327743/jzvtakzbd3qd2fusa2ur.jpg"
   },
   {
     "id": "amara-cocoa-butter-200ml",
