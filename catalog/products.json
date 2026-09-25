@@ -5013,16 +5013,6 @@
     "description": ""
   },
   {
-    "id": "abuja-normal-braid-long",
-    "name": "Abuja Normal Braid Long",
-    "category": "Hair & Braids",
-    "price": 90,
-    "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Abuja+Normal+Braid+Long",
-    "description": ""
-  },
-  {
     "id": "abuja-normal-braid-short",
     "name": "Abuja Normal Braid Short",
     "category": "Hair & Braids",
