@@ -5400,11 +5400,12 @@
     "id": "luna-kinky-crochet-hair-braid-sistar",
     "name": "Luna Kinky Crochet Hair Braid Sistar",
     "category": "Hair & Braids",
-    "price": 500,
+    "price": 550,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Luna+Kinky+Crochet+Hair+Braid+Sistar",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324591/rodhxfwfqimae50hhsll.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324591/rodhxfwfqimae50hhsll.jpg"
   },
   {
     "id": "synthetic-wavy-curly-braid-hair-20inch",
@@ -5559,5 +5560,27 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322528/rx2y3gmehswf2cua1bga.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322528/rx2y3gmehswf2cua1bga.jpg"
+  },
+  {
+    "id": "luna-kinky-crochet-hair-braid-sistar-3",
+    "name": "Luna Kinky Crochet Hair Braid Sistar.",
+    "category": "Hair & Braids",
+    "price": 550,
+    "inStock": true,
+    "stockQty": 6,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324623/x6wfun9mbludep7ygr0s.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324623/x6wfun9mbludep7ygr0s.jpg"
+  },
+  {
+    "id": "luna-kinky-crochet-hair-braid-sistar-2",
+    "name": "Luna Kinky Crochet Hair Braid Sistar.",
+    "category": "Hair & Braids",
+    "price": 550,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324607/ywbuj3evyeyioyiwz0el.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324607/ywbuj3evyeyioyiwz0el.jpg"
   }
 ]
