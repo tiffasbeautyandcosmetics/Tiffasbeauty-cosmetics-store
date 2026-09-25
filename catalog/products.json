@@ -5605,5 +5605,27 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338481/lf59upgygp6bumiz9htu.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338481/lf59upgygp6bumiz9htu.jpg"
+  },
+  {
+    "id": "bamsi-apple-fresh-shampoo-500ml-2",
+    "name": "BAMSI APPLE FRESH SHAMPOO 500ML.",
+    "category": "Beauty & Cosmetics",
+    "price": 180,
+    "inStock": true,
+    "stockQty": 2,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339186/txzzieqdy8qygkwmrnup.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339186/txzzieqdy8qygkwmrnup.jpg"
+  },
+  {
+    "id": "bamsi-apple-fresh-shampoo-500ml",
+    "name": "BAMSI APPLE FRESH SHAMPOO 500ML",
+    "category": "Beauty & Cosmetics",
+    "price": 180,
+    "inStock": true,
+    "stockQty": 2,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339156/t1kg6fdi31ihzokybiux.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339156/t1kg6fdi31ihzokybiux.jpg"
   }
 ]
