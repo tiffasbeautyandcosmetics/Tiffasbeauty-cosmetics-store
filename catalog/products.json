@@ -5125,11 +5125,12 @@
     "id": "darling-passion-twist",
     "name": "Darling Passion Twist",
     "category": "Hair & Braids",
-    "price": 670,
+    "price": 750,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Darling+Passion+Twist",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322257/asecqvkznxge41jzdm95.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322257/asecqvkznxge41jzdm95.jpg"
   },
   {
     "id": "angels-afro-bulk-crochet-braid",
