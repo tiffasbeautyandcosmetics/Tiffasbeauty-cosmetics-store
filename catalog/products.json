@@ -177,16 +177,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326707/wc10ahpvadse5jzuc6hn.jpg"
   },
   {
-    "id": "alisons-rose-water",
-    "name": "ALISONS ROSE WATER",
-    "category": "Beauty & Cosmetics",
-    "price": 200,
-    "inStock": false,
-    "stockQty": 0,
-    "image": "https://pharmily.co.ke/storage/files/2024/05/13/21Alison_Rose_Water_200ml_Fgc87cY.jpg",
-    "description": ""
-  },
-  {
     "id": "always-max-thick",
     "name": "ALWAYS MAX THICK",
     "category": "Beauty & Cosmetics",
