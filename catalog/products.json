@@ -515,34 +515,15 @@
     "description": ""
   },
   {
-    "id": "angels-soft-dread-loc-1-350",
-    "name": "ANGELS SOFT DREAD LOC 1/350",
-    "category": "Beauty & Cosmetics",
-    "price": 370,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "angels-soft-dread-loc-2-30",
-    "name": "ANGELS SOFT DREAD LOC 2/30",
-    "category": "Beauty & Cosmetics",
-    "price": 370,
-    "inStock": false,
-    "stockQty": -2,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "arimis-200ml",
     "name": "ARIMIS 200ML",
     "category": "Beauty & Cosmetics",
     "price": 120,
     "inStock": true,
     "stockQty": 5,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336077/kja6mz3gbnafkm04wu9d.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336077/kja6mz3gbnafkm04wu9d.jpg"
   },
   {
     "id": "arimis-25ml",
