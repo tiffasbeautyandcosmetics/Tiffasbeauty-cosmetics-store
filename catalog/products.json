@@ -5491,8 +5491,9 @@
     "price": 770,
     "inStock": true,
     "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Lush+Vida",
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325293/asqw4v88qndfu09fhav0.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325293/asqw4v88qndfu09fhav0.jpg"
   },
   {
     "id": "lush-loose-wave",
@@ -5569,5 +5570,37 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324607/ywbuj3evyeyioyiwz0el.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324607/ywbuj3evyeyioyiwz0el.jpg"
+  },
+  {
+    "id": "lush-arafa",
+    "name": "Lush Arafa",
+    "category": "Hair & Braids",
+    "price": 550,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://placehold.co/300x300/png?text=Lush+Arafa",
+    "description": ""
+  },
+  {
+    "id": "lush-vida-3",
+    "name": "Lush Vida.",
+    "category": "Hair & Braids",
+    "price": 810,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325335/wca75ig2f4awuj7dymrt.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325335/wca75ig2f4awuj7dymrt.jpg"
+  },
+  {
+    "id": "lush-vida-2",
+    "name": "Lush Vida",
+    "category": "Hair & Braids",
+    "price": 810,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325317/bfaepynf6dfrujwvdjlp.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325317/bfaepynf6dfrujwvdjlp.jpg"
   }
 ]
