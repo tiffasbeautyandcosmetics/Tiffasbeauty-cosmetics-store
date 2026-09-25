@@ -5013,16 +5013,6 @@
     "description": ""
   },
   {
-    "id": "abuja-normal-braid-short",
-    "name": "Abuja Normal Braid Short",
-    "category": "Hair & Braids",
-    "price": 90,
-    "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Abuja+Normal+Braid+Short",
-    "description": ""
-  },
-  {
     "id": "fluffy-kinky-crochet-braid",
     "name": "Fluffy Kinky Crochet Braid",
     "category": "Hair & Braids",
@@ -5501,5 +5491,16 @@
     "stockQty": 1,
     "image": "https://placehold.co/300x300/png?text=Lush+Loose+Wave",
     "description": ""
+  },
+  {
+    "id": "abuja-normal-braid-long",
+    "name": "Abuja Normal Braid Long",
+    "category": "Hair & Braids",
+    "price": 100,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321298/z0dcofctkvi6k63vivip.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321298/z0dcofctkvi6k63vivip.jpg"
   }
 ]
