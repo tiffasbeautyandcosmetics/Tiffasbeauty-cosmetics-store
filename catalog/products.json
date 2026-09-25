@@ -150,8 +150,9 @@
     "price": 50,
     "inStock": true,
     "stockQty": 7,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325869/k8dluklyc9a3bx3ksdrm.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325869/k8dluklyc9a3bx3ksdrm.jpg"
   },
   {
     "id": "afro-comb-small",
@@ -5595,5 +5596,16 @@
     "stockQty": 2,
     "image": null,
     "description": ""
+  },
+  {
+    "id": "afro-comb-big-2",
+    "name": "AFRO COMB BIG.",
+    "category": "Beauty & Cosmetics",
+    "price": 50,
+    "inStock": true,
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325903/uooojbz9awaaxroc0ng9.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325903/uooojbz9awaaxroc0ng9.jpg"
   }
 ]
