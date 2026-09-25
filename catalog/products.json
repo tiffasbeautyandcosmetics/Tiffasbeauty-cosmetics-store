@@ -5299,13 +5299,14 @@
   },
   {
     "id": "rio-carnival-hair-braid",
-    "name": "Rio Carnival Hair Braid",
+    "name": "Rio Carnival Hair Braid.",
     "category": "Hair & Braids",
-    "price": 210,
+    "price": 250,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Rio+Carnival+Hair+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323890/bkmy7j1zzd4ohnneupij.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323890/bkmy7j1zzd4ohnneupij.jpg"
   },
   {
     "id": "mambo-twist-crochet-short-braid",
