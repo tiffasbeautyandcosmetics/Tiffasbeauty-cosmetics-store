@@ -5464,13 +5464,14 @@
   },
   {
     "id": "sistar-coco-braids",
-    "name": "Sistar Coco braids",
+    "name": "Sistar Coco braids.",
     "category": "Hair & Braids",
-    "price": 670,
+    "price": 720,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Sistar+Coco+braids",
-    "description": ""
+    "stockQty": 3,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325181/qciz8bsxo83hu54finny.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325181/qciz8bsxo83hu54finny.jpg"
   },
   {
     "id": "lush-arafa",
