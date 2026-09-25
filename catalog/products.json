@@ -254,13 +254,14 @@
   },
   {
     "id": "amara-hydrating-glycerine",
-    "name": "AMARA HYDRATING GLYCERINE",
+    "name": "AMARA HYDRATING GLYCERINE.",
     "category": "Beauty & Cosmetics",
     "price": 210,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328021/px2lseildgxuptfjokmh.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328021/px2lseildgxuptfjokmh.jpg"
   },
   {
     "id": "amara-jojoba-200ml",
