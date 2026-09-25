@@ -144,40 +144,10 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325689/aah707jtfmtt8akrm0zd.jpg"
   },
   {
-    "id": "afrfo-comb-big",
-    "name": "AFRFO COMB BIG",
-    "category": "Beauty & Cosmetics",
-    "price": 50,
-    "inStock": false,
-    "stockQty": -6,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "afro-bulk-1",
     "name": "AFRO BULK 1",
     "category": "Beauty & Cosmetics",
     "price": 500,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "afro-bulk-1-27",
-    "name": "AFRO BULK 1/27",
-    "category": "Beauty & Cosmetics",
-    "price": 550,
-    "inStock": false,
-    "stockQty": -2,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "afro-bulk-1-350",
-    "name": "AFRO BULK 1/350",
-    "category": "Beauty & Cosmetics",
-    "price": 550,
     "inStock": true,
     "stockQty": 2,
     "image": null,
