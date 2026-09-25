@@ -235,10 +235,11 @@
     "name": "AMARA COCOA BUTTER 200ML",
     "category": "Beauty & Cosmetics",
     "price": 210,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327851/rx6ksydm7egriu1kqdnq.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327851/rx6ksydm7egriu1kqdnq.jpg"
   },
   {
     "id": "amara-coconut",
