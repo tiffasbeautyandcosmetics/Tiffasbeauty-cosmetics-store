@@ -5640,5 +5640,16 @@
     "stockQty": 2,
     "image": null,
     "description": ""
+  },
+  {
+    "id": "angels-natural-locs",
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330278/wuqfikp1ozn3u0jtdmln.jpg",
+    "name": "ANGELS NATURAL LOCS",
+    "category": "Hair & Braids",
+    "description": "",
+    "price": 650,
+    "stockQty": 6,
+    "inStock": true,
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330278/wuqfikp1ozn3u0jtdmln.jpg"
   }
 ]
