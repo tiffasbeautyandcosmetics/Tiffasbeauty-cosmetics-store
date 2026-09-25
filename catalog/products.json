@@ -331,16 +331,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330393/vamdfjhkhp26nrhdwkeg.jpg"
   },
   {
-    "id": "angels-jibambe-long",
-    "name": "ANGELS JIBAMBE LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": false,
-    "stockQty": 0,
-    "image": "https://mybigorder.com/public/uploads/all/V0NFBiTfBh595uFATGxXY3eeGWWr2WhuA9nXukkk.png",
-    "description": ""
-  },
-  {
     "id": "angels-jibambe-long-1-350",
     "name": "ANGELS JIBAMBE LONG 1/350.",
     "category": "Beauty & Cosmetics",
