@@ -485,12 +485,13 @@
   {
     "id": "angels-ponytail-2",
     "name": "ANGELS PONYTAIL 2",
-    "category": "Beauty & Cosmetics",
-    "price": 220,
+    "category": "Hair & Braids",
+    "price": 250,
     "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": ""
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335534/mg5ishibuosgp8ceqqmh.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335534/mg5ishibuosgp8ceqqmh.jpg"
   },
   {
     "id": "angels-ponytail-350",
@@ -5676,5 +5677,15 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334706/f815nntnxclxozz0fl4o.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334706/f815nntnxclxozz0fl4o.jpg"
+  },
+  {
+    "id": "angels-ponytail-27",
+    "name": "ANGELS PONYTAIL 27",
+    "category": "Beauty & Cosmetics",
+    "price": 220,
+    "inStock": false,
+    "stockQty": 0,
+    "image": null,
+    "description": ""
   }
 ]
