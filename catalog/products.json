@@ -114,11 +114,12 @@
     "id": "abuja-short-1",
     "name": "ABUJA SHORT 1",
     "category": "Beauty & Cosmetics",
-    "price": 80,
+    "price": 100,
     "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": ""
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317999/texkwbyupb29a9z2f5lo.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317999/texkwbyupb29a9z2f5lo.jpg"
   },
   {
     "id": "acetone-big",
