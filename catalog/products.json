@@ -82,10 +82,11 @@
     "name": "4IN1 FOOTSCRUBBER",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": -3,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317358/avmprlgjd28nozssktit.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317358/avmprlgjd28nozssktit.jpg"
   },
   {
     "id": "a-face-ponds",
