@@ -5433,11 +5433,12 @@
     "id": "darling-boho-twist-crochet",
     "name": "Darling Boho Twist Crochet",
     "category": "Hair & Braids",
-    "price": 990,
+    "price": 950,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Darling+Boho+Twist+Crochet",
-    "description": ""
+    "stockQty": 4,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324960/cmargmw4rsjmvaglfwym.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324960/cmargmw4rsjmvaglfwym.jpg"
   },
   {
     "id": "darling-twinkle-hair-braid-kids",
