@@ -580,46 +580,6 @@
     "description": ""
   },
   {
-    "id": "avl-1",
-    "name": "AVL 1",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "avl-30",
-    "name": "AVL 30",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "avl-33",
-    "name": "AVL 33",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 3,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "avl-350",
-    "name": "AVL 350",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 4,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "avs-27",
     "name": "AVS 27",
     "category": "Beauty & Cosmetics",
