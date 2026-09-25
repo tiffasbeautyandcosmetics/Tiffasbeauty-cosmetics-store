@@ -530,10 +530,11 @@
     "name": "ARIMIS 25ML",
     "category": "Beauty & Cosmetics",
     "price": 25,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336125/deugjy0u6ehkjgy4mqgy.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336125/deugjy0u6ehkjgy4mqgy.jpg"
   },
   {
     "id": "arimis-50ml",
@@ -5660,5 +5661,26 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335865/yokb9cwpurkr1s1yqtgc.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335865/yokb9cwpurkr1s1yqtgc.jpg"
+  },
+  {
+    "id": "angels-soft-dread-loc-1-350",
+    "name": "ANGELS SOFT DREAD LOC 1/350",
+    "category": "Beauty & Cosmetics",
+    "price": 370,
+    "inStock": false,
+    "stockQty": 0,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "arimis-25ml-2",
+    "name": "ARIMIS 25ML.",
+    "category": "Beauty & Cosmetics",
+    "price": 25,
+    "inStock": true,
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336159/kvesi0n3i4chqnlx0fk8.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336159/kvesi0n3i4chqnlx0fk8.jpg"
   }
 ]
