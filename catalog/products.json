@@ -5027,11 +5027,12 @@
     "id": "darling-ultra-xpression",
     "name": "Darling Ultra Xpression",
     "category": "Hair & Braids",
-    "price": 550,
+    "price": 600,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Darling+Ultra+Xpression",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321432/xktersl24cfg9lz1edlr.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321432/xktersl24cfg9lz1edlr.jpg"
   },
   {
     "id": "abuja-extra-long-braids",
