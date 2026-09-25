@@ -5011,5 +5011,505 @@
     "stockQty": 0,
     "image": null,
     "description": ""
+  },
+  {
+    "id": "abuja-normal-braid-long",
+    "name": "Abuja Normal Braid Long",
+    "category": "Hair & Braids",
+    "price": 90,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Abuja+Normal+Braid+Long",
+    "description": ""
+  },
+  {
+    "id": "abuja-normal-braid-short",
+    "name": "Abuja Normal Braid Short",
+    "category": "Hair & Braids",
+    "price": 90,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Abuja+Normal+Braid+Short",
+    "description": ""
+  },
+  {
+    "id": "fluffy-kinky-crochet-braid",
+    "name": "Fluffy Kinky Crochet Braid",
+    "category": "Hair & Braids",
+    "price": 390,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Fluffy+Kinky+Crochet+Braid",
+    "description": ""
+  },
+  {
+    "id": "darling-ultra-xpression",
+    "name": "Darling Ultra Xpression",
+    "category": "Hair & Braids",
+    "price": 550,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+Ultra+Xpression",
+    "description": ""
+  },
+  {
+    "id": "abuja-extra-long-braids",
+    "name": "Abuja Extra Long Braids",
+    "category": "Hair & Braids",
+    "price": 280,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Abuja+Extra+Long+Braids",
+    "description": ""
+  },
+  {
+    "id": "angels-guess-girl-crochet-braid",
+    "name": "Angels Guess Girl Crochet Braid",
+    "category": "Hair & Braids",
+    "price": 440,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Angels+Guess+Girl+Crochet+Braid",
+    "description": ""
+  },
+  {
+    "id": "nubian-twist-crochet-braids",
+    "name": "Nubian Twist Crochet Braids",
+    "category": "Hair & Braids",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Nubian+Twist+Crochet+Braids",
+    "description": ""
+  },
+  {
+    "id": "soft-dread-naturals",
+    "name": "Soft Dread Naturals",
+    "category": "Hair & Braids",
+    "price": 400,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Soft+Dread+Naturals",
+    "description": ""
+  },
+  {
+    "id": "angels-avis-short-braid",
+    "name": "Angels Avis Short Braid",
+    "category": "Hair & Braids",
+    "price": 90,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Angels+Avis+Short+Braid",
+    "description": ""
+  },
+  {
+    "id": "darling-one-million-braid",
+    "name": "Darling One Million Braid",
+    "category": "Hair & Braids",
+    "price": 480,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+One+Million+Braid",
+    "description": ""
+  },
+  {
+    "id": "darling-superstar-hair-braid",
+    "name": "Darling Superstar Hair Braid",
+    "category": "Hair & Braids",
+    "price": 420,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+Superstar+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "darling-pamoja-hair-braid",
+    "name": "Darling Pamoja Hair Braid",
+    "category": "Hair & Braids",
+    "price": 90,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+Pamoja+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "darling-passion-twist",
+    "name": "Darling Passion Twist",
+    "category": "Hair & Braids",
+    "price": 670,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+Passion+Twist",
+    "description": ""
+  },
+  {
+    "id": "angels-afro-bulk-crochet-braid",
+    "name": "Angels Afro-bulk Crochet Braid",
+    "category": "Hair & Braids",
+    "price": 520,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Angels+Afro-bulk+Crochet+Braid",
+    "description": ""
+  },
+  {
+    "id": "angele-afro-kinky-crochet-braid",
+    "name": "Angele Afro Kinky Crochet Braid",
+    "category": "Hair & Braids",
+    "price": 400,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Angele+Afro+Kinky+Crochet+Braid",
+    "description": ""
+  },
+  {
+    "id": "angels-marley-braid",
+    "name": "Angels Marley Braid",
+    "category": "Hair & Braids",
+    "price": 520,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Angels+Marley+Braid",
+    "description": ""
+  },
+  {
+    "id": "darling-extra-long-braid",
+    "name": "Darling Extra Long Braid",
+    "category": "Hair & Braids",
+    "price": 240,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+Extra+Long+Braid",
+    "description": ""
+  },
+  {
+    "id": "hi-yaki-hair-braid",
+    "name": "Hi-yaki Hair Braid",
+    "category": "Hair & Braids",
+    "price": 140,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Hi-yaki+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "ultra-hi-yaki-hair-braid",
+    "name": "Ultra Hi-yaki Hair Braid",
+    "category": "Hair & Braids",
+    "price": 150,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Ultra+Hi-yaki+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "darling-afro-bulk-crochet-braid",
+    "name": "Darling Afro Bulk Crochet Braid",
+    "category": "Hair & Braids",
+    "price": 490,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+Afro+Bulk+Crochet+Braid",
+    "description": ""
+  },
+  {
+    "id": "spring-curls-hair-crochet-braid",
+    "name": "Spring Curls Hair Crochet Braid",
+    "category": "Hair & Braids",
+    "price": 550,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Spring+Curls+Hair+Crochet+Braid",
+    "description": ""
+  },
+  {
+    "id": "elegant-hair-braid",
+    "name": "Elegant Hair Braid",
+    "category": "Hair & Braids",
+    "price": 170,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Elegant+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "riva-loc-crochet-hair-braid",
+    "name": "Riva Loc Crochet Hair Braid",
+    "category": "Hair & Braids",
+    "price": 1260,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Riva+Loc+Crochet+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "fluffy-kinky-long-crochet-braid",
+    "name": "Fluffy Kinky Long Crochet Braid",
+    "category": "Hair & Braids",
+    "price": 440,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Fluffy+Kinky+Long+Crochet+Braid",
+    "description": ""
+  },
+  {
+    "id": "salsa-hair-braid",
+    "name": "Salsa Hair Braid",
+    "category": "Hair & Braids",
+    "price": 190,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Salsa+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "darling-empress-brazilian-wave",
+    "name": "Darling Empress Brazilian Wave",
+    "category": "Hair & Braids",
+    "price": 1580,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+Empress+Brazilian+Wave",
+    "description": ""
+  },
+  {
+    "id": "peruvian-bulk-hair-braid",
+    "name": "Peruvian Bulk Hair Braid",
+    "category": "Hair & Braids",
+    "price": 900,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Peruvian+Bulk+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "spanish-bulk-hair-braid",
+    "name": "Spanish Bulk Hair Braid",
+    "category": "Hair & Braids",
+    "price": 220,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Spanish+Bulk+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "rio-carnival-hair-braid",
+    "name": "Rio Carnival Hair Braid",
+    "category": "Hair & Braids",
+    "price": 210,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Rio+Carnival+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "mambo-twist-crochet-short-braid",
+    "name": "Mambo Twist Crochet Short Braid",
+    "category": "Hair & Braids",
+    "price": 520,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Mambo+Twist+Crochet+Short+Braid",
+    "description": ""
+  },
+  {
+    "id": "mambo-twist-crochet-long-braid",
+    "name": "Mambo Twist Crochet Long Braid",
+    "category": "Hair & Braids",
+    "price": 500,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Mambo+Twist+Crochet+Long+Braid",
+    "description": ""
+  },
+  {
+    "id": "gypsy-locs-crochet-hair-braid",
+    "name": "Gypsy Locs Crochet Hair Braid",
+    "category": "Hair & Braids",
+    "price": 1270,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Gypsy+Locs+Crochet+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "faux-locks-crochet-hair-braid",
+    "name": "Faux Locks Crochet Hair Braid",
+    "category": "Hair & Braids",
+    "price": 710,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Faux+Locks+Crochet+Hair+Braid",
+    "description": ""
+  },
+  {
+    "id": "distress-butterfly-locks-crochet-braid-long",
+    "name": "Distress Butterfly Locks Crochet Braid Long",
+    "category": "Hair & Braids",
+    "price": 1320,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Distress+Butterfly+Locks+Crochet+Braid+Long",
+    "description": ""
+  },
+  {
+    "id": "distress-butterfly-locks-crochet-braid-short",
+    "name": "Distress Butterfly Locks Crochet Braid Short",
+    "category": "Hair & Braids",
+    "price": 1050,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Distress+Butterfly+Locks+Crochet+Braid+Short",
+    "description": ""
+  },
+  {
+    "id": "3-tone-ombre-hair-braid-24inch",
+    "name": "3 Tone Ombre Hair Braid 24inch",
+    "category": "Hair & Braids",
+    "price": 820,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=3+Tone+Ombre+Hair+Braid+24inch",
+    "description": ""
+  },
+  {
+    "id": "baju-kids-hair-braid-soft",
+    "name": "Baju Kids Hair Braid Soft",
+    "category": "Hair & Braids",
+    "price": 320,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Baju+Kids+Hair+Braid+Soft",
+    "description": ""
+  },
+  {
+    "id": "twinkle-kids-hair-braid-collection",
+    "name": "Twinkle Kids Hair Braid Collection",
+    "category": "Hair & Braids",
+    "price": 260,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Twinkle+Kids+Hair+Braid+Collection",
+    "description": ""
+  },
+  {
+    "id": "luna-kinky-crochet-hair-braid-sistar",
+    "name": "Luna Kinky Crochet Hair Braid Sistar",
+    "category": "Hair & Braids",
+    "price": 500,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Luna+Kinky+Crochet+Hair+Braid+Sistar",
+    "description": ""
+  },
+  {
+    "id": "synthetic-wavy-curly-braid-hair-20inch",
+    "name": "Synthetic Wavy Curly Braid Hair 20inch",
+    "category": "Hair & Braids",
+    "price": 1710,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Synthetic+Wavy+Curly+Braid+Hair+20inch",
+    "description": ""
+  },
+  {
+    "id": "synthetic-princess-curly-hair-braid-20inch",
+    "name": "Synthetic Princess Curly Hair Braid 20inch",
+    "category": "Hair & Braids",
+    "price": 850,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Synthetic+Princess+Curly+Hair+Braid+20inch",
+    "description": ""
+  },
+  {
+    "id": "darling-boho-twist-crochet",
+    "name": "Darling Boho Twist Crochet",
+    "category": "Hair & Braids",
+    "price": 990,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+Boho+Twist+Crochet",
+    "description": ""
+  },
+  {
+    "id": "darling-twinkle-hair-braid-kids",
+    "name": "Darling Twinkle Hair Braid Kids",
+    "category": "Hair & Braids",
+    "price": 80,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Darling+Twinkle+Hair+Braid+Kids",
+    "description": ""
+  },
+  {
+    "id": "fulani-lush",
+    "name": "Fulani Lush",
+    "category": "Hair & Braids",
+    "price": 440,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Fulani+Lush",
+    "description": ""
+  },
+  {
+    "id": "havana-curls",
+    "name": "Havana curls",
+    "category": "Hair & Braids",
+    "price": 560,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Havana+curls",
+    "description": ""
+  },
+  {
+    "id": "sistar-coco-braids",
+    "name": "Sistar Coco braids",
+    "category": "Hair & Braids",
+    "price": 670,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Sistar+Coco+braids",
+    "description": ""
+  },
+  {
+    "id": "lush-arafa",
+    "name": "Lush Arafa",
+    "category": "Hair & Braids",
+    "price": 550,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Lush+Arafa",
+    "description": ""
+  },
+  {
+    "id": "lush-shaniz",
+    "name": "Lush Shaniz",
+    "category": "Hair & Braids",
+    "price": 750,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Lush+Shaniz",
+    "description": ""
+  },
+  {
+    "id": "lush-vida",
+    "name": "Lush Vida",
+    "category": "Hair & Braids",
+    "price": 770,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Lush+Vida",
+    "description": ""
+  },
+  {
+    "id": "lush-loose-wave",
+    "name": "Lush Loose Wave",
+    "category": "Hair & Braids",
+    "price": 700,
+    "inStock": true,
+    "stockQty": 1,
+    "image": "https://via.placeholder.com/150?text=Lush+Loose+Wave",
+    "description": ""
   }
 ]
