@@ -155,24 +155,15 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325869/k8dluklyc9a3bx3ksdrm.jpg"
   },
   {
-    "id": "afro-comb-small",
-    "name": "AFRO COMB SMALL",
-    "category": "Beauty & Cosmetics",
-    "price": 20,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "afro-comb-small-colours",
-    "name": "AFRO COMB SMALL COLOURS",
+    "name": "AFRO COMB SMALL COLOURS.",
     "category": "Beauty & Cosmetics",
     "price": 30,
     "inStock": true,
     "stockQty": 8,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325993/xwnnupxurqsvajipzkql.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325993/xwnnupxurqsvajipzkql.jpg"
   },
   {
     "id": "afro-kinky-no-1",
