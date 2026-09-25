@@ -454,10 +454,11 @@
     "name": "ANGELS NATURAL LOCS 1/27 HANDMADE",
     "category": "Beauty & Cosmetics",
     "price": 650,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334514/frscyhushbvv8jjptlki.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334514/frscyhushbvv8jjptlki.jpg"
   },
   {
     "id": "angels-pony-tail-1",
