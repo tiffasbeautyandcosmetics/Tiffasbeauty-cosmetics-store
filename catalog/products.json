@@ -103,11 +103,12 @@
     "id": "abuja-long-1",
     "name": "ABUJA LONG 1",
     "category": "Beauty & Cosmetics",
-    "price": 80,
+    "price": 100,
     "inStock": true,
-    "stockQty": 6,
-    "image": null,
-    "description": ""
+    "stockQty": 50,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317914/xltmfyki3sruqm7nlelz.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317914/xltmfyki3sruqm7nlelz.jpg"
   },
   {
     "id": "abuja-short-1",
