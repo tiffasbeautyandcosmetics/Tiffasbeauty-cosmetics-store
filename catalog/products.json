@@ -5233,13 +5233,14 @@
   },
   {
     "id": "riva-loc-crochet-hair-braid",
-    "name": "Riva Loc Crochet Hair Braid",
+    "name": "Riva Loc Crochet Hair Braid.",
     "category": "Hair & Braids",
-    "price": 1260,
+    "price": 1310,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Riva+Loc+Crochet+Hair+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323389/uhb3ftpvhvjklzbdlcpi.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323389/uhb3ftpvhvjklzbdlcpi.jpg"
   },
   {
     "id": "fluffy-kinky-long-crochet-braid",
