@@ -431,11 +431,12 @@
     "id": "angels-jibambe-short-350-2",
     "name": "ANGELS JIBAMBE SHORT 350",
     "category": "Beauty & Cosmetics",
-    "price": 70,
+    "price": 80,
     "inStock": true,
-    "stockQty": 4,
-    "image": null,
-    "description": ""
+    "stockQty": 40,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334312/oszmjxhizqiswsmkuzyh.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334312/oszmjxhizqiswsmkuzyh.jpg"
   },
   {
     "id": "angels-natural-locs-1-handmade",
