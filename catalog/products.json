@@ -590,36 +590,6 @@
     "description": ""
   },
   {
-    "id": "avl-1-grey",
-    "name": "AVL 1/GREY",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "avl-2",
-    "name": "AVL 2",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": false,
-    "stockQty": -7,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "avl-27",
-    "name": "AVL 27",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 3,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "avl-30",
     "name": "AVL 30",
     "category": "Beauty & Cosmetics",
