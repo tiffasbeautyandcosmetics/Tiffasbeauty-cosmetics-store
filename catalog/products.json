@@ -5519,5 +5519,16 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321365/qx9uoumnvldmdrwfpriy.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321365/qx9uoumnvldmdrwfpriy.jpg"
+  },
+  {
+    "id": "angels-avis-short-braid-2",
+    "name": "Angels Avis Short Braid 2",
+    "category": "Hair & Braids",
+    "price": 90,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321839/hfcuk3vxqc17u1rbe48n.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321839/hfcuk3vxqc17u1rbe48n.jpg"
   }
 ]
