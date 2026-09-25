@@ -5312,11 +5312,12 @@
     "id": "mambo-twist-crochet-short-braid",
     "name": "Mambo Twist Crochet Short Braid",
     "category": "Hair & Braids",
-    "price": 520,
+    "price": 600,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Mambo+Twist+Crochet+Short+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323952/w7jmpzvyewv59urmlrxq.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323952/w7jmpzvyewv59urmlrxq.jpg"
   },
   {
     "id": "mambo-twist-crochet-long-braid",
