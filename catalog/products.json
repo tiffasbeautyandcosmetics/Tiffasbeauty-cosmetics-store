@@ -5609,5 +5609,16 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326435/hkpgo1zwvxk24ispf8ha.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326435/hkpgo1zwvxk24ispf8ha.jpg"
+  },
+  {
+    "id": "alisons-rose-water-spray",
+    "name": "ALISONS ROSE WATER(spray)",
+    "category": "Beauty & Cosmetics",
+    "price": 200,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326612/cwvbfaw7o9ekjuigeynd.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326612/cwvbfaw7o9ekjuigeynd.jpg"
   }
 ]
