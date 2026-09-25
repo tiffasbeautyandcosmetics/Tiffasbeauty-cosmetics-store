@@ -496,12 +496,13 @@
   {
     "id": "angels-ponytail-350",
     "name": "ANGELS PONYTAIL 350",
-    "category": "Beauty & Cosmetics",
-    "price": 220,
+    "category": "Hair & Braids",
+    "price": 250,
     "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": ""
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335622/etmm5b8kyiagdghhui6g.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335622/etmm5b8kyiagdghhui6g.jpg"
   },
   {
     "id": "angels-soft-dread-loc-1-27",
