@@ -5071,11 +5071,12 @@
     "id": "soft-dread-naturals",
     "name": "Soft Dread Naturals",
     "category": "Hair & Braids",
-    "price": 400,
+    "price": 500,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Soft+Dread+Naturals",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321761/bqjwtb1ccqyf8znppore.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321761/bqjwtb1ccqyf8znppore.jpg"
   },
   {
     "id": "angels-avis-short-braid",
