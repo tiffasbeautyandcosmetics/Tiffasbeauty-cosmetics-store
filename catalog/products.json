@@ -2562,7 +2562,7 @@
     "price": 550,
     "inStock": false,
     "stockQty": -4,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221598/221598_main.jpg",
     "description": ""
   },
   {
@@ -2642,7 +2642,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221665/1730721003/221665_main.jpg",
     "description": ""
   },
   {
@@ -2652,7 +2652,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221665/1730721003/221665_main.jpg",
     "description": ""
   },
   {
@@ -2662,7 +2662,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221673/221673_main.jpg",
     "description": ""
   },
   {
@@ -2672,7 +2672,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221673/221673_main.jpg",
     "description": ""
   },
   {
@@ -2682,7 +2682,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221675/221675_main.jpg",
     "description": ""
   },
   {
@@ -2692,7 +2692,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221673/221673_main.jpg",
     "description": ""
   },
   {
@@ -2702,7 +2702,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221665/1730721003/221665_main.jpg",
     "description": ""
   },
   {
@@ -2712,7 +2712,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221665/1730721003/221665_main.jpg",
     "description": ""
   },
   {
@@ -5262,7 +5262,7 @@
     "price": 550,
     "inStock": true,
     "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Lush+Arafa",
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221598/221598_main.jpg",
     "description": ""
   },
   {
