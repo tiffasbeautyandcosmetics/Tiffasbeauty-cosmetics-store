@@ -5422,11 +5422,12 @@
     "id": "synthetic-princess-curly-hair-braid-20inch",
     "name": "Synthetic Princess Curly Hair Braid 20inch",
     "category": "Hair & Braids",
-    "price": 850,
+    "price": 950,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Synthetic+Princess+Curly+Hair+Braid+20inch",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324773/qmhxrexpyarsq2q2ktmd.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324773/qmhxrexpyarsq2q2ktmd.jpg"
   },
   {
     "id": "darling-boho-twist-crochet",
