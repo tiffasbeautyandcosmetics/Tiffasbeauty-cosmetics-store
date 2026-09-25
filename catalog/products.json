@@ -329,16 +329,6 @@
     "description": ""
   },
   {
-    "id": "angels-fluffy-kinky-extra-1",
-    "name": "ANGELS FLUFFY KINKY EXTRA 1",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "angels-fluffy-kinky-extra-27",
     "name": "ANGELS FLUFFY KINKY EXTRA 27",
     "category": "Beauty & Cosmetics",
@@ -5540,17 +5530,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325335/wca75ig2f4awuj7dymrt.jpg"
   },
   {
-    "id": "lush-vida-2",
-    "name": "Lush Vida",
-    "category": "Hair & Braids",
-    "price": 810,
-    "inStock": true,
-    "stockQty": 5,
-    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325317/bfaepynf6dfrujwvdjlp.jpg",
-    "description": "",
-    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325317/bfaepynf6dfrujwvdjlp.jpg"
-  },
-  {
     "id": "afro-bulk-1-27",
     "name": "AFRO BULK 1/27",
     "category": "Beauty & Cosmetics",
@@ -5623,5 +5602,71 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328230/ygluddj7z8g1vbl6b01f.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328230/ygluddj7z8g1vbl6b01f.jpg"
+  },
+  {
+    "id": "afrfo-comb-big",
+    "name": "AFRFO COMB BIG",
+    "category": "Beauty & Cosmetics",
+    "price": 50,
+    "inStock": false,
+    "stockQty": -6,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325837/ycexbfqwg0bulrfrw0mq.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325837/ycexbfqwg0bulrfrw0mq.jpg"
+  },
+  {
+    "id": "alisons-rose-water-spray-3",
+    "name": "ALISONS ROSE WATER(spray)",
+    "category": "Beauty & Cosmetics",
+    "price": 200,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326798/cwhgxslnkpmzptjdtqjm.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326798/cwhgxslnkpmzptjdtqjm.jpg"
+  },
+  {
+    "id": "alisons-rose-water-spray-2",
+    "name": "ALISONS ROSE WATER(spray)",
+    "category": "Beauty & Cosmetics",
+    "price": 200,
+    "inStock": false,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326766/hsljsqbylgf8vj7ydubl.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326766/hsljsqbylgf8vj7ydubl.jpg"
+  },
+  {
+    "id": "alisons-rose-water-spray-5",
+    "name": "ALISONS ROSE WATER(spray).",
+    "category": "Beauty & Cosmetics",
+    "price": 200,
+    "inStock": true,
+    "stockQty": 3,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326880/ugqrqwswwitbirzn4rk8.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326880/ugqrqwswwitbirzn4rk8.jpg"
+  },
+  {
+    "id": "alisons-rose-water-spray-4",
+    "name": "ALISONS ROSE WATER(spray)",
+    "category": "Beauty & Cosmetics",
+    "price": 200,
+    "inStock": true,
+    "stockQty": 0,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326963/kjkew14tjouqozbvijro.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326963/kjkew14tjouqozbvijro.jpg"
+  },
+  {
+    "id": "amara-for-men-200ml",
+    "name": "AMARA FOR MEN 200ML",
+    "category": "Beauty & Cosmetics",
+    "price": 220,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328167/u7df0j8cb5thruibnok8.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328167/u7df0j8cb5thruibnok8.jpg"
   }
 ]
