@@ -1662,7 +1662,7 @@
     "price": 300,
     "inStock": true,
     "stockQty": 1,
-    "image": null,
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/237715/1731502803/237715_main.jpg",
     "description": ""
   },
   {
@@ -5186,7 +5186,7 @@
     "price": 700,
     "inStock": true,
     "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Lush+Loose+Wave",
+    "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221658/221658_main.jpg",
     "description": ""
   },
   {
@@ -5283,7 +5283,7 @@
     "price": 550,
     "inStock": false,
     "stockQty": -2,
-    "image": null,
+    "image": "https://i.ebayimg.com/images/g/Az4AAOSwXZZjWZQW/s-l1200.jpg",
     "description": ""
   },
   {
@@ -5293,7 +5293,7 @@
     "price": 550,
     "inStock": true,
     "stockQty": 2,
-    "image": null,
+    "image": "https://cdn.quickbutik.com/images/21574v/products/67bcfc03eb1b6.jpeg?auto=format&fit=crop&h=500&w=500",
     "description": ""
   },
   {
@@ -5454,7 +5454,7 @@
     "price": 1,
     "inStock": true,
     "stockQty": 2,
-    "image": null,
+    "image": "https://media.takealot.com/covers_images/c5b36669fc764a16ac99cbaa2cbfd0c5/s-zoom.file",
     "description": ""
   },
   {
@@ -5464,7 +5464,7 @@
     "price": 1,
     "inStock": true,
     "stockQty": 2,
-    "image": null,
+    "image": "https://media.takealot.com/covers_images/c5b36669fc764a16ac99cbaa2cbfd0c5/s-zoom.file",
     "description": ""
   },
   {
@@ -5474,7 +5474,7 @@
     "price": 1,
     "inStock": true,
     "stockQty": 2,
-    "image": null,
+    "image": "https://media.takealot.com/covers_images/c5b36669fc764a16ac99cbaa2cbfd0c5/s-zoom.file",
     "description": ""
   },
   {
