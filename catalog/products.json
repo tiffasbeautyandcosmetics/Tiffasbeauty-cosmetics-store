@@ -465,10 +465,11 @@
     "name": "ANGELS PONY TAIL 1",
     "category": "Beauty & Cosmetics",
     "price": 220,
-    "inStock": false,
-    "stockQty": -2,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 10,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335146/xrdazwgj0ffs2zm4ubhd.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335146/xrdazwgj0ffs2zm4ubhd.jpg"
   },
   {
     "id": "angels-pony-tail-27",
