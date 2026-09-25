@@ -612,17 +612,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338338/cdanrcopjznovmqpqmmf.jpg"
   },
   {
-    "id": "baby-love-special-base-500g",
-    "name": "BABY LOVE SPECIAL BASE 500G",
-    "category": "Beauty & Cosmetics",
-    "price": 350,
-    "inStock": true,
-    "stockQty": 2,
-    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338563/sprxucmhbfistjjeb4hs.jpg",
-    "description": "",
-    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338563/sprxucmhbfistjjeb4hs.jpg"
-  },
-  {
     "id": "bamsi-apple-fresh-shampoo",
     "name": "BAMSI APPLE FRESH SHAMPOO",
     "category": "Beauty & Cosmetics",
@@ -638,9 +627,10 @@
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339101/ilkzfcepax2ixaoas4we.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339101/ilkzfcepax2ixaoas4we.jpg"
   },
   {
     "id": "bamsi-babylove-500g",
