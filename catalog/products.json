@@ -41,7 +41,7 @@
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 1,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790272695/hukfcmoyovpwq9ugotqn.jpg",
     "description": ""
   },
