@@ -5354,13 +5354,14 @@
   },
   {
     "id": "distress-butterfly-locks-crochet-braid-long",
-    "name": "Distress Butterfly Locks Crochet Braid Long",
+    "name": "Distress Butterfly Locks Crochet Braid Long.",
     "category": "Hair & Braids",
-    "price": 1320,
+    "price": 1450,
     "inStock": true,
     "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Distress+Butterfly+Locks+Crochet+Braid+Long",
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324229/xp8wjyt8ukoub1fet5wv.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324229/xp8wjyt8ukoub1fet5wv.jpg"
   },
   {
     "id": "distress-butterfly-locks-crochet-braid-short",
