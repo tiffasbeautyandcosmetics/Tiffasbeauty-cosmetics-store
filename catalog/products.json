@@ -267,11 +267,12 @@
     "id": "amara-jojoba-200ml",
     "name": "AMARA JOJOBA 200ML",
     "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "price": 180,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328097/cfp2bnjw3u5jp37omefs.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328097/cfp2bnjw3u5jp37omefs.jpg"
   },
   {
     "id": "amara-ltn-4-men-200ml",
