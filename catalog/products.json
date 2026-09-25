@@ -5244,13 +5244,14 @@
   },
   {
     "id": "fluffy-kinky-long-crochet-braid",
-    "name": "Fluffy Kinky Long Crochet Braid",
+    "name": "Fluffy Kinky Long Crochet Braid.",
     "category": "Hair & Braids",
-    "price": 440,
+    "price": 520,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Fluffy+Kinky+Long+Crochet+Braid",
-    "description": ""
+    "stockQty": 4,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323469/fbhrehgucbrb9a4r0omu.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323469/fbhrehgucbrb9a4r0omu.jpg"
   },
   {
     "id": "salsa-hair-braid",
