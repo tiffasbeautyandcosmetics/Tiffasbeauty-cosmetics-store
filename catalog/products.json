@@ -5016,11 +5016,12 @@
     "id": "fluffy-kinky-crochet-braid",
     "name": "Fluffy Kinky Crochet Braid",
     "category": "Hair & Braids",
-    "price": 390,
+    "price": 450,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Fluffy+Kinky+Crochet+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321353/n8nxqalfkczndpsjekry.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321353/n8nxqalfkczndpsjekry.jpg"
   },
   {
     "id": "darling-ultra-xpression",
@@ -5502,5 +5503,16 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321298/z0dcofctkvi6k63vivip.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321298/z0dcofctkvi6k63vivip.jpg"
+  },
+  {
+    "id": "fluffy-kinky-crochet-braid-2",
+    "name": "Fluffy Kinky Crochet Braid",
+    "category": "Hair & Braids",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321365/qx9uoumnvldmdrwfpriy.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321365/qx9uoumnvldmdrwfpriy.jpg"
   }
 ]
