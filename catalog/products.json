@@ -5290,11 +5290,12 @@
     "id": "spanish-bulk-hair-braid",
     "name": "Spanish Bulk Hair Braid",
     "category": "Hair & Braids",
-    "price": 220,
+    "price": 300,
     "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Spanish+Bulk+Hair+Braid",
-    "description": ""
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg"
   },
   {
     "id": "rio-carnival-hair-braid",
