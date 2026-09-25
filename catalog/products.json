@@ -203,9 +203,10 @@
     "category": "Beauty & Cosmetics",
     "price": 300,
     "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "stockQty": 3,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327198/euzjrl5ajwvdzzikmgok.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327198/euzjrl5ajwvdzzikmgok.jpg"
   },
   {
     "id": "amara-argan-200ml",
