@@ -396,13 +396,14 @@
   },
   {
     "id": "angels-jibambe-long-99j",
-    "name": "ANGELS JIBAMBE LONG 99J",
+    "name": "ANGELS JIBAMBE LONG 99J.",
     "category": "Beauty & Cosmetics",
-    "price": 70,
+    "price": 80,
     "inStock": true,
-    "stockQty": 3,
-    "image": null,
-    "description": ""
+    "stockQty": 30,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330846/abkkhqdrdygonsausacq.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330846/abkkhqdrdygonsausacq.jpg"
   },
   {
     "id": "angels-jibambe-short-33",
