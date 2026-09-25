@@ -5674,5 +5674,16 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328167/u7df0j8cb5thruibnok8.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328167/u7df0j8cb5thruibnok8.jpg"
+  },
+  {
+    "id": "amara-for-men-200ml-2",
+    "name": "AMARA FOR MEN 200ML",
+    "category": "Beauty & Cosmetics",
+    "price": 220,
+    "inStock": true,
+    "stockQty": 4,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328230/ygluddj7z8g1vbl6b01f.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328230/ygluddj7z8g1vbl6b01f.jpg"
   }
 ]
