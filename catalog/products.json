@@ -5455,11 +5455,12 @@
     "id": "fulani-lush",
     "name": "Fulani Lush",
     "category": "Hair & Braids",
-    "price": 440,
+    "price": 500,
     "inStock": true,
     "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Fulani+Lush",
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325121/a09vpg2zfd2yfpx3gmjv.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325121/a09vpg2zfd2yfpx3gmjv.jpg"
   },
   {
     "id": "sistar-coco-braids",
