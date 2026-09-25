@@ -311,11 +311,12 @@
     "id": "angel-pony-tail-350",
     "name": "ANGEL PONY TAIL 350",
     "category": "Beauty & Cosmetics",
-    "price": 220,
-    "inStock": false,
-    "stockQty": -2,
-    "image": null,
-    "description": ""
+    "price": 250,
+    "inStock": true,
+    "stockQty": 5,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg"
   },
   {
     "id": "angelique-oil",
