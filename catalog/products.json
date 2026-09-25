@@ -5474,24 +5474,15 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325181/qciz8bsxo83hu54finny.jpg"
   },
   {
-    "id": "lush-arafa",
-    "name": "Lush Arafa",
-    "category": "Hair & Braids",
-    "price": 550,
-    "inStock": true,
-    "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Lush+Arafa",
-    "description": ""
-  },
-  {
     "id": "lush-shaniz",
     "name": "Lush Shaniz",
     "category": "Hair & Braids",
-    "price": 750,
+    "price": 810,
     "inStock": true,
     "stockQty": 1,
-    "image": "https://placehold.co/300x300/png?text=Lush+Shaniz",
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325258/qeacn9jgw1cptkt0kz1c.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325258/qeacn9jgw1cptkt0kz1c.jpg"
   },
   {
     "id": "lush-vida",
