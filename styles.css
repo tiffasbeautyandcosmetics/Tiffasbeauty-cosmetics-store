@@ -8,3 +8,5 @@
 .order-summary{border-top:1px solid #eee;border-bottom:1px solid #eee;margin:14px 0}
 .order-summary>div{display:flex;justify-content:space-between;gap:18px;padding:8px 0}
 .actions-stack{display:grid;gap:10px}
+
+.product-request{display:grid;gap:6px;margin:10px 0}.product-request span{font-size:12px;font-weight:600}.product-request input{width:100%;padding:9px 10px;border:1px solid #d9d2dc;border-radius:9px;font:inherit;background:#fff}.product-request input:focus{outline:2px solid #0002;border-color:#8e2a9d}
