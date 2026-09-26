@@ -572,16 +572,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338338/cdanrcopjznovmqpqmmf.jpg"
   },
   {
-    "id": "bamsi-apple-fresh-shampoo",
-    "name": "BAMSI APPLE FRESH SHAMPOO",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "bamsi-apricot-scrub",
     "name": "BAMSI APRICOT SCRUB",
     "category": "Beauty & Cosmetics",
@@ -624,16 +614,6 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338878/jzqmjbaet3wtr6lnnz1k.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338878/jzqmjbaet3wtr6lnnz1k.jpg"
-  },
-  {
-    "id": "bamsi-braiding-gel-40g",
-    "name": "BAMSI BRAIDING GEL 40G",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
   },
   {
     "id": "bamsi-braiding-wax",
@@ -5355,5 +5335,15 @@
     "description": "",
     "fallbackImage": "images/products/rose-leaf-ponds-big-1790190189509.jpg",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790270207/l5aef5gy4lztz7ihc225.jpg"
+  },
+  {
+    "id": "avs-60",
+    "name": "AVS 60",
+    "category": "Beauty & Cosmetics",
+    "price": 80,
+    "inStock": false,
+    "stockQty": -2,
+    "image": null,
+    "description": ""
   }
 ]
