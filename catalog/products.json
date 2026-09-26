@@ -190,10 +190,10 @@
   },
   {
     "id": "am-beauty-rose-water-300ml",
-    "name": "AM BEAUTY ROSE WATER 300ML",
+    "name": "AM BEAUTY ROSE WATER 300ML.",
     "category": "Beauty & Cosmetics",
     "price": 300,
-    "inStock": false,
+    "inStock": true,
     "stockQty": 3,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327198/euzjrl5ajwvdzzikmgok.jpg",
     "description": "",
