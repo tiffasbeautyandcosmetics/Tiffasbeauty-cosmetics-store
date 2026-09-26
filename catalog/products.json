@@ -550,16 +550,6 @@
     "description": ""
   },
   {
-    "id": "avs-60",
-    "name": "AVS 60",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": false,
-    "stockQty": -2,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "baby-love-anti-dandruff-125g",
     "name": "BABY LOVE ANTI DANDRUFF 125G",
     "category": "Beauty & Cosmetics",
