@@ -5325,5 +5325,25 @@
     "stockQty": -2,
     "image": null,
     "description": ""
+  },
+  {
+    "id": "assorted-metal-beeds",
+    "name": "ASSORTED METAL BEEDS",
+    "category": "Beauty & Cosmetics",
+    "price": 5,
+    "inStock": true,
+    "stockQty": 50,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "bamsi-shampoo-1lte",
+    "name": "BAMSI SHAMPOO -1LTE",
+    "category": "Beauty & Cosmetics",
+    "price": 300,
+    "inStock": true,
+    "stockQty": 1,
+    "image": null,
+    "description": ""
   }
 ]
