@@ -612,7 +612,7 @@
     "price": 160,
     "inStock": false,
     "stockQty": 0,
-    "image": "https://juja.keffys.co.ke/uploads/products/RMFDsFF4zgVKXQThH2kN6b1777552676.png",
+    "image": null,
     "description": ""
   },
   {
@@ -652,7 +652,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": -3,
-    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_145551.webp",
+    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
   },
   {
@@ -662,7 +662,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_145551.webp",
+    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
   },
   {
@@ -672,7 +672,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_145551.webp",
+    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
   },
   {
@@ -682,7 +682,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_145551.webp",
+    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
   },
   {
@@ -692,7 +692,7 @@
     "price": 120,
     "inStock": true,
     "stockQty": 3,
-    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_145551.webp",
+    "image": null,
     "description": ""
   },
   {
@@ -702,7 +702,7 @@
     "price": 250,
     "inStock": true,
     "stockQty": 3,
-    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_145551.webp",
+    "image": null,
     "description": ""
   },
   {
@@ -712,7 +712,7 @@
     "price": 150,
     "inStock": false,
     "stockQty": 0,
-    "image": "https://tslxcosmeticshop.co.ke/assets/uploads/products/product_49_1779360123_1.jpeg",
+    "image": null,
     "description": ""
   },
   {
@@ -742,7 +742,7 @@
     "price": 150,
     "inStock": false,
     "stockQty": 0,
-    "image": "https://tslxcosmeticshop.co.ke/assets/uploads/products/product_49_1779360123_1.jpeg",
+    "image": null,
     "description": ""
   },
   {
@@ -782,7 +782,7 @@
     "price": 400,
     "inStock": false,
     "stockQty": 0,
-    "image": "https://tslxcosmeticshop.co.ke/assets/uploads/products/product_49_1779360123_1.jpeg",
+    "image": null,
     "description": ""
   },
   {
@@ -792,7 +792,7 @@
     "price": 400,
     "inStock": false,
     "stockQty": 0,
-    "image": "https://tslxcosmeticshop.co.ke/assets/uploads/products/product_49_1779360123_1.jpeg",
+    "image": null,
     "description": ""
   },
   {
@@ -802,7 +802,7 @@
     "price": 100,
     "inStock": true,
     "stockQty": 2,
-    "image": "https://www.salonpoa.com/products/508/big/508.jpeg",
+    "image": null,
     "description": ""
   },
   {
@@ -822,7 +822,7 @@
     "price": 360,
     "inStock": true,
     "stockQty": 2,
-    "image": "https://www.salonpoa.com/products/508/big/508.jpeg",
+    "image": null,
     "description": ""
   },
   {
@@ -832,7 +832,7 @@
     "price": 1,
     "inStock": false,
     "stockQty": 0,
-    "image": "https://www.salonpoa.com/products/508/big/508.jpeg",
+    "image": null,
     "description": ""
   },
   {
