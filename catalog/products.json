@@ -776,16 +776,6 @@
     "description": ""
   },
   {
-    "id": "bamsi-shampoo-1lte",
-    "name": "BAMSI SHAMPOO -1LTE",
-    "category": "Beauty & Cosmetics",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 1,
-    "image": "https://www.salonpoa.com/products/508/big/508.jpeg",
-    "description": ""
-  },
-  {
     "id": "bamsi-shower-gel-berry-550ml",
     "name": "BAMSI SHOWER GEL BERRY 550ML",
     "category": "Beauty & Cosmetics",
