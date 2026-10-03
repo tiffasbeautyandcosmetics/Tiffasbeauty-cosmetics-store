@@ -22,7 +22,33 @@ document.addEventListener("DOMContentLoaded", () => {
   function needsCustomerChoice(p){return /jibambe|avis|pony\s*tail|natural\s*locs|soft\s*dread|asad|body\s*spray/i.test(String(p&&p.name||""));}
   function choicePrompt(p){var n=String(p&&p.name||"");return /jibambe|avis|pony\s*tail|natural\s*locs|soft\s*dread/i.test(n)?"Which braid / style / colour / number do you want?":"Which fragrance / variant / size do you want?";}
   function choicePlaceholder(p){var n=String(p&&p.name||"");return /jibambe|avis|pony\s*tail|natural\s*locs|soft\s*dread/i.test(n)?"e.g. 1, 1B, 27, 33, 1/27, etc.":"e.g. fragrance, size or variant";}
-  function imageSearchUrl(p){var raw=String((p&&p.imageQuery)||((p&&p.name)||"")).trim();var n=String(p&&p.name||"").replace(/\\bN\\/L\\b/gi,"NICE & LOVELY").replace(/\\bN&L\\b/gi,"NICE & LOVELY").replace(/\\bLTN\\b/gi,"LOTION").replace(/\\bH\\/FOOD\\b/gi,"HAIR FOOD").replace(/\\bTUMERIC\\b/gi,"TURMERIC").replace(/\\bTURMERIC SOAP\\+HONEY\\b/gi,"TURMERIC HONEY SOAP").replace(/\\bROSE LEAF PONDS SMALL POWDER\\b/i,"PONDS ROSE LEAF POWDER").replace(/\\bHAIR EXTENSION BABY BUDS\\b/i,"HAIR EXTENSION BABY BUDS CROCHET").replace(/\\bKYLIE MAKE UP\\b/i,"KYLIE COSMETICS MAKEUP").replace(/^L\\/QUINN\\b/i,"LUSH QUINN").replace(/^BLUE FR MEN$/i,"BLUE FOR MEN SMART COLLECTION DEODORANT BODY SPRAY").replace(/^POLO BLUE$/i,"SMART COLLECTION POLO BLUE EAU DE PARFUM").replace(/^POLO SPORT$/i,"SMART COLLECTION POLO SPORT EAU DE PARFUM").replace(/^RELATON POUR FEMME$/i,"RASASI RELATION POUR FEMME").replace(/^SCHOOL GIRL$/i,"SCHOOL GIRL SANITARY PADS KENYA").replace(/^DR\\. MEINAIER SNAIL WHITENINGCREAM 50G$/i,"DR MEINAIER SNAIL WHITENING CREAM 50G").replace(/^DR\\. MEINAIER WHITENING SCRUB$/i,"DR MEINAIER WHITENING SCRUB").replace(/\\bBAMSI LEAVE IN TREATMENT\\b/i,"BAMSI BABY LOVE LEAVE IN TREATMENT").replace(/\\bBAMSI MENTHOL\\b/i,"BAMSI MENTHOL HAIR TREATMENT").replace(/\\bCHARM MAX QTEX\\b/i,"CHARM MAX QTEX NAIL POLISH").replace(/\\bK\\.NAIL PERFECTFIT\\b/i,"K NAIL PERFECTFIT PRESS ON NAILS").replace(/\\bHOBBY MARSH MALLOW\\b/i,"HOBBY MARSHMALLOW SHOWER GEL").replace(/\\bHOTTIE NEW YORK\\b/i,"HOTTIE NEW YORK PERFUME").replace(/\\bJM  BLUE MIST\\b/i,"JM BLUE MIST PERFUME").replace(/\\s+/g," ").trim();var q=raw||n+" product photo";if(raw===n){q=n+" product photo";}return "https://tse1.mm.bing.net/th?q="+encodeURIComponent(q);}
+  function imageSearchUrl(p){
+    var raw=String((p&&p.imageQuery)||((p&&p.name)||"")).trim();
+    var n=String(p&&p.name||"").trim().replace(/\\s+/g," ");
+    var u=n.toUpperCase();
+    var aliases={
+      "ROSE LEAF PONDS SMALL POWDER":"PONDS ROSE LEAF POWDER",
+      "HAIR EXTENSION BABY BUDS":"HAIR EXTENSION BABY BUDS CROCHET",
+      "KYLIE MAKE UP":"KYLIE COSMETICS MAKEUP",
+      "BLUE FR MEN":"BLUE FOR MEN SMART COLLECTION DEODORANT BODY SPRAY",
+      "POLO BLUE":"SMART COLLECTION POLO BLUE EAU DE PARFUM",
+      "POLO SPORT":"SMART COLLECTION POLO SPORT EAU DE PARFUM",
+      "RELATON POUR FEMME":"RASASI RELATION POUR FEMME",
+      "DR. MEINAIER SNAIL WHITENINGCREAM 50G":"DR MEINAIER SNAIL WHITENING CREAM 50G",
+      "DR. MEINAIER WHITENING SCRUB":"DR MEINAIER WHITENING SCRUB",
+      "BAMSI LEAVE IN TREATMENT":"BAMSI BABY LOVE LEAVE IN TREATMENT",
+      "BAMSI MENTHOL":"BAMSI MENTHOL HAIR TREATMENT",
+      "CHARM MAX QTEX":"CHARM MAX QTEX NAIL POLISH",
+      "K.NAIL PERFECTFIT":"K NAIL PERFECTFIT PRESS ON NAILS",
+      "HOBBY MARSH MALLOW":"HOBBY MARSHMALLOW SHOWER GEL",
+      "HOTTIE NEW YORK":"HOTTIE NEW YORK PERFUME",
+      "JM BLUE MIST":"JM BLUE MIST PERFUME"
+    };
+    var fixed=aliases[u]||n;
+    fixed=fixed.replace(/\\bN\\/L\\b/gi,"NICE & LOVELY").replace(/\\bN&L\\b/gi,"NICE & LOVELY").replace(/\\bLTN\\b/gi,"LOTION").replace(/\\bH\\/FOOD\\b/gi,"HAIR FOOD").replace(/\\bTUMERIC\\b/gi,"TURMERIC");
+    var q=raw&&raw!==n?raw:fixed+" product photo";
+    return "https://tse1.mm.bing.net/th?q="+encodeURIComponent(q);
+  }
   function card(p){    var primary=p.image?resolveAsset(p.image):imageSearchUrl(p);    var fallback=p.fallbackImage?resolveAsset(p.fallbackImage):"";    var img=primary?"<img src=\"" + esc(primary) + "\" data-fallback=\"" + esc(fallback) + "\" alt=\"" + esc(p.name) + "\" loading=\"lazy\" onerror=\"if(this.dataset.fallback&&!this.dataset.triedFallback){this.dataset.triedFallback=\'1\';this.src=this.dataset.fallback;}else{this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\';}\"><span class=\"placeholder\" style=\"display:none\">" + esc((p.name||"B").charAt(0)) + "</span>" : "<span class=\"placeholder\">" + esc((p.name||"B").charAt(0)) + "</span>";    var add=(p.price!=null&&p.inStock!==false)?"<button class=\"add\" data-add=\"" + esc(p.id) + "\">Add</button>":"<button class=\"add\" disabled>Out of stock</button>";    var description=p.description?"<p class=\"product-description\">" + esc(p.description) + "</p>":"";    var requestField=needsCustomerChoice(p)?"<label class=\"product-request\"><span>" + esc(choicePrompt(p)) + "</span><input type=\"text\" data-request placeholder=\"" + esc(choicePlaceholder(p)) + "\" autocomplete=\"off\"></label>":"";    return "<article class=\"card\"><div class=\"card-media\">" + img + "</div><div class=\"card-body\"><small>" + esc(p.category||"Beauty & Cosmetics") + "</small><h3>" + esc(p.name) + "</h3>" + description + requestField + "<strong>" + (p.price==null?"Price on request":money(p.price)) + "</strong><div class=\"card-actions\"><a class=\"mini-wa\" href=\"" + wa("Hi " + STORE_NAME + "! I would like to order " + p.name + ".") + "\" target=\"_blank\" rel=\"noopener\">WhatsApp</a>" + add + "</div></div></article>";  }
   function render(){const term=query.trim().toLowerCase();const list=products.filter(p=>(category==="All"||p.category===category)&&(!term||String(p.name||"").toLowerCase().includes(term)||String(p.category||"").toLowerCase().includes(term)));$("count").textContent=`Showing ${list.length} of ${products.length} products`;$("grid").innerHTML=list.map(card).join("");$("empty").hidden=list.length!==0;}
   function categories(){const cats=["All",...new Set(products.map(p=>p.category).filter(Boolean))];$("categories").innerHTML=cats.map(c=>`<button type="button" class="pill ${c===category?"active":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");}
