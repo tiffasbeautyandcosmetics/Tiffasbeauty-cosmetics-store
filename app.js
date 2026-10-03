@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
   function choicePlaceholder(p){var n=String(p&&p.name||"");return /jibambe|avis|pony\s*tail|natural\s*locs|soft\s*dread/i.test(n)?"e.g. 1, 1B, 27, 33, 1/27, etc.":"e.g. fragrance, size or variant";}
   function imageSearchUrl(p){
     var raw=String((p&&p.imageQuery)||((p&&p.name)||"")).trim();
-    var n=String(p&&p.name||"").trim().replace(/\\s+/g," ");
-    var u=n.toUpperCase();
+    var n=String(p&&p.name||"").trim();
+    var u=n.toUpperCase().split(" ").filter(Boolean).join(" ");
     var aliases={
       "ROSE LEAF PONDS SMALL POWDER":"PONDS ROSE LEAF POWDER",
       "HAIR EXTENSION BABY BUDS":"HAIR EXTENSION BABY BUDS CROCHET",
@@ -44,8 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
       "HOTTIE NEW YORK":"HOTTIE NEW YORK PERFUME",
       "JM BLUE MIST":"JM BLUE MIST PERFUME"
     };
-    var fixed=aliases[u]||n;
-    fixed=fixed.replace(/\\bN\\/L\\b/gi,"NICE & LOVELY").replace(/\\bN&L\\b/gi,"NICE & LOVELY").replace(/\\bLTN\\b/gi,"LOTION").replace(/\\bH\\/FOOD\\b/gi,"HAIR FOOD").replace(/\\bTUMERIC\\b/gi,"TURMERIC");
+    var fixed=aliases[u]||u;
+    fixed=fixed.split("N/L").join("NICE & LOVELY").split("N&L").join("NICE & LOVELY").split("LTN").join("LOTION").split("H/FOOD").join("HAIR FOOD").split("TUMERIC").join("TURMERIC");
     var q=raw&&raw!==n?raw:fixed+" product photo";
     return "https://tse1.mm.bing.net/th?q="+encodeURIComponent(q);
   }
