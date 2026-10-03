@@ -5441,9 +5441,10 @@
     "price": 120,
     "inStock": true,
     "stockQty": 1,
-    "image": null,
+    "image": "https://viwanda.ke/wp-content/uploads/2021/05/KB982_6530.jpg",
     "description": "",
-    "imageQuery": "Bamsi Hair fertilizer 50g product photo"
+    "imageQuery": "Bamsi Hair fertilizer 50g product photo",
+    "imageSource": "Verified product photo from web listing"
   },
   {
     "id": "bamsi-hair-fertilizer-125g",
@@ -6068,9 +6069,10 @@
     "price": 350,
     "inStock": true,
     "stockQty": 1,
-    "image": null,
+    "image": "https://almeyashop.fr/cdn/shop/files/IMG_7846.jpg?v=1719681923&width=1946",
     "description": "",
-    "imageQuery": "Yara Pink 35ml product photo"
+    "imageQuery": "Yara Pink 35ml product photo",
+    "imageSource": "Verified product photo from web listing"
   },
   {
     "id": "mayar-35ml",
@@ -6915,9 +6917,10 @@
     "price": 250,
     "inStock": true,
     "stockQty": 1,
-    "image": null,
+    "image": "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDgyMjY2fGltYWdlL2pwZWd8YUdVMEwyZ3lZaTh4TVRjd05Ea3pPVE00TURjMk5nfGNjNDY3YTlkYTY0NTYyNmI1NDk5ZjNjYzZkODEyNmU2MTUxMWFiOTQzMjY2MmQwNWViNTUzMmU4ZDY2YWE3MDk",
     "description": "",
-    "imageQuery": "Nivea Silver Protect 50ml product photo"
+    "imageQuery": "Nivea Silver Protect 50ml product photo",
+    "imageSource": "Verified product photo from web listing"
   },
   {
     "id": "vaseline-blue-seal-95ml",
@@ -6926,9 +6929,10 @@
     "price": 140,
     "inStock": true,
     "stockQty": 6,
-    "image": null,
+    "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h2b/hc2/49589997043742/480Wx480H_14292_main.jpg",
     "description": "",
-    "imageQuery": "Vaseline Blue Seal 95ml product photo"
+    "imageQuery": "Vaseline Blue Seal 95ml product photo",
+    "imageSource": "Verified product photo from web listing"
   },
   {
     "id": "vaseline-blueseal-for-men-45ml",
@@ -8345,9 +8349,10 @@
     "price": 140,
     "inStock": true,
     "stockQty": 3,
-    "image": null,
+    "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h2b/hc2/49589997043742/480Wx480H_14292_main.jpg",
     "description": "",
-    "imageQuery": "Vaseline Blue Seal 95ml product photo"
+    "imageQuery": "Vaseline Blue Seal 95ml product photo",
+    "imageSource": "Verified product photo from web listing"
   },
   {
     "id": "vaseline-perfumed-jelly-240ml-2",
@@ -8367,9 +8372,10 @@
     "price": 500,
     "inStock": true,
     "stockQty": 1,
-    "image": null,
+    "image": "https://gihanbeauty.com/cdn/shop/files/6223012452399_8a3d1aec-845d-4f59-a43d-afc195545e83.jpg?v=1742811979&width=1080",
     "description": "",
-    "imageQuery": "ORS Olive oil Sheen Spray 450ml product photo"
+    "imageQuery": "ORS Olive oil Sheen Spray 450ml product photo",
+    "imageSource": "Verified product photo from web listing"
   },
   {
     "id": "ors-olive-oil-sheen-spray-250ml",
