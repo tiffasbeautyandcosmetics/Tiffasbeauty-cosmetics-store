@@ -69,5 +69,12 @@ document.addEventListener("DOMContentLoaded", () => {
   ["topWhatsapp","heroWhatsapp","footerWhatsapp"].forEach(id=>{const el=$(id);if(el){el.href=wa(`Hi ${STORE_NAME}! I'd like to know more about your products.`);if(id==="footerWhatsapp")el.textContent="0725 679 016";}});
   function updateBankSummary(){$("bankHeroName").textContent=settings.bankName||"Bank transfer";$("bankHeroAccount").textContent=settings.accountNumber||"Set in Admin";$("bankStripName").textContent=settings.bankName?`${settings.bankName} • ${settings.accountName||""}`:"Payment details available at checkout";$("bankFooter").textContent=settings.bankName?`${settings.bankName} • A/C ${settings.accountNumber||"available at checkout"}`:"Bank transfer details available at checkout";}
   const backTop=$("backToTop");window.addEventListener("scroll",()=>{if(backTop)backTop.classList.toggle("show",window.scrollY>500)},{passive:true});if(backTop)backTop.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
-  const cacheBust=Date.now();const embeddedProducts=Array.isArray(window.TIFFAS_PRODUCTS)?window.TIFFAS_PRODUCTS:null;const settingsPromise=fetch(SETTINGS_URL+"?v="+cacheBust,{cache:"no-store"}).then(r=>r.ok?r.json():settings).catch(()=>settings);Promise.resolve(embeddedProducts).then(items=>{products=Array.isArray(items)?items:[];return settingsPromise;}).then(store=>{settings={...settings,...(store||{})};categories();render();renderCart();updateBankSummary();}).catch(e=>{console.error(e);$("count").textContent="Catalogue unavailable";$("grid").innerHTML="<div class='empty'>The catalogue could not be loaded. Please refresh the page.</div>";$("empty").hidden=true;updateBankSummary();});
+  const embeddedProducts=Array.isArray(window.TIFFAS_PRODUCTS)?window.TIFFAS_PRODUCTS:[];
+  products=embeddedProducts;
+  categories();
+  render();
+  renderCart();
+  updateBankSummary();
+  fetch(SETTINGS_URL+"?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():{};}).then(function(store){settings={...settings,...(store||{})};updateBankSummary();}).catch(function(e){console.warn("Store settings unavailable; catalogue remains available.",e);});
+
 });
