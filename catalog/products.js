@@ -5728,7 +5728,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shower Gels",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 2,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Shower gel 500ml product photo"
@@ -6455,7 +6455,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 2,
     "image": null,
     "description": "",
     "imageQuery": "Lost in wood 236ml product photo"
@@ -6510,7 +6510,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 2,
     "image": null,
     "description": "",
     "imageQuery": "Eclaire 110ml product photo"
@@ -6532,7 +6532,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 250,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 4,
     "image": null,
     "description": "",
     "imageQuery": "Tobacco Collection 110ml product photo"
@@ -6580,17 +6580,6 @@ window.TIFFAS_PRODUCTS = [
     "image": null,
     "description": "",
     "imageQuery": "Vanilla Small 59ml product photo"
-  },
-  {
-    "id": "lost-in-wood-236ml-2",
-    "name": "Lost in wood 236ml",
-    "category": "Body Splash",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": "",
-    "imageQuery": "Lost in wood 236ml product photo"
   },
   {
     "id": "twinkle-song-236ml",
@@ -6648,17 +6637,6 @@ window.TIFFAS_PRODUCTS = [
     "imageQuery": "Diamond Body Mist 110ml product photo"
   },
   {
-    "id": "tobacco-collection-110ml-2",
-    "name": "Tobacco Collection 110ml",
-    "category": "Body Mist",
-    "price": 250,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": "",
-    "imageQuery": "Tobacco Collection 110ml product photo"
-  },
-  {
     "id": "asad-black-asad-110ml",
     "name": "Asad Black Asad 110ml",
     "category": "Body Mist",
@@ -6701,17 +6679,6 @@ window.TIFFAS_PRODUCTS = [
     "image": null,
     "description": "",
     "imageQuery": "Yara Pink 110ml product photo"
-  },
-  {
-    "id": "eclaire-110ml-2",
-    "name": "Eclaire 110ml",
-    "category": "Body Mist",
-    "price": 250,
-    "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": "",
-    "imageQuery": "Eclaire 110ml product photo"
   },
   {
     "id": "asad-brown-90ml",
@@ -6929,7 +6896,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 140,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 9,
     "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h2b/hc2/49589997043742/480Wx480H_14292_main.jpg",
     "description": "",
     "imageQuery": "Vaseline Blue Seal 95ml product photo",
@@ -7161,7 +7128,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 110,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 10,
     "image": null,
     "description": "",
     "imageQuery": "Vaseline Blue Seal 45ml product photo"
@@ -7172,7 +7139,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 2,
     "image": null,
     "description": "",
     "imageQuery": "Vaseline perfumed Jelly 240ml product photo"
@@ -7396,17 +7363,6 @@ window.TIFFAS_PRODUCTS = [
     "image": null,
     "description": "",
     "imageQuery": "Snail repairing lotion 550ml product photo"
-  },
-  {
-    "id": "dr-rashel-shower-gel-500ml-2",
-    "name": "Dr Rashel Shower gel 500ml",
-    "category": "Skin Care",
-    "price": 550,
-    "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": "",
-    "imageQuery": "Dr Rashel Shower gel 500ml product photo"
   },
   {
     "id": "tumeric-whitening-oil-200ml",
@@ -8019,7 +7975,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 5,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Blue) 80g product photo"
@@ -8030,7 +7986,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 3,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Black) 50g product photo"
@@ -8041,7 +7997,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 4,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Black) 80g product photo"
@@ -8052,7 +8008,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 4,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Green) 50g product photo"
@@ -8063,7 +8019,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 4,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Green) 80g product photo"
@@ -8190,61 +8146,6 @@ window.TIFFAS_PRODUCTS = [
     "imageQuery": "Bamsi Moulding wax gel Blue 50g product photo"
   },
   {
-    "id": "bamsi-moulding-gel-wax-blue-80g-2",
-    "name": "Bamsi Moulding gel wax Blue 80g",
-    "category": "Moulding Wax",
-    "price": 180,
-    "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bamsi Moulding gel wax Blue 80g product photo"
-  },
-  {
-    "id": "bamsi-moulding-gel-wax-black-50g-2",
-    "name": "Bamsi Moulding gel wax Black 50g",
-    "category": "Moulding Wax",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bamsi Moulding gel wax Black 50g product photo"
-  },
-  {
-    "id": "bamsi-moulding-gel-wax-black-80g-2",
-    "name": "Bamsi Moulding gel wax Black 80g",
-    "category": "Moulding Wax",
-    "price": 180,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bamsi Moulding gel wax Black 80g product photo"
-  },
-  {
-    "id": "bamsi-moulding-gel-wax-green-50g-2",
-    "name": "Bamsi Moulding gel wax Green 50g",
-    "category": "Moulding Wax",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bamsi Moulding gel wax Green 50g product photo"
-  },
-  {
-    "id": "bamsi-moulding-gel-wax-green-80g-2",
-    "name": "Bamsi Moulding gel wax Green 80g",
-    "category": "Moulding Wax",
-    "price": 180,
-    "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bamsi Moulding gel wax Green 80g product photo"
-  },
-  {
     "id": "venus-curl-activator-50g",
     "name": "Venus Curl activator 50g",
     "category": "Curl Activator",
@@ -8331,40 +8232,6 @@ window.TIFFAS_PRODUCTS = [
     "image": null,
     "description": "",
     "imageQuery": "Movit Herbal Jelly 100ml product photo"
-  },
-  {
-    "id": "vaseline-blue-seal-45ml-2",
-    "name": "Vaseline Blue Seal 45ml",
-    "category": "Valon",
-    "price": 110,
-    "inStock": true,
-    "stockQty": 5,
-    "image": null,
-    "description": "",
-    "imageQuery": "Vaseline Blue Seal 45ml product photo"
-  },
-  {
-    "id": "vaseline-blue-seal-95ml-2",
-    "name": "Vaseline Blue Seal 95ml",
-    "category": "Valon",
-    "price": 140,
-    "inStock": true,
-    "stockQty": 3,
-    "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h2b/hc2/49589997043742/480Wx480H_14292_main.jpg",
-    "description": "",
-    "imageQuery": "Vaseline Blue Seal 95ml product photo",
-    "imageSource": "Verified product photo from web listing"
-  },
-  {
-    "id": "vaseline-perfumed-jelly-240ml-2",
-    "name": "Vaseline perfumed Jelly 240ml",
-    "category": "Valon",
-    "price": 350,
-    "inStock": true,
-    "stockQty": 1,
-    "image": null,
-    "description": "",
-    "imageQuery": "Vaseline perfumed Jelly 240ml product photo"
   },
   {
     "id": "ors-olive-oil-sheen-spray-450ml",
