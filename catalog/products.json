@@ -1230,26 +1230,6 @@
     "description": ""
   },
   {
-    "id": "clear-grown-up-beeds-179",
-    "name": "CLEAR GROWN UP BEEDS",
-    "category": "Beauty & Cosmetics",
-    "price": 5,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "clovers-brangles-1-50-180",
-    "name": "CLOVERS BRANGLES 1.50",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "coco-kiss-85ml-181",
     "name": "COCO KISS 85ML",
     "category": "Beauty & Cosmetics",
@@ -9390,6 +9370,36 @@
     "name": "CC CHAIN 0.6",
     "category": "Beauty & Cosmetics",
     "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "cc-earings-172",
+    "name": "CC EARINGS",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "charm-max-qtex-small-176",
+    "name": "CHARM MAX QTEX NAIL POLISH - SMALL",
+    "category": "Beauty & Cosmetics",
+    "price": 50,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "coffee-scrub",
+    "name": "COFFEE SCRUB",
+    "category": "Beauty & Cosmetics",
+    "price": 350,
     "inStock": true,
     "stockQty": 20,
     "image": null,
