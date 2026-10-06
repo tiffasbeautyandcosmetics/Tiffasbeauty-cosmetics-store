@@ -1909,7 +1909,7 @@
     "price": 150,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791281903/nlqfxd69mdthawpzkc7m.jpg",
     "description": ""
   },
   {
