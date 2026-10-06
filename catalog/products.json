@@ -2705,26 +2705,6 @@
     "description": ""
   },
   {
-    "id": "n-l-styling-gel-ext-60g-359",
-    "name": "N/L STYLING GEL EXT 60G",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "n4-styling-gel-clear-60g-360",
-    "name": "N4 STYLING GEL CLEAR 60G",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "nail-cutter-small-361",
     "name": "NAIL CUTTER SMALL",
     "category": "Beauty & Cosmetics",
@@ -2758,7 +2738,7 @@
     "id": "nal-fairy-premium-24-364",
     "name": "NAL FAIRY PREMIUM(24)",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 200,
     "inStock": true,
     "stockQty": 20,
     "image": null,
