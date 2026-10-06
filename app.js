@@ -5,9 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const WHATSAPP = C.WHATSAPP_NUMBER || "254725679016";
   const CATALOG_URL = C.CATALOG_URL || "catalog/products.json";
   const SETTINGS_URL = C.SETTINGS_URL || "store-settings.json";
+  const DISCOUNTS_URL = C.DISCOUNTS_URL || "catalog/discounts.json";
   let products = [];
   let settings = {whatsappNumber:WHATSAPP,bankName:"",accountName:STORE_NAME,accountNumber:"",branch:"",swiftCode:"",paymentInstructions:"Use your order number as the transfer reference, then send proof of payment by WhatsApp.",currency:"KES"};
-  let category="All", query="", cart=[];
+  let category="All", query="", cart=[], discounts=[], appliedDiscount=null;
   try{cart=JSON.parse(localStorage.getItem("tiffas_cart")||"[]");if(!Array.isArray(cart))cart=[];}catch(_){cart=[];}
   const $=id=>document.getElementById(id);
   const money=n=>`Ksh ${Number(n||0).toLocaleString("en-KE")}`;
@@ -15,6 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const wa=text=>`https://wa.me/${settings.whatsappNumber||WHATSAPP}?text=${encodeURIComponent(text)}`;
   const saveCart=()=>{try{localStorage.setItem("tiffas_cart",JSON.stringify(cart));}catch(_){}};
   const subtotal=()=>cart.reduce((sum,i)=>sum+Number(i.price||0)*Number(i.qty||0),0);
+  function normalizeDiscountCode(code){return String(code||"").trim().toUpperCase();}
+  function findDiscount(code){const key=normalizeDiscountCode(code), now=Date.now(), base=subtotal();return discounts.find(d=>{if(d.active===false)return false;if(normalizeDiscountCode(d.code)!==key)return false;if(d.expiresAt){const t=new Date(String(d.expiresAt).length<=10?String(d.expiresAt)+"T23:59:59":d.expiresAt).getTime();if(Number.isFinite(t)&&now>t)return false;}const limit=Number(d.usageLimit||0),used=Number(d.usedCount||0);if(limit>0&&used>=limit)return false;if(Number(d.minSubtotal||0)>base)return false;return true;})||null;}
+  function discountValue(d,base){if(!d)return 0;const value=Number(d.value||0);return d.type==="percent"?Math.min(base,Math.max(0,base*(value/100))):Math.min(base,Math.max(0,value));}
+  function quote(){const base=subtotal(),discount=appliedDiscount?discountValue(appliedDiscount,base):0;return{subtotal:base,discount,total:Math.max(0,base-discount)};}
+  function refreshCheckoutTotals(){const q=quote(),t=$("checkoutTotal"),r=$("discountRow"),a=$("discountAmount"),c=$("discountAppliedCode");if(t)t.textContent=money(q.total);if(r)r.hidden=q.discount<=0;if(a)a.textContent="- "+money(q.discount);if(c)c.textContent=appliedDiscount?"Discount ("+esc(appliedDiscount.code)+")":"Discount";}
   if(["search","categories","count","grid","empty","cartItems","subtotal","cartBadge"].some(id=>!$(id)))return;
   const assetVersion=Date.now();
   function resolveAsset(p){if(!p)return"";if(/^(https?:|data:|blob:)/i.test(p))return p;const u=new URL(p.replace(/^\//,""),document.baseURI);u.searchParams.set("v",assetVersion);return u.href;}
