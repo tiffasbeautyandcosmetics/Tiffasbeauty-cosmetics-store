@@ -6591,7 +6591,7 @@
     "price": 90,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791291717/ark3hv9yketxftspf64s.jpg",
     "description": "",
     "imageQuery": "Movit Leave-in hair conditioner 50ml product photo"
   },
@@ -6657,7 +6657,7 @@
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791291624/crzu2yc0jwndswscqti1.jpg",
     "description": "",
     "imageQuery": "Radiant Leave-in hair treatment 250ml product photo"
   },
@@ -8688,5 +8688,82 @@
     "stockQty": 20,
     "image": null,
     "description": ""
+  },
+  {
+    "id": "bummi-egg-fresh-shampoo-250ml",
+    "name": "Bummi Egg Fresh Shampoo 250ml",
+    "category": "Shampoo",
+    "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Bummi Egg Fresh Shampoo 250ml product photo"
+  },
+  {
+    "id": "bummi-apple-fresh-shampoo-250ml",
+    "name": "Bummi Apple Fresh Shampoo 250ml",
+    "category": "Shampoo",
+    "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Bummi Apple Fresh Shampoo 250ml product photo"
+  },
+  {
+    "id": "bummi-cream-natural-conditioner-500ml",
+    "name": "Bummi Cream Natural Conditioner 500ml",
+    "category": "Conditioner",
+    "price": 200,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Bummi Cream Natural Conditioner 500ml product photo"
+  },
+  {
+    "id": "bamsi-crystal-fresh-shampoo-500ml",
+    "name": "Bamsi Crystal Fresh Shampoo 500ml",
+    "category": "Shampoo",
+    "price": 200,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Bamsi Crystal Fresh Shampoo 500ml product photo"
+  },
+  {
+    "id": "bummi-egg-shampoo-500ml",
+    "name": "Bummi Egg Shampoo 500ml",
+    "category": "Shampoo",
+    "price": 200,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Bummi Egg Shampoo 500ml product photo"
+  },
+  {
+    "id": "bamsi-crystal-fresh-shampoo-1000ml",
+    "name": "Bamsi Crystal Fresh Shampoo 1000ml",
+    "category": "Shampoo",
+    "price": 300,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Bamsi Crystal Fresh Shampoo 1000ml product photo"
+  },
+  {
+    "id": "bummi-white-natural-conditioner-1000ml",
+    "name": "Bummi White Natural Conditioner 1000ml",
+    "category": "Conditioner",
+    "price": 800,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Bummi White Natural Conditioner 1000ml product photo"
   }
 ]
