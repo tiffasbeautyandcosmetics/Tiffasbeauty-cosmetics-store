@@ -1561,56 +1561,6 @@
     "description": ""
   },
   {
-    "id": "facebook-spray-227",
-    "name": "FACEBOOK SPRAY",
-    "category": "Beauty & Cosmetics",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "fancy-key-holder-b-s-228",
-    "name": "FANCY KEY HOLDER B/S",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "fashion-earings-0-3-229",
-    "name": "FASHION EARINGS 0.3",
-    "category": "Beauty & Cosmetics",
-    "price": 50,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "fashion-earrings-single-230",
-    "name": "FASHION EARRINGS SINGLE",
-    "category": "Beauty & Cosmetics",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "foundation-231",
-    "name": "FOUNDATION",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "g-nail-white-tip-232",
     "name": "G.NAIL WHITE TIP",
     "category": "Beauty & Cosmetics",
@@ -1624,7 +1574,7 @@
     "id": "geisha-aloe-honey-233",
     "name": "GEISHA ALOE & HONEY",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 120,
     "inStock": true,
     "stockQty": 20,
     "image": null,
