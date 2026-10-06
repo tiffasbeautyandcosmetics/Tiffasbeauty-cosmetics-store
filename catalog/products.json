@@ -4467,16 +4467,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339186/txzzieqdy8qygkwmrnup.jpg"
   },
   {
-    "id": "angels-jibambe-long",
-    "name": "ANGELS JIBAMBE LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": "https://mybigorder.com/public/uploads/all/V0NFBiTfBh595uFATGxXY3eeGWWr2WhuA9nXukkk.png",
-    "description": ""
-  },
-  {
     "id": "rose-leaf-ponds",
     "name": "ROSE LEAF PONDS",
     "category": "Beauty & Cosmetics",
@@ -4487,113 +4477,6 @@
     "description": "",
     "fallbackImage": "images/products/rose-leaf-ponds-big-1790190189509.jpg",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790270207/l5aef5gy4lztz7ihc225.jpg"
-  },
-  {
-    "id": "avs-60",
-    "name": "AVS 60",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "assorted-metal-beeds",
-    "name": "ASSORTED METAL BEEDS",
-    "category": "Beauty & Cosmetics",
-    "price": 5,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bamsi-shampoo-1lte",
-    "name": "BAMSI SHAMPOO -1LTE",
-    "category": "Beauty & Cosmetics",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "baby-love-ad-850g",
-    "name": "Baby love AD 850g",
-    "category": "Anti-dandruff",
-    "price": 520,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Baby love AD 850g product photo"
-  },
-  {
-    "id": "baby-love-plain-500g",
-    "name": "Baby love Plain 500g",
-    "category": "Anti-dandruff",
-    "price": 350,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Baby love Plain 500g product photo"
-  },
-  {
-    "id": "baby-love-ad-125g",
-    "name": "Baby love AD 125g",
-    "category": "Anti-dandruff",
-    "price": 150,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Baby love AD 125g product photo"
-  },
-  {
-    "id": "baby-love-plain-125g",
-    "name": "Baby love Plain 125g",
-    "category": "Anti-dandruff",
-    "price": 180,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Baby love Plain 125g product photo"
-  },
-  {
-    "id": "baby-love-ad-50g",
-    "name": "Baby love AD 50g",
-    "category": "Anti-dandruff",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Baby love AD 50g product photo"
-  },
-  {
-    "id": "tcb-ad-50g",
-    "name": "Tcb AD 50g",
-    "category": "Anti-dandruff",
-    "price": 160,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Tcb AD 50g product photo"
-  },
-  {
-    "id": "tcb-ad-100g",
-    "name": "Tcb AD 100g",
-    "category": "Anti-dandruff",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Tcb AD 100g product photo"
   },
   {
     "id": "bamsi-hair-fertilizer-50g",
@@ -4619,94 +4502,6 @@
     "imageQuery": "Bamsi Hair fertilizer 125g product photo"
   },
   {
-    "id": "be-ad-50g",
-    "name": "Be AD 50g",
-    "category": "Anti-dandruff",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Be AD 50g product photo"
-  },
-  {
-    "id": "venus-ad-100ml",
-    "name": "Venus AD 100ml",
-    "category": "Anti-dandruff",
-    "price": 220,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Venus AD 100ml product photo"
-  },
-  {
-    "id": "radiant-a-d-100ml",
-    "name": "Radiant A.D 100ml",
-    "category": "Anti-dandruff",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Radiant A.D 100ml product photo"
-  },
-  {
-    "id": "radiant-a-d-60ml",
-    "name": "Radiant A.D 60ml",
-    "category": "Anti-dandruff",
-    "price": 150,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Radiant A.D 60ml product photo"
-  },
-  {
-    "id": "radiant-a-d-spray-50ml",
-    "name": "Radiant A.D Spray 50ml",
-    "category": "Anti-dandruff",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Radiant A.D Spray 50ml product photo"
-  },
-  {
-    "id": "baby-care-hair-food-25g",
-    "name": "Baby care Hair food 25g",
-    "category": "Hair Food",
-    "price": 30,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Baby care Hair food 25g product photo"
-  },
-  {
-    "id": "baby-care-hair-food-100g",
-    "name": "Baby care Hair food 100g",
-    "category": "Hair Food",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Baby care Hair food 100g product photo"
-  },
-  {
-    "id": "baby-care-hair-food-500g",
-    "name": "Baby care Hair food 500g",
-    "category": "Hair Food",
-    "price": 350,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Baby care Hair food 500g product photo"
-  },
-  {
     "id": "peris-hair-food-50g",
     "name": "Peris Hair food 50g",
     "category": "Hair Food",
@@ -4727,17 +4522,6 @@
     "image": null,
     "description": "",
     "imageQuery": "Peris Hair food 100g product photo"
-  },
-  {
-    "id": "beo-hair-food-50g",
-    "name": "Beo Hair food 50g",
-    "category": "Hair Food",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Beo Hair food 50g product photo"
   },
   {
     "id": "venus-hair-food-100g",
@@ -4818,12 +4602,12 @@
   },
   {
     "id": "lemon-shower-gel-1300ml",
-    "name": "Lemon Shower gel 1300ml",
+    "name": "WOKALI Lemon Shower gel 1300ml",
     "category": "Shower Gels",
     "price": 500,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791287244/vd7kvb3tz1grdlhzvixq.jpg",
     "description": "",
     "imageQuery": "Lemon Shower gel 1300ml product photo"
   },
