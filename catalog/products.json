@@ -1731,23 +1731,13 @@
     "description": ""
   },
   {
-    "id": "hot-colour-255",
-    "name": "HOT COLOUR",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "hottie-new-york-200ml-256",
     "name": "HOTTIE NEW YORK 200ML",
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791281464/hibnuurdcn0bfmqbw02z.jpg",
     "description": ""
   },
   {
