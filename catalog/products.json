@@ -5346,7 +5346,7 @@
     "price": 300,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290965/lbcohdmhybbdt9mfu24v.jpg",
     "description": "",
     "imageQuery": "Sweet Vanilla 200ml product photo"
   },
