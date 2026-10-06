@@ -1044,7 +1044,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "body-luxe-perfume-sparkle-frag",
     "name": "BODY LUXE PERFUME SPARKLE FRAG",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 120,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -1091,66 +1091,6 @@ window.TIFFAS_PRODUCTS = [
     "description": ""
   },
   {
-    "id": "bodyluxe-spray-50ml-152",
-    "name": "BODYLUXE SPRAY -50ML",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bomblast-beaded-shiny-153",
-    "name": "BOMBLAST BEADED SHINY",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bonding-glue-154",
-    "name": "BONDING GLUE",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bonet-a80-155",
-    "name": "BONET A80",
-    "category": "Beauty & Cosmetics",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bowtie-hair-band-156",
-    "name": "BOWTIE HAIR BAND",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bracelet-1-20-157",
-    "name": "BRACELET 1.20",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "brazil-wool-158",
     "name": "BRAZIL WOOL",
     "category": "Beauty & Cosmetics",
@@ -1175,16 +1115,6 @@ window.TIFFAS_PRODUCTS = [
     "name": "BRENTS POLISH REMOVER",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "brosh-on-glue-161",
-    "name": "BROSH ON GLUE",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -1231,16 +1161,6 @@ window.TIFFAS_PRODUCTS = [
     "description": ""
   },
   {
-    "id": "baby-care-500g-166",
-    "name": "Baby care -500g",
-    "category": "Beauty & Cosmetics",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "baby-care-55g-167",
     "name": "Baby care -55g",
     "category": "Beauty & Cosmetics",
@@ -1263,36 +1183,6 @@ window.TIFFAS_PRODUCTS = [
   {
     "id": "caflon-b-169",
     "name": "CAFLON B",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "cc-chain-0-5-170",
-    "name": "CC CHAIN 0.5",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "cc-chain-0-6-171",
-    "name": "CC CHAIN 0.6",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "cc-earings-172",
-    "name": "CC EARINGS",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
@@ -1331,50 +1221,10 @@ window.TIFFAS_PRODUCTS = [
     "description": ""
   },
   {
-    "id": "charm-max-qtex-small-176",
-    "name": "CHARM MAX QTEX NAIL POLISH - SMALL",
-    "category": "Beauty & Cosmetics",
-    "price": 50,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "charming-pineapple-85ml-177",
     "name": "CHARMING PINEAPPLE  85ML",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "clear-beeds-3b-178",
-    "name": "CLEAR BEEDS 3B",
-    "category": "Beauty & Cosmetics",
-    "price": 5,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "clear-grown-up-beeds-179",
-    "name": "CLEAR GROWN UP BEEDS",
-    "category": "Beauty & Cosmetics",
-    "price": 5,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "clovers-brangles-1-50-180",
-    "name": "CLOVERS BRANGLES 1.50",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -9424,6 +9274,137 @@ window.TIFFAS_PRODUCTS = [
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791269920/sgfkewg2d8gq9ugnl8uh.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791269920/sgfkewg2d8gq9ugnl8uh.jpg"
+  },
+  {
+    "id": "bonet-a80",
+    "name": "BONET A80",
+    "category": "Beauty & Cosmetics",
+    "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791270465/ddrjdjz5n7cgj4kvdnq5.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791270465/ddrjdjz5n7cgj4kvdnq5.jpg"
+  },
+  {
+    "id": "bonet-a80-155",
+    "name": "BONET A80",
+    "category": "Beauty & Cosmetics",
+    "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "bowtie-hair-band",
+    "name": "BOWTIE HAIR BAND",
+    "category": "Beauty & Cosmetics",
+    "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "bowtie-hair-band-156",
+    "name": "BOWTIE HAIR BAND",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "bracelet-1-20-157",
+    "name": "BRACELET 1.20",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "brosh-on-glue-161",
+    "name": "BROSH ON GLUE",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "baby-care-500g-166",
+    "name": "Baby care -500g",
+    "category": "Beauty & Cosmetics",
+    "price": 300,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "caflon-b",
+    "name": "CAFLON B",
+    "category": "Beauty & Cosmetics",
+    "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "cc-chain-0-5-170",
+    "name": "CC CHAIN 0.5",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "cc-chain-0-6-171",
+    "name": "CC CHAIN 0.6",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "cc-earings-172",
+    "name": "CC EARINGS",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "charm-max-qtex-small-176",
+    "name": "CHARM MAX QTEX NAIL POLISH - SMALL",
+    "category": "Beauty & Cosmetics",
+    "price": 50,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "coffee-scrub",
+    "name": "COFFEE SCRUB",
+    "category": "Beauty & Cosmetics",
+    "price": 350,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
   }
 ]
 ;
