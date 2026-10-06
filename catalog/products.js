@@ -9435,5 +9435,16 @@ window.TIFFAS_PRODUCTS = [
     "image": null,
     "description": "",
     "imageQuery": "Darling Natural twist Super light Color 900 product photo Jumia Kenya"
+  },
+  {
+    "id": "darling-natural-twist-33",
+    "name": "DARLING NATURAL TWIST 33",
+    "category": "Hair Care",
+    "price": 550,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Darling Natural twist Super light Color 33 product photo Jumia Kenya"
   }
 ];
