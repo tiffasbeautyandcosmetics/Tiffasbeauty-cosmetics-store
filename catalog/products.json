@@ -1090,16 +1090,6 @@
     "description": ""
   },
   {
-    "id": "bonet-a80-155",
-    "name": "BONET A80",
-    "category": "Beauty & Cosmetics",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "bowtie-hair-band-156",
     "name": "BOWTIE HAIR BAND",
     "category": "Beauty & Cosmetics",
