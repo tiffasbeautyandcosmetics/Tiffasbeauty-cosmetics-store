@@ -850,16 +850,6 @@
     "description": ""
   },
   {
-    "id": "bath-gloves",
-    "name": "BATH GLOVES",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "bathing-gloves",
     "name": "BATHING GLOVES",
     "category": "Accessories",
@@ -874,7 +864,7 @@
     "id": "bathing-towel",
     "name": "BATHING TOWEL",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 100,
     "inStock": true,
     "stockQty": 20,
     "image": null,
