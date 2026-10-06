@@ -4751,7 +4751,7 @@
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791289816/gsmnccgquoggumf1zfsg.jpg",
     "description": "",
     "imageQuery": "Papaya Brightening soap 135g product photo"
   },
