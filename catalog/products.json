@@ -2314,16 +2314,6 @@
     "description": ""
   },
   {
-    "id": "metal-beeds-gold-317",
-    "name": "METAL BEEDS GOLD",
-    "category": "Beauty & Cosmetics",
-    "price": 5,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "metal-hair-comb-afro-318",
     "name": "METAL HAIR COMB AFRO",
     "category": "Beauty & Cosmetics",
@@ -2337,7 +2327,7 @@
     "id": "miadi-relaxer-200g-319",
     "name": "MIADI RELAXER 200G",
     "category": "Beauty & Cosmetics",
-    "price": 325,
+    "price": 300,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -2345,9 +2335,9 @@
   },
   {
     "id": "minkhair-eyelashes-320",
-    "name": "MINKHAIR EYELASHES",
+    "name": "MINKHAIR EYELASHES 2D-8D",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 100,
     "inStock": true,
     "stockQty": 20,
     "image": null,
