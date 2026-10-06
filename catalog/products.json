@@ -832,19 +832,9 @@
     "id": "bamsi-white-conditoner-5l",
     "name": "BAMSI WHITE CONDITONER 5L",
     "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "band-flowers",
-    "name": "BAND FLOWERS",
-    "category": "Beauty & Cosmetics",
-    "price": 50,
+    "price": 950,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 10,
     "image": null,
     "description": ""
   },
@@ -854,7 +844,7 @@
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": false,
-    "stockQty": -2,
+    "stockQty": 10,
     "image": null,
     "description": ""
   },
