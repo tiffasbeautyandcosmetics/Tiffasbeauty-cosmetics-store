@@ -4424,16 +4424,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337946/jyx7zteuv5ag8qtbdhpy.jpg"
   },
   {
-    "id": "avl-350",
-    "name": "AVL 350",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "angel-avis-60-350-1-1-27-1-900-1-grey-etc",
     "name": "ANGEL AVIS 60,350,1,1/27,1/900,1/GREY ETC",
     "category": "Beauty & Cosmetics",
@@ -4717,7 +4707,7 @@
     "price": 400,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791289731/ncgmssg9qpj4yvhahjmu.jpg",
     "description": "",
     "imageQuery": "Snail massage Bath salt 350g product photo"
   },
