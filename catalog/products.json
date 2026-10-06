@@ -743,8 +743,9 @@
     "price": 150,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791271718/s0kji4bo33ovyon5wwxj.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791271718/s0kji4bo33ovyon5wwxj.jpg"
   },
   {
     "id": "bamsi-moulding-wax-140g",
