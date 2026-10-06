@@ -1120,16 +1120,6 @@
     "description": ""
   },
   {
-    "id": "brosh-on-glue-161",
-    "name": "BROSH ON GLUE",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "brush-big-162",
     "name": "BRUSH BIG",
     "category": "Beauty & Cosmetics",
@@ -1164,16 +1154,6 @@
     "name": "Baby care -200g",
     "category": "Beauty & Cosmetics",
     "price": 190,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "baby-care-500g-166",
-    "name": "Baby care -500g",
-    "category": "Beauty & Cosmetics",
-    "price": 300,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -9390,6 +9370,26 @@
     "name": "BOWTIE HAIR BAND",
     "category": "Beauty & Cosmetics",
     "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "bowtie-hair-band-156",
+    "name": "BOWTIE HAIR BAND",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "bracelet-1-20-157",
+    "name": "BRACELET 1.20",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
