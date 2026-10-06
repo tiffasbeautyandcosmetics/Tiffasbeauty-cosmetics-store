@@ -4878,12 +4878,12 @@
   },
   {
     "id": "tara-pink-90ml",
-    "name": "Tara Pink 90ml",
+    "name": "Yara Pink 90ml",
     "category": "Perfumes",
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791289973/k6bbhqmnmm5cixifgdvy.jpg",
     "description": "",
     "imageQuery": "Tara Pink 90ml product photo"
   },
@@ -4911,7 +4911,7 @@
   },
   {
     "id": "tara-body-mist-250ml",
-    "name": "Tara Body mist 250ml",
+    "name": "Yara Body mist 250ml",
     "category": "Perfumes",
     "price": 450,
     "inStock": true,
@@ -5104,7 +5104,7 @@
     "price": 100,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290124/upfr9oaau67lqliu0jx5.jpg",
     "description": "",
     "imageQuery": "Skala for men (Blue) 50ml product photo"
   },
