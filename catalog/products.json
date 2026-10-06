@@ -1190,16 +1190,6 @@
     "description": ""
   },
   {
-    "id": "cc-earings-172",
-    "name": "CC EARINGS",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "charm-max-hot-colour-lipstick-small-173",
     "name": "CHARM MAX HOT COLOUR LIPSTICK SMALL",
     "category": "Beauty & Cosmetics",
@@ -1230,30 +1220,10 @@
     "description": ""
   },
   {
-    "id": "charm-max-qtex-small-176",
-    "name": "CHARM MAX QTEX NAIL POLISH - SMALL",
-    "category": "Beauty & Cosmetics",
-    "price": 50,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "charming-pineapple-85ml-177",
     "name": "CHARMING PINEAPPLE  85ML",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "clear-beeds-3b-178",
-    "name": "CLEAR BEEDS 3B",
-    "category": "Beauty & Cosmetics",
-    "price": 5,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -9400,6 +9370,26 @@
     "name": "CAFLON B",
     "category": "Beauty & Cosmetics",
     "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "cc-chain-0-5-170",
+    "name": "CC CHAIN 0.5",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "cc-chain-0-6-171",
+    "name": "CC CHAIN 0.6",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
