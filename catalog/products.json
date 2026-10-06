@@ -9357,5 +9357,16 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791272615/rsj7l88d5nf0fbzhqmpe.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791272615/rsj7l88d5nf0fbzhqmpe.jpg"
+  },
+  {
+    "id": "cotton-wool-dove-50g",
+    "name": "COTTON WOOL DOVE 50G",
+    "category": "Beauty & Cosmetics",
+    "price": 70,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273200/hmrraaiaqnpu5otpluur.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273200/hmrraaiaqnpu5otpluur.jpg"
   }
 ]
