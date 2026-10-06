@@ -2819,7 +2819,7 @@
     "id": "nivea-nour-cocoa-372",
     "name": "NIVEA NOUR/COCOA",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 250,
     "inStock": true,
     "stockQty": 20,
     "image": "https://bf1af2.akinoncloudcdn.com/products/2025/09/02/65791/a290423e-ad4e-4c3f-b104-37d11d948168_size3840_cropCenter.jpg",
@@ -2829,7 +2829,7 @@
     "id": "nivea-sheer-smooth-200ml-373",
     "name": "NIVEA SHEER SMOOTH 200ML",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 250,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -2996,37 +2996,6 @@
     "description": ""
   },
   {
-    "id": "peircings-0-3-390",
-    "name": "PEIRCINGS 0.3",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "perfect-cutex-391",
-    "name": "PERFECT CUTEX",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "peris-cool-stream-50g-392",
-    "name": "PERIS COOL STREAM -50G",
-    "category": "Anti-dandruff",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Peris Cool stream 50g product photo"
-  },
-  {
     "id": "peris-coolstream-100g-393",
     "name": "PERIS COOLSTREAM -100G",
     "category": "Beauty & Cosmetics",
@@ -3063,27 +3032,7 @@
     "price": 200,
     "inStock": true,
     "stockQty": 20,
-    "image": "https://www.brivane.com/cdn/shop/files/Polo_Sport_Smart_Collection_-_Brivane-2719362.jpg?v=1724620963",
-    "description": ""
-  },
-  {
-    "id": "pushback-397",
-    "name": "PUSHBACK",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "pushback-pearl-398",
-    "name": "PUSHBACK PEARL",
-    "category": "Beauty & Cosmetics",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791284338/e5rhuvptik0ymqlr71ug.jpg",
     "description": ""
   },
   {
