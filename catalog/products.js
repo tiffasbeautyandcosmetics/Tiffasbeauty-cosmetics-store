@@ -1967,56 +1967,6 @@ window.TIFFAS_PRODUCTS = [
     "description": ""
   },
   {
-    "id": "lush-1-short-282",
-    "name": "LUSH 1 SHORT",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-1-33-short-283",
-    "name": "LUSH 1/33 SHORT",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-1-900-long-284",
-    "name": "LUSH 1/900 LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-2-27-long-285",
-    "name": "LUSH 2/27 LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-33-long-286",
-    "name": "LUSH 33 LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "lush-arafa-crochet-287",
     "name": "LUSH ARAFA CROCHET",
     "category": "Beauty & Cosmetics",
@@ -2632,7 +2582,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "n-l-lot-carrot-180-ml-351",
     "name": "N/L LOT CARROT 180 ML",
     "category": "Beauty & Cosmetics",
-    "price": 160,
+    "price": 165,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -2672,7 +2622,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "n-l-lotion-gly-200ml-355",
     "name": "N/L LOTION GLY 200ML",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 165,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -2682,17 +2632,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "n-l-lotion-gly-400ml-356",
     "name": "N/L LOTION GLY 400ML",
     "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "n-l-lotion-lemon-180ml-357",
-    "name": "N/L LOTION LEMON 180ML",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 160,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -3537,7 +3477,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "vasleline-jelly-men-45ml-479",
     "name": "VASLELINE JELLY MEN 45ML",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 90,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -8363,5 +8303,55 @@ window.TIFFAS_PRODUCTS = [
     "image": null,
     "description": "",
     "imageQuery": "Headband (Small) product photo"
+  },
+  {
+    "id": "lush-1-short-282",
+    "name": "LUSH 1 SHORT",
+    "category": "Beauty & Cosmetics",
+    "price": 70,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "lush-1-33-short-283",
+    "name": "LUSH 1/33 SHORT",
+    "category": "Beauty & Cosmetics",
+    "price": 70,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "lush-1-900-long-284",
+    "name": "LUSH 1/900 LONG",
+    "category": "Beauty & Cosmetics",
+    "price": 70,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "lush-2-27-long-285",
+    "name": "LUSH 2/27 LONG",
+    "category": "Beauty & Cosmetics",
+    "price": 70,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "lush-33-long-286",
+    "name": "LUSH 33 LONG",
+    "category": "Beauty & Cosmetics",
+    "price": 70,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
   }
 ];
