@@ -6,7 +6,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790269217/xf7reh3mewyhxuwhoqxt.jpg",
     "description": "",
     "fallbackImage": "images/products/papayas-oil-200ml-1790229382133.jpg",
@@ -18,7 +18,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 190,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790269302/qughncopt9npmrornzbt.jpg",
     "description": "",
     "fallbackImage": "images/products/bamsi-white-conditioner-500ml-1790189755177.jpg",
@@ -30,7 +30,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790270207/l5aef5gy4lztz7ihc225.jpg",
     "description": "",
     "fallbackImage": "images/products/rose-leaf-ponds-big-1790190189509.jpg",
@@ -42,7 +42,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790362564/fz5vpev54lmejdkocnak.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790362564/fz5vpev54lmejdkocnak.jpg"
@@ -53,7 +53,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 11,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325522/rkiostgommitlp5jthvq.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325522/rkiostgommitlp5jthvq.jpg"
@@ -64,7 +64,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790316980/su0vi2bx4uukruxpjcve.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790316980/su0vi2bx4uukruxpjcve.jpg"
@@ -74,8 +74,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "3 IN 1 COMB",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": -6,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://www.mybeautyexchange.com/cdn/shop/files/red-by-kiss-3-in-1-comb-large-black-multi-use-for-styling-parting-detangling-hm59-great-for-all-hair-types-textures-950447.webp?v=1755228544",
     "description": ""
   },
@@ -85,7 +85,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317358/avmprlgjd28nozssktit.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317358/avmprlgjd28nozssktit.jpg"
@@ -96,7 +96,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317841/w0knecuetkoopvbbbke4.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317841/w0knecuetkoopvbbbke4.jpg"
@@ -107,7 +107,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 50,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317914/xltmfyki3sruqm7nlelz.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317914/xltmfyki3sruqm7nlelz.jpg"
@@ -129,7 +129,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325602/qromzqsyq9qqoeyazxwl.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325602/qromzqsyq9qqoeyazxwl.jpg"
@@ -140,7 +140,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325689/aah707jtfmtt8akrm0zd.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325689/aah707jtfmtt8akrm0zd.jpg"
@@ -151,7 +151,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 17,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325903/uooojbz9awaaxroc0ng9.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325903/uooojbz9awaaxroc0ng9.jpg"
@@ -162,7 +162,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 30,
     "inStock": true,
-    "stockQty": 8,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325993/xwnnupxurqsvajipzkql.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325993/xwnnupxurqsvajipzkql.jpg"
@@ -173,7 +173,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 480,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326707/wc10ahpvadse5jzuc6hn.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326707/wc10ahpvadse5jzuc6hn.jpg"
@@ -184,7 +184,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327090/t6loh4axfvhmqttoyflp.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327090/t6loh4axfvhmqttoyflp.jpg"
@@ -195,7 +195,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 300,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327198/euzjrl5ajwvdzzikmgok.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327198/euzjrl5ajwvdzzikmgok.jpg"
@@ -206,7 +206,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 210,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327649/jg9dwmxl38bi9vqyd19r.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327649/jg9dwmxl38bi9vqyd19r.jpg"
@@ -217,7 +217,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 210,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327743/jzvtakzbd3qd2fusa2ur.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327743/jzvtakzbd3qd2fusa2ur.jpg"
@@ -228,7 +228,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327851/rx6ksydm7egriu1kqdnq.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327851/rx6ksydm7egriu1kqdnq.jpg",
@@ -240,7 +240,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 210,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327936/quhmjvtikvdshf5icpl9.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790327936/quhmjvtikvdshf5icpl9.jpg"
@@ -251,7 +251,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 210,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328021/px2lseildgxuptfjokmh.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328021/px2lseildgxuptfjokmh.jpg"
@@ -262,7 +262,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 180,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328097/cfp2bnjw3u5jp37omefs.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328097/cfp2bnjw3u5jp37omefs.jpg"
@@ -273,7 +273,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 220,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328312/eano1z5z84supkg5zxfu.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328312/eano1z5z84supkg5zxfu.jpg"
@@ -284,7 +284,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 580,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328537/tqq2z9e1h0ex3vd7nnlb.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328537/tqq2z9e1h0ex3vd7nnlb.jpg"
@@ -295,7 +295,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 580,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328622/srejir8otuiv6mk5sq9v.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328622/srejir8otuiv6mk5sq9v.jpg"
@@ -306,7 +306,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 250,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg"
@@ -317,7 +317,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 250,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790329878/jabwzuynhm4byd3btdtq.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790329878/jabwzuynhm4byd3btdtq.jpg"
@@ -328,7 +328,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330393/vamdfjhkhp26nrhdwkeg.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330393/vamdfjhkhp26nrhdwkeg.jpg"
@@ -339,7 +339,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 30,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330574/vz5tinow9lzzffbdp0es.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330574/vz5tinow9lzzffbdp0es.jpg"
@@ -350,7 +350,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 40,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330643/qwtrqmx8ydxhcvmjkbyk.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330643/qwtrqmx8ydxhcvmjkbyk.jpg"
@@ -361,7 +361,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 60,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330718/rslcql4sxogzfbd6pvoj.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330718/rslcql4sxogzfbd6pvoj.jpg"
@@ -372,7 +372,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 50,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330780/wokx2yqjxy4wjrpu4tjv.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330780/wokx2yqjxy4wjrpu4tjv.jpg"
@@ -383,7 +383,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 30,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330846/abkkhqdrdygonsausacq.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330846/abkkhqdrdygonsausacq.jpg"
@@ -394,7 +394,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 50,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330947/f0ukj57fdstvfye3zjrm.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330947/f0ukj57fdstvfye3zjrm.jpg"
@@ -405,7 +405,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 70,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334312/oszmjxhizqiswsmkuzyh.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334312/oszmjxhizqiswsmkuzyh.jpg"
@@ -416,7 +416,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 650,
     "inStock": true,
-    "stockQty": 50,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334442/vjtxq5ujgexrfjjcg6id.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334442/vjtxq5ujgexrfjjcg6id.jpg"
@@ -427,7 +427,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 650,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334514/frscyhushbvv8jjptlki.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334514/frscyhushbvv8jjptlki.jpg"
@@ -438,7 +438,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 220,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335146/xrdazwgj0ffs2zm4ubhd.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335146/xrdazwgj0ffs2zm4ubhd.jpg"
@@ -449,7 +449,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 250,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335272/twzzsa1aqmotlq5lt3la.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335272/twzzsa1aqmotlq5lt3la.jpg"
@@ -460,7 +460,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 250,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335534/mg5ishibuosgp8ceqqmh.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335534/mg5ishibuosgp8ceqqmh.jpg"
@@ -471,7 +471,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 250,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335622/etmm5b8kyiagdghhui6g.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335622/etmm5b8kyiagdghhui6g.jpg"
@@ -482,7 +482,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 370,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": "https://i.ebayimg.com/images/g/fT4AAOSw3lhnwWQv/s-l1200.jpg",
     "description": ""
   },
@@ -492,7 +492,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 120,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336077/kja6mz3gbnafkm04wu9d.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336077/kja6mz3gbnafkm04wu9d.jpg"
@@ -514,7 +514,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 40,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336251/htkzlvwe7mlv6cklvaij.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336251/htkzlvwe7mlv6cklvaij.jpg"
@@ -525,7 +525,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 65,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336366/maoj7vyojxsmyp9wmw2i.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336366/maoj7vyojxsmyp9wmw2i.jpg"
@@ -535,8 +535,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "ASAD BODY LUXURIES",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
-    "stockQty": 50,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336486/bf8l0o7mdrbetrhn8qzd.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790336486/bf8l0o7mdrbetrhn8qzd.jpg"
@@ -547,7 +547,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 160,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338254/wfp8n248dw16xhzuukmj.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338254/wfp8n248dw16xhzuukmj.jpg"
@@ -558,7 +558,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338338/cdanrcopjznovmqpqmmf.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338338/cdanrcopjznovmqpqmmf.jpg"
@@ -569,7 +569,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339101/ilkzfcepax2ixaoas4we.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339101/ilkzfcepax2ixaoas4we.jpg"
@@ -580,7 +580,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 300,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338735/ffbbcts25ymfnhgy72h1.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338735/ffbbcts25ymfnhgy72h1.jpg"
@@ -591,7 +591,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 140,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338812/nqagkbtsqhzieou1wbja.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338812/nqagkbtsqhzieou1wbja.jpg"
@@ -602,7 +602,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338878/jzqmjbaet3wtr6lnnz1k.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338878/jzqmjbaet3wtr6lnnz1k.jpg"
@@ -612,8 +612,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI BRAIDING WAX",
     "category": "Beauty & Cosmetics",
     "price": 160,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -623,7 +623,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": "https://juja.keffys.co.ke/uploads/products/Uax7p3BVFNIVYHtHrRz7Mh1778574412.png",
     "description": ""
   },
@@ -632,8 +632,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI HAIR FOOD 100G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://starsamnaturals.com/cdn/shop/files/imgi_5_bamsi-hair-food-100g.jpg?v=1757066590&width=600",
     "description": ""
   },
@@ -642,8 +642,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI HAIR FOOD 240G",
     "category": "Beauty & Cosmetics",
     "price": 260,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://live.ohalaerp.com/media/product_pic/1_HTMrGXU.jpg",
     "description": ""
   },
@@ -652,8 +652,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI HAIR FOOD 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -3,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
   },
@@ -662,8 +662,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI HAIR FOOD 500G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
   },
@@ -672,8 +672,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI HAIR FOOD 50G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
   },
@@ -682,8 +682,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI HAIR FOOD 850G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
   },
@@ -693,7 +693,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 120,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -703,7 +703,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 250,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -712,8 +712,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI LOC N DREDS 120ML",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -722,8 +722,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI LOCS SPRAY 120ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://juja.keffys.co.ke/uploads/products/4IchCKJg4yU9xD833wDnmd1778666320.png",
     "description": ""
   },
@@ -732,8 +732,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI LOCS SPRAY 250ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://juja.keffys.co.ke/uploads/products/JYNBSfr7XjU239faxZ4rB41778671780.png",
     "description": ""
   },
@@ -742,8 +742,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI MENTHOL 85G",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -753,7 +753,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 280,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": "https://juja.keffys.co.ke/uploads/products/RMFDsFF4zgVKXQThH2kN6b1777552676.png",
     "description": ""
   },
@@ -762,8 +762,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI MOULDING WAX -265G",
     "category": "Beauty & Cosmetics",
     "price": 340,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://juja.keffys.co.ke/uploads/products/RMFDsFF4zgVKXQThH2kN6b1777552676.png",
     "description": ""
   },
@@ -773,7 +773,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 160,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": "https://juja.keffys.co.ke/uploads/products/RMFDsFF4zgVKXQThH2kN6b1777552676.png",
     "description": ""
   },
@@ -782,8 +782,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI SHOWER GEL BERRY 550ML",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -792,10 +792,11 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI SHOWER GEL RASPBERRY",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791268712/ue6hw5n5ftwazctoqyxo.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791268712/ue6hw5n5ftwazctoqyxo.jpg"
   },
   {
     "id": "bamsi-w-n-conditioner-250ml",
@@ -803,7 +804,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -812,8 +813,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BAMSI WAX CLEAR 80G",
     "category": "Beauty & Cosmetics",
     "price": 160,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://juja.keffys.co.ke/uploads/products/RMFDsFF4zgVKXQThH2kN6b1777552676.png",
     "description": ""
   },
@@ -823,27 +824,18 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 360,
     "inStock": true,
-    "stockQty": 2,
-    "image": null,
-    "description": ""
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791268847/rm35qbqobohzs3rzlg1e.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791268847/rm35qbqobohzs3rzlg1e.jpg"
   },
   {
     "id": "bamsi-white-conditoner-5l",
     "name": "BAMSI WHITE CONDITONER 5L",
     "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": false,
-    "stockQty": 0,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "band-flowers",
-    "name": "BAND FLOWERS",
-    "category": "Beauty & Cosmetics",
-    "price": 50,
+    "price": 950,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -852,8 +844,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BANDANA NYLON",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -862,8 +854,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BATH GLOVES",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -873,7 +865,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bathing gloves product photo"
@@ -883,8 +875,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BATHING TOWEL",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -894,7 +886,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://sagansinghmakeup.in/cdn/shop/files/WhatsAppImage2024-06-21at12.03.55_1c83dbe9.jpg?v=1718958990&width=1445",
     "description": ""
   },
@@ -904,7 +896,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 2.5,
     "inStock": true,
-    "stockQty": 124,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -914,7 +906,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://biashara.keffys.co.ke/uploads/products/Au6gQjlbtYeADdc9N573rK1688474933.png",
     "description": ""
   },
@@ -923,8 +915,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BEULA HAIR FOOD -440G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -933,8 +925,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BEULA HAIR FOOD -50G",
     "category": "Beauty & Cosmetics",
     "price": 80,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -944,7 +936,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -954,7 +946,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -963,8 +955,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BEULA SHAMPOO -250ML",
     "category": "Beauty & Cosmetics",
     "price": 85,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -973,8 +965,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BIC RAZOR",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -984,7 +976,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 160,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": "https://salonpoa.com/webroot/products/480/big/480.jpeg",
     "description": ""
   },
@@ -994,7 +986,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1004,7 +996,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 120,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1013,8 +1005,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BODY LEUXE PERFUMED GLY",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1023,8 +1015,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BODY LUXE PERFUME CHARMING 50ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1033,8 +1025,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BODY LUXE PERFUME DESIRE 50ML",
     "category": "Beauty & Cosmetics",
     "price": 120,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1043,8 +1035,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BODY LUXE PERFUME FIANCE 50ML",
     "category": "Beauty & Cosmetics",
     "price": 120,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1053,8 +1045,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BODY LUXE PERFUME SPARKLE FRAG",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1064,7 +1056,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1074,7 +1066,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://www.worldshop.com.py/img/55336/produtos/1200/73778efe0ef38a619d79ad8c656da6c6.jpg",
     "description": ""
   },
@@ -1084,7 +1076,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1094,7 +1086,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1103,8 +1095,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BODYLUXE SPRAY -50ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1113,8 +1105,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BOMBLAST BEADED SHINY",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1124,7 +1116,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1133,8 +1125,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BONET A80",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1144,7 +1136,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1153,8 +1145,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BRACELET 1.20",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1163,8 +1155,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BRAZIL WOOL",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": -8,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1173,8 +1165,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BRAZILIAN BULK 1",
     "category": "Beauty & Cosmetics",
     "price": 300,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1184,7 +1176,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1193,8 +1185,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BROSH ON GLUE",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1203,8 +1195,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BRUSH BIG",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1213,8 +1205,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "BRUSH ON NAIL GLUE BIG",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1224,7 +1216,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1233,8 +1225,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Baby care -200g",
     "category": "Beauty & Cosmetics",
     "price": 190,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1244,7 +1236,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1254,7 +1246,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 60,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1263,8 +1255,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Bamsi binding gel wax -80g",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://juja.keffys.co.ke/uploads/products/RMFDsFF4zgVKXQThH2kN6b1777552676.png",
     "description": ""
   },
@@ -1273,8 +1265,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CAFLON B",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1283,8 +1275,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CC CHAIN 0.5",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1294,7 +1286,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1304,7 +1296,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1313,8 +1305,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CHARM MAX HOT COLOUR LIPSTICK SMALL",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1324,7 +1316,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 60,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1333,8 +1325,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CHARM MAX QTEX NAIL POLISH - BIG",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1343,8 +1335,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CHARM MAX QTEX NAIL POLISH - SMALL",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1353,8 +1345,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CHARMING PINEAPPLE  85ML",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1364,7 +1356,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 5,
     "inStock": true,
-    "stockQty": 84,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1374,7 +1366,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 5,
     "inStock": true,
-    "stockQty": 100,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1383,8 +1375,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CLOVERS BRANGLES 1.50",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1394,7 +1386,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1404,7 +1396,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1413,8 +1405,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CONCELEAR",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1424,7 +1416,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1434,7 +1426,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
-    "stockQty": 12,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1443,8 +1435,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CROCODILE CLIP",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1453,8 +1445,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "CUTEX LARGE",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1463,8 +1455,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "D/NATURAL TWIST 1/30/IVORY",
     "category": "Beauty & Cosmetics",
     "price": 650,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1473,8 +1465,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "D/NATURAL TWIST 33",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1484,7 +1476,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1494,7 +1486,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1503,8 +1495,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "DARLING FLUFFY KINKY",
     "category": "Beauty & Cosmetics",
     "price": 250,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://betocosmetics.com/cdn/shop/products/z1q_512x512.jpg?v=1629106272",
     "description": ""
   },
@@ -1513,8 +1505,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "DARLING NATURAL TWIST 1",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://thedivashop.ng/cdn/shop/products/natural_twist.jpg?v=1658430128",
     "description": ""
   },
@@ -1523,8 +1515,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "DARLING NATURAL TWIST 1/30/IVORY",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://thedivashop.ng/cdn/shop/products/natural_twist.jpg?v=1658430128",
     "description": ""
   },
@@ -1533,8 +1525,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "DARLING NATURAL TWIST 2",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://thedivashop.ng/cdn/shop/products/natural_twist.jpg?v=1658430128",
     "description": ""
   },
@@ -1544,7 +1536,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://img.kilimall.com/c/obs/seller/8086/goods_image/250213003308_619c84825ad343c9ebe0ab4d217a79c2.png",
     "description": ""
   },
@@ -1554,7 +1546,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/237715/1731502803/237715_main.jpg",
     "description": ""
   },
@@ -1563,8 +1555,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "DEAR BODY TWINKLE SONG 237ML",
     "category": "Beauty & Cosmetics",
     "price": 350,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1574,7 +1566,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1583,8 +1575,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "DEWS PURE GLYCERINE -30ML",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1593,8 +1585,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "DEXE SHAMPOO",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": -4,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1604,7 +1596,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1614,7 +1606,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://np-live-21.slatic.net/kf/Sd42fde6a4f3e43ed869b6cb052b403b1M.jpg",
     "description": ""
   },
@@ -1624,7 +1616,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://www.crackerjack.co.nz/content/products/dove-essential-care-body-lotion-400ml-AG2156-18777.jpg",
     "description": ""
   },
@@ -1634,7 +1626,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://www.crackerjack.co.nz/content/products/dove-essential-care-body-lotion-400ml-AG2156-18777.jpg",
     "description": ""
   },
@@ -1644,7 +1636,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://i.ebayimg.com/images/g/0y0AAOSwMZ1l4JK5/s-l400.png",
     "description": ""
   },
@@ -1654,7 +1646,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1663,8 +1655,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "DOVE LOTION RESTORE 400ML",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1674,7 +1666,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://cdn.salla.sa/RarZy/305a8271-7e8c-40ba-af2e-62266fd65f28-1000x1000-GQ0QMgrnVS2D1HSaePdGPLBJ0qIf4GeSQrVEULfc.jpg",
     "description": ""
   },
@@ -1683,8 +1675,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "DOVE RESTORE 400ML",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1694,7 +1686,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1704,7 +1696,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 380,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": "https://s.alicdn.com/%40sc04/kf/H333508019a6a4214b9868919d2fa00b2f/DR.MEINAIER-50g-Facial-Snail-Cream-Dark-Spot-Remover-Whitening-Cream-Moisturizer-Repairing-Nourishing-Day-Cream.jpg",
     "description": ""
   },
@@ -1714,7 +1706,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 250,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1724,7 +1716,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://thelabelstores.com/files/uploads/2025/07/Dr.Meinaier-Hyaluronic-Acid-Whitening-Scrub-215g-2.jpg",
     "description": ""
   },
@@ -1734,7 +1726,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": "https://c.cdnmp.net/851111079/p/l/0/dr-rashel-crema-anti-rid-24k-gold-collagen-50g-%E2%80%93-hidratare-fermitate~100108920.jpg",
     "description": ""
   },
@@ -1744,7 +1736,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://down-th.img.susercontent.com/file/th-11134207-23030-xf13qeh1ahov50",
     "description": ""
   },
@@ -1754,7 +1746,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://static-01.daraz.pk/p/7fdeb4f5f5c892fd9aa30b56e9502e87.jpg",
     "description": ""
   },
@@ -1764,7 +1756,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1773,8 +1765,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Dexe Black Hair Shampoo for Men and Women - 10 Packets",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1784,7 +1776,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 20,
     "inStock": true,
-    "stockQty": 27,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1793,8 +1785,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "EARINGS TTT",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1803,8 +1795,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "EARRING+CHAIN",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1813,8 +1805,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "EVA SHOWER CAP",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1823,8 +1815,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "EYE PENCIL BIG",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1833,8 +1825,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "EYE PENCIL SMALL",
     "category": "Beauty & Cosmetics",
     "price": 30,
-    "inStock": false,
-    "stockQty": -3,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1843,8 +1835,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "EYEBLOW LAZER TINEKE",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1853,8 +1845,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "FACEBOOK SPRAY",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1863,8 +1855,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "FANCY KEY HOLDER B/S",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1873,8 +1865,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "FASHION EARINGS 0.3",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1883,8 +1875,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "FASHION EARRINGS SINGLE",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1893,8 +1885,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "FOUNDATION",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1904,7 +1896,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 23,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1913,8 +1905,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "GEISHA ALOE & HONEY",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1934,7 +1926,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1944,7 +1936,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1953,8 +1945,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "GOLD 25G TOUCH DRY",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1963,8 +1955,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "GOLD 25G TOUCH OILY",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1974,7 +1966,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 240,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1983,8 +1975,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Gift Card",
     "category": "Services",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -1994,7 +1986,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2004,7 +1996,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2013,8 +2005,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "HAIRCLIP FLOWER 🌸",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2024,7 +2016,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 20,
     "inStock": true,
-    "stockQty": 8,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2034,7 +2026,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 600,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2044,7 +2036,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 600,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2054,7 +2046,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2064,7 +2056,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2073,8 +2065,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "HENNA SHAGUN",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2083,8 +2075,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "HJJ MAKE UP SET",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2094,7 +2086,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://witcdn.kozmela.com/hobby-marshmallow-cilek-dus-jeli-500ml-176854-43-B.jpg",
     "description": ""
   },
@@ -2103,8 +2095,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "HOBBY MARSH MALLOW VANILYA",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://starsamnaturals.com/cdn/shop/files/1_-_2024-11-29T144635.117.jpg?v=1732880900&width=1445",
     "description": ""
   },
@@ -2114,7 +2106,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2124,7 +2116,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 12,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2134,7 +2126,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2144,7 +2136,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2153,8 +2145,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "IMAN MAGIC LIP GLOSS",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2163,8 +2155,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "IMPERIAL LEATHER (CLASSIC)",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2173,8 +2165,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "JIBAMBBBE 1",
     "category": "Beauty & Cosmetics",
     "price": 65,
-    "inStock": false,
-    "stockQty": -5,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2184,7 +2176,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe long 60 product photo"
@@ -2195,7 +2187,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2204,8 +2196,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "JM  BLUE MIST",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2215,7 +2207,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://s.alicdn.com/%40sc04/kf/Hbfa0cd3d844c48459dc10cfa0742392eY/120-Piece-Leopards-Short-Almond-Wearable-Nails-Matte-Press-On-Tips-in-Luxury-Gift-Box-Factory-Wholesale-for-EU-US-Market.jpg",
     "description": ""
   },
@@ -2224,8 +2216,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "KATYA ROSE WATER",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2234,8 +2226,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "KOREA HAIR BANDS",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2244,8 +2236,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "KRISTINA",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2254,8 +2246,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "KYLE MAKEUP BRUSH 7 IN 1",
     "category": "Beauty & Cosmetics",
     "price": 300,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2264,8 +2256,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "KYLIE MAKE UP",
     "category": "Beauty & Cosmetics",
     "price": 300,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2274,8 +2266,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LUSH QUINN CROCHET NO 1/33",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2284,8 +2276,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LUSH QUINN CROCHET NO.1",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2294,8 +2286,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LADY BELT MISHIMO/PLAIN",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2305,7 +2297,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 7,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Lashes product photo"
@@ -2316,7 +2308,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2326,7 +2318,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2335,8 +2327,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LIP GLOSS CLEAR",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2345,8 +2337,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LIP GLOSS SLEEK{LIPSTICK}",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2355,8 +2347,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LIP GLOW",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2365,8 +2357,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LIP/EYE LINER",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2375,8 +2367,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LONG DAVIS 001",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2385,8 +2377,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LONG NATURAL MINKY 22' 1/33",
     "category": "Beauty & Cosmetics",
     "price": 750,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2396,7 +2388,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2406,7 +2398,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2416,7 +2408,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2426,7 +2418,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2436,7 +2428,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 70,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2445,8 +2437,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LUSH ARAFA CROCHET",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": -4,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221598/221598_main.jpg",
     "description": ""
   },
@@ -2455,8 +2447,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LUSH NATURAL MINKY 1/33",
     "category": "Beauty & Cosmetics",
     "price": 750,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2465,8 +2457,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "LUSH QUINN CROCHET 1",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2476,7 +2468,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2485,8 +2477,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAGIC FLAVORED LIPGLOSS",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2496,7 +2488,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": "https://byarianna.com/cdn/shop/files/DD_POE19_GlamourGlitch_Gut_1024x1024%402x.jpg?v=1723655004",
     "description": ""
   },
@@ -2505,8 +2497,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKE UP CLEANSING 25 PCS",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2516,7 +2508,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2525,8 +2517,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEBA LONG 1/900",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221665/1730721003/221665_main.jpg",
     "description": ""
   },
@@ -2535,8 +2527,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEBA LONG 1/PINK",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221665/1730721003/221665_main.jpg",
     "description": ""
   },
@@ -2545,8 +2537,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEBA LONG 2/27",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221673/221673_main.jpg",
     "description": ""
   },
@@ -2555,8 +2547,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEBA LONG 27",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221673/221673_main.jpg",
     "description": ""
   },
@@ -2565,8 +2557,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEBA LONG 33",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221675/221675_main.jpg",
     "description": ""
   },
@@ -2575,8 +2567,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEBA LONG BLONDE 27",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221673/221673_main.jpg",
     "description": ""
   },
@@ -2585,8 +2577,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEBA SHORT 1",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221665/1730721003/221665_main.jpg",
     "description": ""
   },
@@ -2595,8 +2587,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEBA SHORT 1/33",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221665/1730721003/221665_main.jpg",
     "description": ""
   },
@@ -2605,8 +2597,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEUP BRUSHE 5 IN 1",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2615,8 +2607,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEUP SPONGE 2 IN 1",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2625,8 +2617,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAKEUP SPONGE SINGLE",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2635,8 +2627,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MAN KEEP REAL MIST",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2645,8 +2637,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MANGO PASSION  85ML",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2655,8 +2647,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MANICURE SET 20 PCS",
     "category": "Beauty & Cosmetics",
     "price": 300,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "internalReference": "MANICURE SET 20",
     "description": ""
@@ -2667,7 +2659,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2676,8 +2668,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MATTE LIQUID FOUNDATION 40ML/1.35OZ",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2686,8 +2678,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MATTE SLEEK GLAZZI FOUNDATION",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2696,8 +2688,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MEGA GROWTH BREAKFREE",
     "category": "Beauty & Cosmetics",
     "price": 220,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2706,8 +2698,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MEGA GROWTH BREAKFREE 250G",
     "category": "Beauty & Cosmetics",
     "price": 390,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2717,7 +2709,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 220,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2727,7 +2719,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 390,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2737,7 +2729,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2747,7 +2739,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 5,
     "inStock": true,
-    "stockQty": 77,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2756,8 +2748,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "METAL HAIR COMB AFRO",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2766,8 +2758,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MIADI RELAXER 200G",
     "category": "Beauty & Cosmetics",
     "price": 325,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2776,8 +2768,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MINKHAIR EYELASHES",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2787,7 +2779,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 120,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2797,7 +2789,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2807,7 +2799,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 12,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2817,7 +2809,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2826,8 +2818,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MISS LOOK MAGIC LIP GLOSS",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2836,8 +2828,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MISS LOOK PRO CONCEAL",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2846,8 +2838,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MOISTURE LIP CREAM",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2856,8 +2848,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MOVIT CURLING GEL 140G",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2866,8 +2858,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MOVIT CURLING GEL 80G",
     "category": "Beauty & Cosmetics",
     "price": 80,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2877,7 +2869,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 120,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2887,7 +2879,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2896,8 +2888,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MOVIT HAIR RELAXER 250G",
     "category": "Beauty & Cosmetics",
     "price": 300,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2907,7 +2899,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2916,8 +2908,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "MOVIT JERRY",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2927,7 +2919,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2937,7 +2929,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2947,7 +2939,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 210,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2957,7 +2949,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 370,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2967,7 +2959,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 480,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2977,7 +2969,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 220,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Styling gel 150g product photo"
@@ -2988,7 +2980,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -2997,8 +2989,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N&L PURE GLYCERINE -40ML",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3007,8 +2999,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N&L STYLING GEL EXRAFIRM -120G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3017,8 +3009,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N&LSTYLING GEL EXTRAFIRM HOLD -60G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3027,8 +3019,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L 200ML COCO BUTTER LOTION",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3037,8 +3029,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L 200ML LEMON EXTRACT",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3047,8 +3039,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L COOL LOTION 4 MEN 200ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3057,8 +3049,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L COOL LOTION 4 MEN 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3067,8 +3059,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L LEMON EXTRACT 600ML",
     "category": "Beauty & Cosmetics",
     "price": 450,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3077,8 +3069,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L LOT B/MILK 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3088,7 +3080,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3097,8 +3089,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L LOTION ALOE VERA 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3107,8 +3099,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L LOTION C/B 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3117,8 +3109,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L LOTION ENERGY 200ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3127,8 +3119,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L LOTION GLY 200ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3137,8 +3129,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L LOTION GLY 400ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3148,7 +3140,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3158,7 +3150,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3167,8 +3159,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N/L STYLING GEL EXT 60G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3177,8 +3169,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "N4 STYLING GEL CLEAR 60G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3188,7 +3180,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 30,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": "https://media.myaster.com/images/products/1027440/ezycare-nail-cutter-small-81032/1027440_1_0bcmmv90lvrjk7qf.jpg?fit=bounds&width=840",
     "description": ""
   },
@@ -3198,7 +3190,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3208,7 +3200,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3217,8 +3209,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "NAL FAIRY PREMIUM(24)",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3228,7 +3220,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Neck Roll product photo"
@@ -3238,8 +3230,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "NECKLACE GOLD/SILVER",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3248,8 +3240,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "NHC NAIL POLISH",
     "category": "Beauty & Cosmetics",
     "price": 80,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://cdn.shopify.com/s/files/1/0588/9133/7771/files/nhc-nail-color-with-shine-6.jpg?height=600&v=1753006231&width=800",
     "description": ""
   },
@@ -3258,8 +3250,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "NICE & LOVELY 200ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3268,8 +3260,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "NICE & LOVELY STYLING GEL 135G",
     "category": "Beauty & Cosmetics",
     "price": 220,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3278,8 +3270,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "NICE & LOVELY STYLING GEL 60G",
     "category": "Beauty & Cosmetics",
     "price": 110,
-    "inStock": false,
-    "stockQty": -3,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3289,7 +3281,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://statics.docmorris.fr/static/promofarma/prod/product_images/z/HUSQOW_es_ES_1.jpg",
     "description": ""
   },
@@ -3299,7 +3291,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://bf1af2.akinoncloudcdn.com/products/2025/09/02/65791/a290423e-ad4e-4c3f-b104-37d11d948168_size3840_cropCenter.jpg",
     "description": ""
   },
@@ -3309,7 +3301,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3319,7 +3311,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 9,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3329,7 +3321,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3338,8 +3330,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "NOSE STUDS",
     "category": "Beauty & Cosmetics",
     "price": 10,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3349,7 +3341,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 230,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3359,7 +3351,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 370,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3369,7 +3361,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3378,8 +3370,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "OLIVE SHEEN SPRAY",
     "category": "Beauty & Cosmetics",
     "price": 180,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3389,7 +3381,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 480,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3399,7 +3391,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 300,
     "inStock": true,
-    "stockQty": 8,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3409,7 +3401,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3418,8 +3410,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "OMG HAIRBAND",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3429,7 +3421,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3439,7 +3431,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 500,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3448,8 +3440,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "PARADISE POLISH REMOVER 30ML",
     "category": "Beauty & Cosmetics",
     "price": 70,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3458,8 +3450,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "PARADISE POLISH REMOVER 60ML",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3468,8 +3460,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "PEARL MOUTH CLIPS",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3478,8 +3470,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "PEIRCINGS 0.3",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3488,8 +3480,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "PERFECT CUTEX",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3499,7 +3491,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Peris Cool stream 50g product photo"
@@ -3509,8 +3501,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "PERIS COOLSTREAM -100G",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3519,8 +3511,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "POCKET MIRROR",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3530,7 +3522,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://sigemart.com/cdn/shop/files/1307n04.jpg?v=1752943706",
     "description": ""
   },
@@ -3539,8 +3531,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SMART COLLECTION POLO SPORT SPRAY",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://www.brivane.com/cdn/shop/files/Polo_Sport_Smart_Collection_-_Brivane-2719362.jpg?v=1724620963",
     "description": ""
   },
@@ -3549,8 +3541,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "PUSHBACK",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3559,8 +3551,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "PUSHBACK PEARL",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3569,8 +3561,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "PYARY AYURVEDIC SOAP",
     "category": "Beauty & Cosmetics",
     "price": 8.99,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3580,7 +3572,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 180,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3590,7 +3582,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 120,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3600,7 +3592,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3610,7 +3602,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 370,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3620,7 +3612,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 480,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3630,7 +3622,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3640,7 +3632,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 9.99,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://madinagift.pk/cdn/shop/files/Rasasi_Relation_Pour_Femme_Madina_Gift_2.jpg?v=1737196385&width=3840",
     "description": ""
   },
@@ -3649,8 +3641,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "REXONA MEN NOTION SENSE 25ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3660,7 +3652,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 180,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3669,8 +3661,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "RINGS",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3679,8 +3671,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "RISE & SPARLE",
     "category": "Beauty & Cosmetics",
     "price": 120,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3689,8 +3681,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "ROSE LEAF PONDS SMALL POWDER",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3699,8 +3691,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "ROSELEAF SUPER 23G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3710,7 +3702,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3719,8 +3711,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "RUBBER BAND",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3730,7 +3722,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3739,8 +3731,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SANDRA 5OML",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3749,8 +3741,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SAWA BATHING SOAP 225G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3759,8 +3751,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SCHOOL GIRL SANITARY PADS",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3769,8 +3761,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SEDOSO CURL ACTIVATOR",
     "category": "Beauty & Cosmetics",
     "price": 80,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3779,8 +3771,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SEDOSO MOULDING GEL 125G",
     "category": "Beauty & Cosmetics",
     "price": 320,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3790,7 +3782,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sedoso Moulding gel 85g product photo"
@@ -3801,7 +3793,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": null,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sedoso Styling gel 150g product photo"
@@ -3812,7 +3804,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": null,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sedoso Styling gel 80g product photo"
@@ -3822,8 +3814,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SEDOSO WAX CLEAR 80G",
     "category": "Beauty & Cosmetics",
     "price": 180,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3832,8 +3824,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SEDOSO WAX CLEAR 85G",
     "category": "Beauty & Cosmetics",
     "price": 180,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3842,8 +3834,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SEDUCTION",
     "category": "Beauty & Cosmetics",
     "price": 120,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3852,8 +3844,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SHORT DAVIS 013",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3862,8 +3854,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SHOWER GEL",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3872,8 +3864,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SIMEL",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3882,8 +3874,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SKALA SPRAY FRESH",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3892,8 +3884,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SLEEK FOUNDATION S/S",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3902,8 +3894,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SLEEK LIPGLOSS",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3912,8 +3904,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SMALL CUTEX",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3922,8 +3914,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SMALL NAIL GLUE",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3933,7 +3925,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3943,7 +3935,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3953,7 +3945,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3963,7 +3955,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 220,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3972,8 +3964,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SPANISH BULK 1",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3982,8 +3974,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SQUEEZE AND SHINE L/GLOSS",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -3992,8 +3984,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "STAINLESS CHAIN",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4002,8 +3994,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "STAINLESS STEEL NECKLACE",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4012,8 +4004,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SUBARU NATURAL BLACK/WINE R/GOLD",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4022,8 +4014,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SULTANA COCONUT OIL 150ML",
     "category": "Beauty & Cosmetics",
     "price": 120,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4032,8 +4024,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SULTANA COCONUT OIL 70ML",
     "category": "Beauty & Cosmetics",
     "price": 70,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4043,7 +4035,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4052,8 +4044,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "SUNNY GIRL",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4062,8 +4054,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "TCB H/FOOD ANTI/D(COCONUT)",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4072,8 +4064,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "TCB HAIR FOOD -100G",
     "category": "Beauty & Cosmetics",
     "price": 250,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4082,8 +4074,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "TCB HAIR FOOD -50G",
     "category": "Beauty & Cosmetics",
     "price": 150,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4093,7 +4085,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tcb Leave in treatment 200ml product photo"
@@ -4103,8 +4095,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "TCB SHEEN SPRAY",
     "category": "Beauty & Cosmetics",
     "price": 180,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4113,8 +4105,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "TCB SHEEN SPRAY -250ML",
     "category": "Beauty & Cosmetics",
     "price": 370,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4124,7 +4116,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 12,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4133,8 +4125,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "TINKLE RAZOR",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4144,7 +4136,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4154,7 +4146,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4164,7 +4156,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4174,7 +4166,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4183,8 +4175,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "TUMERIC SERUM",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4194,7 +4186,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4204,7 +4196,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4214,7 +4206,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4224,7 +4216,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 600,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://www.trillingoexpress.com/cdn/shop/files/IMG_0040.jpg?v=1736536895",
     "description": ""
   },
@@ -4234,7 +4226,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4243,8 +4235,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "TX LIP BULM",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4253,8 +4245,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Top-up eWallet",
     "category": "Services",
     "price": 50,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4264,7 +4256,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 90,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4273,8 +4265,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VALON PERFUMED 95ML",
     "category": "Beauty & Cosmetics",
     "price": 170,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4283,8 +4275,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VASE MEN COOLING 250G",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4293,8 +4285,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VASELINE BLUESEAL 25ML",
     "category": "Beauty & Cosmetics",
     "price": 30,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4303,8 +4295,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VASELINE BLUESEAL MEN 240ML",
     "category": "Beauty & Cosmetics",
     "price": 360,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4313,8 +4305,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VASELINE JELLY 45ML",
     "category": "Beauty & Cosmetics",
     "price": 80,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4323,8 +4315,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VASELINE JELLY MEN 95ML",
     "category": "Beauty & Cosmetics",
     "price": 160,
-    "inStock": false,
-    "stockQty": -1,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4333,8 +4325,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VASLELINE JELLY MEN 45ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4344,7 +4336,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4353,8 +4345,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VEET TUMERIC SUPER WHITENING 500ML",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4363,8 +4355,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VENUS ANTI BREAKAGE 100ML",
     "category": "Beauty & Cosmetics",
     "price": 200,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4374,7 +4366,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4384,7 +4376,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 220,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4394,7 +4386,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4404,7 +4396,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 700,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4413,8 +4405,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "VICTORIA WORLD MIST 250ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4423,8 +4415,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Vaseline",
     "category": "Beauty & Cosmetics",
     "price": 30,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4434,7 +4426,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 50,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4443,8 +4435,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "WET WIPES",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4454,7 +4446,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4463,8 +4455,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "WIDE HEAD BAND",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": -3,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4474,7 +4466,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4483,8 +4475,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "WILD KISS BODY SPLASH",
     "category": "Beauty & Cosmetics",
     "price": 350,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4493,8 +4485,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "WILD NIGHTS FOR MEN 59ML",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4503,8 +4495,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "WOMEN BILLION MIST",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4514,7 +4506,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4524,7 +4516,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4533,8 +4525,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "body spray",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4543,8 +4535,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "duo eye lash adheseve",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -4554,7 +4546,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 450,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321353/n8nxqalfkczndpsjekry.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321353/n8nxqalfkczndpsjekry.jpg"
@@ -4565,7 +4557,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 600,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321432/xktersl24cfg9lz1edlr.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321432/xktersl24cfg9lz1edlr.jpg"
@@ -4576,7 +4568,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 300,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321542/tmf84ecfpuqkv51dg5ck.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321542/tmf84ecfpuqkv51dg5ck.jpg"
@@ -4587,7 +4579,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 520,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321609/ezdoprx0j1kwwubxqpih.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321609/ezdoprx0j1kwwubxqpih.jpg"
@@ -4598,7 +4590,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 550,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321682/kiajbpqqafo5c4d4bmqf.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321682/kiajbpqqafo5c4d4bmqf.jpg"
@@ -4609,7 +4601,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 500,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321761/bqjwtb1ccqyf8znppore.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321761/bqjwtb1ccqyf8znppore.jpg"
@@ -4620,7 +4612,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 90,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://viwanda.ke/wp-content/uploads/2022/01/KB009_2608.jpg",
     "description": ""
   },
@@ -4630,7 +4622,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 550,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321927/esyhjuklqrge6wfanyll.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321927/esyhjuklqrge6wfanyll.jpg"
@@ -4641,7 +4633,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 80,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322069/mdrjiuwjjldxuavclvl7.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322069/mdrjiuwjjldxuavclvl7.jpg"
@@ -4652,7 +4644,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 90,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322188/oic6xkfuz43vyhlijske.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322188/oic6xkfuz43vyhlijske.jpg"
@@ -4663,7 +4655,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 750,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322257/asecqvkznxge41jzdm95.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322257/asecqvkznxge41jzdm95.jpg"
@@ -4674,7 +4666,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 600,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322387/z66zmmhkuaf7updidynp.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322387/z66zmmhkuaf7updidynp.jpg"
@@ -4685,7 +4677,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 450,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322591/eqiuzasxutoddufbjmz6.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322591/eqiuzasxutoddufbjmz6.jpg"
@@ -4696,7 +4688,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 590,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322663/bypc0drk4emq2b5xwkgb.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322663/bypc0drk4emq2b5xwkgb.jpg"
@@ -4707,7 +4699,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 250,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322875/djyfqwrchklbbtzyi3c7.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322875/djyfqwrchklbbtzyi3c7.jpg"
@@ -4718,7 +4710,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 180,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322947/efsac5ipdxmreu8af1hd.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322947/efsac5ipdxmreu8af1hd.jpg"
@@ -4729,7 +4721,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 150,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323017/u76xwmsnf4yyfmlyek2v.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323017/u76xwmsnf4yyfmlyek2v.jpg"
@@ -4740,7 +4732,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 550,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323082/ol85l5cy7s89w3ohmgj6.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323082/ol85l5cy7s89w3ohmgj6.jpg"
@@ -4751,7 +4743,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 550,
     "inStock": true,
-    "stockQty": 7,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323155/hhpr1roehuuiir72hbg4.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323155/hhpr1roehuuiir72hbg4.jpg"
@@ -4762,7 +4754,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 200,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323317/rj3sa8mkpkkvsuogpeet.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323317/rj3sa8mkpkkvsuogpeet.jpg"
@@ -4773,7 +4765,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 1310,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323389/uhb3ftpvhvjklzbdlcpi.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323389/uhb3ftpvhvjklzbdlcpi.jpg"
@@ -4784,7 +4776,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 520,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323469/fbhrehgucbrb9a4r0omu.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323469/fbhrehgucbrb9a4r0omu.jpg"
@@ -4795,7 +4787,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 240,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323539/rtnbniyexhgboep6vn1d.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323539/rtnbniyexhgboep6vn1d.jpg"
@@ -4806,7 +4798,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 1700,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323623/fxp6u1x4xitvxej1kuwe.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323623/fxp6u1x4xitvxej1kuwe.jpg"
@@ -4817,7 +4809,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 900,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323701/ylfqcdvgzu5ohxh5gqxk.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323701/ylfqcdvgzu5ohxh5gqxk.jpg"
@@ -4828,7 +4820,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 300,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg"
@@ -4839,7 +4831,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 250,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323890/bkmy7j1zzd4ohnneupij.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323890/bkmy7j1zzd4ohnneupij.jpg"
@@ -4850,7 +4842,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 600,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323952/w7jmpzvyewv59urmlrxq.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323952/w7jmpzvyewv59urmlrxq.jpg"
@@ -4861,7 +4853,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 550,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324029/utsxnyfooeafbaffi5e2.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324029/utsxnyfooeafbaffi5e2.jpg"
@@ -4872,7 +4864,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 1360,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324096/aimg0biz9ivqri2jcdgq.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324096/aimg0biz9ivqri2jcdgq.jpg"
@@ -4883,7 +4875,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 800,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324160/jbfaskdh5gwwk3f1prct.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324160/jbfaskdh5gwwk3f1prct.jpg"
@@ -4894,7 +4886,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 1450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324229/xp8wjyt8ukoub1fet5wv.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324229/xp8wjyt8ukoub1fet5wv.jpg"
@@ -4905,7 +4897,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 1200,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324292/kgrss3dhl2xczka8nw2z.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324292/kgrss3dhl2xczka8nw2z.jpg"
@@ -4916,7 +4908,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 850,
     "inStock": true,
-    "stockQty": 0,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324393/qabekyit6roghd4ol99r.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324393/qabekyit6roghd4ol99r.jpg"
@@ -4927,7 +4919,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 400,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324454/zjntlec5h1t88w6pj8zl.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324454/zjntlec5h1t88w6pj8zl.jpg"
@@ -4938,7 +4930,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 550,
     "inStock": true,
-    "stockQty": 16,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324623/x6wfun9mbludep7ygr0s.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324623/x6wfun9mbludep7ygr0s.jpg"
@@ -4949,7 +4941,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 1800,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324705/xmdys7kl4kxtrq1ohn96.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324705/xmdys7kl4kxtrq1ohn96.jpg"
@@ -4960,7 +4952,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 950,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324773/qmhxrexpyarsq2q2ktmd.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324773/qmhxrexpyarsq2q2ktmd.jpg"
@@ -4971,7 +4963,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 950,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324960/cmargmw4rsjmvaglfwym.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790324960/cmargmw4rsjmvaglfwym.jpg"
@@ -4982,7 +4974,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 120,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325023/symknmqellueptxwj9yl.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325023/symknmqellueptxwj9yl.jpg"
@@ -4993,7 +4985,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325121/a09vpg2zfd2yfpx3gmjv.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325121/a09vpg2zfd2yfpx3gmjv.jpg"
@@ -5004,7 +4996,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 720,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325181/qciz8bsxo83hu54finny.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325181/qciz8bsxo83hu54finny.jpg"
@@ -5015,7 +5007,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 810,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325258/qeacn9jgw1cptkt0kz1c.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325258/qeacn9jgw1cptkt0kz1c.jpg"
@@ -5026,7 +5018,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 810,
     "inStock": true,
-    "stockQty": 11,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325335/wca75ig2f4awuj7dymrt.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325335/wca75ig2f4awuj7dymrt.jpg"
@@ -5037,7 +5029,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 700,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221658/221658_main.jpg",
     "description": ""
   },
@@ -5047,7 +5039,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 100,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321298/z0dcofctkvi6k63vivip.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321298/z0dcofctkvi6k63vivip.jpg"
@@ -5058,7 +5050,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 90,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321839/hfcuk3vxqc17u1rbe48n.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790321839/hfcuk3vxqc17u1rbe48n.jpg"
@@ -5069,7 +5061,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 550,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322528/rx2y3gmehswf2cua1bga.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790322528/rx2y3gmehswf2cua1bga.jpg"
@@ -5080,7 +5072,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/221598/221598_main.jpg",
     "description": ""
   },
@@ -5089,8 +5081,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "AFRO BULK 1/27",
     "category": "Beauty & Cosmetics",
     "price": 550,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://i.ebayimg.com/images/g/Az4AAOSwXZZjWZQW/s-l1200.jpg",
     "description": ""
   },
@@ -5100,7 +5092,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": "https://cdn.quickbutik.com/images/21574v/products/67bcfc03eb1b6.jpeg?auto=format&fit=crop&h=500&w=500",
     "description": ""
   },
@@ -5110,7 +5102,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326435/hkpgo1zwvxk24ispf8ha.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326435/hkpgo1zwvxk24ispf8ha.jpg"
@@ -5121,7 +5113,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 200,
     "inStock": true,
-    "stockQty": 18,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326612/cwvbfaw7o9ekjuigeynd.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790326612/cwvbfaw7o9ekjuigeynd.jpg"
@@ -5132,7 +5124,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 220,
     "inStock": true,
-    "stockQty": 9,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328167/u7df0j8cb5thruibnok8.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328167/u7df0j8cb5thruibnok8.jpg"
@@ -5142,8 +5134,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "AFRFO COMB BIG",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
-    "stockQty": -6,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325837/ycexbfqwg0bulrfrw0mq.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790325837/ycexbfqwg0bulrfrw0mq.jpg"
@@ -5154,7 +5146,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -5164,7 +5156,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -5174,7 +5166,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": "https://media.takealot.com/covers_images/c5b36669fc764a16ac99cbaa2cbfd0c5/s-zoom.file",
     "description": ""
   },
@@ -5184,7 +5176,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": "https://media.takealot.com/covers_images/c5b36669fc764a16ac99cbaa2cbfd0c5/s-zoom.file",
     "description": ""
   },
@@ -5195,7 +5187,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair & Braids",
     "description": "",
     "price": 650,
-    "stockQty": 6,
+    "stockQty": 20,
     "inStock": true,
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330278/wuqfikp1ozn3u0jtdmln.jpg"
   },
@@ -5205,7 +5197,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330501/cpcarhexbfdrbzhm0ist.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790330501/cpcarhexbfdrbzhm0ist.jpg"
@@ -5216,7 +5208,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 220,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334706/f815nntnxclxozz0fl4o.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790334706/f815nntnxclxozz0fl4o.jpg"
@@ -5226,8 +5218,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "ANGELS PONYTAIL 27",
     "category": "Beauty & Cosmetics",
     "price": 220,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -5237,7 +5229,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 385,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335865/yokb9cwpurkr1s1yqtgc.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790335865/yokb9cwpurkr1s1yqtgc.jpg"
@@ -5247,8 +5239,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "ANGELS SOFT DREAD LOC 1/350",
     "category": "Beauty & Cosmetics",
     "price": 370,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://i.ebayimg.com/images/g/fT4AAOSw3lhnwWQv/s-l1200.jpg",
     "description": ""
   },
@@ -5258,7 +5250,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 90,
     "inStock": true,
-    "stockQty": 80,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337946/jyx7zteuv5ag8qtbdhpy.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337946/jyx7zteuv5ag8qtbdhpy.jpg"
@@ -5269,7 +5261,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 80,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -5279,7 +5271,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 90,
     "inStock": true,
-    "stockQty": 30,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337554/w5xjw6msiy5e1loxp1kc.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790337554/w5xjw6msiy5e1loxp1kc.jpg"
@@ -5290,7 +5282,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338481/lf59upgygp6bumiz9htu.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790338481/lf59upgygp6bumiz9htu.jpg"
@@ -5301,7 +5293,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 180,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339186/txzzieqdy8qygkwmrnup.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790339186/txzzieqdy8qygkwmrnup.jpg"
@@ -5311,8 +5303,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "ANGELS JIBAMBE LONG",
     "category": "Beauty & Cosmetics",
     "price": 1,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": "https://mybigorder.com/public/uploads/all/V0NFBiTfBh595uFATGxXY3eeGWWr2WhuA9nXukkk.png",
     "description": ""
   },
@@ -5322,7 +5314,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790270207/l5aef5gy4lztz7ihc225.jpg",
     "description": "",
     "fallbackImage": "images/products/rose-leaf-ponds-big-1790190189509.jpg",
@@ -5333,8 +5325,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "AVS 60",
     "category": "Beauty & Cosmetics",
     "price": 80,
-    "inStock": false,
-    "stockQty": -2,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -5344,7 +5336,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 5,
     "inStock": true,
-    "stockQty": 50,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -5354,7 +5346,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Beauty & Cosmetics",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": ""
   },
@@ -5364,7 +5356,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 520,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Baby love AD 850g product photo"
@@ -5375,7 +5367,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Baby love Plain 500g product photo"
@@ -5386,7 +5378,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 150,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Baby love AD 125g product photo"
@@ -5397,7 +5389,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 180,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Baby love Plain 125g product photo"
@@ -5408,7 +5400,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 80,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Baby love AD 50g product photo"
@@ -5419,7 +5411,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 160,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tcb AD 50g product photo"
@@ -5430,7 +5422,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tcb AD 100g product photo"
@@ -5441,7 +5433,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 120,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://viwanda.ke/wp-content/uploads/2021/05/KB982_6530.jpg",
     "description": "",
     "imageQuery": "Bamsi Hair fertilizer 50g product photo",
@@ -5453,7 +5445,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 170,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Hair fertilizer 125g product photo"
@@ -5464,7 +5456,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Be AD 50g product photo"
@@ -5475,7 +5467,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 220,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Venus AD 100ml product photo"
@@ -5486,7 +5478,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Radiant A.D 100ml product photo"
@@ -5497,7 +5489,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 150,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Radiant A.D 60ml product photo"
@@ -5508,7 +5500,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Anti-dandruff",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Radiant A.D Spray 50ml product photo"
@@ -5519,7 +5511,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 30,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Baby care Hair food 25g product photo"
@@ -5530,7 +5522,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Baby care Hair food 100g product photo"
@@ -5541,7 +5533,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Baby care Hair food 500g product photo"
@@ -5552,7 +5544,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 80,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Peris Hair food 50g product photo"
@@ -5563,7 +5555,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Peris Hair food 100g product photo"
@@ -5574,7 +5566,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 80,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Beo Hair food 50g product photo"
@@ -5585,7 +5577,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Venus Hair food 100g product photo"
@@ -5596,7 +5588,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 240,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Mega growth H/ food 100ml product photo"
@@ -5607,7 +5599,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 140,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tcb H/ food 50ml product photo"
@@ -5618,7 +5610,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tcb H/ food 100ml product photo"
@@ -5629,7 +5621,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 170,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Miadi H/ food 85ml product photo"
@@ -5640,7 +5632,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Beula H/ food 500mg product photo"
@@ -5651,7 +5643,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Food",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi H/ food 500g product photo"
@@ -5662,7 +5654,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shower Gels",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Lemon Shower gel 1300ml product photo"
@@ -5673,7 +5665,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shower Gels",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Olive Shower gel 1300ml product photo"
@@ -5684,7 +5676,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shower Gels",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Papaya Shower gel 1300ml product photo"
@@ -5695,7 +5687,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shower Gels",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Aloe Vera Shower gel 1300ml product photo"
@@ -5706,7 +5698,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shower Gels",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Berry Burst Shower gel 550ml product photo"
@@ -5717,7 +5709,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shower Gels",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Ocean Breeze Shower gel 550ml product photo"
@@ -5728,7 +5720,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shower Gels",
     "price": 550,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Shower gel 500ml product photo"
@@ -5739,7 +5731,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Scrubs",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tumeric Shebet Body Scrub 500ml product photo"
@@ -5750,7 +5742,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Scrubs",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Apricot scrub 125g product photo"
@@ -5761,7 +5753,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Scrubs",
     "price": 400,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Meinaier whitening scrub 350g product photo"
@@ -5772,7 +5764,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Scrubs",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Snail massage Bath salt 350g product photo"
@@ -5783,7 +5775,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Scrubs",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Coffee sea salt Bath whitening scrub 350g product photo"
@@ -5794,7 +5786,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Scrubs",
     "price": null,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Coffee sea salt Bath whitening scrub 680g product photo"
@@ -5805,7 +5797,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dove 135g product photo"
@@ -5816,7 +5808,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 250,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Papaya Brightening soap 135g product photo"
@@ -5827,7 +5819,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 300,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tumeric with Honey soap product photo"
@@ -5838,7 +5830,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Kafi Rice milk 160gm product photo"
@@ -5849,7 +5841,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Asantee Papaya & Honey soap product photo"
@@ -5860,7 +5852,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Asantee Tamarind & goat milk product photo"
@@ -5871,7 +5863,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 250,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Carambola Black spots Herbal soap 120g product photo"
@@ -5882,7 +5874,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 350,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "K. Brothers Rice milk collagen 160g product photo"
@@ -5893,7 +5885,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 100,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Papaya Ayurvedic soap product photo"
@@ -5904,7 +5896,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Soaps",
     "price": 350,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Rice milk collagen (K. brothers) product photo"
@@ -5915,7 +5907,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Fa Fiji Dream 50ml product photo"
@@ -5926,7 +5918,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Fa Caribbean 50ml product photo"
@@ -5937,7 +5929,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tara Pink 110ml product photo"
@@ -5948,7 +5940,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tara Pink 90ml product photo"
@@ -5959,7 +5951,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Asad Bourbon 90ml product photo"
@@ -5970,7 +5962,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "9 pm Elixir Body mist 250ml product photo"
@@ -5981,7 +5973,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tara Body mist 250ml product photo"
@@ -5992,7 +5984,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Blue Diamond Aqua 250ml product photo"
@@ -6003,7 +5995,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 450,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tobacco Collection 250ml product photo"
@@ -6014,7 +6006,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 450,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Mayar 250ml product photo"
@@ -6025,7 +6017,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Grey Diamond Incense 250ml product photo"
@@ -6036,7 +6028,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Eclaire 250ml product photo"
@@ -6047,7 +6039,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Now 35ml product photo"
@@ -6058,7 +6050,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Benys Weekend Violet Edition 35ml product photo"
@@ -6069,7 +6061,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://almeyashop.fr/cdn/shop/files/IMG_7846.jpg?v=1719681923&width=1946",
     "description": "",
     "imageQuery": "Yara Pink 35ml product photo",
@@ -6081,7 +6073,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Mayar 35ml product photo"
@@ -6092,7 +6084,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Asad Brown 35ml product photo"
@@ -6103,7 +6095,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Black Asad 35ml product photo"
@@ -6114,7 +6106,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Billion 50ml product photo"
@@ -6125,7 +6117,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Pink Love 50ml product photo"
@@ -6136,7 +6128,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "713 80ml product photo"
@@ -6147,7 +6139,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Charm So Seduction 50ml product photo"
@@ -6158,7 +6150,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Skala She for women (Pink) 50ml product photo"
@@ -6169,7 +6161,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Skala for men (Blue) 50ml product photo"
@@ -6180,7 +6172,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Skala for men (Black) 50ml product photo"
@@ -6191,7 +6183,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Skala for men (Grey) 50ml product photo"
@@ -6202,7 +6194,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Francee (Black) 50ml product photo"
@@ -6213,7 +6205,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": null,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Red Rose 3ml product photo"
@@ -6224,7 +6216,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Mat Manhir 50ml product photo"
@@ -6235,7 +6227,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Benys Weekend Violet Edition 50ml product photo"
@@ -6246,7 +6238,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Benys Weekend Pink Edition 50ml product photo"
@@ -6257,7 +6249,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Black Asad 50ml product photo"
@@ -6268,7 +6260,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Yara Pink 50ml product photo"
@@ -6279,7 +6271,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Eclaire 50ml product photo"
@@ -6290,7 +6282,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Pdoe Smart 15ml product photo"
@@ -6301,7 +6293,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Perfumes",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "1 Million 15ml product photo"
@@ -6312,7 +6304,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Infini Oud 200ml product photo"
@@ -6323,7 +6315,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Home New York 200ml product photo"
@@ -6334,7 +6326,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Noir 200ml product photo"
@@ -6345,7 +6337,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Relation 200ml product photo"
@@ -6356,7 +6348,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Lamour Story 200ml product photo"
@@ -6367,7 +6359,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Forever Blue for man 200ml product photo"
@@ -6378,7 +6370,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Night Dating 200ml product photo"
@@ -6389,7 +6381,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Obsidian 200ml product photo"
@@ -6400,7 +6392,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dream Chiffon 200ml product photo"
@@ -6411,7 +6403,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sweet Vanilla 200ml product photo"
@@ -6422,7 +6414,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Twinkle Song 200ml product photo"
@@ -6433,7 +6425,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Wild Nights 59ml product photo"
@@ -6444,7 +6436,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Wild Nights 236ml product photo"
@@ -6455,7 +6447,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Lost in wood 236ml product photo"
@@ -6466,7 +6458,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Noir 236ml product photo"
@@ -6477,7 +6469,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Noir 59ml product photo"
@@ -6488,7 +6480,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Sprays",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sweet Vanilla 59ml product photo"
@@ -6499,7 +6491,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Grey Pearl Diamond 110ml product photo"
@@ -6510,7 +6502,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 250,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Eclaire 110ml product photo"
@@ -6521,7 +6513,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Eclaire 90ml product photo"
@@ -6532,7 +6524,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 250,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tobacco Collection 110ml product photo"
@@ -6543,7 +6535,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Vanilla Big 236ml product photo"
@@ -6554,7 +6546,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Noir Big 236ml product photo"
@@ -6565,7 +6557,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Wild Nights Small 59ml product photo"
@@ -6576,7 +6568,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Vanilla Small 59ml product photo"
@@ -6587,7 +6579,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Twinkle Song 236ml product photo"
@@ -6598,7 +6590,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Noir Small 59ml product photo"
@@ -6609,7 +6601,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dream Chiffon 236ml product photo"
@@ -6620,7 +6612,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 400,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Eau Body Splasher 200ml product photo"
@@ -6631,7 +6623,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Mist",
     "price": 250,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Diamond Body Mist 110ml product photo"
@@ -6642,7 +6634,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Mist",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Asad Black Asad 110ml product photo"
@@ -6653,7 +6645,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Mist",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Black Asad with white lid 100ml product photo"
@@ -6664,7 +6656,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Mist",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "212 Vip 88ml product photo"
@@ -6675,7 +6667,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Mist",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Yara Pink 110ml product photo"
@@ -6686,7 +6678,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Mist",
     "price": 250,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Asad Brown 90ml product photo"
@@ -6697,7 +6689,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 250,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Small Arabic Body Philosophy Splash 88ml product photo"
@@ -6708,7 +6700,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 500,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Big Arabic Body Philosophy Splash 250ml product photo"
@@ -6719,7 +6711,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Arabic 2 in one 212 men splash product photo"
@@ -6730,7 +6722,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Big Eclaire 250ml product photo"
@@ -6741,7 +6733,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 450,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Diamond Body Mist 250ml product photo"
@@ -6752,7 +6744,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Yara 250ml product photo"
@@ -6763,7 +6755,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "9 pm 250ml product photo"
@@ -6774,7 +6766,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Splash",
     "price": 450,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tobacco Collections 250ml product photo"
@@ -6785,7 +6777,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 100,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Skala Skul 9 50ml product photo"
@@ -6796,7 +6788,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 200,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Fa Roll on 50ml product photo"
@@ -6807,7 +6799,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 250,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nivea Roll on 50ml product photo"
@@ -6818,7 +6810,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 150,
     "inStock": true,
-    "stockQty": 7,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Soft 50ml product photo"
@@ -6829,7 +6821,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Burak Kal Rouge 540 50ml product photo"
@@ -6840,7 +6832,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Benys Weekend Pink Edition 50ml product photo"
@@ -6851,7 +6843,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 150,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Oqed Porsan 50ml product photo"
@@ -6862,7 +6854,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 180,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Rexona White 25ml product photo"
@@ -6873,7 +6865,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Rexona Blue 25ml product photo"
@@ -6884,7 +6876,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Roll On",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDgyMjY2fGltYWdlL2pwZWd8YUdVMEwyZ3lZaTh4TVRjd05Ea3pPVE00TURjMk5nfGNjNDY3YTlkYTY0NTYyNmI1NDk5ZjNjYzZkODEyNmU2MTUxMWFiOTQzMjY2MmQwNWViNTUzMmU4ZDY2YWE3MDk",
     "description": "",
     "imageQuery": "Nivea Silver Protect 50ml product photo",
@@ -6896,7 +6888,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 140,
     "inStock": true,
-    "stockQty": 9,
+    "stockQty": 20,
     "image": "https://cdnprod.mafretailproxy.com/sys-master-root/h2b/hc2/49589997043742/480Wx480H_14292_main.jpg",
     "description": "",
     "imageQuery": "Vaseline Blue Seal 95ml product photo",
@@ -6908,7 +6900,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 110,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Vaseline Blueseal for men 45ml product photo"
@@ -6919,7 +6911,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 180,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Amara Hydrating Glycerine 200ml product photo"
@@ -6930,7 +6922,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Amara Coconut 200ml product photo"
@@ -6941,7 +6933,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Amara for men (Blue) 200ml product photo"
@@ -6952,7 +6944,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 170,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Zoe Satin Jasmine 200ml product photo"
@@ -6963,7 +6955,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 170,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Zoe for men (grey) 200ml product photo"
@@ -6974,7 +6966,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 170,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Zoe Strawberry kisses 200ml product photo"
@@ -6985,7 +6977,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 170,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Zoe for men Blue 200ml product photo"
@@ -6996,7 +6988,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 170,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Zoe African Cocoa Butter 200ml product photo"
@@ -7007,7 +6999,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely Lemon extract 180ml product photo"
@@ -7018,7 +7010,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely Carrot oil 180ml product photo"
@@ -7029,7 +7021,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely for men 180ml product photo"
@@ -7040,7 +7032,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely Cocoa butter 180ml product photo"
@@ -7051,7 +7043,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 130,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely 99 purple 120ml product photo"
@@ -7062,7 +7054,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 280,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely Carrot oil 360ml product photo"
@@ -7073,7 +7065,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 280,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely Cocoa butter 300ml product photo"
@@ -7084,7 +7076,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 280,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely Lemon extract 360ml product photo"
@@ -7095,7 +7087,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 550,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dove Body love 400ml product photo"
@@ -7106,7 +7098,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 150,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Herbal Jelly 100gm product photo"
@@ -7117,7 +7109,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 170,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Veet Valon Skin Care 95ml product photo"
@@ -7128,7 +7120,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 110,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Vaseline Blue Seal 45ml product photo"
@@ -7139,7 +7131,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Vaseline perfumed Jelly 240ml product photo"
@@ -7150,7 +7142,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 150,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Luron Lip Balm product photo"
@@ -7161,7 +7153,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 150,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sexy Baby Powder Perfumed 50g product photo"
@@ -7172,7 +7164,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 100,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Baby Powder 50g product photo"
@@ -7183,7 +7175,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Luron Micellar Cleansing water 210ml product photo"
@@ -7194,7 +7186,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 250,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Luron Facial Toner 210ml product photo"
@@ -7205,7 +7197,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Luron Cleansing water 210ml product photo"
@@ -7216,7 +7208,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Natural Fair Small product photo"
@@ -7227,7 +7219,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 180,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Gold Touch Small product photo"
@@ -7238,7 +7230,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Face Serum 50ml product photo"
@@ -7249,7 +7241,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Sunscreen 50ml product photo"
@@ -7260,7 +7252,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Sun cream 50ml product photo"
@@ -7271,7 +7263,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Silk mask 28g product photo"
@@ -7282,7 +7274,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Black peel off mask 120g product photo"
@@ -7293,7 +7285,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Aloe vera moisture cream 50g product photo"
@@ -7304,7 +7296,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Vitamin C Moisturizer 100g product photo"
@@ -7315,7 +7307,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Rashel Whitening Day Cream 50g product photo"
@@ -7326,7 +7318,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dr Meinaer Snail whitening 50g product photo"
@@ -7337,7 +7329,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 550,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Veet Gold Tumeric Lotion 500ml product photo"
@@ -7348,7 +7340,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": null,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Veet Gold Tumeric Super whitening 100g product photo"
@@ -7359,7 +7351,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 550,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Snail repairing lotion 550ml product photo"
@@ -7370,7 +7362,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Oil",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tumeric Whitening oil 200ml product photo"
@@ -7381,7 +7373,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Oil",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tumeric Whitening oil 500ml product photo"
@@ -7392,7 +7384,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Oil",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Morocco Argan oil 200ml product photo"
@@ -7403,7 +7395,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Oil",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Papaya whitening oil 200ml product photo"
@@ -7414,7 +7406,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Oil",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Cocoa glow body oil 200ml product photo"
@@ -7425,7 +7417,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Oil",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Omega 3 Tumeric body oil 200ml product photo"
@@ -7436,7 +7428,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Body Oil",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Omega 3 Tumeric body glow oil 400ml product photo"
@@ -7447,7 +7439,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 290,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Veet hair removing Cream 30g product photo"
@@ -7458,7 +7450,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 220,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Luron vanish day cream 50ml product photo"
@@ -7469,7 +7461,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 400,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Luron brightening day cream 50ml product photo"
@@ -7480,7 +7472,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 190,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Ballet oil Small 125ml product photo"
@@ -7491,7 +7483,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 280,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Ballet oil Big 240ml product photo"
@@ -7502,7 +7494,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 140,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Ballet Jelly Blue 120ml product photo"
@@ -7513,7 +7505,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 140,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Ballet Jelly Pink 120ml product photo"
@@ -7524,7 +7516,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Skin Care",
     "price": 140,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Ballet Jelly Purple 120ml product photo"
@@ -7535,7 +7527,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shampoo",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bummi Egg Fresh Shampoo 250ml product photo"
@@ -7546,7 +7538,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shampoo",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bummi Apple Fresh Shampoo 250ml product photo"
@@ -7557,7 +7549,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Conditioner",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bummi Cream Natural Conditioner 500ml product photo"
@@ -7568,7 +7560,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shampoo",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Crystal Fresh Shampoo 500ml product photo"
@@ -7579,7 +7571,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shampoo",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bummi Egg Shampoo 500ml product photo"
@@ -7590,7 +7582,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Shampoo",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Crystal Fresh Shampoo 1000ml product photo"
@@ -7601,7 +7593,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Conditioner",
     "price": 800,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bummi White Natural Conditioner 1000ml product photo"
@@ -7612,7 +7604,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 150,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Angelique Professional Surgical Spirit 250ml product photo"
@@ -7623,7 +7615,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Angelique Professional Surgical Spirit 100ml product photo"
@@ -7634,7 +7626,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Hydrogen Peroxide 200ml product photo"
@@ -7645,7 +7637,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Relaxer",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Blood out Hair relaxer (Pink) 150g product photo"
@@ -7656,7 +7648,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Relaxer",
     "price": 260,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Conditioning Cream Hair relaxer 250g product photo"
@@ -7667,7 +7659,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Relaxer",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Conditioning Cream (Blue) 150g product photo"
@@ -7678,7 +7670,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Relaxer",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Conditioning Cream (Red) 150g product photo"
@@ -7689,7 +7681,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Relaxer",
     "price": 320,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Miadi Hair cream relaxer Regular 200g product photo"
@@ -7700,7 +7692,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Relaxer",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Relaxer Regular 212g product photo"
@@ -7711,7 +7703,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tcb Deep penetrating Treatment 250g product photo"
@@ -7722,7 +7714,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 450,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tcb Deep penetrating Treatment 500g product photo"
@@ -7733,7 +7725,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 400,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Mega Growth Deep strengthening treat 250g product photo"
@@ -7744,7 +7736,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 230,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Mega Growth Strengthener 100g product photo"
@@ -7755,7 +7747,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 90,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Leave-in hair conditioner 50ml product photo"
@@ -7766,7 +7758,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Leave-in hair conditioner 100ml product photo"
@@ -7777,7 +7769,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Baby love Leave-in treatment 100ml product photo"
@@ -7788,7 +7780,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Baby love Leave-in treatment 250ml product photo"
@@ -7799,7 +7791,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 160,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Black Essence Leave-in Treatment cream 125ml product photo"
@@ -7810,7 +7802,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 200,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Radiant Leave-in hair conditioning oil 100ml product photo"
@@ -7821,7 +7813,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Treatment",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Radiant Leave-in hair treatment 250ml product photo"
@@ -7832,7 +7824,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 130,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Black Essence Styling gel 65g product photo"
@@ -7843,7 +7835,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": null,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Black Essence Styling gel (BO) 125g product photo"
@@ -7854,7 +7846,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": null,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Black Essence styling gel (AE) 80g product photo"
@@ -7865,7 +7857,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 100,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Styling gel 50g product photo"
@@ -7876,7 +7868,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 130,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely Styling gel 60g product photo"
@@ -7887,7 +7879,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 250,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nice and lovely Styling gel 135g product photo"
@@ -7898,7 +7890,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Styling gel 80g product photo"
@@ -7909,7 +7901,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 350,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Venus Styling gel 210g product photo"
@@ -7920,7 +7912,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 230,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Soft free 125ml product photo"
@@ -7931,7 +7923,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Soft free 250ml product photo"
@@ -7942,7 +7934,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Styling Gel",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Be Styling gel 150g product photo"
@@ -7953,7 +7945,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 300,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Braiding gel wax 140g product photo"
@@ -7964,7 +7956,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 100,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Blue) 50g product photo"
@@ -7975,7 +7967,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Blue) 80g product photo"
@@ -7986,7 +7978,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 100,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Black) 50g product photo"
@@ -7997,7 +7989,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Black) 80g product photo"
@@ -8008,7 +8000,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 100,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Green) 50g product photo"
@@ -8019,7 +8011,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel wax (Green) 80g product photo"
@@ -8030,7 +8022,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Adora Bamsi Braiding gel wax 140g product photo"
@@ -8041,7 +8033,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Adora Moulding gel wax Black 80g product photo"
@@ -8052,7 +8044,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Adora Moulding gel wax Blue 80g product photo"
@@ -8063,7 +8055,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sedoso Moulding gel wax Black 85g product photo"
@@ -8074,7 +8066,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sedoso Moulding gel wax clear 85g product photo"
@@ -8085,7 +8077,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sedoso Moulding gel wax clear 150g product photo"
@@ -8096,7 +8088,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel 80g product photo"
@@ -8107,7 +8099,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel (Black) 50g product photo"
@@ -8118,7 +8110,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 130,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding gel (Blue) 30g product photo"
@@ -8129,7 +8121,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Gel",
     "price": 180,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Adora Moulding Gel wax 80g product photo"
@@ -8140,7 +8132,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Moulding Wax",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Moulding wax gel Blue 50g product photo"
@@ -8151,7 +8143,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Curl Activator",
     "price": 130,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Venus Curl activator 50g product photo"
@@ -8162,7 +8154,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Curl Activator",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Venus Curl activator 110g product photo"
@@ -8173,7 +8165,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Curl Activator",
     "price": 70,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Sedoso Curl activator 80g product photo"
@@ -8184,7 +8176,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Curl Activator",
     "price": 70,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Curl activator 80g product photo"
@@ -8195,7 +8187,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Curl Activator",
     "price": 70,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Curl activator 30g product photo"
@@ -8206,7 +8198,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Curl Activator",
     "price": 70,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bamsi Curl activator 80g product photo"
@@ -8217,7 +8209,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Valon",
     "price": 170,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Valon white petroleum jelly 95ml product photo"
@@ -8228,7 +8220,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Valon",
     "price": 150,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Herbal Jelly 100ml product photo"
@@ -8239,7 +8231,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": "https://gihanbeauty.com/cdn/shop/files/6223012452399_8a3d1aec-845d-4f59-a43d-afc195545e83.jpg?v=1742811979&width=1080",
     "description": "",
     "imageQuery": "ORS Olive oil Sheen Spray 450ml product photo",
@@ -8251,7 +8243,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 380,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "ORS Olive oil Sheen Spray 250ml product photo"
@@ -8262,7 +8254,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "ORS Olive oil sheen Spray 80ml product photo"
@@ -8273,7 +8265,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 400,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Mega growth Curl Mousse 207ml product photo"
@@ -8284,7 +8276,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Olive oil ORS Mousse 470ml product photo"
@@ -8295,7 +8287,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 380,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Radiant Sheen Hair Spray 250ml product photo"
@@ -8306,7 +8298,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Radiant Sheen Hair Spray 100ml product photo"
@@ -8317,7 +8309,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Radiant Sheen Hair Spray 85ml product photo"
@@ -8328,7 +8320,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 250,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tcb Sheen Spray 200ml product photo"
@@ -8339,7 +8331,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 200,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tcb Sheen Spray 100ml product photo"
@@ -8350,7 +8342,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Spray",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Movit Sheen hair spray 250ml product photo"
@@ -8361,7 +8353,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": null,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Comfor beauty Make up Primer product photo"
@@ -8372,7 +8364,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": null,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Headband (Big) product photo"
@@ -8383,7 +8375,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": null,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Headband (Small) product photo"
@@ -8394,7 +8386,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": null,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Edge brush product photo"
@@ -8405,7 +8397,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": null,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Wig band product photo"
@@ -8416,7 +8408,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": null,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Ho Head Band Big product photo"
@@ -8427,7 +8419,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Edge cutter product photo"
@@ -8438,7 +8430,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Round mirror product photo"
@@ -8449,7 +8441,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bonet with string product photo"
@@ -8460,7 +8452,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 150,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Big Key holders product photo"
@@ -8471,7 +8463,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Small Keyholders product photo"
@@ -8482,7 +8474,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Lush moja moja product photo"
@@ -8493,7 +8485,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 80,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "A fuce ponds product photo"
@@ -8504,7 +8496,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 200,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nails za 200 product photo"
@@ -8515,7 +8507,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Big mirrors product photo"
@@ -8526,7 +8518,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 50,
     "inStock": true,
-    "stockQty": 12,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Tatoo Chokers product photo"
@@ -8537,7 +8529,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Head Bands smalls product photo"
@@ -8548,7 +8540,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Kyle make up Brusher pickets product photo"
@@ -8559,7 +8551,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 60,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Make sponge boxed product photo"
@@ -8570,7 +8562,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Omg Head Bands product photo"
@@ -8581,7 +8573,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 20,
     "inStock": true,
-    "stockQty": 13,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dot earrings medium product photo"
@@ -8592,7 +8584,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 20,
     "inStock": true,
-    "stockQty": 15,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dot earrings small product photo"
@@ -8603,7 +8595,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 50,
     "inStock": true,
-    "stockQty": 17,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bandika earrings silver product photo"
@@ -8614,7 +8606,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 50,
     "inStock": true,
-    "stockQty": 16,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bandika earrings Gold product photo"
@@ -8625,7 +8617,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 50,
     "inStock": true,
-    "stockQty": 19,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nose Studs stainless product photo"
@@ -8636,7 +8628,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 100,
     "inStock": true,
-    "stockQty": 10,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Designer Rings product photo"
@@ -8647,7 +8639,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 50,
     "inStock": true,
-    "stockQty": 27,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Small Rings product photo"
@@ -8658,7 +8650,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 150,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Head bands Big product photo"
@@ -8669,7 +8661,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 200,
     "inStock": true,
-    "stockQty": 300,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Head Bands za 200 product photo"
@@ -8680,7 +8672,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 50,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Two sided fir woman product photo"
@@ -8691,7 +8683,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Accessories",
     "price": 20,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Nose Studs Dots product photo"
@@ -8702,7 +8694,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Arabic 2in1 non look product photo"
@@ -8713,7 +8705,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe long product photo"
@@ -8724,7 +8716,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 90,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Avris product photo"
@@ -8735,7 +8727,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 110,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Avris Plus Color 1 product photo"
@@ -8746,7 +8738,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 90,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Avris long Color 27 product photo"
@@ -8757,7 +8749,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 90,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Avris short Color 27 product photo"
@@ -8768,7 +8760,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 90,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Avris short Color 350 product photo"
@@ -8779,7 +8771,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 90,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Avris short Color 60 product photo"
@@ -8790,7 +8782,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 90,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Avris long Color 60 product photo"
@@ -8801,7 +8793,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe long Color 1 product photo"
@@ -8812,7 +8804,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe long Color 27 product photo"
@@ -8823,7 +8815,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe Pink Short product photo"
@@ -8834,7 +8826,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe Pink long product photo"
@@ -8845,7 +8837,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe Color Pink product photo"
@@ -8856,7 +8848,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe Blue Short product photo"
@@ -8867,7 +8859,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe D purple product photo"
@@ -8878,7 +8870,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe color purple product photo"
@@ -8889,7 +8881,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe 1/350 long product photo"
@@ -8900,7 +8892,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe 33 long product photo"
@@ -8911,7 +8903,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Jibambe 133 long product photo"
@@ -8922,7 +8914,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Natural Twist No 2 product photo"
@@ -8933,7 +8925,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Italian curls No 1 product photo"
@@ -8944,7 +8936,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 650,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Natural locs No 1 product photo"
@@ -8955,7 +8947,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 650,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Natural locs No 1/30 product photo"
@@ -8966,7 +8958,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 650,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Natural locs No 350 product photo"
@@ -8977,7 +8969,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Neto Italian curls No 350 product photo"
@@ -8988,7 +8980,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 650,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Havana curls Color 1/27/613 product photo"
@@ -8999,7 +8991,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Gwess gal Color 1 product photo"
@@ -9010,7 +9002,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 650,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Quinn crochet product photo"
@@ -9021,7 +9013,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 600,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Afro twist Color 2 product photo"
@@ -9032,7 +9024,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 900,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Natural Minky product photo"
@@ -9043,7 +9035,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Afro Bulk product photo"
@@ -9054,7 +9046,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 360,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bonsoir curls 2/30 product photo"
@@ -9065,7 +9057,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 600,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Coco twist 2/30 product photo"
@@ -9076,7 +9068,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 600,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Passion twist Color 1 product photo"
@@ -9087,7 +9079,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dian Braid Color 30 product photo"
@@ -9098,7 +9090,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 500,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Marley Braid Color 1 product photo"
@@ -9109,7 +9101,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 350,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dian Braid 1/27 Ivory product photo"
@@ -9120,7 +9112,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Lush Color Torguse blue short product photo"
@@ -9131,7 +9123,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Lush Color 27 long product photo"
@@ -9142,7 +9134,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 85,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Lush Color Blond 27 long product photo"
@@ -9153,7 +9145,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 80,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Lush Color 1/27 long product photo"
@@ -9164,7 +9156,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Color 1 product photo"
@@ -9175,7 +9167,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Color 133 product photo"
@@ -9186,7 +9178,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Color 99 product photo"
@@ -9197,7 +9189,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Color 1/27 product photo"
@@ -9208,7 +9200,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 6,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Color 2 product photo"
@@ -9219,7 +9211,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Color 1/350 product photo"
@@ -9230,7 +9222,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Color 613 product photo"
@@ -9241,7 +9233,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 4,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Color 30 product photo"
@@ -9251,8 +9243,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Bonsoir curls",
     "category": "Hair Care",
     "price": 360,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Bonsoir curls product photo"
@@ -9262,8 +9254,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Coco twist",
     "category": "Hair Care",
     "price": 600,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Coco twist product photo"
@@ -9273,8 +9265,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Passion twist",
     "category": "Hair Care",
     "price": 600,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Passion twist product photo"
@@ -9284,8 +9276,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Dian Braid",
     "category": "Hair Care",
     "price": 350,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Dian Braid product photo"
@@ -9295,8 +9287,8 @@ window.TIFFAS_PRODUCTS = [
     "name": "Marley Braid",
     "category": "Hair Care",
     "price": 500,
-    "inStock": false,
-    "stockQty": 0,
+    "inStock": true,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Marley Braid product photo"
@@ -9307,7 +9299,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 450,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Afro Kinky Color 1 Short product photo"
@@ -9318,7 +9310,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 600,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Afro Kinky Color 1 extra long product photo"
@@ -9329,7 +9321,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 550,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Fluffy Kinky Color 1 extra long product photo"
@@ -9340,7 +9332,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 900,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Afro Baby Color 1 product photo"
@@ -9351,7 +9343,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 280,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Zouk Bulk Color 1 product photo"
@@ -9362,7 +9354,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 270,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Brazilian Bulk Color 1 product photo"
@@ -9373,7 +9365,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": null,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Soft Dread locks Color 1/27 product photo"
@@ -9384,7 +9376,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 2,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "PONY TAILS Color 33 product photo"
@@ -9395,7 +9387,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 1,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "PONY TAILS Color 0/30 product photo"
@@ -9406,7 +9398,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 5,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "PONY TAILS Color 27 product photo"
@@ -9417,7 +9409,7 @@ window.TIFFAS_PRODUCTS = [
     "category": "Hair Care",
     "price": 300,
     "inStock": true,
-    "stockQty": 3,
+    "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "PONY TAILS Color 350 product photo"
