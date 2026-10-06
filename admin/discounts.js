@@ -1,102 +1,26 @@
 (()=>{
-const REPO="Tiffasbeautyandcosmetics/Tiffasbeauty-cosmetics-store";
-const API="https://api.github.com";
-let codes=[],editingIndex=-1;
-
-function q(id){return document.getElementById(id)}
-function esc(s){return String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]))}
-function money(n){return "Ksh "+Number(n||0).toLocaleString("en-KE",{maximumFractionDigits:2})}
-function codeNorm(s){return String(s||"").trim().toUpperCase().replace(/\s+/g,"-")}
-function context(){return window.TIFFAS_ADMIN_CONTEXT}
-async function githubFile(path){const c=context();if(!c||typeof c.getFile!=="function")throw Error("Admin connection is not ready. Connect to GitHub first.");return c.getFile(path)}
-async function put(path,content,sha,message){const c=context();if(!c||typeof c.putFile!=="function")throw Error("Admin connection is not ready. Connect to GitHub first.");return c.putFile(path,content,sha,message)}
-function randomCode(){const chars="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";let s="TIFFAS-";for(let i=0;i<6;i++)s+=chars[Math.floor(Math.random()*chars.length)];return s}
-function loadDefaults(){
- const now=new Date();now.setDate(now.getDate()+30);
- q("discountCode").value="";
- q("discountType").value="percent";
- q("discountValue").value="10";
- q("discountMin").value="0";
- q("discountUsage").value="0";
- q("discountExpiry").value=now.toISOString().slice(0,10);
- q("discountActive").checked=true;
- editingIndex=-1;
- q("discountSave").textContent="Create discount";
- q("discountCancel").hidden=true;
-}
-function fillForm(x){
- q("discountCode").value=x.code||"";
- q("discountType").value=x.type||"percent";
- q("discountValue").value=x.value??0;
- q("discountMin").value=x.minSubtotal??0;
- q("discountUsage").value=x.usageLimit??0;
- q("discountExpiry").value=x.expiresAt?String(x.expiresAt).slice(0,10):"";
- q("discountActive").checked=x.active!==false;
- q("discountSave").textContent="Update discount";
- q("discountCancel").hidden=false;
-}
-function render(){
- const body=q("discountRows"),empty=q("discountEmpty");if(!body)return;
- body.innerHTML=codes.map((x,i)=>{
-   const kind=x.type==="percent"?Number(x.value||0)+"%":money(x.value);
-   const usage=Number(x.usageLimit||0)>0?Number(x.usedCount||0)+" / "+Number(x.usageLimit):Number(x.usedCount||0)+" used";
-   const expired=x.expiresAt&&new Date(String(x.expiresAt).length<=10?String(x.expiresAt)+"T23:59:59":x.expiresAt).getTime()<Date.now();
-   const state=x.active===false?"Inactive":expired?"Expired":"Active";
-   return "<tr><td><b>"+esc(x.code)+"</b><small>"+esc(x.id||"")+"</small></td><td>"+kind+"</td><td>"+money(x.minSubtotal||0)+"</td><td>"+usage+"</td><td>"+esc(x.expiresAt||"—")+"</td><td>"+esc(state)+"</td><td><div class="actions"><button class="btn light" data-discount-edit=""+i+"">Edit</button><button class="btn light" data-discount-toggle=""+i+"">"+(x.active===false?"Activate":"Deactivate")+"</button><button class="btn danger" data-discount-delete=""+i+"">Delete</button></div></td></tr>";
- }).join("");
- empty.hidden=codes.length>0;
-}
-async function loadOnline(){
- const f=await githubFile("catalog/discounts.json");
- codes=JSON.parse(f.content||"[]");if(!Array.isArray(codes))codes=[];
- render();
- const c=context();if(c)c.setStatus?.("Discount codes loaded: "+codes.length);
-}
-async function saveOnline(){
- const c=context();if(!navigator.onLine||!c?.isOnline?.()||!c?.hasToken?.())throw Error("Connect to GitHub before saving discount codes.");
- const code=codeNorm(q("discountCode").value);
- if(!code)return alert("Enter a discount code.");
- if(!/^[A-Z0-9][A-Z0-9-]{2,39}$/.test(code))return alert("Use 3–40 characters: letters, numbers and hyphens only.");
- const type=q("discountType").value==="fixed"?"fixed":"percent";
- const value=Number(q("discountValue").value||0);
- const minSubtotal=Math.max(0,Number(q("discountMin").value||0));
- const usageLimit=Math.max(0,Math.floor(Number(q("discountUsage").value||0)));
- const expiry=q("discountExpiry").value.trim();
- if(value<=0)return alert("Discount value must be greater than zero.");
- if(type==="percent"&&value>100)return alert("Percentage discount cannot exceed 100%.");
- if(expiry&&!/^\d{4}-\d{2}-\d{2}$/.test(expiry))return alert("Expiry date is invalid.");
- const duplicate=codes.findIndex((x,i)=>i!==editingIndex&&codeNorm(x.code)===code);
- if(duplicate>=0)return alert("That discount code already exists.");
- const old=editingIndex>=0?codes[editingIndex]:{};
- const item={...old,id:old.id||code.toLowerCase().replace(/[^a-z0-9]+/g,"-"),code,type,value,minSubtotal,usageLimit,usedCount:Number(old.usedCount||0),expiresAt:expiry||null,active:q("discountActive").checked,createdAt:old.createdAt||new Date().toISOString(),updatedAt:new Date().toISOString()};
- if(usageLimit>0&&item.usedCount>usageLimit)item.usedCount=usageLimit;
- if(item.usedCount<0)item.usedCount=0;
- editingIndex>=0?codes[editingIndex]=item:codes.unshift(item);
- const f=await githubFile("catalog/discounts.json");
- await put("catalog/discounts.json",JSON.stringify(codes,null,2)+"\n",f.sha,"Update TIFFAS discount codes");
- loadDefaults();render();alert("Discount code saved: "+code);
- if(c)c.setStatus?.("Discount code saved online.");
-}
-function wire(){
- q("discountGenerate").onclick=()=>{q("discountCode").value=randomCode();};
- q("discountSave").onclick=()=>saveOnline().catch(e=>alert(e.message));
- q("discountCancel").onclick=loadDefaults;
- q("discountReload").onclick=()=>loadOnline().catch(e=>alert(e.message));
- q("discountRows").onclick=async e=>{
-   const edit=e.target.closest("[data-discount-edit]"),tog=e.target.closest("[data-discount-toggle]"),del=e.target.closest("[data-discount-delete]");
-   if(edit){editingIndex=Number(edit.dataset.discountEdit);fillForm(codes[editingIndex]);window.scrollTo({top:q("discountPanel").offsetTop-20,behavior:"smooth"});return;}
-   if(tog){const i=Number(tog.dataset.discountToggle),x=codes[i];if(!x)return;x.active=x.active===false;codes[i]=x;try{const f=await githubFile("catalog/discounts.json");await put("catalog/discounts.json",JSON.stringify(codes,null,2)+"\n",f.sha,"Toggle TIFFAS discount code");render();}catch(err){alert(err.message)}return;}
-   if(del){const i=Number(del.dataset.discountDelete),x=codes[i];if(!x||!confirm("Delete discount code "+x.code+"?"))return;codes.splice(i,1);try{const f=await githubFile("catalog/discounts.json");await put("catalog/discounts.json",JSON.stringify(codes,null,2)+"\n",f.sha,"Delete TIFFAS discount code");render();}catch(err){alert(err.message)}}};
- q("discountPanel")?.addEventListener("click",e=>{});
- loadDefaults();
-}
-function mount(){
- const app=q("app");if(!app||q("discountPanel"))return;
- const s=document.createElement("section");s.id="discountPanel";s.className="card discount-panel";
- s.innerHTML='<div class=\"section-head\"><div><h2>Discount codes</h2><p>Create promo codes for students, campaigns, ambassadors and repeat customers. Codes are live on the customer checkout.</p></div><div class=\"actions\"><button id=\"discountReload\" class=\"btn light\">Reload codes</button></div></div><div class=\"formgrid\"><label>Code<input id=\"discountCode\" maxlength=\"40\" placeholder=\"e.g. UON10\"></label><label>Discount type<select id=\"discountType\"><option value=\"percent\">Percentage</option><option value=\"fixed\">Fixed KSh</option></select></label><label>Value<input id=\"discountValue\" type=\"number\" min=\"0\" step=\"0.01\"></label><label>Minimum order (KSh)<input id=\"discountMin\" type=\"number\" min=\"0\" step=\"1\"></label><label>Usage limit (0 = unlimited)<input id=\"discountUsage\" type=\"number\" min=\"0\" step=\"1\"></label><label>Expiry date<input id=\"discountExpiry\" type=\"date\"></label></div><label class=\"check\"><input id=\"discountActive\" type=\"checkbox\"> Active</label><div class=\"actions\"><button id=\"discountGenerate\" class=\"btn light\">Generate code</button><button id=\"discountSave\" class=\"btn primary\">Create discount</button><button id=\"discountCancel\" class=\"btn light\" hidden>Cancel edit</button></div><p class=\"hint\">Usage limits are enforced from the published code list. Because the storefront is GitHub Pages (static), redemption counts are not automatically written back to GitHub; update <b>Used</b> in the JSON/admin workflow when you confirm an order.</p><div class=\"table-wrap\"><table><thead><tr><th>Code</th><th>Discount</th><th>Minimum</th><th>Usage</th><th>Expiry</th><th>Status</th><th></th></tr></thead><tbody id=\"discountRows\"></tbody></table></div><div id=\"discountEmpty\" class=\"empty\">No discount codes created yet.</div>';
- app.querySelector(".catalogue-card")?.after(s);
- wire();
- setTimeout(()=>loadOnline().catch(()=>{}),600);
-}
-const timer=setInterval(()=>{if(q("app")&&!q("discountPanel")){mount();clearInterval(timer)}},250);
+const KEY="tiffas_discount_ui";let codes=[],editing=-1;
+const q=id=>document.getElementById(id);
+const ctx=()=>window.TIFFAS_ADMIN_CONTEXT;
+const esc=s=>String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",\"" : "&quot;"}[m]));
+const money=n=>"Ksh "+Number(n||0).toLocaleString("en-KE",{maximumFractionDigits:2});
+const norm=s=>String(s||"").trim().toUpperCase().replace(/\s+/g,"-");
+function codeDate(v){return v?new Date(String(v).length<=10?String(v)+"T23:59:59":v):null}
+function statusText(x){const d=codeDate(x.expiresAt);if(x.active===false)return"Inactive";if(d&&d.getTime()<Date.now())return"Expired";return"Active";}
+function randomCode(){const chars="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";let r="TIFFAS-";for(let i=0;i<6;i++)r+=chars[Math.floor(Math.random()*chars.length)];return r;}
+function defaults(){q("discountCode").value=randomCode();q("discountType").value="percent";q("discountValue").value="10";q("discountMin").value="0";q("discountUsage").value="0";const d=new Date();d.setDate(d.getDate()+30);q("discountExpiry").value=d.toISOString().slice(0,10);q("discountActive").checked=true;editing=-1;q("discountSave").textContent="Create discount";q("discountCancel").hidden=true;}
+function render(){const body=q("discountRows"),empty=q("discountEmpty");if(!body)return;body.textContent="";codes.forEach((x,i)=>{const tr=document.createElement("tr");const td1=document.createElement("td");td1.innerHTML="<b>"+esc(x.code)+"</b><small>"+esc(x.id||"")+"</small>";const td2=document.createElement("td");td2.textContent=x.type==="percent"?String(x.value||0)+"%":money(x.value);const td3=document.createElement("td");td3.textContent=money(x.minSubtotal||0);const td4=document.createElement("td");td4.textContent=Number(x.usageLimit||0)>0?String(Number(x.usedCount||0))+" / "+String(Number(x.usageLimit)):String(Number(x.usedCount||0))+" used";const td5=document.createElement("td");td5.textContent=x.expiresAt||"—";const td6=document.createElement("td");td6.textContent=statusText(x);const td7=document.createElement("td");td7.innerHTML="<div class=\"actions\"><button class=\"btn light\" data-discount-edit=\""+i+"\">Edit</button><button class=\"btn light\" data-discount-toggle=\""+i+"\">"+(x.active===false?"Activate":"Deactivate")+"</button><button class=\"btn danger\" data-discount-delete=\""+i+"\">Delete</button></div>";[td1,td2,td3,td4,td5,td6,td7].forEach(td=>tr.appendChild(td));body.appendChild(tr);});empty.hidden=codes.length>0;}
+async function load(){const c=ctx();if(!c?.getFile)throw Error("Admin connection is not ready. Connect to GitHub first.");const f=await c.getFile("catalog/discounts.json");try{codes=JSON.parse(f.content||"[]");}catch(_){codes=[];}if(!Array.isArray(codes))codes=[];render();c.setStatus?.("Discount codes loaded: "+codes.length);}
+function readForm(){const code=norm(q("discountCode").value);const type=q("discountType").value==="fixed"?"fixed":"percent";const value=Number(q("discountValue").value||0);const minSubtotal=Math.max(0,Number(q("discountMin").value||0));const usageLimit=Math.max(0,Math.floor(Number(q("discountUsage").value||0)));const expiresAt=q("discountExpiry").value.trim();if(!code)throw Error("Enter a discount code.");if(!/^[A-Z0-9][A-Z0-9-]{2,39}$/.test(code))throw Error("Use 3–40 characters: letters, numbers and hyphens only.");if(value<=0)throw Error("Discount value must be greater than zero.");if(type==="percent"&&value>100)throw Error("Percentage discount cannot exceed 100%.");return{code,type,value,minSubtotal,usageLimit,expiresAt:expiresAt||null,active:q("discountActive").checked};}
+async function save(){try{const c=ctx();if(!c?.putFile||!c?.getFile||!c?.hasToken?.())throw Error("Connect to GitHub before saving discount codes.");const v=readForm();const duplicate=codes.findIndex((x,i)=>i!==editing&&norm(x.code)===v.code);if(duplicate>=0)throw Error("That discount code already exists.");const old=editing>=0?codes[editing]:{};const item={id:old.id||v.code.toLowerCase().replace(/[^a-z0-9]+/g,"-"),code:v.code,type:v.type,value:v.value,minSubtotal:v.minSubtotal,usageLimit:v.usageLimit,usedCount:Math.max(0,Number(old.usedCount||0)),expiresAt:v.expiresAt,active:v.active,createdAt:old.createdAt||new Date().toISOString(),updatedAt:new Date().toISOString()};if(item.usageLimit>0&&item.usedCount>item.usageLimit)item.usedCount=item.usageLimit;if(editing>=0)codes[editing]=item;else codes.unshift(item);const f=await c.getFile("catalog/discounts.json");await c.putFile("catalog/discounts.json",JSON.stringify(codes,null,2)+"\n",f.sha,"Update TIFFAS discount codes");render();defaults();c.setStatus?.("Discount code saved: "+v.code);}catch(e){alert(e.message);}}
+function fill(x,i){editing=i;q("discountCode").value=x.code||"";q("discountType").value=x.type||"percent";q("discountValue").value=x.value??0;q("discountMin").value=x.minSubtotal??0;q("discountUsage").value=x.usageLimit??0;q("discountExpiry").value=x.expiresAt?String(x.expiresAt).slice(0,10):"";q("discountActive").checked=x.active!==false;q("discountSave").textContent="Update discount";q("discountCancel").hidden=false;window.scrollTo({top:q("discountPanel").offsetTop-15,behavior:"smooth"});}
+async function action(e){const edit=e.target.closest("[data-discount-edit]"),toggle=e.target.closest("[data-discount-toggle]"),del=e.target.closest("[data-discount-delete]");if(edit){const i=Number(edit.dataset.discountEdit);fill(codes[i],i);return;}const c=ctx();if(toggle){const i=Number(toggle.dataset.discountToggle);if(!codes[i])return;codes[i].active=codes[i].active===false;try{const f=await c.getFile("catalog/discounts.json");await c.putFile("catalog/discounts.json",JSON.stringify(codes,null,2)+"\n",f.sha,"Toggle TIFFAS discount code");render();}catch(err){alert(err.message);}return;}if(del){const i=Number(del.dataset.discountDelete);if(!codes[i]||!confirm("Delete discount code "+codes[i].code+"?"))return;codes.splice(i,1);try{const f=await c.getFile("catalog/discounts.json");await c.putFile("catalog/discounts.json",JSON.stringify(codes,null,2)+"\n",f.sha,"Delete TIFFAS discount code");render();}catch(err){alert(err.message);}}}
+function makePanel(){const app=q("app");if(!app||q("discountPanel"))return;const s=document.createElement("section");s.id="discountPanel";s.className="card discount-panel";const h=document.createElement("div");h.className="section-head";const info=document.createElement("div");const title=document.createElement("h2");title.textContent="Discount codes";const p=document.createElement("p");p.textContent="Create promo codes for students, campaigns, ambassadors and repeat customers.";info.append(title,p);const topActions=document.createElement("div");topActions.className="actions";const reload=document.createElement("button");reload.id="discountReload";reload.className="btn light";reload.textContent="Reload codes";topActions.append(reload);h.append(info,topActions);s.append(h);
+const form=document.createElement("div");form.className="formgrid";form.innerHTML="<label>Code<input id=\"discountCode\" maxlength=\"40\" placeholder=\"e.g. UON10\"></label><label>Discount type<select id=\"discountType\"><option value=\"percent\">Percentage</option><option value=\"fixed\">Fixed KSh</option></select></label><label>Value<input id=\"discountValue\" type=\"number\" min=\"0\" step=\"0.01\"></label><label>Minimum order (KSh)<input id=\"discountMin\" type=\"number\" min=\"0\"></label><label>Usage limit (0 = unlimited)<input id=\"discountUsage\" type=\"number\" min=\"0\"></label><label>Expiry date<input id=\"discountExpiry\" type=\"date\"></label>";s.append(form);
+const check=document.createElement("label");check.className="check";check.innerHTML="<input id=\"discountActive\" type=\"checkbox\"> Active";s.append(check);
+const actions=document.createElement("div");actions.className="actions";actions.innerHTML="<button id=\"discountGenerate\" class=\"btn light\">Generate code</button><button id=\"discountSave\" class=\"btn primary\">Create discount</button><button id=\"discountCancel\" class=\"btn light\" hidden>Cancel edit</button>";s.append(actions);
+const hint=document.createElement("p");hint.className="hint";hint.textContent="Usage limits are checked from the published code list. GitHub Pages is static, so redemption counts are not automatically written back; update Used when you confirm an order.";s.append(hint);
+const wrap=document.createElement("div");wrap.className="table-wrap";wrap.innerHTML="<table><thead><tr><th>Code</th><th>Discount</th><th>Minimum</th><th>Usage</th><th>Expiry</th><th>Status</th><th></th></tr></thead><tbody id=\"discountRows\"></tbody></table>";s.append(wrap);const empty=document.createElement("div");empty.id="discountEmpty";empty.className="empty";empty.textContent="No discount codes created yet.";s.append(empty);
+app.querySelector(".catalogue-card")?.after(s);q("discountGenerate").onclick=()=>{q("discountCode").value=randomCode();};q("discountSave").onclick=save;q("discountCancel").onclick=defaults;q("discountReload").onclick=()=>load().catch(e=>alert(e.message));q("discountRows").onclick=action;defaults();setTimeout(()=>load().catch(()=>{}),500);}
+const timer=setInterval(()=>{if(q("app")&&!q("discountPanel")){makePanel();clearInterval(timer);}},250);
 })();
