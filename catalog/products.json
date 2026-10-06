@@ -1190,26 +1190,6 @@
     "description": ""
   },
   {
-    "id": "cc-chain-0-5-170",
-    "name": "CC CHAIN 0.5",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "cc-chain-0-6-171",
-    "name": "CC CHAIN 0.6",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "cc-earings-172",
     "name": "CC EARINGS",
     "category": "Beauty & Cosmetics",
@@ -9390,6 +9370,36 @@
     "name": "BRACELET 1.20",
     "category": "Beauty & Cosmetics",
     "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "brosh-on-glue-161",
+    "name": "BROSH ON GLUE",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "baby-care-500g-166",
+    "name": "Baby care -500g",
+    "category": "Beauty & Cosmetics",
+    "price": 300,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "caflon-b",
+    "name": "CAFLON B",
+    "category": "Beauty & Cosmetics",
+    "price": 100,
     "inStock": true,
     "stockQty": 20,
     "image": null,
