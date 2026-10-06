@@ -3430,56 +3430,6 @@
     "description": ""
   },
   {
-    "id": "tumeric-lotion-461",
-    "name": "TUMERIC LOTION",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "tumeric-oil-462",
-    "name": "TUMERIC OIL",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "tumeric-scrub-463",
-    "name": "TUMERIC SCRUB",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "tumeric-serum-464",
-    "name": "TUMERIC SERUM",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "tumeric-soap-honey-465",
-    "name": "TUMERIC SOAP+HONEY",
-    "category": "Beauty & Cosmetics",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "tumeric-soap-honey-super-466",
     "name": "TUMERIC SOAP+HONEY SUPER",
     "category": "Beauty & Cosmetics",
@@ -3520,26 +3470,6 @@
     "description": ""
   },
   {
-    "id": "tx-lip-bulm-470",
-    "name": "TX LIP BULM",
-    "category": "Beauty & Cosmetics",
-    "price": 50,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "top-up-ewallet-471",
-    "name": "Top-up eWallet",
-    "category": "Services",
-    "price": 50,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "valon-perfumed-50g-472",
     "name": "VALON PERFUMED 50G",
     "category": "Beauty & Cosmetics",
@@ -3563,7 +3493,7 @@
     "id": "vase-men-cooling-250g-474",
     "name": "VASE MEN COOLING 250G",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 300,
     "inStock": true,
     "stockQty": 20,
     "image": null,
