@@ -6773,12 +6773,12 @@
   },
   {
     "id": "be-styling-gel-150g",
-    "name": "Be Styling gel 150g",
+    "name": "Black essence Styling gel 150g",
     "category": "Styling Gel",
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791292041/lyzgi6k6tq8vmnil0whk.jpg",
     "description": "",
     "imageQuery": "Be Styling gel 150g product photo"
   },
