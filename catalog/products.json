@@ -5154,12 +5154,12 @@
   },
   {
     "id": "mat-manhir-50ml",
-    "name": "Mat Manhir 50ml",
+    "name": "Mat Maahir 50ml",
     "category": "Perfumes",
     "price": 600,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290494/x9nhwq943esn3oayvvsv.jpg",
     "description": "",
     "imageQuery": "Mat Manhir 50ml product photo"
   },
