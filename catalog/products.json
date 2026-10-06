@@ -5324,7 +5324,7 @@
     "price": 400,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290879/te3vq7khgdkq5ywnz7it.jpg",
     "description": "",
     "imageQuery": "Obsidian 200ml product photo"
   },
