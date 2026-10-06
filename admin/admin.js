@@ -1,4 +1,4 @@
-const REPO="Tiffasbeautyandcosmetics/Tiffasbeauty-cosmetics-store",API="https://api.github.com",DB_NAME="tiffas_admin_offline_v1",DB_STORE="state",SYNC_TAG="tiffas-admin-sync";let token="",products=[],settings={},editing=-1,deletedIds=new Set(),offlineDirty=false,settingsDirty=false;
+const REPO="Tiffasbeautyandcosmetics/Tiffasbeauty-cosmetics-store",API="https://api.github.com",DB_NAME="tiffas_admin_offline_v3",DB_STORE="state",SYNC_TAG="tiffas-admin-sync";let token="",products=[],settings={},editing=-1,deletedIds=new Set(),offlineDirty=false,settingsDirty=false;
 const $=id=>document.getElementById(id);
 const headers=()=>({"Accept":"application/vnd.github+json","Authorization":"Bearer "+token,"X-GitHub-Api-Version":"2022-11-28"});
 function status(msg,error=false){if(!$("status"))return;$("status").textContent=msg;$("status").className="status "+(error?"error":"");}
