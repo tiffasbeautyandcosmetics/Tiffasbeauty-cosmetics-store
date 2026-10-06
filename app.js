@@ -75,6 +75,12 @@ document.addEventListener("DOMContentLoaded", () => {
   render();
   renderCart();
   updateBankSummary();
+  Promise.all([
+    fetch(CATALOG_URL+"?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():[];}).catch(function(){return [];})
+  ]).then(function(results){
+    var live=results[0];
+    if(Array.isArray(live)&&live.length){products=live;categories();render();renderCart();}
+  });
   fetch(SETTINGS_URL+"?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():{};}).then(function(store){settings={...settings,...(store||{})};updateBankSummary();}).catch(function(e){console.warn("Store settings unavailable; catalogue remains available.",e);});
 
 });
