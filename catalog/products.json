@@ -5351,17 +5351,6 @@
     "imageQuery": "Sweet Vanilla 200ml product photo"
   },
   {
-    "id": "twinkle-song-200ml",
-    "name": "Twinkle Song 200ml",
-    "category": "Body Sprays",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Twinkle Song 200ml product photo"
-  },
-  {
     "id": "wild-nights-59ml",
     "name": "Wild Nights 59ml",
     "category": "Body Sprays",
@@ -5467,7 +5456,7 @@
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791291109/mgklpftr9gf4w0xtnmnp.jpg",
     "description": "",
     "imageQuery": "Tobacco Collection 110ml product photo"
   },
@@ -5481,17 +5470,6 @@
     "image": null,
     "description": "",
     "imageQuery": "Vanilla Big 236ml product photo"
-  },
-  {
-    "id": "noir-big-236ml",
-    "name": "Noir Big 236ml",
-    "category": "Body Splash",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Noir Big 236ml product photo"
   },
   {
     "id": "wild-nights-small-59ml",
