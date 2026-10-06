@@ -4867,12 +4867,12 @@
   },
   {
     "id": "tara-pink-110ml",
-    "name": "Tara Pink 110ml",
+    "name": "Yara Pink 110ml",
     "category": "Perfumes",
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791289947/bunbexvs1d0wgrgfzh4s.jpg",
     "description": "",
     "imageQuery": "Tara Pink 110ml product photo"
   },
