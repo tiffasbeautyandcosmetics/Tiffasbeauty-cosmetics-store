@@ -843,7 +843,7 @@
     "name": "BANDANA NYLON",
     "category": "Beauty & Cosmetics",
     "price": 50,
-    "inStock": false,
+    "inStock": true,
     "stockQty": 10,
     "image": null,
     "description": ""
