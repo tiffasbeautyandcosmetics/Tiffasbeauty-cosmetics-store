@@ -824,8 +824,9 @@
     "price": 360,
     "inStock": true,
     "stockQty": 2,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791268847/rm35qbqobohzs3rzlg1e.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791268847/rm35qbqobohzs3rzlg1e.jpg"
   },
   {
     "id": "bamsi-white-conditoner-5l",
