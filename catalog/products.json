@@ -1798,7 +1798,7 @@
     "price": 400,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791281651/jkhexjgjdhgdkmpjsh3s.jpg",
     "description": ""
   },
   {
