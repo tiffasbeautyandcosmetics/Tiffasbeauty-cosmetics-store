@@ -5286,12 +5286,12 @@
   },
   {
     "id": "lamour-story-200ml",
-    "name": "Lamour Story 200ml",
+    "name": "L'amour Story 200ml",
     "category": "Body Sprays",
     "price": 400,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290684/bo87wmmzbnxkwmzl6q5n.jpg",
     "description": "",
     "imageQuery": "Lamour Story 200ml product photo"
   },
