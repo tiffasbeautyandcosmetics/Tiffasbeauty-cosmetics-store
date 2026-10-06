@@ -5269,7 +5269,7 @@
     "price": 400,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290609/jyzp48fuazx61mnwlc1y.jpg",
     "description": "",
     "imageQuery": "Noir 200ml product photo"
   },
