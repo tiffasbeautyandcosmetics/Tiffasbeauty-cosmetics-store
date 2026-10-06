@@ -3136,33 +3136,13 @@
     "description": ""
   },
   {
-    "id": "rings-410",
-    "name": "RINGS",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "rise-sparle-411",
-    "name": "RISE & SPARLE",
-    "category": "Beauty & Cosmetics",
-    "price": 120,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "rose-leaf-ponds-small-412",
     "name": "ROSE LEAF PONDS SMALL POWDER",
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791285383/o0jcmubykejmapb8fgzw.jpg",
     "description": ""
   },
   {
