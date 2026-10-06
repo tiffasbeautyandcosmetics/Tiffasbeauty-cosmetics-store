@@ -1321,16 +1321,6 @@
     "description": ""
   },
   {
-    "id": "dear-body-twinkle-song-237ml-198",
-    "name": "DEAR BODY TWINKLE SONG 237ML",
-    "category": "Beauty & Cosmetics",
-    "price": 350,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "deluxe-wig-cap-199",
     "name": "DELUXE WIG CAP",
     "category": "Beauty & Cosmetics",
@@ -9399,5 +9389,27 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273661/mpbitfrunqksqc0tcyzh.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273661/mpbitfrunqksqc0tcyzh.jpg"
+  },
+  {
+    "id": "dexe-shampoo",
+    "name": "DEXE SHAMPOO",
+    "category": "Beauty & Cosmetics",
+    "price": 50,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273897/osv9ba5wbycqee8bayrb.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273897/osv9ba5wbycqee8bayrb.jpg"
+  },
+  {
+    "id": "dear-body-twinkle-song-237ml-2",
+    "name": "DEAR BODY TWINKLE SONG 237ML",
+    "category": "Beauty & Cosmetics",
+    "price": 350,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273719/p7jldje7fnnftg7mrjdu.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273719/p7jldje7fnnftg7mrjdu.jpg"
   }
 ]
