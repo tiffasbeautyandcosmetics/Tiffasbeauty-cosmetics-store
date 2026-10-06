@@ -2,7 +2,7 @@
 const KEY="tiffas_discount_ui";let codes=[],editing=-1;
 const q=id=>document.getElementById(id);
 const ctx=()=>window.TIFFAS_ADMIN_CONTEXT;
-const esc=s=>String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",\"" : "&quot;"}[m]));
+const esc=s=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 const money=n=>"Ksh "+Number(n||0).toLocaleString("en-KE",{maximumFractionDigits:2});
 const norm=s=>String(s||"").trim().toUpperCase().replace(/\s+/g,"-");
 function codeDate(v){return v?new Date(String(v).length<=10?String(v)+"T23:59:59":v):null}
