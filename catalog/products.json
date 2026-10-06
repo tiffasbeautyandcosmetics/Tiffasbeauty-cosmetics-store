@@ -921,16 +921,6 @@
     "description": ""
   },
   {
-    "id": "beula-hairgood-500g",
-    "name": "BEULA HAIRGOOD 500G",
-    "category": "Beauty & Cosmetics",
-    "price": 400,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "beula-shampoo-250ml",
     "name": "BEULA SHAMPOO -250ML",
     "category": "Beauty & Cosmetics",
@@ -975,26 +965,6 @@
     "name": "BLUE FOR MEN BODY SPRAY",
     "category": "Beauty & Cosmetics",
     "price": 120,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "body-leuxe-perfumed-gly",
-    "name": "BODY LEUXE PERFUMED GLY",
-    "category": "Beauty & Cosmetics",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "body-luxe-perfume-charming-50ml",
-    "name": "BODY LUXE PERFUME CHARMING 50ML",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -9396,5 +9366,15 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791271818/aki1nvljisbyp1b5jfl0.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791271818/aki1nvljisbyp1b5jfl0.jpg"
+  },
+  {
+    "id": "beeds-babies",
+    "name": "BEEDS BABIES",
+    "category": "Beauty & Cosmetics",
+    "price": 2.5,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
   }
 ]
