@@ -3490,16 +3490,6 @@
     "description": ""
   },
   {
-    "id": "vase-men-cooling-250g-474",
-    "name": "VASE MEN COOLING 250G",
-    "category": "Beauty & Cosmetics",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "vaseline-blueseal-25ml-475",
     "name": "VASELINE BLUESEAL 25ML",
     "category": "Beauty & Cosmetics",
@@ -3623,17 +3613,7 @@
     "id": "victoria-world-mist-250ml-487",
     "name": "VICTORIA WORLD MIST 250ML",
     "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "vaseline-488",
-    "name": "Vaseline",
-    "category": "Beauty & Cosmetics",
-    "price": 30,
+    "price": 400,
     "inStock": true,
     "stockQty": 20,
     "image": null,
