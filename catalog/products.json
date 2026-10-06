@@ -5302,7 +5302,7 @@
     "price": 400,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290752/hoigtd56bf2ae48o64ya.jpg",
     "description": "",
     "imageQuery": "Forever Blue for man 200ml product photo"
   },
