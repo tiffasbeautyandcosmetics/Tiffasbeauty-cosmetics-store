@@ -2345,12 +2345,12 @@
   },
   {
     "id": "miss-look-green-tea-321",
-    "name": "MISS LOOK GREEN TEA",
+    "name": "MISS LOOK GREEN TEA FOUNDATION",
     "category": "Beauty & Cosmetics",
     "price": 120,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791283079/mq9lfey80ggldkxi2ywr.jpg",
     "description": ""
   },
   {
