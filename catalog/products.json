@@ -7202,125 +7202,15 @@
     "imageQuery": "Comfor beauty Make up Primer product photo"
   },
   {
-    "id": "edge-brush",
-    "name": "Edge brush",
-    "category": "Accessories",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Edge brush product photo"
-  },
-  {
     "id": "ho-head-band-big",
     "name": "Ho Head Band Big",
     "category": "Accessories",
-    "price": null,
+    "price": 100,
     "inStock": true,
     "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Ho Head Band Big product photo"
-  },
-  {
-    "id": "edge-cutter",
-    "name": "Edge cutter",
-    "category": "Accessories",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Edge cutter product photo"
-  },
-  {
-    "id": "round-mirror",
-    "name": "Round mirror",
-    "category": "Accessories",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Round mirror product photo"
-  },
-  {
-    "id": "bonet-with-string",
-    "name": "Bonet with string",
-    "category": "Accessories",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bonet with string product photo"
-  },
-  {
-    "id": "big-key-holders",
-    "name": "Big Key holders",
-    "category": "Accessories",
-    "price": 150,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Big Key holders product photo"
-  },
-  {
-    "id": "small-keyholders",
-    "name": "Small Keyholders",
-    "category": "Accessories",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Small Keyholders product photo"
-  },
-  {
-    "id": "lush-moja-moja",
-    "name": "Lush moja moja",
-    "category": "Accessories",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Lush moja moja product photo"
-  },
-  {
-    "id": "a-fuce-ponds",
-    "name": "A fuce ponds",
-    "category": "Accessories",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "A fuce ponds product photo"
-  },
-  {
-    "id": "nails-za-200",
-    "name": "Nails za 200",
-    "category": "Accessories",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Nails za 200 product photo"
-  },
-  {
-    "id": "big-mirrors",
-    "name": "Big mirrors",
-    "category": "Accessories",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Big mirrors product photo"
   },
   {
     "id": "tatoo-chokers",
@@ -7345,17 +7235,6 @@
     "imageQuery": "Head Bands smalls product photo"
   },
   {
-    "id": "kyle-make-up-brusher-pickets",
-    "name": "Kyle make up Brusher pickets",
-    "category": "Accessories",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Kyle make up Brusher pickets product photo"
-  },
-  {
     "id": "make-sponge-boxed",
     "name": "Make sponge boxed",
     "category": "Accessories",
@@ -7376,28 +7255,6 @@
     "image": null,
     "description": "",
     "imageQuery": "Omg Head Bands product photo"
-  },
-  {
-    "id": "dot-earrings-medium",
-    "name": "Dot earrings medium",
-    "category": "Accessories",
-    "price": 20,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Dot earrings medium product photo"
-  },
-  {
-    "id": "dot-earrings-small",
-    "name": "Dot earrings small",
-    "category": "Accessories",
-    "price": 20,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Dot earrings small product photo"
   },
   {
     "id": "bandika-earrings-silver",
@@ -7477,17 +7334,6 @@
     "imageQuery": "Head Bands za 200 product photo"
   },
   {
-    "id": "two-sided-fir-woman",
-    "name": "Two sided fir woman",
-    "category": "Accessories",
-    "price": 50,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Two sided fir woman product photo"
-  },
-  {
     "id": "nose-studs-dots",
     "name": "Nose Studs Dots",
     "category": "Accessories",
@@ -7499,17 +7345,6 @@
     "imageQuery": "Nose Studs Dots product photo"
   },
   {
-    "id": "arabic-2in1-non-look",
-    "name": "Arabic 2in1 non look",
-    "category": "Hair Care",
-    "price": 350,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Arabic 2in1 non look product photo"
-  },
-  {
     "id": "jibambe-long",
     "name": "Jibambe long",
     "category": "Hair Care",
@@ -7519,204 +7354,6 @@
     "image": null,
     "description": "",
     "imageQuery": "Jibambe long product photo"
-  },
-  {
-    "id": "avris",
-    "name": "Avris",
-    "category": "Hair Care",
-    "price": 90,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Avris product photo"
-  },
-  {
-    "id": "avris-plus-color-1",
-    "name": "Avris Plus Color 1",
-    "category": "Hair Care",
-    "price": 110,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Avris Plus Color 1 product photo"
-  },
-  {
-    "id": "avris-long-color-27",
-    "name": "Avris long Color 27",
-    "category": "Hair Care",
-    "price": 90,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Avris long Color 27 product photo"
-  },
-  {
-    "id": "avris-short-color-27",
-    "name": "Avris short Color 27",
-    "category": "Hair Care",
-    "price": 90,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Avris short Color 27 product photo"
-  },
-  {
-    "id": "avris-short-color-350",
-    "name": "Avris short Color 350",
-    "category": "Hair Care",
-    "price": 90,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Avris short Color 350 product photo"
-  },
-  {
-    "id": "avris-short-color-60",
-    "name": "Avris short Color 60",
-    "category": "Hair Care",
-    "price": 90,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Avris short Color 60 product photo"
-  },
-  {
-    "id": "avris-long-color-60",
-    "name": "Avris long Color 60",
-    "category": "Hair Care",
-    "price": 90,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Avris long Color 60 product photo"
-  },
-  {
-    "id": "jibambe-long-color-1",
-    "name": "Jibambe long Color 1",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe long Color 1 product photo"
-  },
-  {
-    "id": "jibambe-long-color-27",
-    "name": "Jibambe long Color 27",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe long Color 27 product photo"
-  },
-  {
-    "id": "jibambe-pink-short",
-    "name": "Jibambe Pink Short",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe Pink Short product photo"
-  },
-  {
-    "id": "jibambe-pink-long",
-    "name": "Jibambe Pink long",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe Pink long product photo"
-  },
-  {
-    "id": "jibambe-color-pink",
-    "name": "Jibambe Color Pink",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe Color Pink product photo"
-  },
-  {
-    "id": "jibambe-blue-short",
-    "name": "Jibambe Blue Short",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe Blue Short product photo"
-  },
-  {
-    "id": "jibambe-d-purple",
-    "name": "Jibambe D purple",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe D purple product photo"
-  },
-  {
-    "id": "jibambe-color-purple",
-    "name": "Jibambe color purple",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe color purple product photo"
-  },
-  {
-    "id": "jibambe-1-350-long",
-    "name": "Jibambe 1/350 long",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe 1/350 long product photo"
-  },
-  {
-    "id": "jibambe-33-long",
-    "name": "Jibambe 33 long",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe 33 long product photo"
-  },
-  {
-    "id": "jibambe-133-long",
-    "name": "Jibambe 133 long",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Jibambe 133 long product photo"
   },
   {
     "id": "natural-twist-no-2",
@@ -7796,28 +7433,6 @@
     "imageQuery": "Havana curls Color 1/27/613 product photo"
   },
   {
-    "id": "gwess-gal-color-1",
-    "name": "Gwess gal Color 1",
-    "category": "Hair Care",
-    "price": 600,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Gwess gal Color 1 product photo"
-  },
-  {
-    "id": "quinn-crochet",
-    "name": "Quinn crochet",
-    "category": "Hair Care",
-    "price": 650,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Quinn crochet product photo"
-  },
-  {
     "id": "afro-twist-color-2",
     "name": "Afro twist Color 2",
     "category": "Hair Care",
@@ -7835,20 +7450,9 @@
     "price": 900,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791292692/qr7gih7e9ycnbh7jrmkg.jpg",
     "description": "",
     "imageQuery": "Natural Minky product photo"
-  },
-  {
-    "id": "afro-bulk",
-    "name": "Afro Bulk",
-    "category": "Hair Care",
-    "price": 600,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Afro Bulk product photo"
   },
   {
     "id": "bonsoir-curls-2-30",
@@ -8732,5 +8336,27 @@
     "image": null,
     "description": "",
     "imageQuery": "Bummi White Natural Conditioner 1000ml product photo"
+  },
+  {
+    "id": "headband-big",
+    "name": "Headband (Big)",
+    "category": "Accessories",
+    "price": null,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Headband (Big) product photo"
+  },
+  {
+    "id": "headband-small",
+    "name": "Headband (Small)",
+    "category": "Accessories",
+    "price": null,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "",
+    "imageQuery": "Headband (Small) product photo"
   }
 ]
