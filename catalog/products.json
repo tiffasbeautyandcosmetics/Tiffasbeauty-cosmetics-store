@@ -1611,26 +1611,6 @@
     "description": ""
   },
   {
-    "id": "gift-card-241",
-    "name": "Gift Card",
-    "category": "Services",
-    "price": 50,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "hair-extension-baby-buds-242",
-    "name": "HAIR EXTENSION BABY BUDS",
-    "category": "Beauty & Cosmetics",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "hair-extension-long-243",
     "name": "HAIR EXTENSION LONG",
     "category": "Beauty & Cosmetics",
@@ -1707,7 +1687,7 @@
     "price": 50,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791281289/hzinsvy2som9h6v8btbi.jpg",
     "description": ""
   },
   {
