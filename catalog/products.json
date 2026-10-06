@@ -3259,16 +3259,6 @@
     "description": ""
   },
   {
-    "id": "sleek-foundation-s-s-432",
-    "name": "SLEEK FOUNDATION S/S",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "sleek-lipgloss-433",
     "name": "SLEEK LIPGLOSS",
     "category": "Beauty & Cosmetics",
@@ -3279,20 +3269,10 @@
     "description": ""
   },
   {
-    "id": "small-cutex-434",
-    "name": "SMALL CUTEX",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "small-nail-glue-435",
     "name": "SMALL NAIL GLUE",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 50,
     "inStock": true,
     "stockQty": 20,
     "image": null,
