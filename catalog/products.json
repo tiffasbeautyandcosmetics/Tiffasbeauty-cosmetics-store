@@ -9378,5 +9378,26 @@
     "stockQty": 20,
     "image": null,
     "description": ""
+  },
+  {
+    "id": "darling-fluffy-kinky",
+    "name": "DARLING FLUFFY KINKY",
+    "category": "Beauty & Cosmetics",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://betocosmetics.com/cdn/shop/products/z1q_512x512.jpg?v=1629106272",
+    "description": ""
+  },
+  {
+    "id": "dear-body-twinkle-song-237ml",
+    "name": "DEAR BODY TWINKLE SONG 237ML",
+    "category": "Beauty & Cosmetics",
+    "price": 350,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273661/mpbitfrunqksqc0tcyzh.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273661/mpbitfrunqksqc0tcyzh.jpg"
   }
 ]
