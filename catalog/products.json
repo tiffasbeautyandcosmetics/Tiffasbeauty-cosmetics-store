@@ -9368,5 +9368,15 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273200/hmrraaiaqnpu5otpluur.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791273200/hmrraaiaqnpu5otpluur.jpg"
+  },
+  {
+    "id": "d-natural-twist-1-30-ivory",
+    "name": "D/NATURAL TWIST 1/30/IVORY",
+    "category": "Beauty & Cosmetics",
+    "price": 600,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
   }
 ]
