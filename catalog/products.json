@@ -3310,12 +3310,12 @@
   },
   {
     "id": "subaru-natural-black-wine-r-gold-446",
-    "name": "SUBARU NATURAL BLACK/WINE R/GOLD",
+    "name": "SUBARU NATURAL BLACK",
     "category": "Beauty & Cosmetics",
     "price": 100,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791286241/c4oeuayzcf7esnnz5muy.jpg",
     "description": ""
   },
   {
@@ -3333,26 +3333,6 @@
     "name": "SULTANA COCONUT OIL 70ML",
     "category": "Beauty & Cosmetics",
     "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "sunday-body-mist-250-ml-449",
-    "name": "SUNDAY BODY MIST 250 ML",
-    "category": "Beauty & Cosmetics",
-    "price": 350,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "sunny-girl-450",
-    "name": "SUNNY GIRL",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -3433,7 +3413,7 @@
     "id": "tinkle-razor-459",
     "name": "TINKLE RAZOR",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 150,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -9110,6 +9090,46 @@
     "name": "RISE & SPARLE",
     "category": "Beauty & Cosmetics",
     "price": 120,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "snail-lotion-438",
+    "name": "SNAIL LOTION",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "spanish-bulk-1-441",
+    "name": "SPANISH BULK 1",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "squeeze-and-shine-l-gloss-442",
+    "name": "SQUEEZE AND SHINE L/GLOSS",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "stainless-steel-necklace-445",
+    "name": "STAINLESS STEEL NECKLACE",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
