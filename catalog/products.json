@@ -1953,23 +1953,13 @@
     "description": ""
   },
   {
-    "id": "long-davis-001-280",
-    "name": "LONG DAVIS 001",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "long-natural-minky-22-1-33-281",
     "name": "LONG NATURAL MINKY 22' 1/33",
     "category": "Beauty & Cosmetics",
     "price": 750,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791282117/db4xixbvgcqj21vlpta6.jpg",
     "description": ""
   },
   {
