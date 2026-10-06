@@ -2741,7 +2741,7 @@
     "price": 200,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791283950/iqi1a5wktuyqvfeehnru.jpg",
     "description": ""
   },
   {
@@ -2759,7 +2759,7 @@
     "id": "necklace-gold-silver-366",
     "name": "NECKLACE GOLD/SILVER",
     "category": "Beauty & Cosmetics",
-    "price": 100,
+    "price": 180,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -9289,6 +9289,26 @@
   {
     "id": "n-lstyling-gel-extrafirm-hold-60g-344",
     "name": "N&LSTYLING GEL EXTRAFIRM HOLD -60G",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "n-l-styling-gel-ext-60g-359",
+    "name": "N/L STYLING GEL EXT 60G",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "n4-styling-gel-clear-60g-360",
+    "name": "N4 STYLING GEL CLEAR 60G",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
