@@ -881,20 +881,10 @@
     "description": ""
   },
   {
-    "id": "beeds-babies",
-    "name": "BEEDS BABIES",
-    "category": "Beauty & Cosmetics",
-    "price": 2.5,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "bella-baby-wipes",
     "name": "BELLA BABY WIPES",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 180,
     "inStock": true,
     "stockQty": 20,
     "image": "https://biashara.keffys.co.ke/uploads/products/Au6gQjlbtYeADdc9N573rK1688474933.png",
@@ -904,7 +894,7 @@
     "id": "beula-hair-food-440g",
     "name": "BEULA HAIR FOOD -440G",
     "category": "Beauty & Cosmetics",
-    "price": 500,
+    "price": 400,
     "inStock": true,
     "stockQty": 20,
     "image": null,
