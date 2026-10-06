@@ -5132,12 +5132,12 @@
   },
   {
     "id": "francee-black-50ml",
-    "name": "Francee (Black) 50ml",
+    "name": "Fiancee (Black) 50ml",
     "category": "Perfumes",
     "price": 100,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290308/az1jdvgab7klfqo2nboq.jpg",
     "description": "",
     "imageQuery": "Francee (Black) 50ml product photo"
   },
@@ -5145,7 +5145,7 @@
     "id": "red-rose-3ml",
     "name": "Red Rose 3ml",
     "category": "Perfumes",
-    "price": null,
+    "price": 50,
     "inStock": true,
     "stockQty": 20,
     "image": null,
