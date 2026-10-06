@@ -3289,16 +3289,6 @@
     "description": ""
   },
   {
-    "id": "snail-lotion-438",
-    "name": "SNAIL LOTION",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "snail-repairing-lotion-550-ml-439",
     "name": "SNAIL REPAIRING LOTION 550 ML",
     "category": "Beauty & Cosmetics",
@@ -3319,46 +3309,6 @@
     "description": ""
   },
   {
-    "id": "spanish-bulk-1-441",
-    "name": "SPANISH BULK 1",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "squeeze-and-shine-l-gloss-442",
-    "name": "SQUEEZE AND SHINE L/GLOSS",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "stainless-chain-443",
-    "name": "STAINLESS CHAIN",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "stainless-steel-necklace-445",
-    "name": "STAINLESS STEEL NECKLACE",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "subaru-natural-black-wine-r-gold-446",
     "name": "SUBARU NATURAL BLACK/WINE R/GOLD",
     "category": "Beauty & Cosmetics",
@@ -3372,7 +3322,7 @@
     "id": "sultana-coconut-oil-150ml-447",
     "name": "SULTANA COCONUT OIL 150ML",
     "category": "Beauty & Cosmetics",
-    "price": 120,
+    "price": 150,
     "inStock": true,
     "stockQty": 20,
     "image": null,
