@@ -1121,16 +1121,6 @@
     "description": ""
   },
   {
-    "id": "bamsi-binding-gel-wax-80g-168",
-    "name": "Bamsi binding gel wax -80g",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": "https://juja.keffys.co.ke/uploads/products/RMFDsFF4zgVKXQThH2kN6b1777552676.png",
-    "description": ""
-  },
-  {
     "id": "caflon-b-169",
     "name": "CAFLON B",
     "category": "Beauty & Cosmetics",
@@ -1201,16 +1191,6 @@
     "description": ""
   },
   {
-    "id": "concelear-183",
-    "name": "CONCELEAR",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "conture-brushes-184",
     "name": "CONTURE BRUSHES",
     "category": "Beauty & Cosmetics",
@@ -1225,16 +1205,6 @@
     "name": "COTTON WOOL DOVE 50G",
     "category": "Beauty & Cosmetics",
     "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "crocodile-clip-186",
-    "name": "CROCODILE CLIP",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
