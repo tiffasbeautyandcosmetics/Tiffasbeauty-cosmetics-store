@@ -1521,36 +1521,6 @@
     "description": ""
   },
   {
-    "id": "ear-rings-emoji-220",
-    "name": "EAR RINGS EMOJI",
-    "category": "Beauty & Cosmetics",
-    "price": 20,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "earings-ttt-221",
-    "name": "EARINGS TTT",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "earring-chain-222",
-    "name": "EARRING+CHAIN",
-    "category": "Beauty & Cosmetics",
-    "price": 50,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "eva-shower-cap-223",
     "name": "EVA SHOWER CAP",
     "category": "Beauty & Cosmetics",
@@ -1582,12 +1552,12 @@
   },
   {
     "id": "eyeblow-lazer-tineke-226",
-    "name": "EYEBLOW LAZER TINEKE",
+    "name": "EYEBLOW LAZER TINKLE",
     "category": "Beauty & Cosmetics",
     "price": 150,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791280858/szlzdczjogu4vhzdfbpt.jpg",
     "description": ""
   },
   {
