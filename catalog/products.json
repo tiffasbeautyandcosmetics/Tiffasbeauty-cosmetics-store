@@ -2638,16 +2638,6 @@
     "description": ""
   },
   {
-    "id": "n-l-lotion-lemon-180ml-357",
-    "name": "N/L LOTION LEMON 180ML",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "n-l-pure-glycerine-358",
     "name": "N/L PURE GLYCERINE",
     "category": "Beauty & Cosmetics",
@@ -3486,7 +3476,7 @@
     "id": "vasleline-jelly-men-45ml-479",
     "name": "VASLELINE JELLY MEN 45ML",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 90,
     "inStock": true,
     "stockQty": 20,
     "image": null,
