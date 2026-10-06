@@ -1966,56 +1966,6 @@
     "description": ""
   },
   {
-    "id": "lush-1-short-282",
-    "name": "LUSH 1 SHORT",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-1-33-short-283",
-    "name": "LUSH 1/33 SHORT",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-1-900-long-284",
-    "name": "LUSH 1/900 LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-2-27-long-285",
-    "name": "LUSH 2/27 LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-33-long-286",
-    "name": "LUSH 33 LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "lush-arafa-crochet-287",
     "name": "LUSH ARAFA CROCHET",
     "category": "Beauty & Cosmetics",
@@ -2671,7 +2621,7 @@
     "id": "n-l-lotion-gly-200ml-355",
     "name": "N/L LOTION GLY 200ML",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 165,
     "inStock": true,
     "stockQty": 20,
     "image": null,
