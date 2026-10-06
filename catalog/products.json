@@ -1825,17 +1825,7 @@
     "id": "korea-hair-bands-266",
     "name": "KOREA HAIR BANDS",
     "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "kristina-267",
-    "name": "KRISTINA",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 50,
     "inStock": true,
     "stockQty": 20,
     "image": null,
