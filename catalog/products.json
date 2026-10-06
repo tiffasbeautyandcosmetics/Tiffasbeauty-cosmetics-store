@@ -3162,44 +3162,14 @@
     "price": 400,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "rubber-band-415",
-    "name": "RUBBER BAND",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "rw-short-plain-hot-pink-416",
-    "name": "RW SHORT PLAIN HOT PINK",
-    "category": "Beauty & Cosmetics",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "sandra-5oml-417",
-    "name": "SANDRA 5OML",
-    "category": "Beauty & Cosmetics",
-    "price": 150,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791285530/krd4gwkm4pgb9knghzn4.jpg",
     "description": ""
   },
   {
     "id": "sawa-bathing-soap-225g-418",
     "name": "SAWA BATHING SOAP 225G",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 95,
     "inStock": true,
     "stockQty": 20,
     "image": null,
