@@ -3147,9 +3147,9 @@
   },
   {
     "id": "roseleaf-super-23g-413",
-    "name": "ROSELEAF SUPER 23G",
+    "name": "ROSELEAF SUPER",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 150,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -9240,6 +9240,26 @@
     "name": "N4 STYLING GEL CLEAR 60G",
     "category": "Beauty & Cosmetics",
     "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "rings-410",
+    "name": "RINGS",
+    "category": "Beauty & Cosmetics",
+    "price": 1,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
+  },
+  {
+    "id": "rise-sparle-411",
+    "name": "RISE & SPARLE",
+    "category": "Beauty & Cosmetics",
+    "price": 120,
     "inStock": true,
     "stockQty": 20,
     "image": null,
