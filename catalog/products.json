@@ -9405,5 +9405,16 @@
     "stockQty": 20,
     "image": null,
     "description": ""
+  },
+  {
+    "id": "bamsi-white-conditioner-250ml",
+    "name": "BAMSI WHITE CONDITIONER 250ML",
+    "category": "Beauty & Cosmetics",
+    "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791271818/aki1nvljisbyp1b5jfl0.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791271818/aki1nvljisbyp1b5jfl0.jpg"
   }
 ]
