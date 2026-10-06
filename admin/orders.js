@@ -2,7 +2,7 @@
 const KEY="tiffas_admin_orders_v1";let orders=[];
 function q(id){return document.getElementById(id)}
 function money(n){return "Ksh "+Number(n||0).toLocaleString("en-KE",{maximumFractionDigits:2})}
-function esc(s){return String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",\"\": "&quot;"}[m]))}
+function esc(s){return String(s??"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[m]))}
 function load(){try{orders=JSON.parse(localStorage.getItem(KEY)||"[]");if(!Array.isArray(orders))orders=[]}catch(e){orders=[]}}
 function save(){localStorage.setItem(KEY,JSON.stringify(orders));render();}
 function render(){
