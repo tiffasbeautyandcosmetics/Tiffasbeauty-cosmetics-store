@@ -1090,26 +1090,6 @@
     "description": ""
   },
   {
-    "id": "bomblast-beaded-shiny-153",
-    "name": "BOMBLAST BEADED SHINY",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bonding-glue-154",
-    "name": "BONDING GLUE",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "bonet-a80-155",
     "name": "BONET A80",
     "category": "Beauty & Cosmetics",
@@ -9413,5 +9393,16 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791269920/sgfkewg2d8gq9ugnl8uh.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791269920/sgfkewg2d8gq9ugnl8uh.jpg"
+  },
+  {
+    "id": "bonet-a80",
+    "name": "BONET A80",
+    "category": "Beauty & Cosmetics",
+    "price": 100,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791270465/ddrjdjz5n7cgj4kvdnq5.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791270465/ddrjdjz5n7cgj4kvdnq5.jpg"
   }
 ]
