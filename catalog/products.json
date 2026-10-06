@@ -3210,7 +3210,7 @@
     "id": "sedoso-styling-gel-150g-423",
     "name": "SEDOSO STYLING GEL 150G",
     "category": "Styling Gel",
-    "price": null,
+    "price": 210,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -3249,50 +3249,10 @@
     "description": ""
   },
   {
-    "id": "seduction-427",
-    "name": "SEDUCTION",
-    "category": "Beauty & Cosmetics",
-    "price": 120,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "short-davis-013-428",
-    "name": "SHORT DAVIS 013",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "shower-gel-429",
-    "name": "SHOWER GEL",
-    "category": "Beauty & Cosmetics",
-    "price": 400,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "simel-430",
-    "name": "SIMEL",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "skala-spray-fresh-431",
     "name": "SKALA SPRAY FRESH",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 150,
     "inStock": true,
     "stockQty": 20,
     "image": null,
