@@ -791,10 +791,11 @@
     "name": "BAMSI SHOWER GEL RASPBERRY",
     "category": "Beauty & Cosmetics",
     "price": 400,
-    "inStock": false,
+    "inStock": true,
     "stockQty": 0,
-    "image": null,
-    "description": ""
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791268712/ue6hw5n5ftwazctoqyxo.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791268712/ue6hw5n5ftwazctoqyxo.jpg"
   },
   {
     "id": "bamsi-w-n-conditioner-250ml",
