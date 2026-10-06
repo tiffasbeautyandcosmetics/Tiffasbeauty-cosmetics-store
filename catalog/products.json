@@ -7202,48 +7202,15 @@
     "imageQuery": "Comfor beauty Make up Primer product photo"
   },
   {
-    "id": "headband-big",
-    "name": "Headband (Big)",
-    "category": "Accessories",
-    "price": null,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Headband (Big) product photo"
-  },
-  {
-    "id": "headband-small",
-    "name": "Headband (Small)",
-    "category": "Accessories",
-    "price": null,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Headband (Small) product photo"
-  },
-  {
     "id": "edge-brush",
     "name": "Edge brush",
     "category": "Accessories",
-    "price": null,
+    "price": 100,
     "inStock": true,
     "stockQty": 20,
     "image": null,
     "description": "",
     "imageQuery": "Edge brush product photo"
-  },
-  {
-    "id": "wig-band",
-    "name": "Wig band",
-    "category": "Accessories",
-    "price": null,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Wig band product photo"
   },
   {
     "id": "ho-head-band-big",
