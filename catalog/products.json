@@ -8352,5 +8352,15 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg"
+  },
+  {
+    "id": "dr-rashel-vitamin-c-mini-set",
+    "name": "DR.RASHEL VITAMIN C MINI SET",
+    "category": "Beauty & Cosmetics",
+    "description": "",
+    "price": 1150,
+    "stockQty": 20,
+    "inStock": true,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791359454/fzcns2eg2opdmwjdbaqf.jpg"
   }
 ]
