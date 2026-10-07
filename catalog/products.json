@@ -300,17 +300,6 @@
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328622/srejir8otuiv6mk5sq9v.jpg"
   },
   {
-    "id": "angel-pony-tail-350",
-    "name": "ANGEL PONY TAIL 350",
-    "category": "Beauty & Cosmetics",
-    "price": 250,
-    "inStock": true,
-    "stockQty": 20,
-    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg",
-    "description": "",
-    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg"
-  },
-  {
     "id": "angelique-oil-2",
     "name": "ANGELIQUE OIL",
     "category": "Beauty & Cosmetics",
@@ -683,7 +672,7 @@
     "price": 120,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791358923/xaypxyuzu4tkc8wbbpg0.jpg",
     "description": ""
   },
   {
