@@ -682,7 +682,7 @@
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791358945/jo1eakevwuzkkwpopmjh.jpg",
     "description": ""
   },
   {
@@ -1104,9 +1104,9 @@
   },
   {
     "id": "caflon-b-169",
-    "name": "CAFLON B",
+    "name": "CAFLON B ORIGINAL",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 100,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -8341,5 +8341,16 @@
     "stockQty": 20,
     "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
+  },
+  {
+    "id": "angel-pony-tail-350",
+    "name": "ANGEL PONY TAIL 350",
+    "category": "Beauty & Cosmetics",
+    "price": 250,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg",
+    "description": "",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg"
   }
 ]
