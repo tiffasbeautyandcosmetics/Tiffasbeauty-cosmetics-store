@@ -633,7 +633,7 @@
     "price": 90,
     "inStock": true,
     "stockQty": 20,
-    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791357949/ebqv5f2htzgxrmpmro9m.jpg",
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791357950/jqihrw4xajmtwsi0ykdf.jpg",
     "description": ""
   },
   {
@@ -644,16 +644,6 @@
     "inStock": true,
     "stockQty": 20,
     "image": "https://live.ohalaerp.com/media/product_pic/1_HTMrGXU.jpg",
-    "description": ""
-  },
-  {
-    "id": "bamsi-hair-food-400ml",
-    "name": "BAMSI HAIR FOOD 400ML",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
     "description": ""
   },
   {
@@ -670,10 +660,10 @@
     "id": "bamsi-hair-food-50g",
     "name": "BAMSI HAIR FOOD 50G",
     "category": "Beauty & Cosmetics",
-    "price": 1,
+    "price": 60,
     "inStock": true,
     "stockQty": 20,
-    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791358041/yqq0p3yexvfdkkkz9m74.jpg",
     "description": ""
   },
   {
