@@ -31,9 +31,7 @@
         <button class="hero-shelf-chip" type="button" data-tiffas-search="body">Body care</button>
         <button class="hero-shelf-chip" type="button" data-tiffas-search="makeup">Makeup</button>
       </div>
-      <div id="heroSprayGrid" class="hero-spray-grid" aria-live="polite">
-        <div class="hero-spray-loading">Loading featured products…</div>
-      </div>
+      <div id="heroSprayGrid" class="hero-spray-grid" aria-live="polite"><div class="hero-spray-loading">Loading featured products…</div></div>
       <button type="button" class="hero-shelf-link" data-tiffas-search="spray">Browse sprays <span aria-hidden="true">→</span></button>
     </aside>
   </div>
@@ -8487,48 +8485,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const w=window.open("","_blank");
     if(!w){toast("Your browser blocked the receipt window. Allow pop-ups for this store, then try again.");return;}
     const items=cart.map(i=>"<tr><td>"+esc(i.name)+(i.request?"<br><small>"+esc(i.request)+"</small>":"")+"</td><td>"+Number(i.qty||0)+"</td><td>"+money(Number(i.price||0)*Number(i.qty||0))+"</td></tr>").join("");
-    const html="<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>TIFFAS Receipt "+esc(ref)+"</title><style>body{font-family:Arial,sans-serif;max-width:680px;margin:30px auto;padding:0 18px;color:#111}h1{text-align:center;font-size:22px}.subtitle{text-align:center;color:#555}table{width:100%;border-collapse:collapse;margin-top:18px}th,td{padding:9px 6px;border-bottom:1px solid #ddd;text-align:left}th:last-child,td:last-child{text-align:right}.total{display:flex;justify-content:space-between;border-top:1px solid #bbb;margin-top:10px;padding-top:10px}.grand-total{font-size:1.15rem;font-weight:800;border-top:2px solid #111}.print-action{display:block;margin:24px auto;padding:12px 20px;background:#5b2c83;color:white;border:0;border-radius:8px;font-size:16px;cursor:pointer}@media print{body{margin:0 auto;padding:0}.print-action{display:none}}</style></head><body><h1>"+esc(STORE_NAME)+"</h1><p class=\"subtitle\">Customer Receipt</p><p><b>Order:</b> "+esc(ref)+"<br><b>Date:</b> "+esc(new Date().toLocaleString("en-KE"))+"<br><b>Customer:</b> "+esc(customerName)+"<br><b>Phone:</b> "+esc(customerPhone)+"</p><table><thead><tr><th>Item</th><th>Qty</th><th>Amount</th></tr></thead><tbody>"+items+"</tbody></table><div class=\"total\"><span>Subtotal</span><span>"+money(q.subtotal)+"</span></div>"+(q.discount>0?"<div class=\"total\"><span>Discount ("+esc(appliedDiscount.code)+")</span><span>- "+money(q.discount)+"</span></div>":"")+"<div class=\"total grand-total\"><span>Total</span><span>"+money(q.total)+"</span></div><p><b>Payment method:</b> "+esc(paymentMethod==="pod"?"Pay on delivery":"Bank transfer")+"</p><p>Thank you for shopping with "+esc(STORE_NAME)+".</p><button class=\"print-action\" type=\"button\" onclick=\"window.print()\">Print receipt</button>
-<script>
-(function(){
-  var grid=document.getElementById("heroSprayGrid");
-  if(!grid)return;
-  function escapeHtml(value){
-    return String(value==null?"":value).replace(/[&<>"']/g,function(ch){
-      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch];
-    });
-  }
-  function renderFeatured(items){
-    if(!Array.isArray(items))return;
-    var byId=new Map(items.map(function(p){return [String(p.id),p];}));
-    var chosen=["1-million-spray","polo-blue-395","polo-sport-396"].map(function(id){return byId.get(id);}).filter(Boolean);
-    if(chosen.length<3){
-      items.filter(function(p){return /spray/i.test(String(p.name||""))&&(p.image||p.cloudinaryImage||p.fallbackImage)&&chosen.every(function(q){return q.id!==p.id;});}).some(function(p){chosen.push(p);return chosen.length>=3;});
-    }
-    grid.innerHTML=chosen.slice(0,3).map(function(p){
-      var url=p.image||p.cloudinaryImage||p.fallbackImage||"";
-      var name=escapeHtml(p.name||"Beauty essential");
-      var photo=url?'<img src="'+escapeHtml(url)+'" alt="'+name+'" loading="lazy">':'<span class="hero-spray-placeholder">T</span>';
-      return '<button class="hero-spray-card" type="button" data-tiffas-search="spray" aria-label="Browse '+name+'"><span class="hero-spray-photo">'+photo+'</span><span class="hero-spray-info"><strong>'+name+'</strong><span>KSh '+Number(p.price||0).toLocaleString("en-KE")+'</span></span></button>';
-    }).join("");
-    if(!chosen.length)grid.innerHTML='<div class="hero-spray-loading">Explore body sprays and fragrances in our catalogue.</div>';
-  }
-  renderFeatured(Array.isArray(window.TIFFAS_PRODUCTS)?window.TIFFAS_PRODUCTS:[]);
-  document.addEventListener("click",function(event){
-    var button=event.target.closest("[data-tiffas-search]");
-    if(!button)return;
-    event.preventDefault();
-    var input=document.getElementById("search");
-    if(input){
-      input.value=button.getAttribute("data-tiffas-search")||"";
-      input.dispatchEvent(new Event("input",{bubbles:true}));
-    }
-    var catalogue=document.getElementById("catalogue");
-    if(catalogue)catalogue.scrollIntoView({behavior:"smooth",block:"start"});
-  });
-  fetch("catalog/products.json?v="+Date.now(),{cache:"no-store"}).then(function(response){return response.ok?response.json():[];}).then(function(items){if(Array.isArray(items)&&items.length)renderFeatured(items);}).catch(function(){});
-})();
-</script>
-</body></html>";
+    const html="<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>TIFFAS Receipt "+esc(ref)+"</title><style>body{font-family:Arial,sans-serif;max-width:680px;margin:30px auto;padding:0 18px;color:#111}h1{text-align:center;font-size:22px}.subtitle{text-align:center;color:#555}table{width:100%;border-collapse:collapse;margin-top:18px}th,td{padding:9px 6px;border-bottom:1px solid #ddd;text-align:left}th:last-child,td:last-child{text-align:right}.total{display:flex;justify-content:space-between;border-top:1px solid #bbb;margin-top:10px;padding-top:10px}.grand-total{font-size:1.15rem;font-weight:800;border-top:2px solid #111}.print-action{display:block;margin:24px auto;padding:12px 20px;background:#5b2c83;color:white;border:0;border-radius:8px;font-size:16px;cursor:pointer}@media print{body{margin:0 auto;padding:0}.print-action{display:none}}</style></head><body><h1>"+esc(STORE_NAME)+"</h1><p class=\"subtitle\">Customer Receipt</p><p><b>Order:</b> "+esc(ref)+"<br><b>Date:</b> "+esc(new Date().toLocaleString("en-KE"))+"<br><b>Customer:</b> "+esc(customerName)+"<br><b>Phone:</b> "+esc(customerPhone)+"</p><table><thead><tr><th>Item</th><th>Qty</th><th>Amount</th></tr></thead><tbody>"+items+"</tbody></table><div class=\"total\"><span>Subtotal</span><span>"+money(q.subtotal)+"</span></div>"+(q.discount>0?"<div class=\"total\"><span>Discount ("+esc(appliedDiscount.code)+")</span><span>- "+money(q.discount)+"</span></div>":"")+"<div class=\"total grand-total\"><span>Total</span><span>"+money(q.total)+"</span></div><p><b>Payment method:</b> "+esc(paymentMethod==="pod"?"Pay on delivery":"Bank transfer")+"</p><p>Thank you for shopping with "+esc(STORE_NAME)+".</p><button class=\"print-action\" type=\"button\" onclick=\"window.print()\">Print receipt</button></body></html>";
     try{
       w.document.open();
       w.document.write(html);
@@ -8566,4 +8523,41 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch(SETTINGS_URL+"?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():{};}).then(function(store){settings={...settings,...(store||{})};updateBankSummary();}).catch(function(e){console.warn("Store settings unavailable; catalogue remains available.",e);});
 
 });</script>
+<script>
+(function(){
+  var grid=document.getElementById("heroSprayGrid");
+  if(!grid)return;
+  function escapeHtml(value){
+    return String(value==null?"":value).replace(/[&<>"']/g,function(ch){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch];
+    });
+  }
+  function renderFeatured(items){
+    if(!Array.isArray(items))return;
+    var byId=new Map(items.map(function(p){return [String(p.id),p];}));
+    var chosen=["1-million-spray","polo-blue-395","polo-sport-396"].map(function(id){return byId.get(id);}).filter(Boolean);
+    if(chosen.length<3){
+      items.filter(function(p){return /spray/i.test(String(p.name||""))&&(p.image||p.cloudinaryImage||p.fallbackImage)&&chosen.every(function(q){return q.id!==p.id;});}).some(function(p){chosen.push(p);return chosen.length>=3;});
+    }
+    grid.innerHTML=chosen.slice(0,3).map(function(p){
+      var url=p.image||p.cloudinaryImage||p.fallbackImage||"";
+      var name=escapeHtml(p.name||"Beauty essential");
+      var photo=url?'<img src="'+escapeHtml(url)+'" alt="'+name+'" loading="lazy">':'<span class="hero-spray-placeholder">T</span>';
+      return '<button class="hero-spray-card" type="button" data-tiffas-search="spray" aria-label="Browse '+name+'"><span class="hero-spray-photo">'+photo+'</span><span class="hero-spray-info"><strong>'+name+'</strong><span>KSh '+Number(p.price||0).toLocaleString("en-KE")+'</span></span></button>';
+    }).join("");
+    if(!chosen.length)grid.innerHTML='<div class="hero-spray-loading">Explore body sprays and fragrances in our catalogue.</div>';
+  }
+  renderFeatured(Array.isArray(window.TIFFAS_PRODUCTS)?window.TIFFAS_PRODUCTS:[]);
+  document.addEventListener("click",function(event){
+    var button=event.target.closest("[data-tiffas-search]");
+    if(!button)return;
+    event.preventDefault();
+    var input=document.getElementById("search");
+    if(input){input.value=button.getAttribute("data-tiffas-search")||"";input.dispatchEvent(new Event("input",{bubbles:true}));}
+    var catalogue=document.getElementById("catalogue");
+    if(catalogue)catalogue.scrollIntoView({behavior:"smooth",block:"start"});
+  });
+  fetch("catalog/products.json?v="+Date.now(),{cache:"no-store"}).then(function(response){return response.ok?response.json():[];}).then(function(items){if(Array.isArray(items)&&items.length)renderFeatured(items);}).catch(function(){});
+})();
+</script>
 </body></html>
