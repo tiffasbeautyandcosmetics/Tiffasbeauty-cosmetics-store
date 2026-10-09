@@ -6,12 +6,38 @@
 <meta name="description" content="TIFFAS BEAUTY AND COSMETICS — hair, skin and beauty products in Kenya. Pay by bank transfer, pay on delivery, or order through WhatsApp.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=10">
+<link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
 <header class="topbar"><div class="wrap topbar-inner"><a class="brand brand-logo" href="./" aria-label="TIFFAS BEAUTY AND COSMETICS home"><svg viewBox="150 25 380 300" role="img" aria-hidden="true"><g transform="translate(0 0)"><ellipse cx="340" cy="106" rx="17" ry="38" fill="#8B5CB8"/><ellipse cx="340" cy="106" rx="17" ry="38" fill="#734A9E" transform="rotate(60 340 140)"/><ellipse cx="340" cy="106" rx="17" ry="38" fill="#8B5CB8" transform="rotate(120 340 140)"/><ellipse cx="340" cy="106" rx="17" ry="38" fill="#734A9E" transform="rotate(180 340 140)"/><ellipse cx="340" cy="106" rx="17" ry="38" fill="#8B5CB8" transform="rotate(240 340 140)"/><ellipse cx="340" cy="106" rx="17" ry="38" fill="#734A9E" transform="rotate(300 340 140)"/><circle cx="340" cy="140" r="15" fill="#C9A227"/><text x="340" y="278" text-anchor="middle" fill="#5B2C83" style="font-family:Georgia,serif;font-style:italic;font-size:64px">Tiffas</text><line x1="170" y1="304" x2="210" y2="304" stroke="#8B6FA8" stroke-width="1.5"/><text x="340" y="310" text-anchor="middle" fill="#8B6FA8" style="font-family:Arial,sans-serif;font-weight:bold;font-size:16px;letter-spacing:3px">BEAUTY &amp; COSMETICS</text><line x1="470" y1="304" x2="510" y2="304" stroke="#8B6FA8" stroke-width="1.5"/></g></svg></a><div class="top-actions"><a id="topWhatsapp" class="wa-link" target="_blank" rel="noopener">WhatsApp</a><button id="cartOpen" class="cart-button" aria-label="Open cart">Cart <span id="cartBadge" hidden>0</span></button></div></div></header>
 <main>
-<section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">Beauty • Care • Style</p><h1>Everything for hair, skin &amp; beauty.</h1><p class="hero-copy">Browse the catalogue, add products to your cart, then check out with bank transfer or pay on delivery.</p><div class="hero-actions"><a href="#catalogue" class="btn primary">Shop catalogue</a><a id="heroWhatsapp" class="btn whatsapp" target="_blank" rel="noopener">Chat on WhatsApp</a></div></div></div></section>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy-block">
+      <p class="eyebrow">Beauty • Care • Style</p>
+      <h1>Everything for hair, skin &amp; beauty.</h1>
+      <p class="hero-copy">Browse the catalogue, add products to your cart, then check out with bank transfer or pay on delivery.</p>
+      <div class="hero-actions"><a href="#catalogue" class="btn primary">Shop catalogue</a><a id="heroWhatsapp" class="btn whatsapp" target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+    </div>
+    <aside class="hero-feature" aria-label="Shop by shelf and featured body sprays">
+      <div class="hero-feature-heading">
+        <div><span class="hero-feature-kicker">Explore our shelves</span><h2 class="hero-feature-title">Body sprays</h2><p class="hero-feature-subtitle">Find a fragrance for your everyday style.</p></div>
+        <span class="hero-shelf-tag">Featured shelf</span>
+      </div>
+      <div class="hero-shelf-chips" aria-label="Quick shop categories">
+        <button class="hero-shelf-chip is-dark" type="button" data-tiffas-search="">All</button>
+        <button class="hero-shelf-chip" type="button" data-tiffas-search="hair">Hair care</button>
+        <button class="hero-shelf-chip" type="button" data-tiffas-search="skin">Skin care</button>
+        <button class="hero-shelf-chip" type="button" data-tiffas-search="body">Body care</button>
+        <button class="hero-shelf-chip" type="button" data-tiffas-search="makeup">Makeup</button>
+      </div>
+      <div id="heroSprayGrid" class="hero-spray-grid" aria-live="polite">
+        <div class="hero-spray-loading">Loading featured products…</div>
+      </div>
+      <button type="button" class="hero-shelf-link" data-tiffas-search="spray">Browse sprays <span aria-hidden="true">→</span></button>
+    </aside>
+  </div>
+</section>
 <section id="catalogue" class="wrap catalogue"><div class="controls"><input id="search" class="search" type="search" placeholder="Search products…"><div id="categories" class="categories"></div></div><div id="count" class="count">Loading catalogue…</div><div id="grid" class="grid"><div class="empty">Loading products…</div></div><div id="empty" class="empty" hidden>No products matched your search.</div></section>
 </main>
 <footer class="footer"><div class="wrap"><strong>TIFFAS BEAUTY AND COSMETICS</strong><p>Nairobi, Kenya · WhatsApp <a id="footerWhatsapp"></a> · Payment options and bank details are shown during checkout</p></div></footer>
@@ -8461,7 +8487,48 @@ document.addEventListener("DOMContentLoaded", () => {
     const w=window.open("","_blank");
     if(!w){toast("Your browser blocked the receipt window. Allow pop-ups for this store, then try again.");return;}
     const items=cart.map(i=>"<tr><td>"+esc(i.name)+(i.request?"<br><small>"+esc(i.request)+"</small>":"")+"</td><td>"+Number(i.qty||0)+"</td><td>"+money(Number(i.price||0)*Number(i.qty||0))+"</td></tr>").join("");
-    const html="<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>TIFFAS Receipt "+esc(ref)+"</title><style>body{font-family:Arial,sans-serif;max-width:680px;margin:30px auto;padding:0 18px;color:#111}h1{text-align:center;font-size:22px}.subtitle{text-align:center;color:#555}table{width:100%;border-collapse:collapse;margin-top:18px}th,td{padding:9px 6px;border-bottom:1px solid #ddd;text-align:left}th:last-child,td:last-child{text-align:right}.total{display:flex;justify-content:space-between;border-top:1px solid #bbb;margin-top:10px;padding-top:10px}.grand-total{font-size:1.15rem;font-weight:800;border-top:2px solid #111}.print-action{display:block;margin:24px auto;padding:12px 20px;background:#5b2c83;color:white;border:0;border-radius:8px;font-size:16px;cursor:pointer}@media print{body{margin:0 auto;padding:0}.print-action{display:none}}</style></head><body><h1>"+esc(STORE_NAME)+"</h1><p class=\"subtitle\">Customer Receipt</p><p><b>Order:</b> "+esc(ref)+"<br><b>Date:</b> "+esc(new Date().toLocaleString("en-KE"))+"<br><b>Customer:</b> "+esc(customerName)+"<br><b>Phone:</b> "+esc(customerPhone)+"</p><table><thead><tr><th>Item</th><th>Qty</th><th>Amount</th></tr></thead><tbody>"+items+"</tbody></table><div class=\"total\"><span>Subtotal</span><span>"+money(q.subtotal)+"</span></div>"+(q.discount>0?"<div class=\"total\"><span>Discount ("+esc(appliedDiscount.code)+")</span><span>- "+money(q.discount)+"</span></div>":"")+"<div class=\"total grand-total\"><span>Total</span><span>"+money(q.total)+"</span></div><p><b>Payment method:</b> "+esc(paymentMethod==="pod"?"Pay on delivery":"Bank transfer")+"</p><p>Thank you for shopping with "+esc(STORE_NAME)+".</p><button class=\"print-action\" type=\"button\" onclick=\"window.print()\">Print receipt</button></body></html>";
+    const html="<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>TIFFAS Receipt "+esc(ref)+"</title><style>body{font-family:Arial,sans-serif;max-width:680px;margin:30px auto;padding:0 18px;color:#111}h1{text-align:center;font-size:22px}.subtitle{text-align:center;color:#555}table{width:100%;border-collapse:collapse;margin-top:18px}th,td{padding:9px 6px;border-bottom:1px solid #ddd;text-align:left}th:last-child,td:last-child{text-align:right}.total{display:flex;justify-content:space-between;border-top:1px solid #bbb;margin-top:10px;padding-top:10px}.grand-total{font-size:1.15rem;font-weight:800;border-top:2px solid #111}.print-action{display:block;margin:24px auto;padding:12px 20px;background:#5b2c83;color:white;border:0;border-radius:8px;font-size:16px;cursor:pointer}@media print{body{margin:0 auto;padding:0}.print-action{display:none}}</style></head><body><h1>"+esc(STORE_NAME)+"</h1><p class=\"subtitle\">Customer Receipt</p><p><b>Order:</b> "+esc(ref)+"<br><b>Date:</b> "+esc(new Date().toLocaleString("en-KE"))+"<br><b>Customer:</b> "+esc(customerName)+"<br><b>Phone:</b> "+esc(customerPhone)+"</p><table><thead><tr><th>Item</th><th>Qty</th><th>Amount</th></tr></thead><tbody>"+items+"</tbody></table><div class=\"total\"><span>Subtotal</span><span>"+money(q.subtotal)+"</span></div>"+(q.discount>0?"<div class=\"total\"><span>Discount ("+esc(appliedDiscount.code)+")</span><span>- "+money(q.discount)+"</span></div>":"")+"<div class=\"total grand-total\"><span>Total</span><span>"+money(q.total)+"</span></div><p><b>Payment method:</b> "+esc(paymentMethod==="pod"?"Pay on delivery":"Bank transfer")+"</p><p>Thank you for shopping with "+esc(STORE_NAME)+".</p><button class=\"print-action\" type=\"button\" onclick=\"window.print()\">Print receipt</button>
+<script>
+(function(){
+  var grid=document.getElementById("heroSprayGrid");
+  if(!grid)return;
+  function escapeHtml(value){
+    return String(value==null?"":value).replace(/[&<>"']/g,function(ch){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch];
+    });
+  }
+  function renderFeatured(items){
+    if(!Array.isArray(items))return;
+    var byId=new Map(items.map(function(p){return [String(p.id),p];}));
+    var chosen=["1-million-spray","polo-blue-395","polo-sport-396"].map(function(id){return byId.get(id);}).filter(Boolean);
+    if(chosen.length<3){
+      items.filter(function(p){return /spray/i.test(String(p.name||""))&&(p.image||p.cloudinaryImage||p.fallbackImage)&&chosen.every(function(q){return q.id!==p.id;});}).some(function(p){chosen.push(p);return chosen.length>=3;});
+    }
+    grid.innerHTML=chosen.slice(0,3).map(function(p){
+      var url=p.image||p.cloudinaryImage||p.fallbackImage||"";
+      var name=escapeHtml(p.name||"Beauty essential");
+      var photo=url?'<img src="'+escapeHtml(url)+'" alt="'+name+'" loading="lazy">':'<span class="hero-spray-placeholder">T</span>';
+      return '<button class="hero-spray-card" type="button" data-tiffas-search="spray" aria-label="Browse '+name+'"><span class="hero-spray-photo">'+photo+'</span><span class="hero-spray-info"><strong>'+name+'</strong><span>KSh '+Number(p.price||0).toLocaleString("en-KE")+'</span></span></button>';
+    }).join("");
+    if(!chosen.length)grid.innerHTML='<div class="hero-spray-loading">Explore body sprays and fragrances in our catalogue.</div>';
+  }
+  renderFeatured(Array.isArray(window.TIFFAS_PRODUCTS)?window.TIFFAS_PRODUCTS:[]);
+  document.addEventListener("click",function(event){
+    var button=event.target.closest("[data-tiffas-search]");
+    if(!button)return;
+    event.preventDefault();
+    var input=document.getElementById("search");
+    if(input){
+      input.value=button.getAttribute("data-tiffas-search")||"";
+      input.dispatchEvent(new Event("input",{bubbles:true}));
+    }
+    var catalogue=document.getElementById("catalogue");
+    if(catalogue)catalogue.scrollIntoView({behavior:"smooth",block:"start"});
+  });
+  fetch("catalog/products.json?v="+Date.now(),{cache:"no-store"}).then(function(response){return response.ok?response.json():[];}).then(function(items){if(Array.isArray(items)&&items.length)renderFeatured(items);}).catch(function(){});
+})();
+</script>
+</body></html>";
     try{
       w.document.open();
       w.document.write(html);
