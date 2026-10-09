@@ -46,3 +46,28 @@
 .hero-shelf-link span{font-size:1.15rem;line-height:1}
 @media(max-width:920px){.hero{padding:48px 0}.hero-grid{grid-template-columns:minmax(0,1fr);gap:32px}.hero-feature{max-width:670px;width:100%;justify-self:center}.hero h1{max-width:760px}}
 @media(max-width:580px){.hero{padding:36px 0}.hero-grid{gap:26px}.hero-feature{padding:14px;border-radius:22px}.hero-feature-heading{gap:7px}.hero-feature-subtitle{font-size:.76rem}.hero-shelf-tag{font-size:.58rem;padding:6px 8px}.hero-shelf-chips{gap:5px}.hero-shelf-chip{font-size:.6rem;padding:8px 1px}.hero-spray-grid{gap:6px}.hero-spray-card{padding:5px;border-radius:12px}.hero-spray-photo{height:100px;padding:4px}.hero-spray-info{padding:8px 1px 2px}.hero-spray-info strong{font-size:.66rem;min-height:34px}.hero-spray-info>span{font-size:.73rem}}
+
+
+/* TIFFAS store location and directions section */
+.location-link{color:var(--violet);font-weight:800;text-decoration:none;white-space:nowrap}
+.location-link:hover{text-decoration:underline}
+.store-location-section{padding:35px 0 72px;background:linear-gradient(180deg,#fff 0%,#fbf6ff 100%)}
+.store-location-card{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:34px;align-items:center;padding:clamp(22px,4vw,44px);border:1px solid var(--line);border-radius:30px;background:rgba(255,255,255,.94);box-shadow:var(--shadow);overflow:hidden}
+.store-location-copy .eyebrow{margin-top:0}
+.store-location-copy h2{font-family:Fraunces,Georgia,serif;font-size:clamp(2rem,4vw,3.45rem);line-height:1.02;letter-spacing:-.025em;margin:10px 0 16px;max-width:590px}
+.store-location-copy>p:not(.eyebrow):not(.store-location-note){max-width:540px;font-size:1rem;line-height:1.7;color:var(--muted);margin:0}
+.store-location-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:23px}
+.store-location-actions .btn{gap:9px}
+.store-location-note{display:flex;align-items:center;gap:8px;margin:22px 0 0;color:var(--muted);font-size:.82rem}
+.store-location-note span{font-size:.7rem;color:var(--pink)}
+.store-location-map-card{position:relative;isolation:isolate;min-height:310px;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;gap:18px;padding:24px;border:1px solid #e5d7ee;border-radius:24px;background:linear-gradient(140deg,#f4e9fa,#fcecf3 52%,#f1f8ee);overflow:hidden}
+.location-map-pattern{position:absolute;z-index:-1;inset:-20px;opacity:.63;background-image:linear-gradient(27deg,transparent 46%,rgba(255,255,255,.98) 47%,rgba(255,255,255,.98) 51%,transparent 52%),linear-gradient(116deg,transparent 43%,rgba(255,255,255,.98) 44%,rgba(255,255,255,.98) 48%,transparent 49%),linear-gradient(0deg,transparent 48%,rgba(173,144,190,.22) 49%,rgba(173,144,190,.22) 50%,transparent 51%),linear-gradient(90deg,transparent 48%,rgba(173,144,190,.2) 49%,rgba(173,144,190,.2) 50%,transparent 51%);background-size:160px 140px,200px 180px,70px 70px,70px 70px;transform:rotate(-7deg) scale(1.08)}
+.location-pin-bubble{align-self:center;display:grid;place-items:center;width:84px;height:84px;border-radius:50%;background:#fff;box-shadow:0 12px 30px rgba(77,36,91,.15);color:var(--violet);border:1px solid rgba(255,255,255,.9)}
+.location-pin-bubble svg{width:48px;height:48px;filter:drop-shadow(0 3px 5px rgba(109,40,217,.14))}
+.location-map-label{display:grid;gap:4px;padding:14px 16px;width:100%;border:1px solid rgba(255,255,255,.9);border-radius:15px;background:rgba(255,255,255,.89);backdrop-filter:blur(6px)}
+.location-map-label strong{font-size:.95rem;color:var(--ink)}
+.location-map-label span{font-size:.79rem;color:var(--muted)}
+.location-map-open{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:12px 15px;border-radius:12px;background:var(--ink);color:#fff;text-decoration:none;font-weight:800;font-size:.88rem}
+.location-map-open:hover{background:var(--violet)}
+@media(max-width:760px){.store-location-section{padding:22px 0 48px}.store-location-card{grid-template-columns:minmax(0,1fr);gap:24px;border-radius:24px;padding:22px}.store-location-map-card{min-height:250px}.location-link{font-size:.86rem}.top-actions{gap:10px}}
+@media(max-width:420px){.store-location-actions{display:grid}.store-location-actions .btn{width:100%}.location-link{font-size:.78rem}}
