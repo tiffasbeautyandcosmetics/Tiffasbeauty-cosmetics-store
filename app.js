@@ -1,4 +1,4 @@
-(async()=>{try{const key="tiffas-cache-reset-v99";if(sessionStorage.getItem(key)!=="1"){sessionStorage.setItem(key,"1");let changed=false;if("serviceWorker" in navigator){const regs=await navigator.serviceWorker.getRegistrations();for(const reg of regs){changed=await reg.unregister()||changed;}}if("caches" in window){const keys=await caches.keys();if(keys.length){await Promise.all(keys.map(k=>caches.delete(k)));changed=true;}}if(changed){const u=new URL(location.href);u.searchParams.set("_tiffas_refresh",Date.now());location.replace(u.href);return;}}}catch(e){console.warn("TIFFAS cache reset skipped",e)}})();
+(async()=>{try{const key="tiffas-cache-reset-v100";if(sessionStorage.getItem(key)!=="1"){sessionStorage.setItem(key,"1");let changed=false;if("serviceWorker" in navigator){const regs=await navigator.serviceWorker.getRegistrations();for(const reg of regs){changed=await reg.unregister()||changed;}}if("caches" in window){const keys=await caches.keys();if(keys.length){await Promise.all(keys.map(k=>caches.delete(k)));changed=true;}}if(changed){const u=new URL(location.href);u.searchParams.set("_tiffas_refresh",Date.now());location.replace(u.href);return;}}}catch(e){console.warn("TIFFAS cache reset skipped",e)}})();
 document.addEventListener("DOMContentLoaded", () => {
   const C = window.TIFFAS_CONFIG || {};
   const STORE_NAME = C.STORE_NAME || "TIFFAS BEAUTY AND COSMETICS";
@@ -55,7 +55,16 @@ document.addEventListener("DOMContentLoaded", () => {
     var q=raw&&raw!==n?raw:fixed+" product photo";
     return "https://tse1.mm.bing.net/th?q="+encodeURIComponent(q);
   }
-  function card(p){    var primary=p.image?resolveAsset(p.image):imageSearchUrl(p);    var fallback=p.fallbackImage?resolveAsset(p.fallbackImage):"";    var img=primary?"<img src=\"" + esc(primary) + "\" data-fallback=\"" + esc(fallback) + "\" alt=\"" + esc(p.name) + "\" loading=\"lazy\" onerror=\"if(this.dataset.fallback&&!this.dataset.triedFallback){this.dataset.triedFallback=\'1\';this.src=this.dataset.fallback;}else{this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\';}\"><span class=\"placeholder\" style=\"display:none\">" + esc((p.name||"B").charAt(0)) + "</span>" : "<span class=\"placeholder\">" + esc((p.name||"B").charAt(0)) + "</span>";    var add=(p.price!=null&&p.inStock!==false)?"<button class=\"add\" data-add=\"" + esc(p.id) + "\">Add</button>":"<button class=\"add\" disabled>Out of stock</button>";    var description=p.description?"<p class=\"product-description\">" + esc(p.description) + "</p>":"";    var requestField=Array.isArray(p.variants)&&p.variants.length?"<label class=\"product-request\"><span>Choose colour</span><select data-variant required><option value=\"\">Select a colour</option>"+p.variants.map(function(v){return "<option value=\""+esc(v.value)+"\">"+esc(v.label)+"</option>";}).join("")+"</select></label>":(needsCustomerChoice(p)?"<label class=\"product-request\"><span>" + esc(choicePrompt(p)) + "</span><input type=\"text\" data-request placeholder=\"" + esc(choicePlaceholder(p)) + "\" autocomplete=\"off\"></label>":"");    return "<article class=\"card\"><div class=\"card-media\">" + img + "</div><div class=\"card-body\"><small>" + esc(p.category||"Beauty & Cosmetics") + "</small><h3>" + esc(p.name) + "</h3>" + description + requestField + "<strong>" + (p.price==null?"Price on request":money(p.price)) + "</strong><div class=\"card-actions\"><a class=\"mini-wa\" href=\"" + wa("Hi " + STORE_NAME + "! I would like to order " + p.name + ".") + "\" target=\"_blank\" rel=\"noopener\">WhatsApp</a>" + add + "</div></div></article>";  }
+  function card(p){
+    var hasVariants=Array.isArray(p.variants)&&p.variants.length>0;
+    var primary=p.image?resolveAsset(p.image):imageSearchUrl(p);
+    var fallback=p.fallbackImage?resolveAsset(p.fallbackImage):"";
+    var img=primary?"<img src=\"" + esc(primary) + "\" data-fallback=\"" + esc(fallback) + "\" alt=\"" + esc(p.imageAlt||p.name) + "\" loading=\"lazy\" onerror=\"if(this.dataset.fallback&&!this.dataset.triedFallback){this.dataset.triedFallback='1';this.src=this.dataset.fallback;}else{this.style.display='none';this.nextElementSibling.style.display='grid';}\"><span class=\"placeholder\" style=\"display:none\">" + esc((p.name||"B").charAt(0)) + "</span>" : "<span class=\"placeholder\">" + esc((p.name||"B").charAt(0)) + "</span>";
+    var add=(p.price!=null&&p.inStock!==false)?"<button class=\"add\" data-add=\"" + esc(p.id) + "\">Add to cart</button>":"<button class=\"add\" disabled>Out of stock</button>";
+    var description=p.description?"<p class=\"product-description\">" + esc(p.description) + "</p>":"";
+    var requestField=hasVariants?"<div class=\"hair-color-picker\"><span class=\"hair-color-heading\">Hair Color</span><div class=\"hair-color-grid\" role=\"group\" aria-label=\"" + esc(p.name+" hair color choices") + "\">"+p.variants.map(function(v){return "<button type=\"button\" class=\"hair-color-option\" data-variant=\""+esc(v.value)+"\" aria-pressed=\"false\" title=\""+esc(v.label)+"\" aria-label=\""+esc(p.name+", "+v.label)+"\">"+esc(v.value)+"</button>";}).join("")+"</div><p class=\"selected-hair-color\" data-selected-color aria-live=\"polite\">Select a colour to continue.</p></div>":(needsCustomerChoice(p)?"<label class=\"product-request\"><span>" + esc(choicePrompt(p)) + "</span><input type=\"text\" data-request placeholder=\"" + esc(choicePlaceholder(p)) + "\" autocomplete=\"off\"></label>":"");
+    return "<article class=\"card"+(hasVariants?" color-product-card":"")+"\" data-product-id=\""+esc(p.id)+"\"><div class=\"card-media\">" + img + "</div><div class=\"card-body\"><small>" + esc(p.category||"Beauty & Cosmetics") + "</small><h3>" + esc(p.name) + "</h3>" + description + requestField + "<strong>" + (p.price==null?"Price on request":money(p.price)) + "</strong><div class=\"card-actions\"><a class=\"mini-wa\" href=\"" + wa("Hi " + STORE_NAME + "! I would like to order " + p.name + ".") + "\" target=\"_blank\" rel=\"noopener\">WhatsApp</a>" + add + "</div></div></article>";
+  }
   function render(){const term=query.trim().toLowerCase();const list=products.filter(p=>(category==="All"||p.category===category)&&(!term||String(p.name||"").toLowerCase().includes(term)||String(p.category||"").toLowerCase().includes(term)));$("count").textContent=`Showing ${list.length} of ${products.length} products`;$("grid").innerHTML=list.map(card).join("");$("empty").hidden=list.length!==0;}
   function categories(){const cats=["All",...new Set(products.map(p=>p.category).filter(Boolean))];$("categories").innerHTML=cats.map(c=>`<button type="button" class="pill ${c===category?"active":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");}
   function renderCart(){$("cartBadge").hidden=cart.length===0;$("cartBadge").textContent=String(cart.reduce((s,i)=>s+Number(i.qty||0),0));$("subtotal").textContent=money(subtotal());$("cartItems").innerHTML=cart.length?cart.map(function(i){return "<div class=\"cart-item\"><div><b>"+esc(i.name)+"</b>"+(i.request?"<small>Request: "+esc(i.request)+"</small>":"")+"<small>"+money(i.price)+" × "+i.qty+"</small></div><div class=\"qty\"><button type=\"button\" data-dec=\""+esc(i.key||i.id)+"\">−</button><span>"+i.qty+"</span><button type=\"button\" data-inc=\""+esc(i.key||i.id)+"\">+</button></div></div>";}).join(""):"<div class=\"empty\">Your cart is empty.</div>";}
@@ -88,7 +97,50 @@ document.addEventListener("DOMContentLoaded", () => {
   $("search").addEventListener("input",e=>{query=e.target.value;render();});
   $("categories").addEventListener("click",e=>{const b=e.target.closest("[data-cat]");if(!b)return;category=b.dataset.cat;categories();render();});
   $("grid").addEventListener("change",e=>{const select=e.target.closest("[data-variant]");if(!select)return;const cardEl=select.closest(".card");const add=cardEl&&cardEl.querySelector("[data-add]");const p=products.find(x=>String(x.id)===String(add&&add.dataset.add));const variant=p&&Array.isArray(p.variants)?p.variants.find(v=>String(v.value)===String(select.value)):null;const img=cardEl&&cardEl.querySelector(".card-media img");if(!img||!p)return;if(variant&&variant.image){img.style.display="";img.src=resolveAsset(variant.image);img.dataset.triedFallback="1";}else if(p.image){img.style.display="";img.src=resolveAsset(p.image);delete img.dataset.triedFallback;}});
-  $("grid").addEventListener("click",e=>{const b=e.target.closest("[data-add]");if(!b||b.disabled)return;const p=products.find(x=>String(x.id)===String(b.dataset.add));if(!p)return;const cardEl=b.closest(".card");const field=cardEl&&cardEl.querySelector("[data-request]");const variantField=cardEl&&cardEl.querySelector("[data-variant]");const variant=variantField?variantField.value:"";const selectedVariant=variantField&&Array.isArray(p.variants)?p.variants.find(v=>String(v.value)===String(variant)):null;const request=selectedVariant?selectedVariant.label:(field?field.value.trim():"");if((Array.isArray(p.variants)&&p.variants.length&&!selectedVariant)||(needsCustomerChoice(p)&&!request)){if(variantField)variantField.focus();else if(field)field.focus();toast("Please select a colour or enter your preferred variant.");return;}const key=String(p.id)+"|"+request.toLowerCase();const i=cart.find(x=>String(x.key||x.id)===key);i?i.qty++:cart.push({key:key,id:p.id,name:p.name+(selectedVariant?" — "+selectedVariant.label:""),price:p.price,qty:1,request:request});saveCart();renderCart();if(field)field.value="";if(variantField)variantField.selectedIndex=0;toast("Added to cart");});
+  $("grid").addEventListener("click",e=>{
+    const colourButton=e.target.closest(".hair-color-option");
+    if(colourButton){
+      const cardEl=colourButton.closest(".color-product-card");
+      if(!cardEl)return;
+      cardEl.querySelectorAll(".hair-color-option").forEach(btn=>btn.setAttribute("aria-pressed",btn===colourButton?"true":"false"));
+      const p=products.find(x=>String(x.id)===String(cardEl.dataset.productId));
+      const variant=p&&Array.isArray(p.variants)?p.variants.find(v=>String(v.value)===String(colourButton.dataset.variant)):null;
+      const selectedLabel=cardEl.querySelector("[data-selected-color]");
+      if(selectedLabel&&variant)selectedLabel.textContent="Selected: "+variant.label;
+      const img=cardEl.querySelector(".card-media img");
+      if(img&&p){
+        if(variant&&variant.image){img.style.display="";img.src=resolveAsset(variant.image);img.dataset.triedFallback="1";}
+        else {const base=p.image?resolveAsset(p.image):imageSearchUrl(p);if(base){img.style.display="";img.src=base;delete img.dataset.triedFallback;}}
+      }
+      return;
+    }
+    const b=e.target.closest("[data-add]");
+    if(!b||b.disabled)return;
+    const p=products.find(x=>String(x.id)===String(b.dataset.add));
+    if(!p)return;
+    const cardEl=b.closest(".card");
+    const field=cardEl&&cardEl.querySelector("[data-request]");
+    const selectedButton=cardEl&&cardEl.querySelector('[data-variant][aria-pressed="true"]');
+    const variantSelect=cardEl&&cardEl.querySelector("select[data-variant]");
+    const variantField=selectedButton||variantSelect;
+    const variant=variantField?(variantField.dataset&&typeof variantField.dataset.variant!=="undefined"?variantField.dataset.variant:variantField.value):"";
+    const selectedVariant=variantField&&Array.isArray(p.variants)?p.variants.find(v=>String(v.value)===String(variant)):null;
+    const request=selectedVariant?selectedVariant.label:(field?field.value.trim():"");
+    if((Array.isArray(p.variants)&&p.variants.length&&!selectedVariant)||(needsCustomerChoice(p)&&!request)){
+      if(variantField)variantField.focus();
+      else if(Array.isArray(p.variants)&&p.variants.length)cardEl.querySelector(".hair-color-option")?.focus();
+      else if(field)field.focus();
+      toast("Please select a colour or enter your preferred variant.");
+      return;
+    }
+    const key=String(p.id)+"|"+request.toLowerCase();
+    const i=cart.find(x=>String(x.key||x.id)===key);
+    i?i.qty++:cart.push({key:key,id:p.id,name:p.name+(selectedVariant?" — "+selectedVariant.label:""),price:p.price,qty:1,request:request});
+    saveCart();renderCart();
+    if(field)field.value="";
+    if(variantField&&variantField.tagName==="SELECT")variantField.selectedIndex=0;
+    toast("Added to cart");
+  });
   $("cartItems").addEventListener("click",e=>{const inc=e.target.closest("[data-inc]"),dec=e.target.closest("[data-dec]"),key=(inc||dec)?.dataset[inc?"inc":"dec"];if(!key)return;const i=cart.find(x=>String(x.key||x.id)===String(key));if(!i)return;i.qty+=inc?1:-1;if(i.qty<1)cart=cart.filter(x=>String(x.key||x.id)!==String(key));saveCart();renderCart();});
   $("cartOpen")?.addEventListener("click",openCart);$("cartClose")?.addEventListener("click",closeCart);$("drawerOverlay")?.addEventListener("click",closeCart);$("checkout")?.addEventListener("click",()=>{closeCart();openCheckout("bank");});$("checkoutPod")?.addEventListener("click",()=>{closeCart();openCheckout("pod");});$("modalClose")?.addEventListener("click",closeModal);$("modalOverlay")?.addEventListener("click",e=>{if(e.target===$("modalOverlay"))closeModal();});$("cartWhatsapp")?.addEventListener("click",()=>window.open(wa(cartMessage()),"_blank","noopener"));
   $("copyBank")?.addEventListener("click",async()=>{const text=[settings.bankName,settings.accountName,settings.accountNumber,settings.branch].filter(Boolean).join("\n");if(!text)return toast("Bank details are not configured yet.");try{await navigator.clipboard.writeText(text);toast("Bank details copied");}catch(_){toast("Copy failed; use checkout to view details.");}});
