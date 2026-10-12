@@ -311,7 +311,7 @@
     "price": 450,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791790607/bfdtnxfjtuv4ta8ocjfn.jpg",
     "description": "",
     "imageQuery": "Tobacco Collection 250ml body mist spray bottle product photo"
   },
