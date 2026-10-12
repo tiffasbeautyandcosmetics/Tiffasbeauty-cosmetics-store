@@ -43,24 +43,24 @@ window.TIFFAS_PRODUCTS = [
   {
     "id": "9-pm-elixir-body-mist-250ml",
     "name": "9 pm Elixir Body mist 250ml",
-    "category": "Perfumes",
+    "category": "Body Mist",
     "price": 450,
     "inStock": true,
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "9 pm Elixir Body mist 250ml product photo"
+    "imageQuery": "9 PM Elixir 250ml body mist fragrance spray bottle product photo"
   },
   {
     "id": "tara-body-mist-250ml",
     "name": "Yara Body mist 250ml",
-    "category": "Perfumes",
+    "category": "Body Mist",
     "price": 450,
     "inStock": true,
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Tara Body mist 250ml product photo"
+    "imageQuery": "Lattafa Yara body mist 250ml pink fragrance mist bottle product photo"
   },
   {
     "id": "grey-pearl-diamond-110ml",
@@ -71,7 +71,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Grey Pearl Diamond 110ml product photo"
+    "imageQuery": "Grey Pearl Diamond 110ml body splash bottle product photo"
   },
   {
     "id": "eclaire-110ml",
@@ -82,7 +82,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Eclaire 110ml product photo"
+    "imageQuery": "Lattafa Eclaire 110ml body mist splash bottle product photo"
   },
   {
     "id": "eclaire-90ml",
@@ -104,7 +104,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791291109/mgklpftr9gf4w0xtnmnp.jpg",
     "description": "",
-    "imageQuery": "Tobacco Collection 110ml product photo"
+    "imageQuery": "Tobacco Collection 110ml fragrance mist spray bottle product photo"
   },
   {
     "id": "vanilla-big-236ml",
@@ -115,7 +115,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Vanilla Big 236ml product photo"
+    "imageQuery": "Vanilla Big 236ml body splash spray bottle product photo"
   },
   {
     "id": "wild-nights-small-59ml",
@@ -148,7 +148,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Twinkle Song 236ml product photo"
+    "imageQuery": "Twinkle Song 236ml body splash spray bottle product photo"
   },
   {
     "id": "noir-small-59ml",
@@ -170,7 +170,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Dream Chiffon 236ml product photo"
+    "imageQuery": "Dream Chiffon 236ml body splash spray bottle product photo"
   },
   {
     "id": "eau-body-splasher-200ml",
@@ -181,7 +181,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Eau Body Splasher 200ml product photo"
+    "imageQuery": "Eau Body Splasher 200ml body splash bottle product photo"
   },
   {
     "id": "diamond-body-mist-110ml",
@@ -192,7 +192,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Diamond Body Mist 110ml product photo"
+    "imageQuery": "Diamond Body Mist 110ml fragrance mist spray bottle product photo"
   },
   {
     "id": "asad-black-asad-110ml",
@@ -203,7 +203,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Asad Black Asad 110ml product photo"
+    "imageQuery": "Asad Black Asad 110ml body mist fragrance spray bottle product photo"
   },
   {
     "id": "black-asad-with-white-lid-100ml",
@@ -236,7 +236,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Yara Pink 110ml product photo"
+    "imageQuery": "Lattafa Yara Pink 110ml body mist spray bottle product photo"
   },
   {
     "id": "asad-brown-90ml",
@@ -269,7 +269,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Big Arabic Body Philosophy Splash 250ml product photo"
+    "imageQuery": "Arabic Body Philosophy Splash 250ml fragrance mist bottle product photo"
   },
   {
     "id": "arabic-2-in-one-212-men-splash",
@@ -291,7 +291,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Big Eclaire 250ml product photo"
+    "imageQuery": "Eclaire 250ml body mist spray bottle product photo"
   },
   {
     "id": "diamond-body-mist-250ml",
@@ -302,7 +302,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Diamond Body Mist 250ml product photo"
+    "imageQuery": "Diamond Body Mist 250ml body mist spray bottle product photo"
   },
   {
     "id": "yara-250ml",
@@ -313,7 +313,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Yara 250ml product photo"
+    "imageQuery": "Lattafa Yara Pink body mist 250ml cylindrical fragrance mist bottle product photo"
   },
   {
     "id": "9-pm-250ml",
@@ -324,7 +324,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "9 pm 250ml product photo"
+    "imageQuery": "9 PM body mist 250ml fragrance mist spray bottle product photo"
   },
   {
     "id": "tobacco-collections-250ml",
@@ -335,7 +335,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Tobacco Collections 250ml product photo"
+    "imageQuery": "Tobacco Collection 250ml body mist spray bottle product photo"
   },
   {
     "id": "afnan-9pm-rebel-100ml",
@@ -5168,13 +5168,13 @@ window.TIFFAS_PRODUCTS = [
   {
     "id": "tara-pink-110ml",
     "name": "Yara Pink 110ml",
-    "category": "Perfumes",
+    "category": "Body Mist",
     "price": 250,
     "inStock": true,
     "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791289947/bunbexvs1d0wgrgfzh4s.jpg",
     "description": "",
-    "imageQuery": "Tara Pink 110ml product photo"
+    "imageQuery": "Lattafa Yara Pink 110ml body mist fragrance mist bottle product photo"
   },
   {
     "id": "tara-pink-90ml",
@@ -5201,57 +5201,57 @@ window.TIFFAS_PRODUCTS = [
   {
     "id": "blue-diamond-aqua-250ml",
     "name": "Blue Diamond Aqua 250ml",
-    "category": "Perfumes",
+    "category": "Body Mist",
     "price": 450,
     "inStock": true,
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Blue Diamond Aqua 250ml product photo"
+    "imageQuery": "Blue Diamond Aqua 250ml body mist spray bottle product photo"
   },
   {
     "id": "tobacco-collection-250ml",
     "name": "Tobacco Collection 250ml",
-    "category": "Perfumes",
+    "category": "Body Mist",
     "price": 450,
     "inStock": true,
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Tobacco Collection 250ml product photo"
+    "imageQuery": "Tobacco Collection 250ml body mist fragrance spray bottle product photo"
   },
   {
     "id": "mayar-250ml",
     "name": "Mayar 250ml",
-    "category": "Perfumes",
+    "category": "Body Mist",
     "price": 450,
     "inStock": true,
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Mayar 250ml product photo"
+    "imageQuery": "Lattafa Mayar 250ml body mist fragrance spray bottle product photo"
   },
   {
     "id": "grey-diamond-incense-250ml",
     "name": "Grey Diamond Incense 250ml",
-    "category": "Perfumes",
+    "category": "Body Mist",
     "price": 450,
     "inStock": true,
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Grey Diamond Incense 250ml product photo"
+    "imageQuery": "Grey Diamond Incense 250ml body mist spray bottle product photo"
   },
   {
     "id": "eclaire-250ml",
     "name": "Eclaire 250ml",
-    "category": "Perfumes",
+    "category": "Body Mist",
     "price": 450,
     "inStock": true,
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Eclaire 250ml product photo"
+    "imageQuery": "Lattafa Eclaire 250ml body mist spray bottle product photo"
   },
   {
     "id": "now-35ml",
@@ -5527,7 +5527,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Infini Oud 200ml product photo"
+    "imageQuery": "Infini Oud 200ml body spray bottle product photo"
   },
   {
     "id": "home-new-york-200ml",
@@ -5538,7 +5538,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Home New York 200ml product photo"
+    "imageQuery": "Home New York 200ml body spray bottle product photo"
   },
   {
     "id": "noir-200ml",
@@ -5549,7 +5549,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290609/jyzp48fuazx61mnwlc1y.jpg",
     "description": "",
-    "imageQuery": "Noir 200ml product photo"
+    "imageQuery": "Noir 200ml body spray bottle product photo"
   },
   {
     "id": "relation-200ml",
@@ -5560,7 +5560,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Relation 200ml product photo"
+    "imageQuery": "Relation 200ml body spray bottle product photo"
   },
   {
     "id": "lamour-story-200ml",
@@ -5571,7 +5571,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290684/bo87wmmzbnxkwmzl6q5n.jpg",
     "description": "",
-    "imageQuery": "Lamour Story 200ml product photo"
+    "imageQuery": "L'amour Story 200ml body spray bottle product photo"
   },
   {
     "id": "forever-blue-for-man-200ml",
@@ -5582,7 +5582,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290752/hoigtd56bf2ae48o64ya.jpg",
     "description": "",
-    "imageQuery": "Forever Blue for man 200ml product photo"
+    "imageQuery": "Forever Blue for Man 200ml body spray bottle product photo"
   },
   {
     "id": "night-dating-200ml",
@@ -5593,7 +5593,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Night Dating 200ml product photo"
+    "imageQuery": "Night Dating 200ml body spray bottle product photo"
   },
   {
     "id": "obsidian-200ml",
@@ -5604,7 +5604,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290879/te3vq7khgdkq5ywnz7it.jpg",
     "description": "",
-    "imageQuery": "Obsidian 200ml product photo"
+    "imageQuery": "Obsidian 200ml body spray bottle product photo"
   },
   {
     "id": "dream-chiffon-200ml",
@@ -5615,7 +5615,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Dream Chiffon 200ml product photo"
+    "imageQuery": "Dream Chiffon 200ml body spray bottle product photo"
   },
   {
     "id": "sweet-vanilla-200ml",
@@ -5626,7 +5626,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791290965/lbcohdmhybbdt9mfu24v.jpg",
     "description": "",
-    "imageQuery": "Sweet Vanilla 200ml product photo"
+    "imageQuery": "Sweet Vanilla 200ml body spray bottle product photo"
   },
   {
     "id": "wild-nights-59ml",
@@ -5648,7 +5648,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Wild Nights 236ml product photo"
+    "imageQuery": "Wild Nights 236ml body spray bottle product photo"
   },
   {
     "id": "lost-in-wood-236ml",
@@ -5659,7 +5659,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Lost in wood 236ml product photo"
+    "imageQuery": "Lost in Wood 236ml body spray bottle product photo"
   },
   {
     "id": "noir-236ml",
@@ -5670,7 +5670,7 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "image": null,
     "description": "",
-    "imageQuery": "Noir 236ml product photo"
+    "imageQuery": "Noir 236ml body spray bottle product photo"
   },
   {
     "id": "noir-59ml",
