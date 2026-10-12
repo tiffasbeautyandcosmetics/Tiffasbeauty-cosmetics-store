@@ -190,20 +190,9 @@
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791790090/qr4gbgoqm4zuxv3cxiax.jpg",
     "description": "",
     "imageQuery": "Asad Black Asad 110ml body mist fragrance spray bottle product photo"
-  },
-  {
-    "id": "black-asad-with-white-lid-100ml",
-    "name": "Black Asad with white lid 100ml",
-    "category": "Body Mist",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791790048/kuqx04sp9cwt0dwxkzse.jpg",
-    "description": "",
-    "imageQuery": "Black Asad with white lid 100ml product photo"
   },
   {
     "id": "212-vip-88ml",
@@ -223,7 +212,7 @@
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791790348/iyj3flxvwurxxzv5fkys.jpg",
     "description": "",
     "imageQuery": "Lattafa Yara Pink 110ml body mist spray bottle product photo"
   },
