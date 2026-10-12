@@ -30,16 +30,6 @@
     "description": ""
   },
   {
-    "id": "body-spray-499",
-    "name": "body spray",
-    "category": "Beauty & Cosmetics",
-    "price": 400,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "9-pm-elixir-body-mist-250ml",
     "name": "9 pm Elixir Body mist 250ml",
     "category": "Body Mist",
@@ -79,7 +69,7 @@
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791789289/qeyw7eenuwqylskvjjuu.jpg",
     "description": "",
     "imageQuery": "Lattafa Eclaire 110ml body mist splash bottle product photo"
   },
