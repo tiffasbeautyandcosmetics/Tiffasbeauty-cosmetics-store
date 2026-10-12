@@ -4877,12 +4877,12 @@
   },
   {
     "id": "papaya-shower-gel-1300ml",
-    "name": "Papaya Shower gel 1300ml",
+    "name": "WOKALI Papaya Shower gel 1300ml",
     "category": "Shower Gels",
     "price": 500,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791796570/qdnwilxxiwukb1kmuykr.jpg",
     "description": "",
     "imageQuery": "Papaya Shower gel 1300ml product photo"
   },
