@@ -209,3 +209,13 @@ a{color:inherit}
 @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero h1{font-size:clamp(2.55rem,10vw,3.5rem)}.hero-copy{font-size:var(--type-base)}.top-actions .wa-link{display:block}.topbar-inner{height:auto;min-height:64px}.top-actions{gap:12px}.top-actions .wa-link,.location-link{font-size:var(--type-xs)}.brand-logo{width:140px;height:48px}.brand-logo svg{width:140px;height:48px}.hero-shelf-chips{gap:8px}.hero-spray-grid{gap:10px}.hero-spray-photo{height:118px}.store-location-card{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:430px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.controls{display:flex}.categories{margin-top:10px}.hero{padding:36px 0}.hero-actions .btn{width:100%}.hero-feature{padding:18px 0}.hero-spray-photo{height:105px}.hero-spray-info strong{font-size:.7rem}.store-location-actions{display:grid}.store-location-actions .btn{width:100%}}
+
+/* TIFFAS catalogue polish: readable descriptions and accessible colour selectors */
+.product-description{font-size:.88rem;line-height:1.55;color:var(--muted);margin:8px 0 12px}
+.product-request{display:grid;gap:7px;margin:12px 0 14px}
+.product-request span{font-size:.78rem;font-weight:700;color:var(--ink)}
+.product-request select{width:100%;min-width:0;padding:10px 34px 10px 11px;border:1px solid #c9c4bb;border-radius:4px;background:#fffdf8;color:#252923;font:inherit;font-size:.86rem;cursor:pointer}
+.product-request select:focus{outline:2px solid #793d30;outline-offset:2px;border-color:#793d30}
+.card:has([data-variant]) .card-body{display:flex;flex-direction:column}
+.card:has([data-variant]) .card-actions{margin-top:auto;padding-top:12px}
+@media(max-width:650px){.product-request select{font-size:.8rem;padding:9px 24px 9px 8px}.product-description{font-size:.82rem}}
