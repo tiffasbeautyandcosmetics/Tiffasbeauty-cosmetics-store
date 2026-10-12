@@ -7924,7 +7924,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "lattafa-yara-moi-white-edp",
     "name": "Lattafa Yara Moi White",
     "category": "Perfumes",
-    "price": 800,
+    "price": 999,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -7935,7 +7935,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "lattafa-yara-candy-edp",
     "name": "Lattafa Yara Candy",
     "category": "Perfumes",
-    "price": 800,
+    "price": 999,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -7946,7 +7946,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "lattafa-asad-zanzibar-edp",
     "name": "Lattafa Asad Zanzibar",
     "category": "Perfumes",
-    "price": 800,
+    "price": 999,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -7965,16 +7965,6 @@ window.TIFFAS_PRODUCTS = [
     "image": null,
     "description": "",
     "imageQuery": "Lattafa Asad Zanzibar Limited Edition perfume bottle product photo"
-  },
-  {
-    "id": "body-spray-499",
-    "name": "body spray",
-    "category": "Beauty & Cosmetics",
-    "price": 400,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
   },
   {
     "id": "dear-body-monday-pink-250ml",
