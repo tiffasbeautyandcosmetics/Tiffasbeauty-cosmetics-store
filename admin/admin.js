@@ -29,7 +29,27 @@ async function uploadImage(file,name){const raw=await readImage(file),img=new Im
 async function loadOnline(){status("Loading GitHub catalogue...");const [a,b]=await Promise.all([getFile("catalog/products.json"),getFile("store-settings.json")]);products=JSON.parse(a.content);settings=JSON.parse(b.content);deletedIds=new Set();offlineDirty=false;settingsDirty=false;await saveState(false);draw();fillSettings();status(products.length+" products loaded from GitHub.");updateConnection()}
 async function loadOffline(){const s=await dbGet();if(!s?.products?.length)throw Error("No saved offline catalogue is available on this device yet.");products=s.products;settings=s.settings||{};deletedIds=new Set(s.deletedIds||[]);offlineDirty=!!s.offlineDirty;settingsDirty=!!s.settingsDirty;showApp();status("Offline copy loaded. Changes stay on this device until synced.")}
 async function saveOffline(msg){offlineDirty=true;await saveState(true);status(msg||"Saved on this device. Changes are waiting to sync.");updateConnection()}
-async function publishCatalogue(){if(!navigator.onLine){await saveOffline("Internet unavailable. Catalogue saved offline.");return}status("Syncing latest catalogue...");const f=await getFile("catalog/products.json"),remote=JSON.parse(f.content),localById=new Map(products.map(p=>[String(p.id),p])),merged=[];for(const p of remote){const id=String(p.id);if(deletedIds.has(id))continue;merged.push(localById.has(id)?localById.get(id):p);localById.delete(id)}for(const p of localById.values())merged.push(p);products=merged;await putFile("catalog/products.json",JSON.stringify(products,null,2),f.sha,"Update TIFFAS product catalogue");deletedIds=new Set();offlineDirty=false;await saveState(false);draw();status("Catalogue synchronized: "+products.length+" products.");updateConnection()}
+async function syncCustomerSnapshots(){
+ const payload=JSON.stringify(products,null,2);
+ const generated="/* Generated from catalog/products.json. Do not edit manually. */\\nwindow.TIFFAS_PRODUCTS = "+payload+";\\n";
+ const targets=["catalog/products.js","index.html","shop/index.html"];
+ for(const path of targets){
+  const f=await getFile(path);
+  let next;
+  if(path==="catalog/products.js") next=generated;
+  else {
+   const marker="window.TIFFAS_PRODUCTS = ";
+   const start=f.content.indexOf(marker);
+   if(start<0)throw Error("Could not find embedded product catalogue in "+path);
+   const arrayStart=start+marker.length;
+   const end=f.content.indexOf("];",arrayStart);
+   if(end<0)throw Error("Could not locate end of embedded catalogue in "+path);
+   next=f.content.slice(0,arrayStart)+payload+f.content.slice(end+1);
+  }
+  if(next!==f.content)await putFile(path,next,f.sha,"Sync customer catalogue from admin");
+ }
+}
+async function publishCatalogue(){if(!navigator.onLine){await saveOffline("Internet unavailable. Catalogue saved offline.");return}status("Syncing latest catalogue...");const f=await getFile("catalog/products.json"),remote=JSON.parse(f.content),localById=new Map(products.map(p=>[String(p.id),p])),merged=[];for(const p of remote){const id=String(p.id);if(deletedIds.has(id))continue;merged.push(localById.has(id)?localById.get(id):p);localById.delete(id)}for(const p of localById.values())merged.push(p);products=merged;await putFile("catalog/products.json",JSON.stringify(products,null,2),f.sha,"Update TIFFAS product catalogue");status("Updating customer catalogue snapshots...");await syncCustomerSnapshots();deletedIds=new Set();offlineDirty=false;await saveState(false);draw();status("Admin and customer catalogue synchronized: "+products.length+" products.");updateConnection()}
 async function saveSettingsOnline(){settings={...settings,bankName:$("bankName").value.trim(),accountName:$("accountName").value.trim(),accountNumber:$("accountNumber").value.trim(),branch:$("branch").value.trim(),swiftCode:$("swiftCode").value.trim(),whatsappNumber:$("waNumber").value.trim(),paymentInstructions:$("paymentInstructions").value.trim(),cloudinaryCloudName:$("cloudinaryCloudName").value.trim(),cloudinaryUploadPreset:$("cloudinaryUploadPreset").value.trim()};if(!navigator.onLine||!token){settingsDirty=true;return saveOffline("Settings saved offline.")}status("Saving store settings...");const f=await getFile("store-settings.json");await putFile("store-settings.json",JSON.stringify(settings,null,2),f.sha,"Update TIFFAS store settings");settingsDirty=false;await saveState(false);fillSettings();status("Store settings saved online.");updateConnection()}
 $("login")?.addEventListener("click",async()=>{const v=$("token")?.value.trim();if(v)token=v;if(!token)return loginStatus("Paste your GitHub fine-grained token.",true);loginStatus("Checking GitHub access...");try{const r=await github("/repos/"+REPO);if(!r.permissions?.push)throw Error("This token does not have write access to the repository.");sessionStorage.setItem("tiffas_admin_token",token);if($("rememberDevice")?.checked)await dbPut({...((await dbGet().catch(()=>null))||{}),token,rememberDevice:true});showApp();await loadOnline()}catch(e){loginStatus(e.message,true)}});
 $("offlineMode")?.addEventListener("click",async()=>{try{await loadOffline()}catch(e){loginStatus(e.message,true)}});
