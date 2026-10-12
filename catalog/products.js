@@ -5221,7 +5221,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "now-35ml",
     "name": "Now 35ml",
     "category": "Perfumes",
-    "price": 350,
+    "price": 120,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -5230,7 +5230,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "benys-weekend-violet-edition-35ml",
-    "name": "Benys Weekend Violet Edition 35ml",
+    "name": "Berrys Weekend Violet Edition 35ml",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
