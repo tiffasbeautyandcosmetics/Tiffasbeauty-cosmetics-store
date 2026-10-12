@@ -4867,7 +4867,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "olive-shower-gel-1300ml",
-    "name": "Olive Shower gel 1300ml",
+    "name": "WOKALI Olive Shower gel 1300ml",
     "category": "Shower Gels",
     "price": 500,
     "inStock": true,
