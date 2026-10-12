@@ -9051,7 +9051,67 @@ window.TIFFAS_PRODUCTS = [
     ]
   }
 ];</script>
-<script src="app.js?v=101"></script>
+<script src="app.js?v=102"></script>
+<script>
+/* Catalogue recovery: render from the embedded product snapshot if the main app doesn't paint cards. */
+(function(){
+  function install(){
+    var grid=document.getElementById("grid"),count=document.getElementById("count");
+    var catsEl=document.getElementById("categories"),search=document.getElementById("search"),empty=document.getElementById("empty");
+    if(!grid||!count||!catsEl)return;
+    if(grid.querySelector(".card")&&!/loading catalogue/i.test(count.textContent))return;
+    var data=Array.isArray(window.TIFFAS_PRODUCTS)?window.TIFFAS_PRODUCTS:[];
+    function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+    function money(n){return "KSh "+Number(n||0).toLocaleString("en-KE");}
+    function photo(p){if(p.image)return p.image;if(p.fallbackImage)return p.fallbackImage;var q=String(p.imageQuery||p.name||"beauty product")+" product photo";return "https://tse1.mm.bing.net/th?q="+encodeURIComponent(q);}
+    function card(p){
+      var variants=Array.isArray(p.variants)?p.variants:[];
+      var src=photo(p);
+      var image='<img src="'+esc(src)+'" alt="'+esc(p.imageAlt||p.name)+'" loading="lazy" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'grid\'"><span class="placeholder" style="display:none">'+esc((p.name||"T").charAt(0))+'</span>';
+      var picker=variants.length?'<div class="hair-color-picker"><span class="hair-color-heading">Hair Color</span><div class="hair-color-grid" role="group" aria-label="'+esc(p.name+" colours")+'">'+variants.map(function(v){return '<button type="button" class="hair-color-option" data-recovery-swatch="'+esc(v.value)+'" aria-pressed="false" title="'+esc(v.label||v.value)+'">'+esc(v.value)+'</button>';}).join("")+'</div><p class="selected-hair-color" data-recovery-selected aria-live="polite">Select a colour to continue.</p></div>':"";
+      return '<article class="card'+(variants.length?' color-product-card':'')+'" data-recovery-product="'+esc(p.id)+'"><div class="card-media">'+image+'</div><div class="card-body"><small>'+esc(p.category||"Beauty & Cosmetics")+'</small><h3>'+esc(p.name)+'</h3>'+(p.description?'<p class="product-description">'+esc(p.description)+'</p>':"")+picker+'<strong>'+(p.price==null?"Price on request":money(p.price))+'</strong><div class="card-actions"><button type="button" class="mini-wa recovery-order">Order on WhatsApp</button></div></div></article>';
+    }
+    var activeCategory="All";
+    function drawCategories(){
+      var cats=["All"].concat(Array.from(new Set(data.map(function(p){return p.category;}).filter(Boolean))));
+      catsEl.innerHTML=cats.map(function(c){return '<button type="button" class="pill '+(c===activeCategory?'active':'')+'" data-recovery-cat="'+esc(c)+'">'+esc(c)+'</button>';}).join("");
+    }
+    function render(){
+      var term=String(search&&search.value||"").trim().toLowerCase();
+      var filtered=data.filter(function(p){return (activeCategory==="All"||p.category===activeCategory)&&(!term||(String(p.name||"")+" "+String(p.category||"")+" "+String(p.description||"")).toLowerCase().includes(term));});
+      grid.innerHTML=filtered.map(card).join("");
+      count.textContent="Showing "+filtered.length+" of "+data.length+" products";
+      if(empty)empty.hidden=filtered.length!==0;
+      if(!data.length)count.textContent="Catalogue data could not be read. Please contact the store on WhatsApp.";
+    }
+    drawCategories();render();
+    catsEl.addEventListener("click",function(e){var b=e.target.closest("[data-recovery-cat]");if(!b)return;activeCategory=b.dataset.recoveryCat;drawCategories();render();});
+    if(search)search.addEventListener("input",render);
+    grid.addEventListener("click",function(e){
+      var swatch=e.target.closest("[data-recovery-swatch]");
+      if(swatch){
+        var cardEl=swatch.closest("[data-recovery-product]"),p=data.find(function(x){return String(x.id)===String(cardEl&&cardEl.dataset.recoveryProduct);});
+        if(!p)return;
+        cardEl.querySelectorAll("[data-recovery-swatch]").forEach(function(b){b.setAttribute("aria-pressed",b===swatch?"true":"false");});
+        var v=(p.variants||[]).find(function(x){return String(x.value)===String(swatch.dataset.recoverySwatch);});
+        var label=cardEl.querySelector("[data-recovery-selected]");if(label&&v)label.textContent="Selected: "+(v.label||v.value);
+        var img=cardEl.querySelector(".card-media img");if(img&&v){img.style.display="";img.src=v.image||photo(p);}
+        return;
+      }
+      var order=e.target.closest(".recovery-order");if(!order)return;
+      var item=order.closest("[data-recovery-product]"),product=data.find(function(x){return String(x.id)===String(item&&item.dataset.recoveryProduct);});if(!product)return;
+      var selected=item.querySelector('[data-recovery-swatch][aria-pressed="true"]'),variant=selected&&(product.variants||[]).find(function(v){return String(v.value)===String(selected.dataset.recoverySwatch);});
+      if((product.variants||[]).length&&!variant){var label=item.querySelector("[data-recovery-selected]");if(label)label.textContent="Please select a colour first.";return;}
+      var config=window.TIFFAS_CONFIG||{},number=String(config.WHATSAPP_NUMBER||"254725679016").replace(/\D/g,"");
+      var message="Hi "+(config.STORE_NAME||"TIFFAS BEAUTY AND COSMETICS")+"! I would like to order "+product.name+(variant?" — "+(variant.label||variant.value):"")+". Price: "+(product.price==null?"please confirm":money(product.price))+".";
+      window.open("https://wa.me/"+number+"?text="+encodeURIComponent(message),"_blank","noopener");
+    });
+    console.warn("TIFFAS recovery renderer engaged; the main catalogue script did not render.");
+  }
+  function schedule(){setTimeout(install,1200);}
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",schedule,{once:true});else schedule();
+})();
+</script>
 <script>
 (function(){
   var grid=document.getElementById("heroSprayGrid");
