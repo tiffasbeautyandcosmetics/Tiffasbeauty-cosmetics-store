@@ -201,7 +201,7 @@
     "price": 200,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791789986/j0dnwhxe0zfetz631ps5.jpg",
     "description": "",
     "imageQuery": "Black Asad with white lid 100ml product photo"
   },
