@@ -179,7 +179,7 @@
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791789812/xjto9gmkvlfivonfehqy.jpg",
     "description": "",
     "imageQuery": "Diamond Body Mist 110ml fragrance mist spray bottle product photo"
   },
