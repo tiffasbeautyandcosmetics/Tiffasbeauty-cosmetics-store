@@ -5631,7 +5631,7 @@
     "price": 300,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791797137/ukmmiwuf89eeyrxbzxys.jpg",
     "description": "",
     "imageQuery": "Noir 236ml body spray bottle product photo"
   },
