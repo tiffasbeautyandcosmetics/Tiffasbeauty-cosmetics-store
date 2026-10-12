@@ -31,7 +31,7 @@ async function loadOffline(){const s=await dbGet();if(!s?.products?.length)throw
 async function saveOffline(msg){offlineDirty=true;await saveState(true);status(msg||"Saved on this device. Changes are waiting to sync.");updateConnection()}
 async function syncCustomerSnapshots(){
  const payload=JSON.stringify(products,null,2);
- const generated="/* Generated from catalog/products.json. Do not edit manually. */\\nwindow.TIFFAS_PRODUCTS = "+payload+";\\n";
+ const generated="/* Generated from catalog/products.json. Do not edit manually. */\nwindow.TIFFAS_PRODUCTS = "+payload+";\n";
  const targets=["catalog/products.js","index.html","shop/index.html"];
  for(const path of targets){
   const f=await getFile(path);
