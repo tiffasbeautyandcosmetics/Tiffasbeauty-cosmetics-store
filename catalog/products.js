@@ -5243,7 +5243,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "yara-pink-35ml",
     "name": "Yara Pink 35ml",
     "category": "Perfumes",
-    "price": 350,
+    "price": 120,
     "inStock": true,
     "stockQty": 20,
     "image": "https://almeyashop.fr/cdn/shop/files/IMG_7846.jpg?v=1719681923&width=1946",
