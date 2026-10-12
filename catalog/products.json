@@ -8501,5 +8501,222 @@
     "stockQty": 20,
     "image": null,
     "description": ""
+  },
+  {
+    "id": "dear-body-monday-pink-250ml",
+    "name": "DEAR BODY MONDAY PINK FRAGRANCE MIST 250ML",
+    "category": "Body Mist",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "A fresh beginning in a bottle, Monday is a bright, uplifting fragrance mist designed to put you in the right mood for the week ahead. Juicy fruits mingle with delicate florals for a clean, cheerful scent that feels light and effortlessly wearable. Spritz it on before work, school, or your morning routine for an instant refresh. Start your week feeling confident, energized, and ready for anything.",
+    "imageQuery": "Dear Body Days of the Week Monday pink 250ml fragrance mist bottle product photo",
+    "imageFileName": "monday-pink.jpg",
+    "scentNotes": {
+      "top": [
+        "Juicy pear",
+        "Pink grapefruit",
+        "Red berries"
+      ],
+      "heart": [
+        "Pink peony",
+        "Fresh rose",
+        "Jasmine petals"
+      ],
+      "base": [
+        "White musk",
+        "Soft amber",
+        "Light vanilla"
+      ]
+    },
+    "metaTitle": "Dear Body Monday Pink Fragrance Mist 250ml",
+    "metaDescription": "Start fresh with Dear Body Monday Pink Fragrance Mist 250ml, a bright floral-fruity scent with juicy fruits, delicate blossoms and soft musk."
+  },
+  {
+    "id": "dear-body-tuesday-green-250ml",
+    "name": "DEAR BODY TUESDAY GREEN FRAGRANCE MIST 250ML",
+    "category": "Body Mist",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Keep your momentum going with Tuesday, a vibrant fragrance mist inspired by crisp green apples and sparkling citrus. Its refreshing, airy character delivers a clean burst of energy that feels perfect for busy days and spontaneous plans. Fresh, fruity, and easy to wear, it brings a lively touch to your everyday fragrance routine. Reach for it whenever you want to feel refreshed and ready to move forward.",
+    "imageQuery": "Dear Body Days of the Week Tuesday bright green 250ml fragrance mist bottle product photo",
+    "imageFileName": "tuesday-green.jpg",
+    "scentNotes": {
+      "top": [
+        "Green apple",
+        "Lemon zest",
+        "Mandarin"
+      ],
+      "heart": [
+        "Crisp pear",
+        "Green leaves",
+        "Lily of the valley"
+      ],
+      "base": [
+        "Clean musk",
+        "Pale woods",
+        "Sheer amber"
+      ]
+    },
+    "metaTitle": "Dear Body Tuesday Green Fragrance Mist 250ml",
+    "metaDescription": "Refresh your routine with Dear Body Tuesday Green Fragrance Mist 250ml, featuring crisp green apple, sparkling citrus and clean musky notes."
+  },
+  {
+    "id": "dear-body-wednesday-magenta-250ml",
+    "name": "DEAR BODY WEDNESDAY PURPLE MAGENTA FRAGRANCE MIST 250ML",
+    "category": "Body Mist",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Find your midweek confidence with Wednesday, a rich, comforting fragrance mist that wraps warm sweetness in elegant floral notes. Soft blossoms blend with creamy vanilla and amber-inspired warmth to create a scent that feels polished without being overpowering. Its inviting character makes it a lovely choice for everyday wear, relaxed evenings, and moments when you want an extra boost of confidence. Embrace your power and make the middle of the week feel special.",
+    "imageQuery": "Dear Body Days of the Week Wednesday purple magenta 250ml fragrance mist bottle product photo",
+    "imageFileName": "wednesday-magenta.jpg",
+    "scentNotes": {
+      "top": [
+        "Blackcurrant",
+        "Bergamot",
+        "Sugared berries"
+      ],
+      "heart": [
+        "Violet",
+        "Rose petals",
+        "Creamy orange blossom"
+      ],
+      "base": [
+        "Vanilla",
+        "Warm amber",
+        "Soft sandalwood"
+      ]
+    },
+    "metaTitle": "Dear Body Wednesday Purple Fragrance Mist 250ml",
+    "metaDescription": "Discover Dear Body Wednesday Purple Fragrance Mist 250ml, a comforting blend of sweet florals, creamy vanilla and warm amber."
+  },
+  {
+    "id": "dear-body-thursday-yellow-250ml",
+    "name": "DEAR BODY THURSDAY YELLOW FRAGRANCE MIST 250ML",
+    "category": "Body Mist",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Bring a little sunshine to your day with Thursday, a sparkling fragrance mist full of bright citrus and sweet floral charm. Zesty fruit notes create an uplifting opening, while delicate blossoms add a soft, cheerful finish. Perfect for daytime outings, casual meetups, and getting into the weekend spirit, this fragrance feels vibrant and optimistic. One refreshing spritz helps you carry that sunny, feel-good energy wherever the day takes you.",
+    "imageQuery": "Dear Body Days of the Week Thursday yellow 250ml fragrance mist bottle product photo",
+    "imageFileName": "thursday-yellow.jpg",
+    "scentNotes": {
+      "top": [
+        "Sweet orange",
+        "Lemon",
+        "Sparkling bergamot"
+      ],
+      "heart": [
+        "Orange blossom",
+        "Honeysuckle",
+        "Yellow freesia"
+      ],
+      "base": [
+        "Vanilla sugar",
+        "White musk",
+        "Light cedarwood"
+      ]
+    },
+    "metaTitle": "Dear Body Thursday Yellow Fragrance Mist 250ml",
+    "metaDescription": "Brighten your day with Dear Body Thursday Yellow Fragrance Mist 250ml, a sunny citrus and sweet floral fragrance for an uplifting refresh."
+  },
+  {
+    "id": "dear-body-friday-blue-250ml",
+    "name": "DEAR BODY FRIDAY DARK BLUE FRAGRANCE MIST 250ML",
+    "category": "Body Mist",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Step into the weekend with Friday, an alluring fragrance mist that balances sparkling fruitiness with a captivating floral heart. Its playful, bubbly opening transitions into a more sensual, evening-ready finish, making it a versatile companion from after-work plans to nights out. Wear it when you want your fragrance to feel expressive, confident, and effortlessly fun. Friday is your invitation to leave the week behind and enjoy what comes next.",
+    "imageQuery": "Dear Body Days of the Week Friday dark blue black 250ml fragrance mist bottle product photo",
+    "imageFileName": "friday-blue.jpg",
+    "scentNotes": {
+      "top": [
+        "Blackcurrant",
+        "Sparkling mandarin",
+        "Raspberry"
+      ],
+      "heart": [
+        "Jasmine",
+        "Red rose",
+        "Juicy plum"
+      ],
+      "base": [
+        "Vanilla",
+        "Amber woods",
+        "Sensual musk"
+      ]
+    },
+    "metaTitle": "Dear Body Friday Blue Fragrance Mist 250ml",
+    "metaDescription": "Welcome the weekend with Dear Body Friday Blue Fragrance Mist 250ml, a captivating fruity-floral scent with sparkling berries and warm musk."
+  },
+  {
+    "id": "dear-body-saturday-red-250ml",
+    "name": "DEAR BODY SATURDAY RED FRAGRANCE MIST 250ML",
+    "category": "Body Mist",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Make every moment more exciting with Saturday, a bold, playful fragrance mist inspired by sweet treats and carefree adventures. Juicy red fruits meet sugary candy accords and creamy vanilla for a deliciously sweet scent with plenty of personality. Ideal for parties, weekend outings, and nights when you want to stand out, it brings a fun and energetic finish to your fragrance collection. Spray it on, embrace your playful side, and make Saturday unforgettable.",
+    "imageQuery": "Dear Body Days of the Week Saturday red 250ml fragrance mist bottle product photo",
+    "imageFileName": "saturday-red.jpg",
+    "scentNotes": {
+      "top": [
+        "Strawberry candy",
+        "Cherry",
+        "Wild berries"
+      ],
+      "heart": [
+        "Raspberry sweets",
+        "Sugared rose",
+        "Caramel"
+      ],
+      "base": [
+        "Vanilla cream",
+        "Praline",
+        "Soft musk"
+      ]
+    },
+    "metaTitle": "Dear Body Saturday Red Fragrance Mist 250ml",
+    "metaDescription": "Have fun with Dear Body Saturday Red Fragrance Mist 250ml, a playful sweet gourmand with juicy berries, candy-inspired notes and creamy vanilla."
+  },
+  {
+    "id": "dear-body-sunday-lightblue-250ml",
+    "name": "DEAR BODY SUNDAY LIGHT BLUE FRAGRANCE MIST 250ML",
+    "category": "Body Mist",
+    "price": 450,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Slow down and enjoy a softer side of fragrance with Sunday, a gentle mist inspired by freshly washed linen and peaceful weekend mornings. Airy, clean accords blend with delicate florals and comforting skin musk to create a subtle, cozy scent that feels effortlessly fresh. Perfect after a shower, during quiet days at home, or whenever you want a little everyday comfort, it makes self-care feel even more inviting. Breathe out, unwind, and enjoy your own moment of calm.",
+    "imageQuery": "Dear Body Days of the Week Sunday light blue 250ml fragrance mist bottle product photo",
+    "imageFileName": "sunday-lightblue.jpg",
+    "scentNotes": {
+      "top": [
+        "Fresh aldehydes",
+        "Bergamot",
+        "Cool watery notes"
+      ],
+      "heart": [
+        "Cotton blossom",
+        "White tea",
+        "Soft lily"
+      ],
+      "base": [
+        "Skin musk",
+        "Clean linen accord",
+        "Pale woods"
+      ]
+    },
+    "metaTitle": "Dear Body Sunday Light Blue Fragrance Mist 250ml",
+    "metaDescription": "Unwind with Dear Body Sunday Light Blue Fragrance Mist 250ml, a soft clean-linen scent with airy florals, white tea and comforting musk."
   }
 ]
