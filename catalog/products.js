@@ -7455,39 +7455,6 @@ window.TIFFAS_PRODUCTS = [
     "imageQuery": "Marley Braid Color 1 product photo"
   },
   {
-    "id": "dian-braid-1-27-ivory",
-    "name": "Dian Braid 1/27 Ivory",
-    "category": "Hair Care",
-    "price": 350,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Dian Braid 1/27 Ivory product photo"
-  },
-  {
-    "id": "lush-color-torguse-blue-short",
-    "name": "Lush Color Torguse blue short",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Lush Color Torguse blue short product photo"
-  },
-  {
-    "id": "lush-color-27-long",
-    "name": "Lush Color 27 long",
-    "category": "Hair Care",
-    "price": 80,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Lush Color 27 long product photo"
-  },
-  {
     "id": "lush-color-blond-27-long",
     "name": "Lush Color Blond 27 long",
     "category": "Hair Care",
@@ -7508,94 +7475,6 @@ window.TIFFAS_PRODUCTS = [
     "image": null,
     "description": "",
     "imageQuery": "Lush Color 1/27 long product photo"
-  },
-  {
-    "id": "color-1",
-    "name": "Color 1",
-    "category": "Hair Care",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Color 1 product photo"
-  },
-  {
-    "id": "color-133",
-    "name": "Color 133",
-    "category": "Hair Care",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Color 133 product photo"
-  },
-  {
-    "id": "color-99",
-    "name": "Color 99",
-    "category": "Hair Care",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Color 99 product photo"
-  },
-  {
-    "id": "color-1-27",
-    "name": "Color 1/27",
-    "category": "Hair Care",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Color 1/27 product photo"
-  },
-  {
-    "id": "color-2",
-    "name": "Color 2",
-    "category": "Hair Care",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Color 2 product photo"
-  },
-  {
-    "id": "color-1-350",
-    "name": "Color 1/350",
-    "category": "Hair Care",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Color 1/350 product photo"
-  },
-  {
-    "id": "color-613",
-    "name": "Color 613",
-    "category": "Hair Care",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Color 613 product photo"
-  },
-  {
-    "id": "color-30",
-    "name": "Color 30",
-    "category": "Hair Care",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Color 30 product photo"
   },
   {
     "id": "bonsoir-curls",
@@ -7785,50 +7664,10 @@ window.TIFFAS_PRODUCTS = [
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791270465/ddrjdjz5n7cgj4kvdnq5.jpg"
   },
   {
-    "id": "bonet-a80-155",
-    "name": "BONET A80",
-    "category": "Beauty & Cosmetics",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "bowtie-hair-band",
     "name": "BOWTIE HAIR BAND",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bowtie-hair-band-156",
-    "name": "BOWTIE HAIR BAND",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bracelet-1-20-157",
-    "name": "BRACELET 1.20",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "brosh-on-glue-161",
-    "name": "BROSH ON GLUE",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -7850,36 +7689,6 @@ window.TIFFAS_PRODUCTS = [
     "name": "CAFLON B",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "cc-chain-0-5-170",
-    "name": "CC CHAIN 0.5",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "cc-chain-0-6-171",
-    "name": "CC CHAIN 0.6",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "cc-earings-172",
-    "name": "CC EARINGS",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -8058,16 +7867,6 @@ window.TIFFAS_PRODUCTS = [
     "description": ""
   },
   {
-    "id": "fancy-key-holder-b-s-228",
-    "name": "FANCY KEY HOLDER B/S",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "fashion-earings-0-3-229",
     "name": "FASHION EARINGS 0.3",
     "category": "Beauty & Cosmetics",
@@ -8088,276 +7887,6 @@ window.TIFFAS_PRODUCTS = [
     "description": ""
   },
   {
-    "id": "foundation-231",
-    "name": "FOUNDATION",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "movit-jerry-334",
-    "name": "MOVIT JERRY",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "n-lstyling-gel-extrafirm-hold-60g-344",
-    "name": "N&LSTYLING GEL EXTRAFIRM HOLD -60G",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "n-l-styling-gel-ext-60g-359",
-    "name": "N/L STYLING GEL EXT 60G",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "n4-styling-gel-clear-60g-360",
-    "name": "N4 STYLING GEL CLEAR 60G",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "rings-410",
-    "name": "RINGS",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "rise-sparle-411",
-    "name": "RISE & SPARLE",
-    "category": "Beauty & Cosmetics",
-    "price": 120,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "snail-lotion-438",
-    "name": "SNAIL LOTION",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "squeeze-and-shine-l-gloss-442",
-    "name": "SQUEEZE AND SHINE L/GLOSS",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "stainless-steel-necklace-445",
-    "name": "STAINLESS STEEL NECKLACE",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bummi-egg-fresh-shampoo-250ml",
-    "name": "Bummi Egg Fresh Shampoo 250ml",
-    "category": "Shampoo",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bummi Egg Fresh Shampoo 250ml product photo"
-  },
-  {
-    "id": "bummi-apple-fresh-shampoo-250ml",
-    "name": "Bummi Apple Fresh Shampoo 250ml",
-    "category": "Shampoo",
-    "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bummi Apple Fresh Shampoo 250ml product photo"
-  },
-  {
-    "id": "bummi-cream-natural-conditioner-500ml",
-    "name": "Bummi Cream Natural Conditioner 500ml",
-    "category": "Conditioner",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bummi Cream Natural Conditioner 500ml product photo"
-  },
-  {
-    "id": "bamsi-crystal-fresh-shampoo-500ml",
-    "name": "Bamsi Crystal Fresh Shampoo 500ml",
-    "category": "Shampoo",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bamsi Crystal Fresh Shampoo 500ml product photo"
-  },
-  {
-    "id": "bummi-egg-shampoo-500ml",
-    "name": "Bummi Egg Shampoo 500ml",
-    "category": "Shampoo",
-    "price": 200,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bummi Egg Shampoo 500ml product photo"
-  },
-  {
-    "id": "bamsi-crystal-fresh-shampoo-1000ml",
-    "name": "Bamsi Crystal Fresh Shampoo 1000ml",
-    "category": "Shampoo",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bamsi Crystal Fresh Shampoo 1000ml product photo"
-  },
-  {
-    "id": "bummi-white-natural-conditioner-1000ml",
-    "name": "Bummi White Natural Conditioner 1000ml",
-    "category": "Conditioner",
-    "price": 800,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Bummi White Natural Conditioner 1000ml product photo"
-  },
-  {
-    "id": "headband-big",
-    "name": "Headband (Big)",
-    "category": "Accessories",
-    "price": null,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Headband (Big) product photo"
-  },
-  {
-    "id": "headband-small",
-    "name": "Headband (Small)",
-    "category": "Accessories",
-    "price": null,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Headband (Small) product photo"
-  },
-  {
-    "id": "lush-1-short-282",
-    "name": "LUSH 1 SHORT",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-1-33-short-283",
-    "name": "LUSH 1/33 SHORT",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-1-900-long-284",
-    "name": "LUSH 1/900 LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-2-27-long-285",
-    "name": "LUSH 2/27 LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "lush-33-long-286",
-    "name": "LUSH 33 LONG",
-    "category": "Beauty & Cosmetics",
-    "price": 70,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "bamsi-hair-food-400ml",
-    "name": "BAMSI HAIR FOOD 400ML",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": "https://jooustonlinemarket.co.ke/media/product_display_image/product_display_image/20251022_135432_Ot4NPLh.webp",
-    "description": ""
-  },
-  {
-    "id": "angel-pony-tail-350",
-    "name": "ANGEL PONY TAIL 350",
-    "category": "Beauty & Cosmetics",
-    "price": 250,
-    "inStock": true,
-    "stockQty": 20,
-    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg",
-    "description": "",
-    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790328788/xvxipvb28uhdeoxay5su.jpg"
-  },
-  {
     "id": "dr-rashel-vitamin-c-mini-set",
     "name": "DR.RASHEL VITAMIN C MINI SET",
     "category": "Beauty & Cosmetics",
@@ -8371,7 +7900,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "lattafa-yara-pink-edp",
     "name": "Lattafa Yara Pink",
     "category": "Perfumes",
-    "price": 800,
+    "price": 999,
     "inStock": true,
     "stockQty": 20,
     "image": null,
