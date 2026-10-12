@@ -1421,16 +1421,6 @@
     "description": ""
   },
   {
-    "id": "brazilian-bulk-1-159",
-    "name": "BRAZILIAN BULK 1",
-    "category": "Beauty & Cosmetics",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "brents-polish-remover-160",
     "name": "BRENTS POLISH REMOVER",
     "category": "Beauty & Cosmetics",
@@ -4296,17 +4286,6 @@
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323701/ylfqcdvgzu5ohxh5gqxk.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323701/ylfqcdvgzu5ohxh5gqxk.jpg"
-  },
-  {
-    "id": "spanish-bulk-hair-braid",
-    "name": "Spanish Bulk Hair Braid",
-    "category": "Hair & Braids",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg",
-    "description": "",
-    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg"
   },
   {
     "id": "rio-carnival-hair-braid",
@@ -7750,17 +7729,6 @@
     "imageQuery": "Zouk Bulk Color 1 product photo"
   },
   {
-    "id": "brazilian-bulk-color-1",
-    "name": "Brazilian Bulk Color 1",
-    "category": "Hair Care",
-    "price": 270,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Brazilian Bulk Color 1 product photo"
-  },
-  {
     "id": "soft-dread-locks-color-1-27",
     "name": "Soft Dread locks Color 1/27",
     "category": "Hair Care",
@@ -8213,16 +8181,6 @@
   {
     "id": "snail-lotion-438",
     "name": "SNAIL LOTION",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "spanish-bulk-1-441",
-    "name": "SPANISH BULK 1",
     "category": "Beauty & Cosmetics",
     "price": 1,
     "inStock": true,
@@ -8930,5 +8888,94 @@
     "metaDescription": "Shop Darling Zouk Bulk Long Length curly braiding hair in solid and blended colours for long goddess braids and crochet styles.",
     "imageSource": "https://karimsalonandspa.com/products/abuja-avvis-zouk-bulk-braids",
     "imageAlt": "Darling Zouk Bulk long-length curly braiding hair"
+  },
+  {
+    "id": "spanish-bulk-hair-braid",
+    "name": "Angels Spanish Bulk Short",
+    "category": "Hair Extensions",
+    "price": 300,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg",
+    "description": "Soft-touch, tangle-free bulk hair designed for crochet styles and traditional braiding. The short-length option adds curls and texture to protective hairstyles. Choose your preferred hair colour below before adding to cart.",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg",
+    "imageQuery": "Angels Spanish Bulk Short crochet braid hair product photo",
+    "metaTitle": "Angels Spanish Bulk Short | TIFFAS Beauty and Cosmetics",
+    "metaDescription": "Shop Angels Spanish Bulk Short hair extensions at TIFFAS. Choose from colours 1, 2, 27, 30, 33, 1/350, 2/30 and 350.",
+    "imageAlt": "Angels Spanish Bulk Short hair extensions",
+    "imageSource": "https://sterlingcosmetics.co.ke/product/angels-spanish-bulk-short/",
+    "variantSource": "https://sterlingcosmetics.co.ke/product/angels-spanish-bulk-short/",
+    "variantDisplay": "hair-colour-circles",
+    "variants": [
+      {
+        "value": "1",
+        "label": "Colour 1 — Jet Black",
+        "image": null
+      },
+      {
+        "value": "2",
+        "label": "Colour 2 — Dark Brown",
+        "image": null
+      },
+      {
+        "value": "27",
+        "label": "Colour 27 — Honey Blonde",
+        "image": null
+      },
+      {
+        "value": "30",
+        "label": "Colour 30 — Light Auburn",
+        "image": null
+      },
+      {
+        "value": "33",
+        "label": "Colour 33 — Dark Auburn",
+        "image": null
+      },
+      {
+        "value": "1/350",
+        "label": "Colour 1/350 — Jet Black & Copper blend",
+        "image": null
+      },
+      {
+        "value": "2/30",
+        "label": "Colour 2/30 — Dark Brown & Auburn blend",
+        "image": null
+      },
+      {
+        "value": "350",
+        "label": "Colour 350 — Copper / Auburn",
+        "image": null
+      }
+    ]
+  },
+  {
+    "id": "brazilian-bulk-color-1",
+    "name": "Angels Brazilian Bulk",
+    "category": "Hair Extensions",
+    "price": 270,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://sterlingcosmetics.co.ke/wp-content/uploads/2025/04/10320008.png",
+    "description": "Soft, lightweight bulk hair that adds volume and texture to crochet and traditional braid styles. Select the preferred hair colour below before adding the product to your cart.",
+    "imageQuery": "Angels Brazilian Bulk hair extensions product photo",
+    "imageAlt": "Angels Brazilian Bulk hair style reference",
+    "imageSource": "https://sterlingcosmetics.co.ke/product/angels-brazilian-bulk/",
+    "metaTitle": "Angels Brazilian Bulk | TIFFAS Beauty and Cosmetics",
+    "metaDescription": "Shop Angels Brazilian Bulk hair extensions at TIFFAS. Choose Colour 1 or Colour 2/30.",
+    "variantSource": "https://sterlingcosmetics.co.ke/product/angels-brazilian-bulk/",
+    "variantDisplay": "hair-colour-circles",
+    "variants": [
+      {
+        "value": "1",
+        "label": "Colour 1 — Jet Black",
+        "image": null
+      },
+      {
+        "value": "2/30",
+        "label": "Colour 2/30 — Dark Brown & Auburn blend",
+        "image": null
+      }
+    ]
   }
 ]
