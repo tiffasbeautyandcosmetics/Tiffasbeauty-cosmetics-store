@@ -8475,5 +8475,15 @@ window.TIFFAS_PRODUCTS = [
         "image": null
       }
     ]
+  },
+  {
+    "id": "christian-dior-poison",
+    "name": "CHRISTIAN DIOR POISON",
+    "category": "Beauty & Cosmetics",
+    "description": "",
+    "price": 3999,
+    "stockQty": 20,
+    "inStock": true,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791799238/orlf7vwbqxjhukfizv5e.jpg"
   }
 ];
