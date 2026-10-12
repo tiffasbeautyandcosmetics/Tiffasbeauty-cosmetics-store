@@ -7913,7 +7913,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "lattafa-yara-tous-yellow-edp",
     "name": "Lattafa Yara Tous Yellow",
     "category": "Perfumes",
-    "price": 800,
+    "price": 999,
     "inStock": true,
     "stockQty": 20,
     "image": null,
