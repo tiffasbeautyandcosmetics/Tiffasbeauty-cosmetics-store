@@ -168,7 +168,7 @@
     "price": 400,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791789689/dqakzv7rqa3y5kwmnqqk.jpg",
     "description": "",
     "imageQuery": "Eau Body Splasher 200ml body splash bottle product photo"
   },
