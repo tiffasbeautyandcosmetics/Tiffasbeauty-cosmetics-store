@@ -80,7 +80,7 @@
     "price": 250,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791789306/cjjduonetaj2vxjmrdeh.jpg",
     "description": "",
     "imageQuery": "Eclaire 90ml product photo"
   },
@@ -102,7 +102,7 @@
     "price": 300,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791789490/pyjmaqd4jcebl3wjzwkk.jpg",
     "description": "",
     "imageQuery": "Vanilla Big 236ml body splash spray bottle product photo"
   },
@@ -8502,5 +8502,15 @@
     "image": null,
     "description": "",
     "imageQuery": "Lattafa Asad Zanzibar Limited Edition perfume bottle product photo"
+  },
+  {
+    "id": "body-spray-499",
+    "name": "body spray",
+    "category": "Beauty & Cosmetics",
+    "price": 400,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": ""
   }
 ]
