@@ -43,25 +43,29 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "tara-body-mist-250ml",
-    "name": "Yara Body mist 250ml",
+    "name": "Lattafa Yara Body Mist (250ml)",
     "category": "Body Mist",
     "price": 450,
     "inStock": true,
     "stockQty": 20,
     "image": null,
-    "description": "",
-    "imageQuery": "Lattafa Yara body mist 250ml pink fragrance mist bottle product photo"
+    "description": "A light all-over fragrance mist for a soft, sweet everyday scent. Use on the body and clothing as directed on the product label.",
+    "imageQuery": "Lattafa Yara body mist 250ml pink cylindrical spray bottle product photo",
+    "metaTitle": "Lattafa Yara Body Mist 250ml | TIFFAS Beauty",
+    "metaDescription": "Shop Lattafa Yara Body Mist 250ml at TIFFAS Beauty and Cosmetics for a light, sweet everyday fragrance."
   },
   {
     "id": "grey-pearl-diamond-110ml",
-    "name": "Grey Pearl Diamond 110ml",
+    "name": "Grey Pearl Diamond Splash (110ml)",
     "category": "Body Splash",
     "price": 250,
     "inStock": true,
     "stockQty": 20,
     "image": null,
-    "description": "",
-    "imageQuery": "Grey Pearl Diamond 110ml body splash bottle product photo"
+    "description": "A refreshing body splash with a polished, warm fragrance profile. The 110ml size is the size currently listed in the TIFFAS catalogue; please check the bottle label for the exact fragrance notes.",
+    "imageQuery": "Grey Pearl Diamond body splash bottle product photo 110ml",
+    "metaTitle": "Grey Pearl Diamond Body Splash 110ml | TIFFAS Beauty",
+    "metaDescription": "Shop Grey Pearl Diamond body splash 110ml at TIFFAS Beauty and Cosmetics."
   },
   {
     "id": "eclaire-110ml",
@@ -1412,16 +1416,6 @@ window.TIFFAS_PRODUCTS = [
     "name": "BRAZIL WOOL",
     "category": "Beauty & Cosmetics",
     "price": 100,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
-    "id": "brazilian-bulk-1-159",
-    "name": "BRAZILIAN BULK 1",
-    "category": "Beauty & Cosmetics",
-    "price": 300,
     "inStock": true,
     "stockQty": 20,
     "image": null,
@@ -4293,17 +4287,6 @@ window.TIFFAS_PRODUCTS = [
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323701/ylfqcdvgzu5ohxh5gqxk.jpg",
     "description": "",
     "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323701/ylfqcdvgzu5ohxh5gqxk.jpg"
-  },
-  {
-    "id": "spanish-bulk-hair-braid",
-    "name": "Spanish Bulk Hair Braid",
-    "category": "Hair & Braids",
-    "price": 300,
-    "inStock": true,
-    "stockQty": 20,
-    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg",
-    "description": "",
-    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg"
   },
   {
     "id": "rio-carnival-hair-braid",
@@ -7747,17 +7730,6 @@ window.TIFFAS_PRODUCTS = [
     "imageQuery": "Zouk Bulk Color 1 product photo"
   },
   {
-    "id": "brazilian-bulk-color-1",
-    "name": "Brazilian Bulk Color 1",
-    "category": "Hair Care",
-    "price": 270,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": "",
-    "imageQuery": "Brazilian Bulk Color 1 product photo"
-  },
-  {
     "id": "soft-dread-locks-color-1-27",
     "name": "Soft Dread locks Color 1/27",
     "category": "Hair Care",
@@ -8218,16 +8190,6 @@ window.TIFFAS_PRODUCTS = [
     "description": ""
   },
   {
-    "id": "spanish-bulk-1-441",
-    "name": "SPANISH BULK 1",
-    "category": "Beauty & Cosmetics",
-    "price": 1,
-    "inStock": true,
-    "stockQty": 20,
-    "image": null,
-    "description": ""
-  },
-  {
     "id": "squeeze-and-shine-l-gloss-442",
     "name": "SQUEEZE AND SHINE L/GLOSS",
     "category": "Beauty & Cosmetics",
@@ -8435,8 +8397,10 @@ window.TIFFAS_PRODUCTS = [
     "inStock": true,
     "stockQty": 20,
     "image": null,
-    "description": "",
-    "imageQuery": "Lattafa Yara Pink Eau de Parfum perfume bottle product photo 100ml"
+    "description": "A sweet, creamy floral-gourmand fragrance with soft tropical fruit notes and a warm vanilla, sandalwood and musk finish. A lovely everyday scent for anyone who enjoys smooth, comforting sweetness.",
+    "imageQuery": "Lattafa Yara pink Eau de Parfum original pink bottle product photo",
+    "metaTitle": "Lattafa Yara Pink Eau de Parfum | TIFFAS Beauty",
+    "metaDescription": "Discover Lattafa Yara Pink Eau de Parfum at TIFFAS Beauty and Cosmetics. Explore a sweet, creamy floral-gourmand fragrance."
   },
   {
     "id": "lattafa-yara-tous-yellow-edp",
@@ -8479,8 +8443,10 @@ window.TIFFAS_PRODUCTS = [
     "inStock": true,
     "stockQty": 20,
     "image": null,
-    "description": "",
-    "imageQuery": "Lattafa Asad Zanzibar perfume bottle product photo 100ml"
+    "description": "An adventurous, tropical-inspired fragrance combining a fresh marine character with spicy black pepper, sea lavender, creamy coconut water, iris, vanilla and incense.",
+    "imageQuery": "Lattafa Asad Zanzibar Eau de Parfum blue bottle product photo",
+    "metaTitle": "Lattafa Asad Zanzibar Eau de Parfum | TIFFAS Beauty",
+    "metaDescription": "Shop Lattafa Asad Zanzibar Eau de Parfum at TIFFAS Beauty and Cosmetics, a distinctive tropical-inspired fragrance."
   },
   {
     "id": "lattafa-asad-zanzibar-limited-edition",
@@ -8728,7 +8694,7 @@ window.TIFFAS_PRODUCTS = [
     "inStock": true,
     "stockQty": 20,
     "image": "https://karimsalonandspa.com/cdn/shop/files/Zouk_Bulk_e140b38d-f915-468a-9260-81f1d6a2585b.png?v=1779461326&width=1445",
-    "description": "Create beautiful, bouncy bohemian braids with Darling Zouk Bulk Short Length braiding hair. Its full, well-defined curls add volume and texture to shoulder-length knotless braids, goddess braids, drop lines, and crochet styles. The lightweight curly look helps create a soft, natural finish. Choose from classic shades and blended colours for your preferred protective style.",
+    "description": "Achieve beautiful, high-volume boho curls with Darling Zouk Bulk Short Length. The defined curly bundles add texture to shoulder-length knotless braids, drop lines, goddess styles and crochet installations. Select your preferred shade before adding to cart.",
     "imageQuery": "Darling Zouk Bulk Short Length curly braiding hair single product pack",
     "imageFileName": "zouk-bulk-short-main.jpg",
     "variants": [
@@ -8817,10 +8783,10 @@ window.TIFFAS_PRODUCTS = [
         "imageSource": null
       }
     ],
-    "metaTitle": "Darling Zouk Bulk Short Length Braiding Hair | TIFFAS",
-    "metaDescription": "Shop Darling Zouk Bulk Short Length curly braiding hair for bouncy bohemian, goddess and crochet styles. Explore natural shades and colour blends.",
+    "metaTitle": "Darling Zouk Bulk Short Braiding Hair | TIFFAS Beauty",
+    "metaDescription": "Shop Darling Zouk Bulk Short Length curly braiding hair in solid and blended colours for knotless, goddess and crochet styles.",
     "imageSource": "https://karimsalonandspa.com/products/abuja-avvis-zouk-bulk-braids",
-    "imageAlt": "Darling Zouk Bulk curly braiding hair product reference"
+    "imageAlt": "Darling Zouk Bulk short-length curly braiding hair"
   },
   {
     "id": "darling-zouk-bulk-long",
@@ -8830,7 +8796,7 @@ window.TIFFAS_PRODUCTS = [
     "inStock": true,
     "stockQty": 20,
     "image": "https://karimsalonandspa.com/cdn/shop/files/Zouk_Bulk_e140b38d-f915-468a-9260-81f1d6a2585b.png?v=1779461326&width=1445",
-    "description": "Create a flowing goddess look with Darling Zouk Bulk Long Length braiding hair, featuring elongated, lush curls that bring movement and fullness to your hairstyle. It is ideal for long bohemian box braids, goddess braids, custom multi-pack installations, and crochet extensions. The defined curls add a soft, layered finish for everyday elegance or a bold statement look. Choose from classic solid shades and blended colours.",
+    "description": "Create cascading bohemian curls with Darling Zouk Bulk Long Length. Its elongated, full curls are ideal for long goddess box braids, multi-pack installations and crochet styles. Select your preferred shade before adding to cart.",
     "imageQuery": "Darling Zouk Bulk Long Length curly braiding hair single product pack",
     "imageFileName": "zouk-bulk-long-main.jpg",
     "variants": [
@@ -8919,9 +8885,98 @@ window.TIFFAS_PRODUCTS = [
         "imageSource": null
       }
     ],
-    "metaTitle": "Darling Zouk Bulk Long Length Braiding Hair | TIFFAS",
-    "metaDescription": "Shop Darling Zouk Bulk Long Length curly braiding hair for flowing goddess braids, bohemian box braids and crochet styles in solid and blended shades.",
+    "metaTitle": "Darling Zouk Bulk Long Braiding Hair | TIFFAS Beauty",
+    "metaDescription": "Shop Darling Zouk Bulk Long Length curly braiding hair in solid and blended colours for long goddess braids and crochet styles.",
     "imageSource": "https://karimsalonandspa.com/products/abuja-avvis-zouk-bulk-braids",
-    "imageAlt": "Darling Zouk Bulk curly braiding hair product reference"
+    "imageAlt": "Darling Zouk Bulk long-length curly braiding hair"
+  },
+  {
+    "id": "spanish-bulk-hair-braid",
+    "name": "Angels Spanish Bulk Short",
+    "category": "Hair Extensions",
+    "price": 300,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg",
+    "description": "Soft-touch, tangle-free bulk hair designed for crochet styles and traditional braiding. The short-length option adds curls and texture to protective hairstyles. Choose your preferred hair colour below before adding to cart.",
+    "cloudinaryImage": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790323809/jqvqs3fcxn9lvudtdkeg.jpg",
+    "imageQuery": "Angels Spanish Bulk Short crochet braid hair product photo",
+    "metaTitle": "Angels Spanish Bulk Short | TIFFAS Beauty and Cosmetics",
+    "metaDescription": "Shop Angels Spanish Bulk Short hair extensions at TIFFAS. Choose from colours 1, 2, 27, 30, 33, 1/350, 2/30 and 350.",
+    "imageAlt": "Angels Spanish Bulk Short hair extensions",
+    "imageSource": "https://sterlingcosmetics.co.ke/product/angels-spanish-bulk-short/",
+    "variantSource": "https://sterlingcosmetics.co.ke/product/angels-spanish-bulk-short/",
+    "variantDisplay": "hair-colour-circles",
+    "variants": [
+      {
+        "value": "1",
+        "label": "Colour 1 — Jet Black",
+        "image": null
+      },
+      {
+        "value": "2",
+        "label": "Colour 2 — Dark Brown",
+        "image": null
+      },
+      {
+        "value": "27",
+        "label": "Colour 27 — Honey Blonde",
+        "image": null
+      },
+      {
+        "value": "30",
+        "label": "Colour 30 — Light Auburn",
+        "image": null
+      },
+      {
+        "value": "33",
+        "label": "Colour 33 — Dark Auburn",
+        "image": null
+      },
+      {
+        "value": "1/350",
+        "label": "Colour 1/350 — Jet Black & Copper blend",
+        "image": null
+      },
+      {
+        "value": "2/30",
+        "label": "Colour 2/30 — Dark Brown & Auburn blend",
+        "image": null
+      },
+      {
+        "value": "350",
+        "label": "Colour 350 — Copper / Auburn",
+        "image": null
+      }
+    ]
+  },
+  {
+    "id": "brazilian-bulk-color-1",
+    "name": "Angels Brazilian Bulk",
+    "category": "Hair Extensions",
+    "price": 270,
+    "inStock": true,
+    "stockQty": 20,
+    "image": "https://sterlingcosmetics.co.ke/wp-content/uploads/2025/04/10320008.png",
+    "description": "Soft, lightweight bulk hair that adds volume and texture to crochet and traditional braid styles. Select the preferred hair colour below before adding the product to your cart.",
+    "imageQuery": "Angels Brazilian Bulk hair extensions product photo",
+    "imageAlt": "Angels Brazilian Bulk hair style reference",
+    "imageSource": "https://sterlingcosmetics.co.ke/product/angels-brazilian-bulk/",
+    "metaTitle": "Angels Brazilian Bulk | TIFFAS Beauty and Cosmetics",
+    "metaDescription": "Shop Angels Brazilian Bulk hair extensions at TIFFAS. Choose Colour 1 or Colour 2/30.",
+    "variantSource": "https://sterlingcosmetics.co.ke/product/angels-brazilian-bulk/",
+    "variantDisplay": "hair-colour-circles",
+    "variants": [
+      {
+        "value": "1",
+        "label": "Colour 1 — Jet Black",
+        "image": null
+      },
+      {
+        "value": "2/30",
+        "label": "Colour 2/30 — Dark Brown & Auburn blend",
+        "image": null
+      }
+    ]
   }
 ];
