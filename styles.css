@@ -93,7 +93,7 @@
   --type-xl:1.5rem;
   --type-2xl:2rem;
 }
-*{box-shadow:none!important;backdrop-filter:none!important;filter:none!important}
+*{box-shadow:none!important;backdrop-filter:none!important;filter:none!important;background-image:none!important}
 *::before,*::after{background-image:none!important;box-shadow:none!important;filter:none!important}
 html{scroll-behavior:smooth}
 body{font-family:"DM Sans",Arial,sans-serif;font-size:var(--type-base);line-height:1.55;color:var(--ink);background:#fbfaf6}
