@@ -403,7 +403,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "afnan-9pm-rebel-100ml-replica",
-    "name": "AFNAN 9 PM REBEL 35ML @",
+    "name": "AFNAN 9 PM REBEL 35ML",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
@@ -423,7 +423,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "afnan-9pm-original-100ml-replica",
-    "name": "AFNAN 9 PM ORIGINAL 100ML @",
+    "name": "AFNAN 9 PM ORIGINAL 35ML",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
@@ -443,7 +443,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "afnan-9pm-elixir-100ml-replica",
-    "name": "AFNAN 9 PM ELIXIR 100ML @",
+    "name": "AFNAN 9 PM ELIXIR 35ML",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
@@ -8691,10 +8691,7 @@ window.TIFFAS_PRODUCTS = [
   function renderFeatured(items){
     if(!Array.isArray(items))return;
     var byId=new Map(items.map(function(p){return [String(p.id),p];}));
-    var chosen=["1-million-spray","polo-blue-395","polo-sport-396"].map(function(id){return byId.get(id);}).filter(Boolean);
-    if(chosen.length<3){
-      items.filter(function(p){return /spray/i.test(String(p.name||""))&&(p.image||p.cloudinaryImage||p.fallbackImage)&&chosen.every(function(q){return q.id!==p.id;});}).some(function(p){chosen.push(p);return chosen.length>=3;});
-    }
+    var chosen=["lattafa-khamrah-qahwa-100ml","bouquet-of-euphoria-edp-100ml","afnan-supremacy-collectors-edition-100ml","afnan-9pm-edp-100ml","afnan-9pm-rebel-edp-100ml","lattafa-habik-edp-100ml"].map(function(id){return byId.get(id);}).filter(Boolean);
     grid.innerHTML=chosen.slice(0,3).map(function(p){
       var url=p.image||p.cloudinaryImage||p.fallbackImage||"";
       var name=escapeHtml(p.name||"Beauty essential");
