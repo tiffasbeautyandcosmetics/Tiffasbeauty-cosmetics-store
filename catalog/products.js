@@ -505,7 +505,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "abuja-long-1",
     "name": "ABUJA LONG 1",
     "category": "Beauty & Cosmetics",
-    "price": 100,
+    "price": 90,
     "inStock": true,
     "stockQty": 20,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1790317914/xltmfyki3sruqm7nlelz.jpg",
