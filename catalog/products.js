@@ -392,7 +392,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "afnan-9pm-night-out-100ml-replica",
-    "name": "AFNAN 9 PM NIGHT OUT 35ML",
+    "name": "AFNAN 9 PM NIGHT OUT 100ML @",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
