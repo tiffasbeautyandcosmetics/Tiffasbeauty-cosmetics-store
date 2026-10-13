@@ -59,10 +59,10 @@ const startTiffasApp = () => {
     var primary=p.image?resolveAsset(p.image):imageSearchUrl(p);
     var fallback=p.fallbackImage?resolveAsset(p.fallbackImage):"";
     var img=primary?"<img src=\"" + esc(primary) + "\" data-fallback=\"" + esc(fallback) + "\" alt=\"" + esc(p.imageAlt||p.name) + "\" loading=\"lazy\" onerror=\"if(this.dataset.fallback&&!this.dataset.triedFallback){this.dataset.triedFallback='1';this.src=this.dataset.fallback;}else{this.style.display='none';this.nextElementSibling.style.display='grid';}\"><span class=\"placeholder\" style=\"display:none\">" + esc((p.name||"B").charAt(0)) + "</span>" : "<span class=\"placeholder\">" + esc((p.name||"B").charAt(0)) + "</span>";
-    var add=(p.price!=null&&p.inStock!==false)?"<button class=\"add\" data-add=\"" + esc(p.id) + "\">Add to cart</button>":"<button class=\"add\" disabled>Out of stock</button>";
+    var add=(p.price!=null&&p.inStock!==false)?"<button class=\"buy-now\" data-buy=\"" + esc(p.id) + "\">Buy Now</button><button class=\"add\" data-add=\"" + esc(p.id) + "\">Add to Cart</button>":"<button class=\"add\" disabled>Out of stock</button>";
     var description=p.description?"<p class=\"product-description\">" + esc(p.description) + "</p>":"";
     var requestField=hasVariants?"<div class=\"hair-color-picker\"><span class=\"hair-color-heading\">Hair Color</span><div class=\"hair-color-grid\" role=\"group\" aria-label=\"" + esc(p.name+" hair color choices") + "\">"+p.variants.map(function(v){return "<button type=\"button\" class=\"hair-color-option\" data-variant=\""+esc(v.value)+"\" aria-pressed=\"false\" title=\""+esc(v.label)+"\" aria-label=\""+esc(p.name+", "+v.label)+"\">"+esc(v.value)+"</button>";}).join("")+"</div><p class=\"selected-hair-color\" data-selected-color aria-live=\"polite\">Select a colour to continue.</p></div>":(needsCustomerChoice(p)?"<label class=\"product-request\"><span>" + esc(choicePrompt(p)) + "</span><input type=\"text\" data-request placeholder=\"" + esc(choicePlaceholder(p)) + "\" autocomplete=\"off\"></label>":"");
-    return "<article class=\"card"+(hasVariants?" color-product-card":"")+"\" data-product-id=\""+esc(p.id)+"\"><div class=\"card-media\">" + img + "</div><div class=\"card-body\"><small>" + esc(p.category||"Beauty & Cosmetics") + "</small><h3>" + esc(p.name) + "</h3>" + description + requestField + "<strong>" + (p.price==null?"Price on request":money(p.price)) + "</strong><div class=\"card-actions\"><a class=\"mini-wa\" href=\"" + wa("Hi " + STORE_NAME + "! I would like to order " + p.name + ".") + "\" target=\"_blank\" rel=\"noopener\">WhatsApp</a>" + add + "</div></div></article>";
+    return "<article class=\"card"+(hasVariants?" color-product-card":"")+"\" data-product-id=\""+esc(p.id)+"\"><div class=\"card-media\">" + img + "</div><div class=\"card-body\"><small>" + esc(p.category||"Beauty & Cosmetics") + "</small><h3>" + esc(p.name) + "</h3>" + description + requestField + "<strong>" + (p.price==null?"Price on request":money(p.price)) + "</strong><div class=\"card-actions\"><a class=\"mini-wa\" href=\"" + wa("Hi " + STORE_NAME + "! I would like to order " + p.name + ".") + "\" target=\"_blank\" rel=\"noopener\">WhatsApp</a>" + add + "<a class=\"track-order\" href=\"" + wa("Hi " + STORE_NAME + "! I would like to track my order. Please tell me how to share my order reference.") + "\" target=\"_blank\" rel=\"noopener\">Track My Order</a></div></div></article>";
   }
   function render(){const term=query.trim().toLowerCase();const list=products.filter(p=>(category==="All"||p.category===category)&&(!term||String(p.name||"").toLowerCase().includes(term)||String(p.category||"").toLowerCase().includes(term)));$("count").textContent=`Showing ${list.length} of ${products.length} products`;$("grid").innerHTML=list.map(card).join("");$("empty").hidden=list.length!==0;}
   function categories(){const cats=["All",...new Set(products.map(p=>p.category).filter(Boolean))];$("categories").innerHTML=cats.map(c=>`<button type="button" class="pill ${c===category?"active":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");}
@@ -113,7 +113,8 @@ const startTiffasApp = () => {
       }
       return;
     }
-    const b=e.target.closest("[data-add]");
+    const buy=e.target.closest("[data-buy]");
+    const b=buy||e.target.closest("[data-add]");
     if(!b||b.disabled)return;
     const p=products.find(x=>String(x.id)===String(b.dataset.add));
     if(!p)return;
@@ -138,7 +139,8 @@ const startTiffasApp = () => {
     saveCart();renderCart();
     if(field)field.value="";
     if(variantField&&variantField.tagName==="SELECT")variantField.selectedIndex=0;
-    toast("Added to cart");
+    toast(buy?"Added to cart — opening checkout":"Added to cart");
+    if(buy)openCheckout("bank");
   });
   $("cartItems").addEventListener("click",e=>{const inc=e.target.closest("[data-inc]"),dec=e.target.closest("[data-dec]"),key=(inc||dec)?.dataset[inc?"inc":"dec"];if(!key)return;const i=cart.find(x=>String(x.key||x.id)===String(key));if(!i)return;i.qty+=inc?1:-1;if(i.qty<1)cart=cart.filter(x=>String(x.key||x.id)!==String(key));saveCart();renderCart();});
   $("cartOpen")?.addEventListener("click",openCart);$("cartClose")?.addEventListener("click",closeCart);$("drawerOverlay")?.addEventListener("click",closeCart);$("checkout")?.addEventListener("click",()=>{closeCart();openCheckout("bank");});$("checkoutPod")?.addEventListener("click",()=>{closeCart();openCheckout("pod");});$("modalClose")?.addEventListener("click",closeModal);$("modalOverlay")?.addEventListener("click",e=>{if(e.target===$("modalOverlay"))closeModal();});$("cartWhatsapp")?.addEventListener("click",()=>window.open(wa(cartMessage()),"_blank","noopener"));
