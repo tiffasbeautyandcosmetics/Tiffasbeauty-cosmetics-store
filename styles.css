@@ -256,3 +256,8 @@ a{color:inherit}
  .color-product-card .card-actions{gap:7px}
  .color-product-card .card-actions .mini-wa,.color-product-card .card-actions .add{padding:10px 8px;font-size:.88rem}
 }
+
+/* Header order tracking link, beside Location */
+.top-track-order{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;padding:9px 12px;border:1px solid #252923;background:#252923;color:#fff!important;text-decoration:none;font-size:.86rem;font-weight:700;border-radius:3px;}
+.top-track-order:hover{background:#444940;text-decoration:none;}
+@media(max-width:650px){.top-actions{gap:9px}.top-track-order{font-size:.72rem;padding:8px 7px}.location-link{font-size:.72rem!important}}
