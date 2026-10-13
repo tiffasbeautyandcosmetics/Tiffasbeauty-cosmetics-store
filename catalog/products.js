@@ -324,7 +324,7 @@ window.TIFFAS_PRODUCTS = [
     "id": "afnan-9pm-rebel-100ml",
     "name": "AFNAN 9 PM REBEL 100ML",
     "category": "Perfumes",
-    "price": 4500,
+    "price": 2500,
     "inStock": true,
     "stockQty": 20,
     "image": "https://parfumzone.co.ke/cdn/shop/files/image_a4980555-9a38-4b33-aa79-e695ebc32c8a.png?v=1776108215&width=3840",
@@ -332,7 +332,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "afnan-9pm-rebel-100ml-replica",
-    "name": "AFNAN 9 PM REBEL 100ML @",
+    "name": "AFNAN 9 PM REBEL 35ML @",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
@@ -8485,5 +8485,65 @@ window.TIFFAS_PRODUCTS = [
     "stockQty": 20,
     "inStock": true,
     "image": "https://res.cloudinary.com/qakjnkmm/image/upload/v1791799238/orlf7vwbqxjhukfizv5e.jpg"
+  },
+  {
+    "id": "lattafa-khamrah-qahwa-100ml",
+    "name": "Lattafa Khamrah Qahwa Perfume Eau de Parfum 100ml",
+    "category": "Perfumes",
+    "price": 1500,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Lattafa Khamrah Qahwa Eau de Parfum, 100ml."
+  },
+  {
+    "id": "bouquet-of-euphoria-edp-100ml",
+    "name": "Bouquet of Euphoria EDP 100ml (QN-012-139)",
+    "category": "Perfumes",
+    "price": 1200,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Bouquet of Euphoria Eau de Parfum, 100ml."
+  },
+  {
+    "id": "afnan-supremacy-collectors-edition-100ml",
+    "name": "Afnan Supremacy Collector's Edition EDP 100ml (QZ-033)",
+    "category": "Perfumes",
+    "price": 1500,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Afnan Supremacy Collector's Edition Eau de Parfum, 100ml."
+  },
+  {
+    "id": "afnan-9pm-edp-100ml",
+    "name": "Afnan 9PM EDP 100ml (QZ-034)",
+    "category": "Perfumes",
+    "price": 1500,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Afnan 9PM Eau de Parfum, 100ml."
+  },
+  {
+    "id": "afnan-9pm-rebel-edp-100ml",
+    "name": "Afnan 9PM Rebel EDP 100ml (AB002)",
+    "category": "Perfumes",
+    "price": 1500,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Afnan 9PM Rebel Eau de Parfum, 100ml."
+  },
+  {
+    "id": "lattafa-habik-edp-100ml",
+    "name": "Lattafa Habik Perfume Eau de Parfum 100ml",
+    "category": "Perfumes",
+    "price": 1200,
+    "inStock": true,
+    "stockQty": 20,
+    "image": null,
+    "description": "Lattafa Habik Eau de Parfum, 100ml."
   }
 ];
