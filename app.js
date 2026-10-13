@@ -116,7 +116,7 @@ const startTiffasApp = () => {
     const buy=e.target.closest("[data-buy]");
     const b=buy||e.target.closest("[data-add]");
     if(!b||b.disabled)return;
-    const p=products.find(x=>String(x.id)===String(b.dataset.add));
+    const p=products.find(x=>String(x.id)===String(buy?buy.dataset.buy:b.dataset.add));
     if(!p)return;
     const cardEl=b.closest(".card");
     const field=cardEl&&cardEl.querySelector("[data-request]");
