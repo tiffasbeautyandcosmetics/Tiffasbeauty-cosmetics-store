@@ -8493,8 +8493,9 @@ window.TIFFAS_PRODUCTS = [
     "price": 1500,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
-    "description": "Lattafa Khamrah Qahwa Eau de Parfum, 100ml."
+    "image": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/1030143/17581346084838.jpg?v=638937314114530000",
+    "description": "Lattafa Khamrah Qahwa Eau de Parfum, 100ml.",
+    "imageAlt": "Lattafa Khamrah Qahwa 100ml perfume bottle and box"
   },
   {
     "id": "bouquet-of-euphoria-edp-100ml",
@@ -8503,8 +8504,9 @@ window.TIFFAS_PRODUCTS = [
     "price": 1200,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
-    "description": "Bouquet of Euphoria Eau de Parfum, 100ml."
+    "image": "https://www.decantify.ro/cdn/shop/files/fragrance-world-bouquet-of-euphoria-apa-de-parfum-femei-inpiratie-scandal-le-parfum-jpg-decant-1.webp?v=1776533656&width=1445",
+    "description": "Bouquet of Euphoria Eau de Parfum, 100ml.",
+    "imageAlt": "Bouquet of Euphoria pink perfume bottle and floral box"
   },
   {
     "id": "afnan-supremacy-collectors-edition-100ml",
@@ -8513,8 +8515,9 @@ window.TIFFAS_PRODUCTS = [
     "price": 1500,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
-    "description": "Afnan Supremacy Collector's Edition Eau de Parfum, 100ml."
+    "image": "https://bf1af2.akinoncloudcdn.com/products/2026/01/27/633127/a02baa54-8dba-4cfa-81fb-91f36049c816.jpg",
+    "description": "Afnan Supremacy Collector's Edition Eau de Parfum, 100ml.",
+    "imageAlt": "Afnan Supremacy Collector's Edition grey bottle and black box"
   },
   {
     "id": "afnan-9pm-edp-100ml",
@@ -8523,8 +8526,9 @@ window.TIFFAS_PRODUCTS = [
     "price": 1500,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
-    "description": "Afnan 9PM Eau de Parfum, 100ml."
+    "image": "https://www.justmylook.com/cdn/shop/files/afnan-9pm-pour-homme-eau-de-parfum-100ml-p35649-108051_image.jpg?format=webp&v=1721322130&width=1404",
+    "description": "Afnan 9PM Eau de Parfum, 100ml.",
+    "imageAlt": "Afnan 9PM 100ml black bottle and matching box"
   },
   {
     "id": "afnan-9pm-rebel-edp-100ml",
@@ -8533,8 +8537,9 @@ window.TIFFAS_PRODUCTS = [
     "price": 1500,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
-    "description": "Afnan 9PM Rebel Eau de Parfum, 100ml."
+    "image": "https://www.scentsangel.com/cdn/shop/files/Untitleddesign_19_6e1b1470-e750-40ae-93ef-1f70cce74be0.jpg?v=1774452999",
+    "description": "Afnan 9PM Rebel Eau de Parfum, 100ml.",
+    "imageAlt": "Afnan 9PM Rebel 100ml bottle and matching box"
   },
   {
     "id": "lattafa-habik-edp-100ml",
@@ -8543,7 +8548,8 @@ window.TIFFAS_PRODUCTS = [
     "price": 1200,
     "inStock": true,
     "stockQty": 20,
-    "image": null,
-    "description": "Lattafa Habik Eau de Parfum, 100ml."
+    "image": "https://cdn2.jomashop.com/media/catalog/product/l/a/lattafa-mens-habik-edp-spray-34-oz-fragrances-6290360598864.jpg",
+    "description": "Lattafa Habik Eau de Parfum, 100ml.",
+    "imageAlt": "Lattafa Habik 100ml purple perfume bottle and box"
   }
 ];
