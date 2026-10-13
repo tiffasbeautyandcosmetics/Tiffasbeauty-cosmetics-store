@@ -332,7 +332,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "afnan-9pm-rebel-100ml-replica",
-    "name": "AFNAN 9 PM REBEL 35ML @",
+    "name": "AFNAN 9 PM REBEL 35ML",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
@@ -352,7 +352,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "afnan-9pm-original-100ml-replica",
-    "name": "AFNAN 9 PM ORIGINAL 100ML @",
+    "name": "AFNAN 9 PM ORIGINAL 35ML",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
@@ -372,7 +372,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "afnan-9pm-elixir-100ml-replica",
-    "name": "AFNAN 9 PM ELIXIR 100ML @",
+    "name": "AFNAN 9 PM ELIXIR 35ML",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
@@ -392,7 +392,7 @@ window.TIFFAS_PRODUCTS = [
   },
   {
     "id": "afnan-9pm-night-out-100ml-replica",
-    "name": "AFNAN 9 PM NIGHT OUT 100ML @",
+    "name": "AFNAN 9 PM NIGHT OUT 35ML",
     "category": "Perfumes",
     "price": 350,
     "inStock": true,
