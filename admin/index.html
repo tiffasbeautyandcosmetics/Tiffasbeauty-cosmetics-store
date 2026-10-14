@@ -9,4 +9,4 @@
 <script>
 (async()=>{try{const k="tiffas-admin-cache-reset-v22";if(sessionStorage.getItem(k)!=="1"){sessionStorage.setItem(k,"1");if("serviceWorker" in navigator){for(const r of await navigator.serviceWorker.getRegistrations())await r.unregister()}if("caches" in window){for(const k of await caches.keys())await caches.delete(k)}const u=new URL(location.href);u.searchParams.set("_admin_refresh",Date.now());location.replace(u.href);return}}catch(e){}})();
 </script>
-<script src="admin.js?v=22"></script><script src="orders.js?v=2"></script><script src="discounts.js?v=1"></script></body></html>
+<script src="admin.js?v=22"></script><script src="orders.js?v=3"></script><script src="discounts.js?v=1"></script></body></html>
