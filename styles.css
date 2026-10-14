@@ -261,3 +261,12 @@ a{color:inherit}
 .top-track-order{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;padding:9px 12px;border:1px solid #252923;background:#252923;color:#fff!important;text-decoration:none;font-size:.86rem;font-weight:700;border-radius:3px;}
 .top-track-order:hover{background:#444940;text-decoration:none;}
 @media(max-width:650px){.top-actions{gap:9px}.top-track-order{font-size:.72rem;padding:8px 7px}.location-link{font-size:.72rem!important}}
+
+/* Icons on WhatsApp and cart actions */
+.button-icon{display:inline-block;width:18px;height:18px;flex:0 0 18px;vertical-align:middle}
+.wa-link,.cart-button,.btn.whatsapp,.mini-wa,.recovery-order{display:inline-flex;align-items:center;justify-content:center;gap:7px}
+.cart-button{white-space:nowrap}
+.cart-button .button-icon{width:18px;height:18px}
+.mini-wa .button-icon,.recovery-order .button-icon{width:17px;height:17px;flex-basis:17px}
+.btn.whatsapp .button-icon{width:19px;height:19px;flex-basis:19px}
+@media(max-width:650px){.top-actions .wa-link{display:inline-flex;align-items:center;gap:5px}.top-actions .wa-link .button-icon{width:16px;height:16px;flex-basis:16px}.cart-button{gap:5px;padding:8px 9px}.cart-button .button-icon{width:16px;height:16px;flex-basis:16px}}
